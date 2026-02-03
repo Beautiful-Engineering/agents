@@ -19,7 +19,7 @@ Use quotation marks to ensure that their enclosed words appear as an exact match
 
 Here’s what you might see in search results:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d339cbb11df9731bf6fe3_1642525297522.avif)
+![](../images/39fdf01d_683d339cbb11df9731bf6fe3_1642525297522.avif)
 
 Some sites may not be relevant; others may have very stringent guidelines and require more time and effort. Take a close look at each of the results that appear and record relevant guest posting opportunities in the Guest Posts tab. 
 
@@ -43,15 +43,15 @@ First set up a [Google alert](https://www.google.com/alerts) for your name as we
 
 Then sign up as a source on [Help a Reporter Out (HARO)](https://www.helpareporter.com/). After you’ve created an account, you can set preferences for the kinds of journalist queries you’d like to receive. Choose the topics related to your product and industry.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d339cba65ade01304f9c4_1642525294394.avif)
+![](../images/7869539d_683d339cba65ade01304f9c4_1642525294394.avif)
 
 You’ll soon begin receiving regular HARO emails with journalist queries. These can be quite long, so skim the index at the top of each email rather than reading through each individual query. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d339c8472c48f90139f46_1642525296447.avif)
+![](../images/a73ab503_683d339c8472c48f90139f46_1642525296447.avif)
 
 If any topic sounds relevant to your industry—and you can contribute meaningfully to it—prepare a response for the reporter. Then send it to the helpareporter.net email address listed with the query. Be sure to submit it by the query’s deadline.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d339f273664d3d722bdb3_1642525295360.avif)
+![](../images/cfe7729e_683d339f273664d3d722bdb3_1642525295360.avif)
 
 Once you’ve sent out a pitch, enter its information into the HARO Pitches tab of our tracking template. Here’s a quick description of the fields in the tab.
 

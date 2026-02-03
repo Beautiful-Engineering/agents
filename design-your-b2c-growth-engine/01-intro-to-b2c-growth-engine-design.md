@@ -59,7 +59,7 @@ Breaking our growth engine into **three motions** shows what’s actually happen
 
 And that’s the key insight: these motions aren’t separate lanes or independent systems. They’re interconnected. Each one fuels the others.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc0e550ed18f0ce90b0195_Frame%20427319724.avif)
+![](../images/7b81efe8_68dc0e550ed18f0ce90b0195_Frame_427319724.avif)
 
 - **Acquisition** brings in users. The lifeblood that powers the rest of the engine.
 - **Monetization** converts those users into paying customers *and generates the fuel (revenue)* to reinvest. That reinvestment might go into scaling acquisition and/or increasing core product value.

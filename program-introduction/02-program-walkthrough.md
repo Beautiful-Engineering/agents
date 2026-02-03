@@ -13,7 +13,7 @@ From here you can:
 - **Dive into the Vault.** This is where all the extras live (templates, tactics, ads, perks) that you can use as shortcuts while you’re executing.
 - **Access your personal library in “My Learning.”** Everything you’ve started, saved, or completed lives here so you never lose track of your progress.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4cc7265ecc27e80f853d_chrome-capture-2025-9-30.avif)
+![](../images/0029f08e_68dc4cc7265ecc27e80f853d_chrome-capture-2025-9-30.avif)
 
 > 👉 Think of the dashboard as your **map + compass**: it shows you where you are in your journey and gives you the fastest way to jump into whatever matters most today.
 
@@ -23,14 +23,14 @@ Let’s look at each section of the course one by one.
 
 Paths are your **structured roadmap,** the guided way through growth. Let’s learn how to navigate the courses inside the program. Click on “Syllabus” to see your structure path curriculum:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4ce83dcfaf8daa12acc6_Screenshot%202025-09-30%20at%202.17.39%E2%80%AFPM.avif)
+![](../images/7f1964d3_68dc4ce83dcfaf8daa12acc6_Screenshot_2025-09-30_at_2.17.39_PM.avif)
 
 - Anything labeled **Start** = not touched yet
 - **In Progress** = you’ve begun
 - **Resume** = jump back in
 - **Review** = completed, ready to revisit
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4d02040b29f190107dd6_chrome-capture-2025-9-30%20(5).avif)
+![](../images/518aa19c_68dc4d02040b29f190107dd6_chrome-capture-2025-9-30__5_.avif).avif)
 
 We built paths to give you the right things in the right order. Think of it as your **linear foundation**: cover the essentials, then layer on hubs and electives based on your company’s strategy (or personal interest.)
 
@@ -38,11 +38,11 @@ If you’d rather skip around:
 
 - Use **Next** in the viewer to stay linear
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4d1a004827d1ff1745aa_Screenshot%202025-09-30%20at%202.25.02%E2%80%AFPM.avif)
+![](../images/56143989_68dc4d1a004827d1ff1745aa_Screenshot_2025-09-30_at_2.25.02_PM.avif)
 
 - Hit complete to track your progress whenever you finish a module in the course.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4d2b2984c02a05e1db11_Screenshot%202025-09-30%20at%202.26.46%E2%80%AFPM.avif)
+![](../images/6829cf07_68dc4d2b2984c02a05e1db11_Screenshot_2025-09-30_at_2.26.46_PM.avif)
 
 - Or go back to the Dashboard and pick what’s most relevant
 
@@ -52,7 +52,7 @@ If you’d rather skip around:
 
 Explore is where you’ll find **the full curriculum,** beyond just what’s in your path.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4d43e63e13a00a1cbf2d_chrome-capture-2025-9-30%20(1).avif)
+![](../images/18d801a2_68dc4d43e63e13a00a1cbf2d_chrome-capture-2025-9-30__1_.avif).avif)
 
 Why use it?
 
@@ -63,15 +63,15 @@ What you’ll see:
 
 - Courses in your path are marked **Active**.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4d58532f279cafc75ba1_Screenshot%202025-09-30%20at%201.40.27%E2%80%AFPM.avif)
+![](../images/9b853146_68dc4d58532f279cafc75ba1_Screenshot_2025-09-30_at_1.40.27_PM.avif)
 
 - If it isn’t in your path, it will be blank, but you can enroll in any course you’d like with one click (Start Course). Once you enroll, progress counts toward your path (if it’s relevant), or you can simply save it for later by clicking the “Save” icon.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4d67240a8e6874f718dc_Screenshot%202025-09-30%20at%201.42.15%E2%80%AFPM.avif)
+![](../images/63f2f258_68dc4d67240a8e6874f718dc_Screenshot_2025-09-30_at_1.42.15_PM.avif)
 
 - You can also **filter by category**—Acquisition, Conversion, Retention, Strategy, etc. Some lessons overlap categories (e.g. copywriting shows up under both acquisition and conversion). That’s intentional. Some skills apply across multiple categories so you’ll find crossover.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4d772d660493d8c5c635_Screenshot%202025-09-30%20at%201.37.32%E2%80%AFPM.avif)
+![](../images/3f1b22b0_68dc4d772d660493d8c5c635_Screenshot_2025-09-30_at_1.37.32_PM.avif)
 
 > 👉 Use Explore when you want **control and flexibility,** to go deeper on a specific channel, or to grab something right when it’s relevant to your business.
 
@@ -83,15 +83,15 @@ Here you’ll find:
 
 - **Active courses** you’re currently working through
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4d9fea29069c3bff4136_chrome-capture-2025-9-30%20(3).avif)
+![](../images/79c06dcb_68dc4d9fea29069c3bff4136_chrome-capture-2025-9-30__3_.avif).avif)
 
 - **Saved courses** you bookmarked for later
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4daf3cd4c174f72be364_Screenshot%202025-09-30%20at%201.53.14%E2%80%AFPM.avif)
+![](../images/dcc2d2ff_68dc4daf3cd4c174f72be364_Screenshot_2025-09-30_at_1.53.14_PM.avif)
 
 - **Completed courses** that are finished and ready to revisit
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4dbe0b320414eafd9c39_Screenshot%202025-09-30%20at%201.54.00%E2%80%AFPM.avif)
+![](../images/61d41e12_68dc4dbe0b320414eafd9c39_Screenshot_2025-09-30_at_1.54.00_PM.avif)
 
 Benefits:
 
@@ -105,7 +105,7 @@ Benefits:
 
 The Vault is your **bonus library.** This is *everything* outside the structured curriculum that adds leverage and can give you a better grasp of growth.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4de2df8942e2e01a334c_chrome-capture-2025-9-30%20(4).avif)
+![](../images/6b887a07_68dc4de2df8942e2e01a334c_chrome-capture-2025-9-30__4_.avif).avif)
 
 What’s inside:
 
@@ -116,7 +116,7 @@ What’s inside:
 - **Matchmaking:** direct access to pre-vetted freelancers and agencies who already know how to execute these playbooks.
 - **Perks & Deals:** exclusive discounts on tools, sponsorship credits, and vetted partner offers.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4dcf3b909b81dca58d7a_chrome-capture-2025-9-30%20VAULT.avif)
+![](../images/914b95df_68dc4dcf3b909b81dca58d7a_chrome-capture-2025-9-30_VAULT.avif)
 
 > 👉 Use the Vault whenever you need **inspiration, shortcuts, or connections** to accelerate what you’re building.
 
@@ -124,7 +124,7 @@ What’s inside:
 
 Your profile is where you manage your personal and company details.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4e3dc5b28803760072f1_Account%20Settings.avif)
+![](../images/207c4eb5_68dc4e3dc5b28803760072f1_Account_Settings.avif)
 
 - Update your **name, email, and photo**
 - Edit your **company info** (stage, growth goals, team size). This makes your AI Copilot smarter since it uses this info for context.
@@ -142,7 +142,7 @@ What it can do:
 - Trained on all of Demand Curve’s content (playbooks, lessons, tactics, and more) so the advice it gives will be consistent with the material (and what our team would recommend.)
 - Acts like a smart search + growth advisor:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4e07da1bbd5699a142f2_Copilot.avif)
+![](../images/5e3e3020_68dc4e07da1bbd5699a142f2_Copilot.avif)
 
 > 👉 Use Copilot when you want **clarity, speed, or a second brain** while working through your growth challenges.
 
@@ -153,6 +153,6 @@ For help, you’ve got options:
 - **AI Copilot**: best for curriculum and growth questions
 - **Support button (dropdown or widget):** best for account, billing, or technical issues
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc4e666e1fb1a66e23749e_Untitled_Artwork%208.avif)
+![](../images/946b95d8_68dc4e666e1fb1a66e23749e_Untitled_Artwork_8.avif)
 
 > 👉 The right help at the right time—without slowing you down.

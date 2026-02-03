@@ -19,7 +19,7 @@ Let’s dive into each.
 
 But first, here’s an ad that does all three:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68340151be421d32dff639c9_1745608217766.avif)
+![](../images/bea28255_68340151be421d32dff639c9_1745608217766.avif)
 
 ### Rule #1: Can you visualize it?
 
@@ -40,7 +40,7 @@ You can’t visualize the first. The second is ambiguous. The third is too techn
 - Couch to 5K
 - 1,000 songs in your pocket
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68340151add8786ce54a3a50_1745608217833.avif)
+![](../images/01c319c2_68340151add8786ce54a3a50_1745608217833.avif)
 
 ### Rule #2: Can you falsify it?
 
@@ -78,7 +78,7 @@ Now they have a real idea of who this person is, what they’d be like to be aro
 
 Just like Heinz can prove that people put competitors’ ketchups in Heinz bottles:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68340151491b4f1c5b848c70_1745608217847.avif)
+![](../images/2ed0c2f0_68340151491b4f1c5b848c70_1745608217847.avif)
 
 ### Rule #3: Can nobody else say it?
 
@@ -88,13 +88,13 @@ That makes someone buy your product instead of your competitors.
 
 For example, in an old print ad, Volvo pointed out that their odometers have more numbers than everyone else:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68340151be421d32dff639d1_1745608217860.avif)
+![](../images/af5425f6_68340151be421d32dff639d1_1745608217860.avif)
 
 *Note: Volvo used “speedometer” because “odometer” was an uncommon word at the time. They define it in the body copy.*
 
 Speaking of Volvos, Chevrolet points out that Corvettes are the fuel for countless songs (unlike basically any other car):
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68340151a225dddce74673e7_1745608217873.avif)
+![](../images/ef6cb7dd_68340151a225dddce74673e7_1745608217873.avif)
 
 ### Next time you’re writing copy, pass it through this test
 

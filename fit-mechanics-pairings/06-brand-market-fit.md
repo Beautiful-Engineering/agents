@@ -2,7 +2,7 @@
 
 Finally, let's talk about Brand-Market Fit. This is about ensuring your story and message resonate deeply with your target market.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0950d7bbcab182f97428_6.avif)
+![](../images/75162b98_68da0950d7bbcab182f97428_6.avif)
 
 ## 1. The Great Multiplier
 

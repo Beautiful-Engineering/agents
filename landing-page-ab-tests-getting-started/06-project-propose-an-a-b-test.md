@@ -12,7 +12,7 @@ Let’s break down the proposal:
 
 ## 1. Experiment title
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e4545e8f78a229df01a2c_361b8265659f2f59af11584640d37eb23f84a95c-1468x1160.avif)
+![](../images/bb30dda9_683e4545e8f78a229df01a2c_361b8265659f2f59af11584640d37eb23f84a95c-1468x1160.avif)
 
 You should include at least 2-3 experiments (or variants) in your proposal. That’s because it’s worth testing a couple of variants at the same time.
 
@@ -20,13 +20,13 @@ Title each experiment with a descriptive name, so you and others know what the e
 
 ## 2. Explanation
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e45453785a21eb9aba804_d98a8caf9ed430f73eb06d27ede455c15d7837fe-1434x1134.avif)
+![](../images/192f5cd0_683e45453785a21eb9aba804_d98a8caf9ed430f73eb06d27ede455c15d7837fe-1434x1134.avif)
 
 In simple bullet points, explain what the experiment will change about the current landing page.
 
 ## 3. Reasoning
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e4545f622237076d962be_593a249f8694efe222fb0b53247c9698b022e761-1480x1158.avif)
+![](../images/430b8f59_683e4545f622237076d962be_593a249f8694efe222fb0b53247c9698b022e761-1480x1158.avif)
 
 You want to make sure your A/B ideas are worth testing. There’s no point testing just for testing sake, when you could invest your time in more worthwhile ventures.
 

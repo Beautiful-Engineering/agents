@@ -12,18 +12,18 @@ This project assumes that you’ve already:
 - Head to [Meta Ads Manager](https://business.facebook.com/adsmanager/manage) and click the **All Tools** hamburger menu.
 - Scroll down to **Audiences** in the sidebar.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea264e79d9a9a3a775f8_1741896631171.avif)
+![](../images/bd5e17e4_6837ea264e79d9a9a3a775f8_1741896631171.avif)
 
 #### Web traffic
 
 - Click **Create audience -> Custom audience**
 - Then choose **Website**, under Your Sources.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea26c465c92fb0a3a0c9_1741896670568.avif)
+![](../images/f52a99a2_6837ea26c465c92fb0a3a0c9_1741896670568.avif)
 
       3. Target everyone who has visited your site in the last 2 days.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea28bdf00d572e3a5af2_Screen_Shot_2023-05-01_at_11.34.19_AM.avif)
+![](../images/3f542d6c_6837ea28bdf00d572e3a5af2_Screen_Shot_2023-05-01_at_11.34.19_AM.avif)
 
       4. Then click **Create Audience**.
 
@@ -40,7 +40,7 @@ We’ll need these later.
 - Click **Create a Custom Audience**. Then choose **Website**, under Your Sources.
 Target everyone who visited a page with the word “retarget” in the URL in the past 60 days.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea260bb77b21740d21af_Screen_Shot_2023-05-01_at_11.37.39_AM.avif)
+![](../images/1f2d5f00_6837ea260bb77b21740d21af_Screen_Shot_2023-05-01_at_11.37.39_AM.avif)
 
 This is everyone who came to your site through a retargeting ad who you don’t want to target again. 
 
@@ -58,7 +58,7 @@ But if you have Meta conversion tracking set up, you won’t have to do this aga
 
 Do that first. Click where it says “All website visitors” and search for your event.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea260bb77b21740d21ab_1741896916788.avif)
+![](../images/46c69f93_6837ea260bb77b21740d21ab_1741896916788.avif)
 
 Name it “30 Day Sign Ups” (or “Customers”, if you’re using the Purchase event, etc.). Save it.‌
 
@@ -69,7 +69,7 @@ Now back to our customer email list.
 - Map your identifiers. You’ll see how it works on the screen.
 - Click Upload & Create. Then click Done.‌
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea261097f34d58948101_Screen_Shot_2023-05-02_at_11.00.33_AM.avif)
+![](../images/0a84d797_6837ea261097f34d58948101_Screen_Shot_2023-05-02_at_11.00.33_AM.avif)
 
 If you have more than 5,000 customers, make separate lists of customers by their LTV. If there are higher-value customers and lower-value customers, upload separate audiences for those as well.
 
@@ -86,7 +86,7 @@ Now we’ll create lookalikes based on your existing traffic. We’ll start with
 - Click **Audiences** > **Create audience >Lookalike audience**. Pick your “90 day visitors” list in the Select Your Lookalike Source field.
 - For location, select all countries using the "Select All" checkbox. We'll narrow this down to the specific countries later when we set up the ad sets.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea27175388ad3a2d12a3_c35d6108531732cdbdf73fd3c509b7c90b76f772-1350x196.avif)
+![](../images/06b4299c_6837ea27175388ad3a2d12a3_c35d6108531732cdbdf73fd3c509b7c90b76f772-1350x196.avif)
 
          3. Click the **Select All** checkbox.
 
@@ -106,24 +106,24 @@ To exclude people who already follow your Instagram account, you'll first need t
 
 Click **Create a Custom Audience**>**Instagram account** (under Meta Sources).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea26a5f69b981acea12e_Screen_Shot_2023-05-01_at_11.41.35_AM.avif)
+![](../images/1a9d01bf_6837ea26a5f69b981acea12e_Screen_Shot_2023-05-01_at_11.41.35_AM.avif)
 
 Select "Everyone who engaged with this professional account" in the past 365 days. Note: this should be adapted to the duration of your sales cycle. For example, don't exclude users for 365 days if they need to re-purchase every 3 months.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea2724699270ebbfd5f6_create-instagram-audience.avif)
+![](../images/8d8a34d8_6837ea2724699270ebbfd5f6_create-instagram-audience.avif)
 
 ## Phase 2: Campaign creation
 
 - Head to [Ads Manager](https://business.facebook.com/adsmanager/manage). Then click the **Create** button.
 - Make the campaign objective **Sales**. We almost always recommend choosing the Sales objective for your Meta ad campaigns since this objective centers around a traceable action that connects to your revenue.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea262938014ced532050_Screen_Shot_2023-05-01_at_11.43.45_AM.avif)
+![](../images/ddf71388_6837ea262938014ced532050_Screen_Shot_2023-05-01_at_11.43.45_AM.avif)
 
        3. Unless you're setting up a completely automated campaign for your ecommerce company with an integrated product feed, then choose **Manual sales campaign** instead of **Advantage+ shopping campaign**.
 
 ‍
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea26fb15ba418a34da48_1741897361634.avif)
+![](../images/3deccaf9_6837ea26fb15ba418a34da48_1741897361634.avif)
 
     4. Then, name your Campaign
 
@@ -139,7 +139,7 @@ Turning on Advantage Campaign Budget Optimization (CBO) gives Meta full control 
 
 With Advantage campaign budget, you set one central campaign budget. This budget continuously distributes in real time to ad sets with the best opportunities, throughout the course of your campaign.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e74d29670937678da098_Screen_Shot_2023-05-01_at_3.06.00_PM.avif)
+![](../images/8742cc2c_6837e74d29670937678da098_Screen_Shot_2023-05-01_at_3.06.00_PM.avif)
 
 **Key point:** We recommend you let Meta manage the spend. If there's specific ad sets you planned that are targeted for entirely different goals (like newsletter subs) and you want to control the budget between sales and subscribers, then I would just recommend creating a different campaign with that different goal.
 
@@ -200,7 +200,7 @@ Run as ongoing unless there’s a special case. Meta will generally outperform y
 
 You have a few options for how you want Meta to optimize:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea26e0b8ded3d7b01c05_1741898504540.avif)
+![](../images/046e29ab_6837ea26e0b8ded3d7b01c05_1741898504540.avif)
 
 If you already know exactly how much you're willing to spend per acquisition (like $50), then choose **Cost per result goal.** 
 
@@ -240,7 +240,7 @@ Next, choose the conversion event you want.‌ We want this event to be as far d
 
 Here's an example where I used **Cost per result goal **on the Campaign level, and then chose the **Purchase **event with a target cost per result of $50.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea267975e810b6abf17b_1741898979531.avif)
+![](../images/38d20ec0_6837ea267975e810b6abf17b_1741898979531.avif)
 
 **In almost all cases you'll want the Performance goal to be "Maximize number of conversions."**
 
@@ -256,7 +256,7 @@ For **both prospecting and retargeting ads**, you can leave optimization and del
 
 It should look like this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea27a140fc349bba4c60_1741899125771.avif)
+![](../images/82543b1c_6837ea27a140fc349bba4c60_1741899125771.avif)
 
 Why? If we optimized for something other than conversions, we might get people who like the ad or our landing page, but who don’t actually buy. At the end of the day, we want to focus on customers who actually pay.
 
@@ -266,7 +266,7 @@ Why? If we optimized for something other than conversions, we might get people w
 
 These are being or have been phased out (depending on when you're reading this)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea2647c30d116f127ea5_1741899212231.avif)
+![](../images/d1937402_6837ea2647c30d116f127ea5_1741899212231.avif)
 
 ### 3c: Targeting
 
@@ -277,7 +277,7 @@ In our [Meta targeting lesson](/lessons/meta-ads-targeting) and the [Generate Au
 - Interest and behavior targeting
 This point of the campaign creation process—the ad set level—is where you actually set your targeting parameters. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea26f9343a8ffd0a783f_1741899294815.avif)
+![](../images/578ae605_6837ea26f9343a8ffd0a783f_1741899294815.avif)
 
 You should have **separate** ad sets for each group you plan to target. 
 
@@ -289,7 +289,7 @@ Do** **not mix audiences, e.g., setting a lookalike audience with targeting para
 
 Use the custom audiences you created in Phase 1a for **retargeting** ads (targeting people who have already been to your site). You can find the names of these audiences in the Custom Audiences field, e.g., 30 day visitors, 90 day visitors. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea26f0ef832b92215281_Facebook-set-custom-audience.avif)
+![](../images/404bf70e_6837ea26f0ef832b92215281_Facebook-set-custom-audience.avif)
 
 **Do Retargeting campaigns using regular Audience targeting, not Advantage+**
 
@@ -299,7 +299,7 @@ If you’re running lead gen ads, it’s almost always worth setting up a retarg
 
 Select the lookalike audience you created in Phase 1b in the Custom Audiences field. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea265cd51b9a3da7e650_1741899380371.avif)
+![](../images/3e15977a_6837ea265cd51b9a3da7e650_1741899380371.avif)
 
 **Do lookalikes using Advantage+ audiences.**
 
@@ -319,7 +319,7 @@ For basic demographic targeting, follow the instructions in our [Location, Age, 
 
 For each of your ad sets, set audiences to exclude based on what group of people you're targeting.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea26d98b167250d4c06f_facebook-exclude-audience.avif)
+![](../images/8da4a235_6837ea26d98b167250d4c06f_facebook-exclude-audience.avif)
 
 Some guidelines:
 
@@ -340,13 +340,13 @@ Some guidelines:
 
 Select **Advantage+ placements (recommended)** rather than Manual Placements. This option gives Meta's algorithm more control—it'll optimize placement delivery of your ads for better results.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea2745b5d156a59970b8_Screen_Shot_2023-05-01_at_3.26.09_PM.avif)
+![](../images/1728dea6_6837ea2745b5d156a59970b8_Screen_Shot_2023-05-01_at_3.26.09_PM.avif)
 
 ### 3f: Confirm and turn off
 
 Review your changes and confirm! Close the creator window. Then** turn the ad set off** in the Ads Manager dashboard. The toggle should be gray, not blue, to show that it's not currently active.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea278ba3273d8aaefaaa_turn-off-ad-set-facebook.avif)
+![](../images/e1090043_6837ea278ba3273d8aaefaaa_turn-off-ad-set-facebook.avif)
 
 Why? You still need to make ads **and we want to finish doing all the ad sets first.**
 
@@ -362,7 +362,7 @@ To start off, we’ll make one of your image ads.
 
 ### 4a: Name
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea27c198848de4679136_Screen_Shot_2023-05-02_at_11.13.11_AM.avif)
+![](../images/add2358c_6837ea27c198848de4679136_Screen_Shot_2023-05-02_at_11.13.11_AM.avif)
 
 Name your ad using a differentiated piece of copy across ads. Typically, this is the copy from its creative or from its text if its creative is light on copy. If your ad is a video, it can be a catchy line from the video.
 
@@ -372,15 +372,15 @@ We name ads this way to make it easier to compare how different copy is doing on
 
 Choose the business' Facebook page. Connect the business’ Instagram account if you haven’t yet.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea268053a16cbee2bbee_facebook-ad-identity.avif)
+![](../images/753f5171_6837ea268053a16cbee2bbee_facebook-ad-identity.avif)
 
 ### 4c: Ad setup and creative
 
 Select the ad type (e.g., flexible, single image or video, carousel, or collection) and upload your ad creative.‌
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea27175388ad3a2d12a0_1741899533385.avif)
+![](../images/61e4da44_6837ea27175388ad3a2d12a0_1741899533385.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea2647c30d116f127ea2_facebook-ad-setup.avif)
+![](../images/1c1be378_6837ea2647c30d116f127ea2_facebook-ad-setup.avif)
 
 **Flexible ads **let you upload up to 10 creatives, 5 Primary Texts, 5 Headlines, and 5 Descriptions and Meta will mix and match which they think will perform best.
 
@@ -402,7 +402,7 @@ A few guidelines for video ads:
 
 We recommend keeping all of your copy in a master doc or spreadsheet for testing purposes.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea260bdbf8b1657b814c_57ce33cbd8ce57a8bcab65d9a621422a520adf26-1579x1052.avif)
+![](../images/da1a8251_6837ea260bdbf8b1657b814c_57ce33cbd8ce57a8bcab65d9a621422a520adf26-1579x1052.avif)
 
 If you have slight variations of the same copy, Meta also allows you test to running alternate options. When you click into the text fields, an** Add Options** button will appear. Add 1-2 more variations if you'd like (this is optional).
 
@@ -422,7 +422,7 @@ For **retargeting ads**, default to "Sign Up" or "Book Now"—or whatever is mos
 
 Add the URL of your ad landing page—where users will go after clicking on your ad. Do not include tracking parameters yet; this will be done in the Tracking section. Do not include a ? at the end.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea28bdf00d572e3a5aef_facebook-ad-destination.avif)
+![](../images/c6bf60c3_6837ea28bdf00d572e3a5aef_facebook-ad-destination.avif)
 
 Then set a "clean" display link for your site. Skip the "www." here.
 
@@ -434,7 +434,7 @@ To track which ads are getting users to your site, take advantage of Meta's dyna
 
 You can set up these parameters under the Tracking section at the ad level. Click **Build a URL Parameter**.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea267975e810b6abf17e_facebook-build-url-parameter.avif)
+![](../images/c02e32bd_6837ea267975e810b6abf17e_facebook-build-url-parameter.avif)
 
 Here's how we recommend setting up your URL parameters:
 
@@ -452,7 +452,7 @@ Here's how we recommend setting up your URL parameters:
 
 Your setup should look like this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ea26ccb38332d07b615a_Facebook-URL-parameters.avif)
+![](../images/5a9b8e18_6837ea26ccb38332d07b615a_Facebook-URL-parameters.avif)
 
 ## Phase 5: Create other ads in the same ad set
 

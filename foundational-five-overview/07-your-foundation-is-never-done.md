@@ -1,6 +1,6 @@
 # Your foundation is never “done”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0cd0336808907b8259fc_7.avif)
+![](../images/bb1b5c1f_68cb0cd0336808907b8259fc_7.avif)
 
 It's also very important to know that your foundation is never "done." As I said, our F5 is a hypothesis. It must be tested and validated. Your F5 is a living, breathing system. 
 

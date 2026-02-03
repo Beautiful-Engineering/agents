@@ -17,7 +17,7 @@ We'll cover 7 of the most common frameworks.
 
 As a tl;dr, here's a cheatsheet that our founder, Neal O'Grady, created:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683401f27ef03b13754d84c6_9d08223a-d35d-4f5f-a393-cddac043cc1c_1842x1536.avif)
+![](../images/5917c832_683401f27ef03b13754d84c6_9d08223a-d35d-4f5f-a393-cddac043cc1c_1842x1536.avif)
 
 ## PAS(P)
 

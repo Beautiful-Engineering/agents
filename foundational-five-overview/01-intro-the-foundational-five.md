@@ -4,7 +4,7 @@ All right! Welcome to Part Two of the program. In Part One, we examined our DC G
 
 It does not start with tactics. You certainly cannot hack your way to the kind of growth that you're seeking. Real growth comes from a systems design approach. We must engineer the foundation of our business for growth, and the earlier we do it, the better.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0aecce63864d53cb469b_1.avif)
+![](../images/c28fb87a_68cb0aecce63864d53cb469b_1.avif)
 
 The Foundational Five framework is exactly how we engineer that alignment. 
 

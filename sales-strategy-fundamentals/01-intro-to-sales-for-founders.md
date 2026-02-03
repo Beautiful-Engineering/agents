@@ -99,7 +99,7 @@ This assumes sales ability is something you're born with. But sales is actually 
 
 #### What's Your Founder Sales Type?
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0faa8aca948a7b51e86c_Screenshot%202025-09-28%20at%2010.48.31%E2%80%AFPM.avif)
+![](../images/c6abe84b_68da0faa8aca948a7b51e86c_Screenshot_2025-09-28_at_10.48.31_PM.avif)
 
 None of these founder sales types need to have a sales background. Instead, they built sales systems that used their natural strengths while learning specific skills to cover their weak spots.
 

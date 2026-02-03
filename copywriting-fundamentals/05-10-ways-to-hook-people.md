@@ -58,7 +58,7 @@ Naturally, I wanted to reverse engineer what made posts go viral. I started goin
 - [Celebration](https://www.nealsnewsletter.com/i/139967246/how-to-write-a-hook-with-celebration)
 - [Identity](https://www.nealsnewsletter.com/i/139967246/how-to-write-a-hook-with-identity)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c9c7474c02f699b650_1745606407279.avif)
+![](../images/16b55084_683402c9c7474c02f699b650_1745606407279.avif)
 
 Let’s go into each of these now with a ton of examples.
 
@@ -80,7 +80,7 @@ You can write a credibility hook in three different ways:
 
 *Why should I listen to you?*
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c800a751fea47b8ad3_1745606404919.avif)
+![](../images/92fef234_683402c800a751fea47b8ad3_1745606404919.avif)
 
 - “I have an MBA.”
 - “I was ranked CEO of the year.”
@@ -91,7 +91,7 @@ It feels like bragging, but you should be fine if you do it with humility and wi
 
 *Is this information worth anything?*
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8491b4f1c5b859f6b_1745606405963.avif)
+![](../images/3104cf01_683402c8491b4f1c5b859f6b_1745606405963.avif)
 
 *“Oh damn, Naim spent 16 hours on this?”*
 
@@ -111,7 +111,7 @@ If you lack credibility, you can leverage the credibility and familiarity of a w
 
 This is why people do a lot of Apple and Steve Jobs posts:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c895f35b658ea6034c_1745606406253.avif)
+![](../images/aeba0bb6_683402c895f35b658ea6034c_1745606406253.avif)
 
 ### Credibility Hook Ideas
 
@@ -147,27 +147,27 @@ Fear can manifest in various ways:
 
 It is super popular with AI fearmongering.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8d3aa96f72f51d996_1745606406016.avif)
+![](../images/36a042dd_683402c8d3aa96f72f51d996_1745606406016.avif)
 
 ### **FOBO** – Fear of Being Outdone
 
 This blurs the line of credibility and FOBO. The fact that she’s making a 1% salary without employees triggers anyone’s FOBO:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c86efccb98fe056b02_1745606406059.avif)
+![](../images/c5159bd2_683402c86efccb98fe056b02_1745606406059.avif)
 
 And Justin’s ridiculous schedule is enough to make anyone feel outdone.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c89ae9bce80b5c9362_1745606406471.avif)
+![](../images/bd7d7423_683402c89ae9bce80b5c9362_1745606406471.avif)
 
 ### “I hope I’m not doing it wrong.”
 
 This benefits from the strong language of “suck at.”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8d3aa96f72f51d99f_1745606406098.avif)
+![](../images/f413151b_683402c8d3aa96f72f51d99f_1745606406098.avif)
 
 ### “I hope that doesn’t happen to me.”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c894a300ddf5710740_1745606406122.avif)
+![](../images/12610105_683402c894a300ddf5710740_1745606406122.avif)
 
 ## 3. How to write a hook with Curiosity
 
@@ -189,11 +189,11 @@ Tease a fun and interesting story.
 
 Andrew uses fun, colorful language to paint an intriguing picture:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c805b90cd1f15add35_1745606406285.avif)
+![](../images/25d457e8_683402c805b90cd1f15add35_1745606406285.avif)
 
 ### “I have to know more”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c87804ce96c71be47a_1745606406145.avif)
+![](../images/7cffded9_683402c87804ce96c71be47a_1745606406145.avif)
 
 First, the “hot take” gets you a bit since we like spiciness.
 
@@ -203,7 +203,7 @@ Second, Shaan is saying that we’re all wrong about the Metaverse. What are we 
 
 Here, I share an image and tease at something. You’re forced to keep reading to figure out what I’m pointing out.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8aaf4d1fb411f7908_1745606406929.avif)
+![](../images/d09b8da9_683402c8aaf4d1fb411f7908_1745606406929.avif)
 
 ### “What is going on?”
 
@@ -213,13 +213,13 @@ But it didn’t start with him. And it didn't start with any dialogue.
 
 Instead, it started with a man hanging from a helicopter on a ladder (and a cryptic title).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c857714123c28f0671_1745606406168.avif)
+![](../images/3a39b6f1_683402c857714123c28f0671_1745606406168.avif)
 
 ### “…?”
 
 This was a popular hook for a bit:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c802de03cc7b16dcff_1745606406204.avif)
+![](../images/5d2e1aa3_683402c802de03cc7b16dcff_1745606406204.avif)
 
 It’s the start of a sentence normally followed by something interesting or spicy.
 
@@ -239,13 +239,13 @@ Strong opinions and bold claims provoke dialogue and thought. Particularly if th
 
 For example, everyone always says our attention spans are shrinking:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8557767735570f6e0_1745606406226.avif)
+![](../images/87d97a89_683402c8557767735570f6e0_1745606406226.avif)
 
 By countering the common narrative, he grabs our attention and gets us to keep reading. Just like Justin and Katelyn do here:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c838fb158e4797744e_1745606406713.avif)
+![](../images/ec892e8a_683402c838fb158e4797744e_1745606406713.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c84e29871770f1313b_1745606406512.avif)
+![](../images/69ef8a97_683402c84e29871770f1313b_1745606406512.avif)
 
 You don’t expect a guy making 7-figures and a gal with 100k+ followers to shit on money making and audience building.
 
@@ -253,7 +253,7 @@ You don’t expect a guy making 7-figures and a gal with 100k+ followers to shit
 
 Those examples are what Wes Kao calls “[spiky points of view](https://www.weskao.com/blog/spiky-point-of-view-lets-get-a-little-controversial).”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c829fc468031b8616c_1745606406556.avif)
+![](../images/d9ee0744_683402c829fc468031b8616c_1745606406556.avif)
 
 Subscribed
 
@@ -274,7 +274,7 @@ You want people to say:
 
 Many of the comments on the following post were people saying: “Yes, finally, somebody said this thing that I've been thinking.”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8958eeec2a9fd9d99_1745606406322.avif)
+![](../images/70608800_683402c8958eeec2a9fd9d99_1745606406322.avif)
 
 Chris hit an emotional nerve.
 
@@ -284,7 +284,7 @@ People are tired of companies virtue signaling rather than fixing fundamental pr
 
 Here, Andrew tapped into a feeling that every entrepreneur has had:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8fc47d4d4e7750ed1_1745606406673.avif)
+![](../images/f534d190_683402c8fc47d4d4e7750ed1_1745606406673.avif)
 
 ### These are hard
 
@@ -314,11 +314,11 @@ Here are five ways to use facial expressions in your hook:
 
 Open mouth, a shocked expression: This is a classic on YouTube.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8677647d97a51d135_1745606406857.avif)
+![](../images/bcfe4eb8_683402c8677647d97a51d135_1745606406857.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c802de03cc7b16dd05_1745606406598.avif)
+![](../images/24749a09_683402c802de03cc7b16dd05_1745606406598.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c86a04676502da1c40_1745606407096.avif)
+![](../images/ffe125d7_683402c86a04676502da1c40_1745606407096.avif)
 
 A shocked face gets your attention. You wanna know what caused it.
 
@@ -326,7 +326,7 @@ A shocked face gets your attention. You wanna know what caused it.
 
 It's been a trend on LinkedIn to share a photo of yourself, often combined with a semi-emotional post. Codie Sanchez did a tasteful version of that:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8cbd6d77637da020b_1745606407305.avif)
+![](../images/d7a9fbcf_683402c8cbd6d77637da020b_1745606407305.avif)
 
 We’ll naturally wonder why there are two photos side by side. We want to spot the differences and discover what connects them.
 
@@ -338,13 +338,13 @@ When a selfie lacks context, it's less likely to be all that appealing, or be se
 
 Example: [the viral post](https://www.linkedin.com/feed/update/urn:li:activity:6962886723617910784/) when a CEO announced that he'd laid off staff and shared a photo of himself crying:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c84b859a6bcbd9f983_1745606406758.avif)
+![](../images/451fcd1f_683402c84b859a6bcbd9f983_1745606406758.avif)
 
 ### **Boost credibility**
 
 Faces can be combined with **Credibility**, the first hook type we discussed. If you reference someone famous, use a photo of them:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c87dc94e80c4c3c071_1745606407328.avif)
+![](../images/29561ee6_683402c87dc94e80c4c3c071_1745606407328.avif)
 
 Subscribed
 
@@ -352,7 +352,7 @@ Subscribed
 
 Studies show that ads using an averted gaze draw more attention toward the product than ads with a direct gaze:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8fc47d4d4e7750ed5_1745606406639.avif)
+![](../images/50cd4fb6_683402c8fc47d4d4e7750ed5_1745606406639.avif)
 
 We’re drawn to look at whatever someone else is looking at.
 
@@ -364,7 +364,7 @@ Not every hook needs to blow people’s minds. Sometimes, it just needs to promi
 
 This opener is simple:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c85983e655743f3315_1745606406791.avif)
+![](../images/028500b4_683402c85983e655743f3315_1745606406791.avif)
 
 It tells you exactly what you’re gonna get by reading.
 
@@ -372,7 +372,7 @@ If you’re currently building a startup and thinking about brand strategy, or i
 
 Or here’s the first slide of a LinkedIn carousel I posted:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c802de03cc7b16dd08_1745606406814.avif)
+![](../images/8da21c46_683402c802de03cc7b16dd08_1745606406814.avif)
 
 Yes, I leverage the Credibility/Familiarity of LinkedIn, and use the Faces of credible/familiar people, but the hook is just promising exactly what they will get.
 
@@ -382,15 +382,15 @@ A popular addition to this is to handle an obvious objection they may have:
 
 ### Naval
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8aaf4d1fb411f7905_1745606406880.avif)
+![](../images/0056dd53_683402c8aaf4d1fb411f7905_1745606406880.avif)
 
 ### Harsh Makadia
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c857714123c28f0674_1745606407023.avif)
+![](../images/b88e9f7c_683402c857714123c28f0674_1745606407023.avif)
 
 ### Ben Meer
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8b9c0fc5191741f4b_1745606407045.avif)
+![](../images/8944f742_683402c8b9c0fc5191741f4b_1745606407045.avif)
 
 People are naturally skeptical. Handle their objections upfront.
 
@@ -412,15 +412,15 @@ You need to surprise them in *a sentence or two*. Do that with statistics:
 
 ### Codie Sanchez
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8a2e6d899c15e0ad5_1745606407117.avif)
+![](../images/b1f826c5_683402c8a2e6d899c15e0ad5_1745606407117.avif)
 
 ### Reno Perry
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c86a04676502da1c43_1745606406967.avif)
+![](../images/387380fe_683402c86a04676502da1c43_1745606406967.avif)
 
 ### Justin Welsh
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8268726c1e3dace63_1745606406990.avif)
+![](../images/e9b002a4_683402c8268726c1e3dace63_1745606406990.avif)
 
 People love to be surprised and say, “I didn’t know that!”
 
@@ -448,7 +448,7 @@ Here are 3 obvious times to do a celebration hook:
 
 ### New jobs
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c838fb158e47977451_1745606406836.avif)
+![](../images/7f1ca242_683402c838fb158e47977451_1745606406836.avif)
 
 They don't even have to provide additional value, like we've talked about with other hook types (**Education**, **Eloquence**, etc.).
 
@@ -458,7 +458,7 @@ Again, people feel compelled to say congratulations, particularly if they know t
 
 Here, Lenny shares a major newsletter milestone (note this is also Credibility ;0)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8958eeec2a9fd9d93_1745606407154.avif)
+![](../images/1dbd0a6b_683402c8958eeec2a9fd9d93_1745606407154.avif)
 
 It warrants a, “Congrats, Lenny! That’s huge!”
 
@@ -466,11 +466,11 @@ Other milestones might include follower count, revenue, fundraising, and awards
 
 Note: Lenny’s post also leverages **Credibility** (wow, he’s got 250k subs!) and FOBO: **Fear** of Being Outdone. Just like this one:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c85983e655743f330f_1745606407202.avif)
+![](../images/f4694fe8_683402c85983e655743f330f_1745606407202.avif)
 
 ### Birthdays
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c86fcc1a99b57d1e23_1745606407066.avif)
+![](../images/2433535e_683402c86fcc1a99b57d1e23_1745606407066.avif)
 
 Jay's post has **Credibility** and triggers FOBO (damn, I’m 33, and I haven’t done any of those things…). So you post a “happy birthday” comment and keep reading.
 
@@ -497,23 +497,23 @@ This is essentially how horoscopes work. They dance between specific and vague�
 
 ### Question
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c89ae9bce80b5c9366_1745606407237.avif)
+![](../images/612144e1_683402c89ae9bce80b5c9366_1745606407237.avif)
 
 Image from [Why We Buy](https://customercamp.co/news-sign-up/), compiled from [Ship 30 for 30](https://www.ship30for30.com/).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8557767735570f6f2_1745606406345.avif)
+![](../images/a85bacba_683402c8557767735570f6f2_1745606406345.avif)
 
 ### Statement
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c800a751fea47b8adb_1745606406367.avif)
+![](../images/7a9d539f_683402c800a751fea47b8adb_1745606406367.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c862e6ea2f03b2dec1_1745606406391.avif)
+![](../images/0d5505fe_683402c862e6ea2f03b2dec1_1745606406391.avif)
 
 ### Label them directly
 
 Or you can call out a group of people directly by name like Julian did for “movie nerds”:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c885ec9f39da79181e_1745606406416.avif)
+![](../images/3a981783_683402c885ec9f39da79181e_1745606406416.avif)
 
 Even better: Lump yourself into that community so they feel more connected to you (”*my fellow* movie nerds”).
 
@@ -527,10 +527,10 @@ These are the 10 fundamental ways to hook, but as you have likely figured out by
 
 Fear + Value + Credibility + Faces
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8557767735570f6d8_1745606407363.avif)
+![](../images/297b8b83_683402c8557767735570f6d8_1745606407363.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8be421d32dff73fcc_1745606407415.avif)
+![](../images/908240b6_683402c8be421d32dff73fcc_1745606407415.avif)
 
 Note this one uses eye gazing effectively.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402c8268726c1e3dace60_1745606407446.avif)
+![](../images/f20167f1_683402c8268726c1e3dace60_1745606407446.avif)

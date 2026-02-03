@@ -27,11 +27,11 @@ Elements of a high-converting profile:
 - **Home feed**: For evergreen content that accurately portrays your brand and specific value you provide. Posts should complement each other to create a cohesive grid and aesthetic
 Here are a few solid examples of profile bios that are optimized for search and clearly articulate what value they have to offer:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d491135cea17eb0b489f3_1630540441327.avif)
+![](../images/ae723836_683d491135cea17eb0b489f3_1630540441327.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d491185929f5135521bf0_1630540467555.avif)
+![](../images/5cced008_683d491185929f5135521bf0_1630540467555.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d49110aa741ca59b06c09_1630540495442.avif)
+![](../images/fb4c758b_683d49110aa741ca59b06c09_1630540495442.avif)
 
 **Consideration**: Be mindful of your grid aesthetic, but don't overthink it
 
@@ -45,11 +45,11 @@ This is not something to focus on if you’re just getting started. Once you hav
 - How will you convey your story, your why?
 It’s common for large established brands to invest heavily into a well-manicured grid layout:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d49125a66b044f7fcdba1_1630540558807.avif)
+![](../images/958cea77_683d49125a66b044f7fcdba1_1630540558807.avif)
 
 Or be sure to include product shots in every single post. Like Magic Spoon, who we referenced earlier:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d49ef10564ced1a0276c8_1630540587051.avif)
+![](../images/64796c3c_683d49ef10564ced1a0276c8_1630540587051.avif)
 
 Your audience will appreciate a visually-attractive feed, but don’t spend a ton of time on this unless visuals are the overwhelming driver of intrigue for your products or spreading brand awareness is your goal.
 
@@ -57,7 +57,7 @@ Ultimately, when you stick to answering the question, “what’s in it for me?�
 
 #### Example: Legion
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4a0c7a3f3de8ed02f028_Screenshot%202025-06-02%20at%202.51.53%E2%80%AFPM.avif)
+![](../images/4d44101e_683d4a0c7a3f3de8ed02f028_Screenshot_2025-06-02_at_2.51.53_PM.avif)
 
 When someone arrives on Legion’s profile, it is abundantly clear what they are all about — they sell high-quality supplements that help people get in shape.
 
@@ -69,7 +69,7 @@ Legion sells products and coaching services that help people lose weight and bui
 
 Dain Walker runs the full-service digital marketing agency Victory Front, and follows a consistent templated approach with his posts.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d49119830928f6aa9d22a_1630540672980.avif)
+![](../images/f32a22fa_683d49119830928f6aa9d22a_1630540672980.avif)
 
 Notice how every post has a clear value proposition with one big idea or insight. If you’re a service business, using headlines that take up 50% of the visual can help increase clicks. 
 
@@ -115,7 +115,7 @@ You can do this by pointing out how a collaboration would be in their audience�
 
 #### Example: Protein Cookie Butter
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911f0d6401b1bc6a499_1630540809550.avif)
+![](../images/a9317564_683d4911f0d6401b1bc6a499_1630540809550.avif)
 
 To help promote a new product launch, Protein Cookie Butter recruited the help of a few content creators and influencers in the health and fitness space. 
 
@@ -125,7 +125,7 @@ Three profiles introduced the new product to their audiences using the Story fea
 
 Protein Cookie Butter then re-shared each of their stories to his Story feed. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911648b2792fa6459a0_1630540837576.avif)
+![](../images/150a89dc_683d4911648b2792fa6459a0_1630540837576.avif)
 
 Everyone who participated in the collaboration benefitted:
 
@@ -135,7 +135,7 @@ Everyone who participated in the collaboration benefitted:
 
 #### Example: Eat Pastry Cookie Dough
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911561133a4d2ae1857_1630540888269.avif)
+![](../images/c58b4b5b_683d4911561133a4d2ae1857_1630540888269.avif)
 
 To enter this group giveaway, you had to follow all participating brands and tag three friends.
 
@@ -151,17 +151,17 @@ Poppi, who you met earlier, held a joint giveaway with a complementary apparel b
 
 Both brands posted the giveaway to their feeds and tagged each other.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911b7cd80b3a1d71f23_1630540932902.avif)
+![](../images/b42d8440_683d4911b7cd80b3a1d71f23_1630540932902.avif)
 
 Poppi shared the post as a Story:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911561133a4d2ae1854_1630540958882.avif)
+![](../images/e4a9c11a_683d4911561133a4d2ae1854_1630540958882.avif)
 
 ‍
 
 To enter, contestants had to like, follow, and tag both brands. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911edf0222ee8b8668e_1630540987800.avif)
+![](../images/7f1078ba_683d4911edf0222ee8b8668e_1630540987800.avif)
 
 To make this even better,  Poppi could have made re-sharing the post to Stories a mandatory rule for entry. 
 
@@ -173,7 +173,7 @@ The Sill has a massive following on Instagram. They sell indoor plants online an
 
 Their collaborator, Canopy, has a much smaller following. They sell small humidifier units and market the benefits they have on skin health and breathing air quality.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911cb29b27c92bc5e17_1630541029717.avif)
+![](../images/249f4102_683d4911cb29b27c92bc5e17_1630541029717.avif)
 
 Most likely Canopy approached The Sill with a guest post offer, knowing they share a similar audience.
 
@@ -181,7 +181,7 @@ The Sill agreed because they received a free piece of quality, relevant content 
 
 The result: Canopy gains mass exposure to The Sill’s audience (78x the number of followers).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d49126bb12de3b5af7c45_1630541064935.avif)
+![](../images/3060e9cc_683d49126bb12de3b5af7c45_1630541064935.avif)
 
 - The post was liked nearly 6,000 times and generated dozens of authentic comments. 
 - The content is a perfect fit because it addresses a common concern among plant owners: humidity levels. 
@@ -206,9 +206,9 @@ Here are the tactics:
 
 If you have 10k or more followers, you can unlock the swipe up feature in your stories that lets you send traffic to a link of your choosing.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911465ae2514fdf417a_1630541180313.avif)
+![](../images/ae6805e8_683d4911465ae2514fdf417a_1630541180313.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911648b2792fa6459a6_1630541191058.png)
+![](../images/018a3e88_683d4911648b2792fa6459a6_1630541191058.png)
 
 To make the most of this feature in your stories, we recommend storyboarding what you need to communicate before asking your followers to swipe up and visit an offer link. 
 
@@ -218,7 +218,7 @@ To promote his book for agency owners, Marketing Harry posted a mini-training de
 
 This strategy is similar to tweet storms on twitter or email drip campaigns: both are designed to deliver a ton of value first, and escalate towards a reasonable and expected ask at the end. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d49122de1939732d8d73c_1630541236690.avif)
+![](../images/ee7cf9bb_683d49122de1939732d8d73c_1630541236690.avif)
 
 In the example above, the value was delivered as a free mini training on increasing engagement with your social media audience.
 
@@ -230,7 +230,7 @@ In the example above, the value was delivered as a free mini training on increas
 
 Here’s a similar flow for health coaching company, Precision Nutrition.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d491125da3d3a96c5eabe_1630541295447.avif)
+![](../images/e5752c6e_683d491125da3d3a96c5eabe_1630541295447.avif)
 
 Unlike the previous example, Precision Nutrition led with a clear offer (open enrollment for a coaching program with the first month free). The sequence went like this:
 
@@ -239,7 +239,7 @@ Unlike the previous example, Precision Nutrition led with a clear offer (open en
 - Take breaks to drive traffic to valuable and related content and free lead magnets.
 - End the sequence with a final CTA emphasizing the special offer: swipe up see more on the offer landing page.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d491142ae4b7752ac99cd_1630541329857.avif)
+![](../images/6d1e5104_683d491142ae4b7752ac99cd_1630541329857.avif)
 
 ‍
 
@@ -251,11 +251,11 @@ If you don’t have the swipe up feature yet, you’ll want to take full advanta
 
 Like blog posts or gated lead magnets.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911c516a83bf2e747b4_1630541385304.avif)
+![](../images/03430bb3_683d4911c516a83bf2e747b4_1630541385304.avif)
 
 Or a link to download your app from the app store.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d49118959fc5f0043b862_1630541416687.avif)
+![](../images/09f24e8b_683d49118959fc5f0043b862_1630541416687.avif)
 
 #### **Insight**: Avoid using links in your captions
 
@@ -265,13 +265,13 @@ If you want to drive traffic to multiple destinations off-app, consider using an
 
 **Linktree** lets you create a no-frills directory of links for you to drive traffic to.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911e49a942dc2e6d9c5_1630541477192.avif)
+![](../images/4145feb0_683d4911e49a942dc2e6d9c5_1630541477192.avif)
 
 **Linkin.bio** is a little more sophisticated because you can create a dynamic, trackable link to a custom feed page with posts that link out to your URLs.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911580e0c5e898dbd20_1630541504820.avif)
+![](../images/17403e0c_683d4911580e0c5e898dbd20_1630541504820.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911c2f4529b14ec6cee_1630541522321.avif)
+![](../images/af8ae639_683d4911c2f4529b14ec6cee_1630541522321.avif)
 
 Tag products in shoppable posts
 
@@ -281,9 +281,9 @@ This feature allows you to tag products featured in your photos or Reels videos.
 
 When a user taps the photo, the tag pops up with the price and allows the user to tap the tag to buy the item either through the website, or, if you qualify, directly through Instagram’s ecommerce platform. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4912a4ca8cd615e6c433_1630541567994.png)
+![](../images/10b6933b_683d4912a4ca8cd615e6c433_1630541567994.png)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d49126bb12de3b5af7c54_1630541589996.avif)
+![](../images/f70cf018_683d49126bb12de3b5af7c54_1630541589996.avif)
 
 ‍
 
@@ -297,11 +297,11 @@ Setting up a store page is pretty straightforward. All you need is a business ac
 
 This is the ideal example because a user can discover the product, learn about it, desire it, and buy all within the Instagram app. For an ecommerce product company, that’s incredible.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4911d00a93e7ae388923_1630541622451.avif)
+![](../images/6e8ef299_683d4911d00a93e7ae388923_1630541622451.avif)
 
 The shopping bag icons at the top right-hand corner of certain posts indicate that shoppable product tags are being used. You can use them in both feed posts and Reels.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d49114246d1a7518afff0_1630541656096.avif)
+![](../images/bc56bccd_683d49114246d1a7518afff0_1630541656096.avif)
 
 Note the engagement: 159 comments and over 7,000 likes. 
 
@@ -311,7 +311,7 @@ As a prospect, this type of content gets you thinking about the various ways the
 
 To learn more about the product, users can click through to a product collection page with products featured in the Reel.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d491142ae4b7752ac99ca_1630541695562.avif)
+![](../images/97377adc_683d491142ae4b7752ac99ca_1630541695562.avif)
 
 - Add a product to cart or buy now
 - Buy now takes you straight to a checkout page

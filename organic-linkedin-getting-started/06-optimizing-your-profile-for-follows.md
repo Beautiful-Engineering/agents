@@ -10,7 +10,7 @@ Here's the most critical change you can make on your profile:
 
 **Change your "Connect" button to a "Follow" button.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4de25ea7e049b5ebbd5d_1636667650136.avif)
+![](../images/083e0795_683d4de25ea7e049b5ebbd5d_1636667650136.avif)
 
 Dave Gerhardt ([via LinkedIn](https://www.linkedin.com/in/davegerhardt/)). Note that the typical "Connect" button is replaced with a "Follow" button.Here's why:
 
@@ -29,7 +29,7 @@ Additionally, we know that LinkedIn limits you to 30,000 connections, but you ca
 
 Go to your privacy settings (see the dropdown under "Me" then "Settings & Privacy"), click "Visibility" on the left panel, then "Visibility of your LinkedIn activity." Then click "Followers." You'll see the "Make follow primary" button. Switch it on.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4de17cad06d965635ffe_1636667646556.avif)
+![](../images/0102d82f_683d4de17cad06d965635ffe_1636667646556.avif)
 
 ## Profile basics
 
@@ -42,7 +42,7 @@ The framework for optimizing the rest of your LinkedIn profile is simple: appear
 
 Julian founded Demand Curve, so his target audience includes entrepreneurs and marketers who are looking to advance their growth strategies.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4de177a8eb64a7ed6ac4_1636667645073.avif)
+![](../images/319b9815_683d4de177a8eb64a7ed6ac4_1636667645073.avif)
 
 Julian Shapiro ([via LinkedIn](https://www.linkedin.com/in/julian-shapiro/))In Julian's bio header, he features:
 
@@ -50,7 +50,7 @@ Julian Shapiro ([via LinkedIn](https://www.linkedin.com/in/julian-shapiro/))In J
 - TechCrunch Columnist signals transactional value.
 - Investor signals that he's relevant to the entrepreneurs and marketers that come across his profile.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4de15ea7e049b5ebbd51_1636667645462.avif)
+![](../images/28388781_683d4de15ea7e049b5ebbd51_1636667645462.avif)
 
 Julian Shapiro ([via LinkedIn](https://www.linkedin.com/in/julian-shapiro/))
 - A concise description summarizes **how he's valuable to his target audience**: he grows and invests in startups.
@@ -60,13 +60,13 @@ Julian Shapiro ([via LinkedIn](https://www.linkedin.com/in/julian-shapiro/))
 
 Taylor creates online courses and owns an apparel brand. His audience includes people who want to grow on social media and consumers of apparel.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4de125c68b4a9560d38f_1636667646001.avif)
+![](../images/e4751d8d_683d4de125c68b4a9560d38f_1636667646001.avif)
 
 Taylor Offer ([via LinkedIn](https://www.linkedin.com/in/tayloroffer/))
 - "Best account to follow on LinkedIn" indicates that people will get **value** in following him: learn how to use LinkedIn better. (Note: It also encourages people to follow him instead of connecting with him.)
 - "Forbes 30 under 30" and his media features add **social proof.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4de1802d5a59b95298a4_1636667644538.avif)
+![](../images/62c68565_683d4de1802d5a59b95298a4_1636667644538.avif)
 
 Taylor Offer ([via LinkedIn](https://www.linkedin.com/in/tayloroffer/))
 - Taylor's about description **summarizes his value**: he'll help you grow your LinkedIn audience through his academy.
@@ -77,7 +77,7 @@ That's all you need: a clear statement of value and effective social proof. If y
 
 LinkedIn added [a new feature](https://www.cnet.com/news/linkedin-unveils-new-look-and-messaging-features-plans-to-release-stories-globally/) on September 24th, 2020 called Stories. They're photos and videos that vanish 24 hours after posting. Sound familiar? It's a rip on Snap and Facebook (including Instagram).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4de1f0d6401b1bc99b77_1636667646932.avif)
+![](../images/0219c8bd_683d4de1f0d6401b1bc99b77_1636667646932.avif)
 
 Credit: LinkedInBut here's why LinkedIn stories are worth testing:
 

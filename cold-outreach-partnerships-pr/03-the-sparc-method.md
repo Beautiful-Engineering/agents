@@ -2,7 +2,7 @@
 
 Strategic cold email follows a different rhythm than sales email. You're building relationships, not “closing deals.” Use the SPARC framework:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d11b5334f5b7b260feb7c5_image%20(70).avif)
+![](../images/75f513b4_68d11b5334f5b7b260feb7c5_image__70_.avif).avif)
 
 - ‍**S - Signal Recognition**
 - **P - Partnership Positioning**

@@ -41,7 +41,7 @@ As [Harry Dry of Marketing Examples](https://marketingexamples.com/) says, many 
 
 [Whereas Harry does it by using storytelling and conflict](https://marketingexamples.com/brand/loom):
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683413ae1f79b85e5ae2497d_1745873533679.avif)
+![](../images/e9461ffd_683413ae1f79b85e5ae2497d_1745873533679.avif)
 
 ## If you’re paying attention, you noticed something
 

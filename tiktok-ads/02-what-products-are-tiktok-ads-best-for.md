@@ -20,7 +20,7 @@ Content is king, as the cliche goes. We show you how to approach content creatio
 
 TikTok is an energetic, visual platform, so it's only natural that visual consumer goods do well on this platform. Companies that sell physical products with Average Order Values (AOVs) under $100 and short sales cycles are ideal for TikTok ads.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394b53f56aa071359fb3a2_1646187083839.avif)
+![](../images/129ee078_68394b53f56aa071359fb3a2_1646187083839.avif)
 
 - **Beauty and cosmetics**: Jones Road sells clean, high-grade beauty products for all skin types and tones. They use makeup tutorials and seemingly-authentic product reviews to show viewers how to use the product. This strategy helps to generate awareness, interest, and desire.
 
@@ -32,7 +32,7 @@ TikTok is an energetic, visual platform, so it's only natural that visual consum
 
 Mobile apps and games work well on TikTok for the same reason they work on other channels: free app installs are low-friction. To get affordable CPIs, try showing real-time usage of the most interesting parts of your app (e.g., gameplay, onboarding, user progression, exclusive features your competitors don't have).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394b5225e8a285569a289b_1646187207453.avif)
+![](../images/4d549a8a_68394b5225e8a285569a289b_1646187207453.avif)
 
 - **Fintech**: Coinbase is the most reputable cryptocurrency exchange. They work with young, energetic content creators who lean into FOMO messaging and timely crypto news to hook viewers, then demonstrate how easy it is to get started in crypto using the free Coinbase app.
 

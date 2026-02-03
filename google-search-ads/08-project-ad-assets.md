@@ -20,7 +20,7 @@ How and when Google chooses to show them, however, is a complete mystery 🤔 th
 
 Let’s see an ad with three types of ad assets on it:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a50713ffcbf7d7d50e9_Assets_Ad.avif)
+![](../images/c8b6914e_68371a50713ffcbf7d7d50e9_Assets_Ad.avif)
 
 **Add as many ad assets to your ads as possible and let Google decide when to show them.**
 
@@ -72,7 +72,7 @@ In this project, we will just be adding assets to the account, but the general s
 - Configure additional settings, such as scheduling or device targeting, if needed.
 - Click “**Save**” to apply the asset.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a50d8427ade8c8120d9_1740775984238.avif)
+![](../images/14bd3f6b_68371a50d8427ade8c8120d9_1740775984238.avif)
 
 ## Phase 1: Add the universally applicable assets
 
@@ -89,11 +89,11 @@ Sitelink assets add links to different pages on your site. They’re accompanied
 
 Sitelinks display in two primary ways. One is very large:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a50a43651e3bb630680_1740776108268.avif)
+![](../images/39d1f7e9_68371a50a43651e3bb630680_1740776108268.avif)
 
 And the other is quite small:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a50357a8fce3bf17ae8_1740776119704.avif)
+![](../images/ba33a75f_68371a50357a8fce3bf17ae8_1740776119704.avif)
 
 Unfortunately, you can't control whether or how it shows. Google decides that for you.
 
@@ -162,7 +162,7 @@ Then, you can tailor them over time to be more targeted to the individual ad gro
 
 Callout Assets let you create up to ten 25-character-max pieces of text that describe the product, its value props, and any additional information. Here's an ad with both Callout and Sitelink assets:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a5044c5c330a3038b29_Callout_Example.avif)
+![](../images/0f9869fe_68371a5044c5c330a3038b29_Callout_Example.avif)
 
 The Callout assets are confusingly tacked onto the end of the Description starting at "For Every Season."
 
@@ -198,7 +198,7 @@ For simplicity now, you can add a base set of 4 callouts to your account now and
 
 Structured Snippet Assets are lists of up to 10 values that highlight specific aspects of your products, services, styles, or brands, organized under a predefined header (e.g., ‘Brands,’ ‘Types,’ ‘Service Catalog’). You must include at least 3 values per header, and Google recommends at least 4 for optimal performance.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a53844854f6015c88ed_1740780701532.avif)
+![](../images/2bcb1eec_68371a53844854f6015c88ed_1740780701532.avif)
 
 To be honest, they don't show all that often anymore except in the perfect situation where it's highly relevant to the search.
 
@@ -262,7 +262,7 @@ Add them to your account, if applicable, by following the recommendations below.
 
 These assets let you highlight promotions (either temporary or permanent) directly in your Search ad.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a5048225dd21c2d40ad_1740780880121.avif)
+![](../images/0ec1a0fd_68371a5048225dd21c2d40ad_1740780880121.avif)
 
 You can configure:
 
@@ -285,7 +285,7 @@ The Call Asset, not to be confused with Callout Assets, adds your company’s ph
 
 Callout Assets, by contrast, are non-clickable text highlighting benefits or features.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a50307741ee73979097_1740781250941.avif)
+![](../images/0856c329_68371a50307741ee73979097_1740781250941.avif)
 
  **You can configure:**
 
@@ -308,7 +308,7 @@ Location Assets are for businesses with physical locations or service areas who 
 
 To add a Location Asset, you need to have a Google Business Profile (formerly Google My Business) account with your location information filled out, or you can manually enter and verify location data in Google Ads. Then, you configure the asset in the “Assets” section of Google Ads, and Google can automatically associate locations based on your profile or campaign targeting.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a50a82b3064f5db3b98_1740788107200.avif)
+![](../images/026279dd_68371a50a82b3064f5db3b98_1740788107200.avif)
 
  **This asset lets users:**
 
@@ -325,7 +325,7 @@ Location Assets are highly useful for businesses with physical storefronts (e.g.
 
 App Assets allow people to see and click a link directly to your mobile app in the Apple App Store or Google Play Store, driving installs or engagement. These assets typically display a button (e.g., “Download now,” “Get now”) along with your app icon, name, and rating (if available), enhancing visibility for app-driven businesses.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a50357a8fce3bf17ae3_1740788267951.avif)
+![](../images/70638e78_68371a50357a8fce3bf17ae3_1740788267951.avif)
 
 App Assets are particularly valuable for startups with mobile apps, as they prime users with the knowledge that your product is app-based before they visit your website. While click-through rates may vary, well-targeted App Assets can significantly boost app installs and engagement, especially in Search, Display, or Performance Max campaigns targeting mobile users. They help attract users who prefer app-based experiences or need your app for full functionality.
 
@@ -342,7 +342,7 @@ There’s minimal customization beyond linking your app and choosing the CTA, bu
 
 Price Assets allow you to display specific pricing for your products or services directly in your Search ad, helping users understand costs upfront and driving informed clicks.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a500d252a5fc38e8fd2_1740788401526.avif)
+![](../images/3e9ee905_68371a500d252a5fc38e8fd2_1740788401526.avif)
 
 **You can configure:**
 
@@ -357,7 +357,7 @@ Price Assets are highly useful for e-commerce businesses, SaaS startups, or serv
 
 Lead Form Assets help you generate leads by letting people submit their information directly in your ad, without requiring them to visit a landing page. This streamlined process makes it easier for startups to capture high-quality leads efficiently, especially for B2B companies or businesses targeting lead generation.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a504e6037733fe43864_1740788520153.avif)
+![](../images/6bf7261b_68371a504e6037733fe43864_1740788520153.avif)
 
 **You can configure:**
 
@@ -392,7 +392,7 @@ Message Assets are similar to Call Assets in that they facilitate direct communi
 
 They give users an opportunity to initiate a WhatsApp conversation by clicking the ad asset, allowing real-time engagement. Note that Message Assets are currently in beta, so they may not be available to all accounts.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371a5053a09d43454892a3_1740787751856.avif)
+![](../images/494e5234_68371a5053a09d43454892a3_1740787751856.avif)
 
 **You can configure:**
 

@@ -30,19 +30,19 @@ At the campaign level, you can target two primary options: **locations** and **l
 - **Targeting states and cities**: If you're spending >$10k per month, you should target specific states, provinces, or major cities (e.g., US states, Canadian provinces, London, Paris) to analyze performance by region. Use Google Ads’ location reports to refine spending later. 
 - Do that by choosing **Enter another location** and adding them in separately.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371c47863f036f6ed2d56e_1741039529564.avif)
+![](../images/d165bb6a_68371c47863f036f6ed2d56e_1741039529564.avif)
 
 - **People In vs. People Interested In**:
 
 - Default: “Presence or interest” includes users in your target location or those showing interest (e.g., researching a trip or reading about the area).**‍**
 - **Recommendation**: Set to “Presence: People in or regularly in your targeted locations” to target only people who are actually in that space, reducing irrelevant clicks. You’ll miss some travelers or unlocatable users, but this trade-off improves efficiency.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371c45e2bf1a51dc1e4c36_1741039320933.avif)
+![](../images/bae0f311_68371c45e2bf1a51dc1e4c36_1741039320933.avif)
 
 - **Excluding locations**: Exclude areas where you can’t or won’t serve (e.g., Alaska or Hawaii for a US-based product unavailable there). Use “People in your excluded locations” to avoid targeting researchers or travelers from those areas.
 - To exclude, you need to do **Enter another location** then type the location and select **Exclude**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371c456a0baeb786f9f504_1741039494773.avif)
+![](../images/5412b7f6_68371c456a0baeb786f9f504_1741039494773.avif)
 
 ### Languages
 
@@ -75,7 +75,7 @@ Beyond campaigns, you can refine targeting at the ad group or campaign level wit
 
 - ‍**Use device bid adjustments (e.g., +20% for mobile if conversions are higher) rather than strict exclusions. **Google’s machine learning often handles device optimization effectively, especially with Smart Bidding (e.g., Target CPA or Maximize Conversions).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371c459d79cc421729d813_1741040879833.avif)
+![](../images/a8e65953_68371c459d79cc421729d813_1741040879833.avif)
 
 - You can’t target by operating system (e.g., iOS, Android) or browser, but address this in ad copy (e.g., “Download our iOS app now”).
 - Oddly you get there by going **Insights and reports** then **When and where ads showed**
@@ -89,9 +89,9 @@ Beyond campaigns, you can refine targeting at the ad group or campaign level wit
 
 In the **Audiences, keywords, and content** -> **Audiences **you can edit a few things including the demographics targeted on specific ad groups.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371c45c6417a501ffc33eb_1741040514440.avif)
+![](../images/2aaff1b5_68371c45c6417a501ffc33eb_1741040514440.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371c4598d7f755ba5f91c8_1741040299549.avif)
+![](../images/f203e25c_68371c4598d7f755ba5f91c8_1741040299549.avif)
 
 - **Gender**: Target “Female,” “Male,” or “Unknown” (e.g., untracked, minors, or non-binary users). Start broad (all genders) unless your product is clearly gender-specific (e.g., exclude men for feminine hygiene products). Optimize later based on data.
 - **Age**: Target ranges like 18–24, 25–34, 35–44, 45–54, 55–64, 65+, or “Unknown.” For most products, focus on 25–54 (the “sweet spot” for spending power and tech adoption). Exclude 18–24 (low conversion rates) and 55+ (less likely to adopt new tech online) unless your product targets those groups.

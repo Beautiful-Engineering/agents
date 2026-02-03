@@ -115,7 +115,7 @@ Here’s how to do the first one.
 
 First, go to your [Google Ads dashboard](https://ads.google.com/aw/overview)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f118f7e9fbc7101dd76_1740181799724.avif)
+![](../images/c418ea52_68370f118f7e9fbc7101dd76_1740181799724.avif)
 
 ‍
 
@@ -125,30 +125,30 @@ You can either:
 - Click **Create** in the top left and then **Campaign**
 Then let's just do **Create a campaign without a goal's guidance. **Google will make recommendations for you depending on the other choices, but we’re here for that 🙂
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f116d515f7736df5472_1740181946283.avif)
+![](../images/32cfeb7a_68370f116d515f7736df5472_1740181946283.avif)
 
 Choose **Search**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f11a4c34eb7bac27f6c_1740181999616.avif)
+![](../images/02d5c9d0_68370f11a4c34eb7bac27f6c_1740181999616.avif)
 
 ‍
 
 Next, you'll see three conversion goal options to choose from. Leave these blank for now. We'll circle back and define campaign goals in a later step.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f11adbdc99cd2102e8c_1740182027157.avif)
+![](../images/1891b5b5_68370f11adbdc99cd2102e8c_1740182027157.avif)
 
 Then choose **Website visits** and enter your site:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f113ccbb7bd9701fd2b_1740182087970.avif)
+![](../images/ed927251_68370f113ccbb7bd9701fd2b_1740182087970.avif)
 
 **Campaign name:** Give your campaign a name. For now, do **Search – High-Intent Leads**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f11307741ee73909c69_1740182126832.avif)
+![](../images/f7a49ae5_68370f11307741ee73909c69_1740182126832.avif)
 
 Click **Continue. **Next we move onto all the various campaign settings that looks like this:
 ‍
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f1156ea9e3b01dea581_1740182199648.avif)
+![](../images/dde880a2_68370f1156ea9e3b01dea581_1740182199648.avif)
 
 #### 4b. Configure campaign settings
 
@@ -164,24 +164,24 @@ Bidding‌
 - If you have a list of > 1,000 existing customers then you can check the box for "*Optimize campaign for acquiring new customers*" and upload that list. It can either be static (a CSV upload) or dynamic (defined from past conversions).
 - If you don't have that list, just leave this blank for now
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f1157c2012ffa918275_1740509127922.avif)
+![](../images/8bbd2e37_68370f1157c2012ffa918275_1740509127922.avif)
 
 Networks‌
 - **Search**: Keep Google Search Partners Network enabled‌
 
 - **Display**: We recommend disabling Google Display Network for now so you can focus on just testing Search out for now. You can test Display later.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f11013e337551eb4073_1740509269065.avif)
+![](../images/afeaf967_68370f11013e337551eb4073_1740509269065.avif)
 
 Locations Add your main target market, such as the United States‌ and Canada
 
 We'll dive deeper into Location targeting** **later but for now expand **Location options** and select **Presence. **This ensures it only targets people who LIVE in those places.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f12327914a68ae1f4e0_1740509400874.avif)
+![](../images/c19ab8fd_68370f12327914a68ae1f4e0_1740509400874.avif)
 
 LanguagesUse your main target language, such as English
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f11f3c64eff17b1aa1a_Screen_Shot_2023-04-19_at_10.18.47_PM.avif)
+![](../images/89605101_68370f11f3c64eff17b1aa1a_Screen_Shot_2023-04-19_at_10.18.47_PM.avif)
 
 Audience SegmentJust leave this the way it is for now!
 
@@ -203,13 +203,13 @@ You can get Google to scan your site and generate an ad group, keywords, and ads
 
 Check to make sure the URL and description are accurate, then click **Generate**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f11a71832bc6ed2192d_1740511211288.avif)
+![](../images/cfb236bb_68370f11a71832bc6ed2192d_1740511211288.avif)
 
 #### 4d. Configure ad groups, keywords, and ads
 
 Google will then create a bunch products/services and some keywords associated to them:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f113d597b2819ad1023_1740511290066.avif)
+![](../images/a13fa71b_68370f113d597b2819ad1023_1740511290066.avif)
 
 **If it got anything wrong, or is missing anything major, change them now.**
 
@@ -227,7 +227,7 @@ What Google generated is likely Ad Group 1. So here's what I recommend for now (
 - Accept the ad copy it generated 
 - Click **Next**.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f12e9ac7bdaf86804d6_1740511722428.avif)
+![](../images/8f2de5c2_68370f12e9ac7bdaf86804d6_1740511722428.avif)
 
 **We'll create the other ad groups and adjust the ads and keywords later.**
 
@@ -239,7 +239,7 @@ Here you'll set how much you're willing to spend per day on this campaign.
 
 (Note: this is a placeholder; you can and will change this later).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f116a8906e4e32940aa_1740511802080.avif)
+![](../images/eb64a6f9_68370f116a8906e4e32940aa_1740511802080.avif)
 
 #### 4f. Review and publish the campaign‌ (we'll pause after)
 
@@ -247,7 +247,7 @@ Here you'll set how much you're willing to spend per day on this campaign.
 
 But take this opportunity to check over everything:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f12f052b5c89ab2a805_1740511919172.avif)
+![](../images/e65c5481_68370f12f052b5c89ab2a805_1740511919172.avif)
 
 ‍
 
@@ -255,17 +255,17 @@ And then click **Publish campaign**.
 
 Then you'll want to go **Campaigns -> Campaigns -> Click the green dot, and then select Pause.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f11400a318edb9c0c3a_1740511997581.avif)
+![](../images/07a2fb49_68370f11400a318edb9c0c3a_1740511997581.avif)
 
 Pause the campaign so you don’t spend any money. Unless you really want to test running any ads that you may have created. (Don’t. Yet. Not worth it.)
 
 To pause campaigns, in the campaign, click the **Enabled** dropdown in the top left, and select **Pause**.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f11036ffd91fb677b74_Screen_Shot_2023-04-20_at_12.28.45_PM.avif)
+![](../images/2eaae7ea_68370f11036ffd91fb677b74_Screen_Shot_2023-04-20_at_12.28.45_PM.avif)
 
 **It should look like this after it's Paused:**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f1196b8aa505d657311_1740512024727.avif)
+![](../images/4041f64c_68370f1196b8aa505d657311_1740512024727.avif)
 
 #### 4g. Manually create the other ad groups
 
@@ -276,18 +276,18 @@ Okay now that you have one ad group made, let's make the others. Here's again th
 - **Ad Group 3: Competitor alternatives**
 Navigate to **Campaigns -> Ad Groups -> the big blue plus button** to create a new ad group
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f12cce5d32f1b8f8037_1740512159998.avif)
+![](../images/da3146db_68370f12cce5d32f1b8f8037_1740512159998.avif)
 
 Create an ad group
 - **Name** the ad group
 - Paste in some starting keywords, for example:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f1107e229dd7a5dcf02_1740512275159.avif)
+![](../images/5ce33c04_68370f1107e229dd7a5dcf02_1740512275159.avif)
 
 - Click **Save and continue**
 - Select whatever default ad copy they generate (this is all placeholder)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370f119e9089ad09cb174a_1740512332024.avif)
+![](../images/c894de91_68370f119e9089ad09cb174a_1740512332024.avif)
 
 - Click **Save and continue**
 - **Repeat** for other ad groups

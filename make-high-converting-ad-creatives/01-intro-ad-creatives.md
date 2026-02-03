@@ -27,7 +27,7 @@ But first, to clarify one thing…
 
 Ad creatives are the visuals in your ads—images, videos, carousels, or UGC (user-generated content). They grab attention, stop the scroll, and ultimately dictate whether someone clicks or not.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6835376206e172447232e5d7_Example_Creative.avif)
+![](../images/3c447588_6835376206e172447232e5d7_Example_Creative.avif)
 
 If your ads aren’t converting? 
 

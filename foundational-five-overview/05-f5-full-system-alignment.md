@@ -2,7 +2,7 @@
 
 One really interesting thing, at least to me, about the Foundational Five (or F5 for short) is that it creates full system alignment.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0c0835221c47f91ef23a_5.avif)
+![](../images/0a748da2_68cb0c0835221c47f91ef23a_5.avif)
 
 Why? Because everything runs downstream from our foundation. 
 

@@ -34,11 +34,11 @@ Here’s the process:
 - Finally, list a lucrative*** customer persona*** in a third column: identify the persona that cares most about this particular value prop. And bullet point the top two reasons why they care about it.
 Here’s an example of value props for a fantasy football (soccer) app:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683012744360a098d3e1e5df_bb19692a387e6fffa07228d33d78a2e4abfa893b-768x962.avif)
+![](../images/727e10b4_683012744360a098d3e1e5df_bb19692a387e6fffa07228d33d78a2e4abfa893b-768x962.avif)
 
 And another example for an online matcha shop:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6830127462daa4afa57962e6_ecommerce-value-props.avif)
+![](../images/cb617540_6830127462daa4afa57962e6_ecommerce-value-props.avif)
 
 ‌(You can use a tool like Google Sheets for your chart.)
 
@@ -54,11 +54,11 @@ Now that you've identified your value props, it's time to refine them so that th
 
 Continuing from our first example:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68301274cdc299acb44da699_84d96895af69bff7b3f0de792c5bb7597911225b-2702x980.avif)
+![](../images/e300a741_68301274cdc299acb44da699_84d96895af69bff7b3f0de792c5bb7597911225b-2702x980.avif)
 
 And from our second:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683012744360a098d3e1e5e2_1629326238862.avif)
+![](../images/c26f1088_683012744360a098d3e1e5e2_1629326238862.avif)
 
 [Here’s a link to an example that you can copy.](https://demandcurve.notion.site/Completed-Example-of-Value-Props-274f852211328031a5d0d3f1785731c8?source=copy_link) We’ll use some of the copy from this spreadsheet directly in your ad copy.
 

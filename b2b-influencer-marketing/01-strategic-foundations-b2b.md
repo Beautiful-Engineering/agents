@@ -47,7 +47,7 @@ In order to figure out where you should be focusing your influencer efforts, thi
 - **Snowflake** collaborates with data experts and analysts who host industry podcasts or newsletters. These partnerships focus on thought leadership and brand authority in the enterprise data space.**‍**
 - **Mutiny** has partnered with marketing influencers on LinkedIn who share challenges and wins in ABM marketing. The campaigns are designed to convert awareness into trials and product adoption (direct ROAS and pipeline impact).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6984311d03a775140c65d_inf1.avif)
+![](../images/bb7c49c2_68e6984311d03a775140c65d_inf1.avif)
 
 ### **Why Creator Partnerships Work for Early-Stage B2C:**
 
@@ -107,9 +107,9 @@ A creator with 5,000 highly engaged followers who trust their recommendations wi
 - Active community discussions around their posts
 - Followers who describe the creator as trustworthy or inspiring
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6989f58da26297e48cf4e_inf2.avif)
+![](../images/132eb93f_68e6989f58da26297e48cf4e_inf2.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e698a944e2839d1dd5fb05_inf3.avif)
+![](../images/03914009_68e698a944e2839d1dd5fb05_inf3.avif)
 
 ### **The Psychology of Influence: Three Types of Capital**
 
@@ -117,7 +117,7 @@ To work effectively with creators, you need to understand the psychological driv
 
 ### **Financial Capital: Economic incentives**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0eb2fecf408940f4ce111_image%20(54).avif)
+![](../images/064cfdc5_68d0eb2fecf408940f4ce111_image__54_.avif).avif)
 
 #### **What it is:**** **
 
@@ -144,7 +144,7 @@ This is the most straightforward motivation: people are more likely to share con
 
 ### **Social Capital: Status and perception**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0eb893e192c88b75081c0_image%20(55).avif)
+![](../images/1123c371_68d0eb893e192c88b75081c0_image__55_.avif).avif)
 
 #### What it is: 
 
@@ -172,7 +172,7 @@ This capital is about social positioning—when someone shares your product, the
 
 ### **Personal Capital: Self-expression and utility**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0ebb4b0f072fe91b84cfd_image%20(56).avif)
+![](../images/d5bad763_68d0ebb4b0f072fe91b84cfd_image__56_.avif).avif)
 
 #### **What it is:**** **
 

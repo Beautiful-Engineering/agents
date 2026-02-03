@@ -74,7 +74,7 @@ Reference competitor pricing as a market reality check, but don't let it cap you
 
 These levers are adapted from Alex Hormozi's book "[$100M Offers.](https://www.amazon.com/100M-Offers-People-Stupid-Saying/dp/1737475731)" They work across industries and generally illustrate which elements of *value* can be used to shift pricing up or down.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68daca2c16b1dd39c87c4f5e_Screenshot%202025-09-29%20at%2012.04.01%E2%80%AFPM.avif)
+![](../images/91266242_68daca2c16b1dd39c87c4f5e_Screenshot_2025-09-29_at_12.04.01_PM.avif)
 
 In other words, the more of these levers you can pull, the easier it is to defend a premium price. If your product delivers a customer’s dream outcome more effectively than alternatives, confidence is high it will work, results come faster, and it requires less effort from them — then you’ve stacked the deck. You don’t need to max out every lever, but each one you can strengthen gives you more room to charge and hold firm on price.
 

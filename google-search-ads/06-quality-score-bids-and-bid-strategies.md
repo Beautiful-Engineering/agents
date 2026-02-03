@@ -80,7 +80,7 @@ Each with either be Below Average, Average, or Above Average to give you a score
 
 Here's how it's weighted (thanks to [Adalysis for this chart](https://adalysis.com/quality-score/))
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683718bd92bc801defe11863_Screenshot%202025-05-28%20at%2010.07.49%E2%80%AFPM.avif)
+![](../images/38cff9d0_683718bd92bc801defe11863_Screenshot_2025-05-28_at_10.07.49_PM.avif)
 
 Therefore, increasing CTR (by making the ad more enticing and relevant to the user’s search query) and improving your landing page have the largest impact on Quality Score.
 
@@ -94,11 +94,11 @@ Your Quality Score is shown at a keyword level and is shown in the custom column
 - Ad relevance
 - Click **Apply.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837185339594fa8b6c5eac5_1740527868528.avif)
+![](../images/bae78ce3_6837185339594fa8b6c5eac5_1740527868528.avif)
 
 Now when you check your keywords, you should see information such as this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371853e146c8667e0a9b4f_1740527889363.avif)
+![](../images/0fa01448_68371853e146c8667e0a9b4f_1740527889363.avif)
 
 This gives us a ton of information:
 
@@ -149,7 +149,7 @@ We’ll cover each type, and then go through our step-by-step process for how we
 
 Here is the default view for Google Ads and it's all about optimizing towards a goal, and this is what we recommend focusing on to let Google do its thing:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683718536284cc95d8f48a77_1740529911508.avif)
+![](../images/428d1ed9_683718536284cc95d8f48a77_1740529911508.avif)
 
 Here's a quick overview of what that means:
 
@@ -209,7 +209,7 @@ If for example you wanted to use one Campaign to push for sales and another for 
 
 Then in the campaign you can adjust it in the campaign settings here:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837185385dd1ba56dbf7ff7_1740530454107.avif)
+![](../images/10221490_6837185385dd1ba56dbf7ff7_1740530454107.avif)
 
 OK. On to our bid strategies.
 

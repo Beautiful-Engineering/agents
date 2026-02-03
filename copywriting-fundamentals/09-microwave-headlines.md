@@ -51,7 +51,7 @@ This is a concept that Dan also calls [The Mullet](https://www.demandcurve.com/n
 - *“And at it.”*
 - *“The Internet never forgets”*
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834134ad5c5be852d05e338_1745872568764.avif)
+![](../images/1992d144_6834134ad5c5be852d05e338_1745872568764.avif)
 
 Try that and see if you make something better than “just the facts.”
 

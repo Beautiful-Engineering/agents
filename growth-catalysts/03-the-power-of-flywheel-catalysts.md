@@ -14,7 +14,7 @@ Speaking of the gold standard, Amazon’s flywheels are about as good as it gets
 
 These flywheels don’t operate in isolation. They feed and accelerate each other. The result is a system that doesn’t just produce growth; it *improves* the entire foundation as it scales.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d3537b55a48b981d4bf936_74327377.png)
+![](../images/285ee0e4_68d3537b55a48b981d4bf936_74327377.png)
 
 [*Credit: Max Olson*](https://x.com/maxolson)Flywheels are incredibly powerful. But how much do they *really* matter?
 

@@ -6,7 +6,7 @@ I don't believe in growth hacks.
 
 But if there is a shortcut to growth, the Foundational Five is it. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0bec8a6738f627c714c8_4.avif)
+![](../images/a52830ff_68cb0bec8a6738f627c714c8_4.avif)
 
 It provides us with a blueprint, a way to quickly and simply understand: Are we set up to grow? 
 

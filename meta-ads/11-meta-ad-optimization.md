@@ -16,7 +16,7 @@ At the ad set level, we’ll look at more detailed user data to see if some prod
 
 To start this analysis, we’ll first click the **Breakdown** button, which appears in the top right of the Ads Manager’s dashboard.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eb1ee0b8ded3d7b0b2b6_1636576457091.avif)
+![](../images/54d08356_6837eb1ee0b8ded3d7b0b2b6_1636576457091.avif)
 
 After clicking this button, Meta will show breakdown options organized by Time, Delivery, and Action (and Dynamic Creative Element, if you’re using dynamic creatives). 
 
@@ -24,13 +24,13 @@ After clicking this button, Meta will show breakdown options organized by Time, 
 
 Let’s start by looking at gender—that is, how your ad set performance varied based on users' gender. The gender breakdown appears in the By Delivery menu.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eb1e484ca3d592751e70_1636576459438.avif)
+![](../images/f3ba591b_6837eb1e484ca3d592751e70_1636576459438.avif)
 
 Looking at this breakdown, you might observe that some of your ad sets perform better with men than women, or vice versa. 
 
 For example, in our screenshot, Ad Set 1’s creatives achieved a significantly lower CPR among women (€1.78) compared to men (€2.45). 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eb1ed33626f6112eca8c_1636576458764.avif)
+![](../images/fcdc71d6_6837eb1ed33626f6112eca8c_1636576458764.avif)
 
 The reach and impressions between the two genders aren’t equal, probably because Meta's algorithm noticed this difference in performance and began showing Ad Set 1 to more women.
 
@@ -40,13 +40,13 @@ Still, based on this data, we might consider adjusting Ad Set 1’s settings to 
 
 Once again, click the Breakdown button to pick a new data point. Let’s try analyzing next by age to see if any ad sets did better with a particular age group.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eb1e25e55cfd17bb0922_Facebook-breakdown-age-menu.avif)
+![](../images/dffa3b4e_6837eb1e25e55cfd17bb0922_Facebook-breakdown-age-menu.avif)
 
 After clicking Age, the dashboard will change to show data about ad set performance according to different age ranges.
 
 In our example, it’s clear Ad Set 1 did best among users between ages 18 and 34, with CPRs below the overall average (€1.84). 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eb1ef8bc418e4eec2cf4_1636576457833.avif)
+![](../images/ca0b4c39_6837eb1ef8bc418e4eec2cf4_1636576457833.avif)
 
 But after age 34, the CPR of users increases with each subsequent age bracket. The most expensive conversions took place in the 55-64 group, although the number of impressions in this group is too low to make a definitive conclusion.  
 
@@ -71,7 +71,7 @@ You may also notice some ad sets that have significantly higher CPRs or didn’t
 
 For example, a few people who saw Ad Set 3 added to their cart, but ultimately no one checked out. Meanwhile, Ad Set 2 got more people to add to their cart; of these, 2 made a purchase.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eb1ea488565d5f9577ab_1636576458412.avif)
+![](../images/acd22b93_6837eb1ea488565d5f9577ab_1636576458412.avif)
 
 Rather than trying to optimize the targeting settings of your poorly performing ad sets, turn them off. (Remember, don’t delete them.)
 

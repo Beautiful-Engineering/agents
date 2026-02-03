@@ -50,11 +50,11 @@ How will you start the conversation, and where? This populates the Angle/Trigger
 
 Write out a few example messages based on **trigger + value prop + CTA** angles for outreach: 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da1d1a3a461bbe0c2e4d5f_2ecbae85.png)
+![](../images/685fff50_68da1d1a3a461bbe0c2e4d5f_2ecbae85.png)
 
 > **A Note on Personalization: You need to DISARM:** The goal is simple: prove you're not just blasting templated outreach. Add something specific that shows you spent 30 seconds researching them. This could be a recent funding round, a job posting, or content they shared. Then use conversational language - "badass," "btw," "they'd eat this up" - instead of formal sales speak. When you don't have specific personal details, use what Lavender calls "soft variables" from your segmentation: "When I talk to sales leaders at growing software companies..." This shows you understand their world without being presumptuous. Use tentative language like "I could be wrong, but..." or "Worth exploring?" - Lavender's data shows unsure tones get 35% more replies than confident assumptions. The key is sounding like a real person who did basic research and genuinely wants to help, not a salesperson following a script.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da1d193a461bbe0c2e4d56_19a0c9fa.png)
+![](../images/2d00c424_68da1d193a461bbe0c2e4d56_19a0c9fa.png)
 
 #### Step 5: Add Your Hypotheses to Your Backlog
 
@@ -123,9 +123,9 @@ This is critical for learning. At the end of each week, use the "End of Week Rev
 
 ### A Note On Statistical Significance
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da1d193a461bbe0c2e4d59_40d106f6.png)
+![](../images/68e86033_68da1d193a461bbe0c2e4d59_40d106f6.png)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da1d193a461bbe0c2e4d5c_971b6e91.png)
+![](../images/681909df_68da1d193a461bbe0c2e4d5c_971b6e91.png)
 
 ## Assignment
 

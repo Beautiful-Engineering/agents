@@ -2,7 +2,7 @@
 
 Why is the Foundational Five so important and why do so many founders and early-stage operators get stuck? There are a handful of reasons.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0b9a07b29a3dea9b25fc_3.avif)
+![](../images/0ce84e5b_68cb0b9a07b29a3dea9b25fc_3.avif)
 
 One is that there's just so much bad advice out there. Most of it focusing purely on tactics. "You should test this channel." "If you're not using this tool to automate your marketing, you're missing out." "This trick brought us 100 more customers overnight." Lots of "what you could do" and very little "here's what you should do."
 

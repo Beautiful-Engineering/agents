@@ -30,4 +30,4 @@ And I want you to walk away understanding that all of these different flavors of
 
 **None of them is inherently good or bad. **
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0e8d7549b2082b1482b6_7.avif)
+![](../images/f298dcdd_68cb0e8d7549b2082b1482b6_7.avif)

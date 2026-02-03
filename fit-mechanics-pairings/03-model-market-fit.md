@@ -2,7 +2,7 @@
 
 Next, let's look at Model-Market Fit. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da09293c926487b5cebe18_3.avif)
+![](../images/74784368_68da09293c926487b5cebe18_3.avif)
 
 This is where we answer a simple but critical question: 
 
@@ -50,7 +50,7 @@ Christoph Janz developed a fun little framework showing the relationship between
 - **Mice:** 1M customers paying $100 per year **‍**
 - **Flies:** 10M customers generating $10 per year
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dd956766553a84b5f34059_0_pR-ITKpIMGcWRUSH.avif)
+![](../images/ce400675_68dd956766553a84b5f34059_0_pR-ITKpIMGcWRUSH.avif)
 
 Cute animal-graph aside, it’s an efficient framework as it checks the boxes for both of the applications for Model-Market fit. Demonstrating that in the startup stage in particular, we’re after order-of-magnitude alignment above all else. If you think you’re in a market with 1M customers, have raised money and architected your growth foundation around this assumption, only to find out you were off by 800k, you’re probably in for a world of hurt. On the other hand, if you’re market size is correct but you discover your Model assumptions were way off… world of hurt.
 

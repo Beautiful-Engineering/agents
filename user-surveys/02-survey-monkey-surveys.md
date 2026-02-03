@@ -21,7 +21,7 @@
 
 Here’s an example setup for [Cameo](http://cameo.com/), which does celebrity shoutouts.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d58adcbea2577b59df9300_survey-monkey-surveys-1.avif)
+![](../images/1e7fe318_68d58adcbea2577b59df9300_survey-monkey-surveys-1.avif)
 
 - The image above shows something interesting: Dashes before each listed item. This happens when you paste a bulleted item from Dropbox Paper to SurveyMonkey.
 - REMOVE THESE DASHES from the left-hand screen seen above before clicking that green button to add your questions to the survey.
@@ -37,11 +37,11 @@ Here’s an example setup for [Cameo](http://cameo.com/), which does celebrity s
 - Choose Single line of text and 100 characters
 - Don't validate this answer
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d58adcbea2577b59df9303_survey-monkey-surveys-2.avif)
+![](../images/ca8fd9ae_68d58adcbea2577b59df9303_survey-monkey-surveys-2.avif)
 
 -  Then, make sure to delete the question you pasted over that says "other: Please specify”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d58adcbea2577b59df9306_survey-monkey-surveys-3.avif)
+![](../images/739f7ef2_68d58adcbea2577b59df9306_survey-monkey-surveys-3.avif)
 
 - When you need to let users **check all that apply**:
 

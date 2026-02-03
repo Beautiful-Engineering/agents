@@ -32,7 +32,7 @@ Then when someone googles something related to those keywords (such as *best org
 
 This is a great graph that illustrates which companies Search ads (SEM) are best for:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/66e1d4648327a92ab1608a35_image.avif)
+![](../images/117e9537_66e1d4648327a92ab1608a35_image.avif)
 
 You'll see Google SEM as the big bubble in the top middle.
 
@@ -187,7 +187,7 @@ Not only does this make the ad more relevant to the user, Google also boosts ads
 
 Your paid ad won’t replace your organic search result. In fact, many of our clients have both an ad and an organic result show at the same time. This is actually ideal, because it gives the searcher twice as many opportunities to go to your site.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370e3b6284cc95d8ed9cc1_1632173163854.avif)
+![](../images/cec5b51a_68370e3b6284cc95d8ed9cc1_1632173163854.avif)
 
 Some people never look below the ads, so you don’t reach them if you only show up in the organic results.
 
@@ -199,7 +199,7 @@ You can also add “assets” (previously, "extensions") to your ads to enhance 
 
 For example, the organic result above has “sitelink” assets that link to other pages on the site. We’ll cover these as part of the module.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370e3bd68d53cb04f70a84_Screen_Shot_2023-04-25_at_12.09.22_PM.avif)
+![](../images/c67dc4dd_68370e3bd68d53cb04f70a84_Screen_Shot_2023-04-25_at_12.09.22_PM.avif)
 
 ## Ad groups
 

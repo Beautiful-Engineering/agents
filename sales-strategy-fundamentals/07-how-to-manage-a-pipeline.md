@@ -18,7 +18,7 @@ You'll find this in your course folder:
 
 Instead of building from scratch, you'll duplicate the Google Sheet template we've provided in your course folder. This simple CRM manages your early-stage outreach without the complexity.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dac0f02437b7d2b3f3ae29_eaf46b18.avif)
+![](../images/4b128369_68dac0f02437b7d2b3f3ae29_eaf46b18.avif)
 
 **Success benchmark:** Your minimal CRM works if you can quickly answer:
 

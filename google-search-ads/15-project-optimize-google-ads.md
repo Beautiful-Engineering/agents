@@ -126,16 +126,16 @@ Optimize ad extensions (e.g., sitelinks, callouts, structured snippets) at the c
 - Change the time range to be at least 30 days
 - Take note of the average CPA for the campaign/ad group by scrolling down to bottom and looking at **Cost / conv.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371ee91d1143a859036491_1741124982715.avif)
+![](../images/5a6fa437_68371ee91d1143a859036491_1741124982715.avif)
 
 - Click **Assets > Assets** in left-nav.
 - Make note of the average CPA for the extension types by scrolling down to bottom and looking at **Cost / conv.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371ee8a83375dde998ffad_1741124990435.avif)
+![](../images/8664b787_68371ee8a83375dde998ffad_1741124990435.avif)
 
 - Pick an **Asset type**. E.g., **Callout.** (If it’s overwhelming to look at all your assets at once.)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371ee918f0ef075de92e59_1741124996334.avif)
+![](../images/b797be23_68371ee918f0ef075de92e59_1741124996334.avif)
 
 - Remove any obvious poor performers (CPA much higher, CTR much lower)
 - Identify top performers and come up with variations of these top performers and add them to the campaign/ad group directly.

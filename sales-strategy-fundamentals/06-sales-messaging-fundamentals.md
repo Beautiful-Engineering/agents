@@ -21,7 +21,7 @@ Your enemy isn't spam filters. It's invisibility. Your prospect gets 147 emails 
 
 Here's what we're covering:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68daae81d914316d83858d3f_Screenshot%202025-09-29%20at%2010.06.14%E2%80%AFAM.png)
+![](../images/8d760a1c_68daae81d914316d83858d3f_Screenshot_2025-09-29_at_10.06.14_AM.png)
 
 > **Real Personalization:** I think it goes without being said, but ALL OF THE ABOVE, is enhanced if you can truly personalize to the prospect. This proves you're a real person who's taken time to assess whether the prospect might actually benefit from using your product/service.
 

@@ -4,7 +4,7 @@ In this section, you'll learn how to structure your ad account and set up audien
 
 Start with a simplified account structure
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394eb68a2c2a814bad26c3_1646191791173.avif)
+![](../images/9ffcaf3c_68394eb68a2c2a814bad26c3_1646191791173.avif)
 
 - **Campaign**: This is the topmost level, where you set an advertising objective—your goal of running ads. We almost always recommend creating campaigns with a conversion objective (not awareness or consideration) when the goal is getting purchases. While both traffic and conversion objectives drive people to your desired destination (often your website), conversion ads aim to get users to complete a specific action on your page. In contrast, traffic focuses on the number of visitors overall.
 

@@ -1,6 +1,6 @@
 # Meet the 5 foundations
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0af5d47c17ea1206b5a3_2.png)
+![](../images/6f19e47b_68cb0af5d47c17ea1206b5a3_2.png)
 
 All right, so let's meet the five foundations:
 

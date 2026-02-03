@@ -18,7 +18,7 @@ With that context, let’s break it down.
 - **Flywheel channels** are designed so that each cycle generates more input for the next. Example: a virality motion where every new user invites 2 more users.
 - **Linear channels** produce outputs in direct proportion to what you put in. Example: a paid channel where you spend $1,000 on ads and acquire roughly $1,000 worth of customers.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc332c5de09e8062c97e6c_acq-flywheel.avif)
+![](../images/1339ee9c_68dc332c5de09e8062c97e6c_acq-flywheel.avif)
 
 > The important distinction: **flywheel vs. linear is not necessarily baked into a channel itself.** It’s kinda like the whole squares are rectangles but not the other way around thing. Some channels simply do not have the potential for flywheel effects. Others do, but it doesn’t guarantee that they *will be a flywheel for your startup.*
 

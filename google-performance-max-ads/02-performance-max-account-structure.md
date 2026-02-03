@@ -37,7 +37,7 @@ PMax doesn't have ad groups or ads. Instead, you create Assets Groups which are 
 
 **Here's a list of all the assets you feed into PMax (the more the better):**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b627f81d17507405fe0f_1741131601503.avif)
+![](../images/9e2ad130_6837b627f81d17507405fe0f_1741131601503.avif)
 
 ### Products
 
@@ -64,7 +64,7 @@ These break down into two types:
 
 You can list upwards of 25 search themes (a.k.a. keywords):
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b627e3e08df3714460a6_1741132169153.avif)
+![](../images/1237b595_6837b627e3e08df3714460a6_1741132169153.avif)
 
 This is pretty simple and I would come up with at least 10-15 targeted and related keywords much like you would for ad groups in Search Ads.
 
@@ -72,7 +72,7 @@ This is pretty simple and I would come up with at least 10-15 targeted and relat
 
 This is much like the Audience targeting covered in Search where you either use your own data or you use Google's built in audience types and demographics:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b6275fcc90c62d50b53e_1741132248060.avif)
+![](../images/02c4b0aa_6837b6275fcc90c62d50b53e_1741132248060.avif)
 
 ### That's about it
 

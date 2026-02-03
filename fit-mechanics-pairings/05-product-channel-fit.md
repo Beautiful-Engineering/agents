@@ -4,7 +4,7 @@ Product-Channel Fit is one of the most overlooked but highest-leverage pairings.
 
 The core idea is that channels have fixed "rules of the road," and you must engineer your product to fit those rules, not the other way around.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0880d5ca0159a201e21e_5.avif)
+![](../images/974b63f9_68da0880d5ca0159a201e21e_5.avif)
 
 ## **1. Obey the Rules of the Road**
 

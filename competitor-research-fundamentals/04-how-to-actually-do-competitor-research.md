@@ -2,7 +2,7 @@
 
 Let’s revisit the Five Fits Framework from our Growth Fundamentals unit:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8ee7c3a101beb22407_1631572086733.avif)
+![](../images/7cf5cb72_682ffb8ee7c3a101beb22407_1631572086733.avif)
 
 To guide your research, we’ll be applying the same framework to the competitors you’ve identified to find out more about their growth strategies. Use our [competitor research template](https://demandcurve.notion.site/Competitor-Research-Template-make-a-copy-274f8522113280e19e87d84efc51d4f3?source=copy_link) to record your findings. 
 
@@ -34,11 +34,11 @@ The point of studying your competitors’ websites isn’t to do a feature-by-fe
 
 For example, here are some notes about Otter.ai based on its website.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8e0398db54648edd85_1631572096810.avif)
+![](../images/f1aa8415_682ffb8e0398db54648edd85_1631572096810.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8ebf2779a4582dce10_1631572088247.avif)
+![](../images/da56ef63_682ffb8ebf2779a4582dce10_1631572088247.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8efa44261e40d6982a_1631572089287.avif)
+![](../images/0c23b0fa_682ffb8efa44261e40d6982a_1631572089287.avif)
 
 - **Problem: **The main pain point Otter.ai addresses is note-taking at meetings.
 - **Features:** Otter.ai emphasizes its live and automatic transcriptions, note-taking, and meeting analytics. 
@@ -81,13 +81,13 @@ To find out what keywords competitors target in their search ads, use Ahrefs.
 - Scroll down to find **Paid Search** in the sidebar. Click to expand the menu.
 - Click **PPC keywords**. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8e4f8f4128f86067f5_1631572088759.avif)
+![](../images/ba302079_682ffb8e4f8f4128f86067f5_1631572088759.avif)
 
 Ahrefs also shows the top landing pages competitors’ search ads lead to if you click **Top landing pages**. This is helpful for understanding how companies are segmenting users based on value props and audience type. 
 
 For example, Ahrefs’ data shows that Vrbo targets travelers interested in vacationing in the South, especially Florida. It targets several location-specific keywords and directs users to a corresponding targeted search page, like one specifically for Gatlinburg cabin rentals.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8e1912bc8762b6ec4c_1631572090335.avif)
+![](../images/e3e5a11c_682ffb8e1912bc8762b6ec4c_1631572090335.avif)
 
 ## Creative inspiration tools
 
@@ -131,11 +131,11 @@ Ahrefs’ **Top Content** option also shows which pages have received the most b
 
 For example, several of Zapier’s top blog posts are listicles about productivity apps.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8e77fd92761638df0f_1631572095556.avif)
+![](../images/aca67e29_682ffb8e77fd92761638df0f_1631572095556.avif)
 
 Ahrefs’ data on social performance isn’t as strong, so use [BuzzSumo](https://buzzsumo.com/) to find out which pages have gotten the most shares. Here’s Zapier again, with different blog posts getting lots of traction on social media.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8e96f1d70925747080_1631572093586.avif)
+![](../images/f8066dac_682ffb8e96f1d70925747080_1631572093586.avif)
 
 You can then cross-check these pages in Ahrefs to find out their organic keywords—a great way to find the sweet spot of content topics that have high search volume and reader interest.
 
@@ -147,7 +147,7 @@ On the other hand, more recent branded searches might mean their growth tactics 
 
 For example, you can see that happen for WeWork in fall 2019, when its IPO failed. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8e209a091731181c40_1631572087727.avif)
+![](../images/6dd63a0c_682ffb8e209a091731181c40_1631572087727.avif)
 
 Still, Google Trends’ data can be a helpful barometer for understanding how a company’s brand awareness has grown over time. A steady decline is also worth studying as a cautionary tale for what might have gone wrong.
 
@@ -169,17 +169,17 @@ We don’t recommend an intensive audit here—the goal is to find out if organi
 
 For example, let’s look at the ecommerce company Beardbrand. Its website shows it uses Facebook, Instagram, Twitter, and YouTube, so we’ll quickly scan through each.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8e4da06cdf16612da0_1631572099384.avif)
+![](../images/f6242b95_682ffb8e4da06cdf16612da0_1631572099384.avif)
 
 - **Facebook/Instagram:** BeardBrand regularly posts the same content on these two connected channels. Only a few posts get reshared by Facebook users. Some comments are specific to BeardBrand’s products; many others are enthusiastic reactions to BeardBrand’s videos. Instagram Reels get a lot more thoughtful comments than static image posts. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8e209a091731181c4b_1631572606839.gif)
+![](../images/a590faa7_682ffb8e209a091731181c4b_1631572606839.gif)
 
 - **Twitter:** Also an active channel, but a quick scroll through the feed shows a pretty low level of user engagement (very few replies or retweets) on the majority of tweets. This tells us that Twitter probably isn’t a great platform for reaching customers.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb8e69101ccdf5b109f0_1631572105390.avif)
+![](../images/81a0a680_682ffb8e69101ccdf5b109f0_1631572105390.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb909509f9c606f23da7_1631572092289.avif)
+![](../images/778e22d1_682ffb909509f9c606f23da7_1631572092289.avif)
 
 - **YouTube: **Sorting BeardBrand’s videos by newest shows that it releases new videos every day, with a lot of recent content in portrait orientation (probably repurposed from Facebook/Instagram). When you sort the videos by popularity, you can see that the most viewed are landscape videos—and receive way more views than on any of their other channels. BeardBrand’s top videos also receive thousands of comments, with many users showing appreciation, even gratitude.
 Overall, BeardBrand’s organic social content is casual, friendly, and encouraging. Looking at all of its active channels, YouTube clearly generates the most genuine user engagement. The top videos are mostly barber transformation videos and tutorials—not very promotional compared to the other channels, which announce giveaways or new products. 

@@ -58,7 +58,7 @@ Hooks and angles work together to drive conversions.
 - Problem → Solution
 - Old way vs New way
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b6e1ec4d2da16e2829_1742324535337.avif)
+![](../images/fbedf5b9_683537b6e1ec4d2da16e2829_1742324535337.avif)
 
 - **Contrarian Hook: **Something that goes against common beliefs, “I didn’t think that was true”
 - “Everything you’ve been told about [X] is wrong”
@@ -154,7 +154,7 @@ The best ads make their value proposition obvious at a glance.
 
 Example: Showing popular productivity apps in a trash can is far hookier than just showing an image of the product.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b60bf28f079ff2c86b_1742324785621.avif)
+![](../images/91d439d0_683537b60bf28f079ff2c86b_1742324785621.avif)
 
 #### #2. Show, Don’t Tell
 
@@ -162,7 +162,7 @@ If your product solves a problem, literally show that problem being solved in yo
 
 A skincare ad shouldn’t just show a cream jar—it should show before-and-after skin transformation.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b6c81890eba49a7596_1742324901527.avif)
+![](../images/b0ddaee3_683537b6c81890eba49a7596_1742324901527.avif)
 
 ‍
 
@@ -172,7 +172,7 @@ Your ad should blend into the platform it’s running on (TikTok, Instagram, Fac
 
 Ads that look like organic content tend to get higher engagement.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b6e5b55073a7d85dcd_1742325062909.avif)
+![](../images/ed661741_683537b6e5b55073a7d85dcd_1742325062909.avif)
 
 #### #4. Keep it clean & uncluttered
 
@@ -182,11 +182,11 @@ Less is more—focus on one key message per visual.
 
 Here's an example where there's **too much happening**:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b6abdf9992a1a35fd0_1742324936975.avif)
+![](../images/d5424667_683537b6abdf9992a1a35fd0_1742324936975.avif)
 
 Here's a simplified version:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b6e1ec4d2da16e282c_1742324963213.avif)
+![](../images/76d31d8b_683537b6e1ec4d2da16e282c_1742324963213.avif)
 
 #### #5. Use contrast to stand out
 
@@ -194,7 +194,7 @@ Avoid muted or dull colors that blend in.
 
 Bright colors, bold text, and clear subject focus = more visibility in crowded feeds.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b6d519ae1be1f79856_1742325005195.avif)
+![](../images/fc8e8011_683537b6d519ae1be1f79856_1742325005195.avif)
 
 #### #6. Common interface hi-jacking
 
@@ -202,9 +202,9 @@ Use interfaces that people are already familiar with. If someone sees a text mes
 
 For example, Notes apps, text messages, slack threads, notifications, tweets, etc.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b642874f1fa93c8a9a_1742325047133.avif)
+![](../images/d2d6f867_683537b642874f1fa93c8a9a_1742325047133.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b6e5b55073a7d85dcd_1742325062909.avif)
+![](../images/ed661741_683537b6e5b55073a7d85dcd_1742325062909.avif)
 
 #### #7. Use visual hierarchy
 
@@ -212,7 +212,7 @@ What should be the first thing people read? Then the second? Then the third?
 
 **Bad visual hierarchy:**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b645b00225511cb632_1742325090747.avif)
+![](../images/1d3c52a5_683537b645b00225511cb632_1742325090747.avif)
 
 Everything is a similar size and is equally competing for your attention.
 
@@ -220,17 +220,17 @@ Different people will notice different things first.
 
 **Good visual hierarchy:**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b6874a0183acc2b49d_1742325112833.avif)
+![](../images/33993fc3_683537b6874a0183acc2b49d_1742325112833.avif)
 
 When you look at the above you'll first read the headline. That's because the image, logo, and filler text are all emphasized less.
 
 This great reference really shows this off:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b68ce00affa6620e36_1742331642154.avif)
+![](../images/16af8404_683537b68ce00affa6620e36_1742331642154.avif)
 
 Source: [Creator Fuel](https://www.creator-fuel.com/blog/what-is-visual-hierarchy-in-design-explained-with-examples)Here's a great table for Visual Hierarchy:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b62ced89b095cf4fa8_1742331700889.avif)
+![](../images/ece17189_683537b62ced89b095cf4fa8_1742331700889.avif)
 
 Make the most important things highly visible. Make the secondary things low visibility.
 
@@ -238,7 +238,7 @@ Make the most important things highly visible. Make the secondary things low vis
 
 Here's an ad creative with a CTA:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b6ae95c81b7ffd27b5_Evergreen_%25E2%2580%2593_Grid_Keep_%25E2%2580%2593_Square.avif)
+![](../images/40720c3f_683537b6ae95c81b7ffd27b5_Evergreen__E2_80_93_Grid_Keep__E2_80_93_Square.avif)
 
 ‍
 
@@ -254,7 +254,7 @@ There should only be one CTA. What is the one action you want your users to take
 
 Here are some CTAs contextualized to the specific companies:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683537b63eb6b4d2d57c0fb8_1742583948570.avif)
+![](../images/2a485566_683537b63eb6b4d2d57c0fb8_1742583948570.avif)
 
 Credit: [https://x.com/namyakhann/status/1902721818659827755](https://www.creator-fuel.com/blog/what-is-visual-hierarchy-in-design-explained-with-examples)
 

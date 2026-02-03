@@ -47,7 +47,7 @@ In order to figure out where you should be focusing your influencer efforts, thi
 - Apparel brand Moncler worked with fashion influencers and created a song for TikTok. It went viral and reached millions of users interested in fashion. The goal of their campaign was to generate impressions and awareness.
 - The Hustle worked with tech Twitter influencers to get signups for their business and tech-leaning newsletter—focused on conversion and increasing ROAS.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0ea6831e835d7e2c60c49_image%20(51).avif)
+![](../images/bd04802a_68d0ea6831e835d7e2c60c49_image__51_.avif).avif)
 
 ### **Why Creator Partnerships Work for Early-Stage B2C:**
 
@@ -107,9 +107,9 @@ A creator with 5,000 highly engaged followers who trust their recommendations wi
 - Active community discussions around their posts
 - Followers who describe the creator as trustworthy or inspiring
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0eada8de4829d27201c74_image%20(52).avif)
+![](../images/d4d97210_68d0eada8de4829d27201c74_image__52_.avif).avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0eb10e8c11d8273d5e69c_image%20(53).avif)
+![](../images/0a27ad95_68d0eb10e8c11d8273d5e69c_image__53_.avif).avif)
 
 ### **The Psychology of Influence: Three Types of Capital**
 
@@ -117,7 +117,7 @@ To work effectively with creators, you need to understand the psychological driv
 
 ### **Financial Capital: Economic incentives**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0eb2fecf408940f4ce111_image%20(54).avif)
+![](../images/064cfdc5_68d0eb2fecf408940f4ce111_image__54_.avif).avif)
 
 **What it is:** Financial capital refers to direct economic value: money, free products, discounts, or anything that improves someone's financial position. People share when they can gain financially or help others save money.
 
@@ -142,7 +142,7 @@ This is the most straightforward motivation: people are more likely to share con
 
 ### **Social Capital: Status and perception**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0eb893e192c88b75081c0_image%20(55).avif)
+![](../images/1123c371_68d0eb893e192c88b75081c0_image__55_.avif).avif)
 
 **What it is:** Social capital is about how sharing content affects your reputation, status, or how others perceive you. People share content that makes them look good, smart, helpful, or ahead of the curve. They avoid sharing things that might make them appear out of touch, behind trends, or unhelpful.
 
@@ -168,7 +168,7 @@ This capital is about social positioning—when someone shares your product, the
 
 ### **Personal Capital: Self-expression and utility**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0ebb4b0f072fe91b84cfd_image%20(56).avif)
+![](../images/d5bad763_68d0ebb4b0f072fe91b84cfd_image__56_.avif).avif)
 
 **What it is:** Personal capital is about self-expression, identity, and personal fulfillment. People share content that reflects who they are, what they believe in, or what helps them solve genuine problems in their own lives. This is the most authentic form of sharing because it comes from genuine personal connection to the product or message.
 

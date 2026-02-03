@@ -42,11 +42,11 @@ Hashtags also consolidate UGC in one place, creating a library of content for yo
 
 For instance, Canva encourages users to share their design creations and tag #canvalove on Instagram.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c2e9fd0ed0efa32b28_1623256047128.avif)
+![](../images/5d4e6783_683d00c2e9fd0ed0efa32b28_1623256047128.avif)
 
 Wayfair encourages customers to share their home decor photos and tag #wayfairathome on Instagram.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c2166d30aed7dc4e07_1623265197871.avif)
+![](../images/9b6bb32f_683d00c2166d30aed7dc4e07_1623265197871.avif)
 
 To create an effective hashtag:
 
@@ -57,15 +57,15 @@ Good hashtags can be either branded or unbranded. While branded hashtags obvious
 
 Coursera uses #LearnWithoutLimits to encourage new and returning students in their education journey.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c2ba958d150963ca7b_1623262569779.avif)
+![](../images/194aa131_683d00c2ba958d150963ca7b_1623262569779.avif)
 
 HydroFlask uses #ParksForAll to support park restoration and #HeyLetsGo to inspire outdoor adventures.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c2ba65ade013e96319_1623265249767.avif)
+![](../images/5d372708_683d00c2ba65ade013e96319_1623265249767.avif)
 
 Slack used #ReinventWork to encourage discussion about workplace changes resulting from the coronavirus pandemic.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c27d79944cfdb93d06_1623255935597.avif)
+![](../images/b9141f62_683d00c27d79944cfdb93d06_1623255935597.avif)
 
 Experiment with all three and see what works for your company.
 
@@ -75,19 +75,19 @@ On its own, a catchy hashtag can inspire some users to create content. But you c
 
 Mobile game company Niantic did this with its #SustainableWithNiantic campaign, which offered in-game rewards for people who shared about doing work for sustainability on social media.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c2be844a15d18e14c3_1623262717071.avif)
+![](../images/672338cd_683d00c2be844a15d18e14c3_1623262717071.avif)
 
 Besides generating UGC, the branded hashtag helped give exposure to Niantic while also emphasizing its eco-conscious brand values.
 
 The consignment store thredUP hosted a weeklong #FashionMindfulness challenge, inviting users to share photos of their thrifted outfits.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c2ba65ade013e96323_1623265292850.avif)
+![](../images/4c46a295_683d00c2ba65ade013e96323_1623265292850.avif)
 
 The campaign helped to spread brand awareness for thredUP while also emphasizing its eco-conscious brand values.
 
 Here's one more example from Hootsuite, who ran a #IWorkFromHere contest series.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c288c7232450fe4589_1623256047795.avif)
+![](../images/2ba61082_683d00c288c7232450fe4589_1623256047795.avif)
 
 Every week for six weeks, the campaign invited users to share images of their workspace using Hootsuite’s free app. The grand prize: a trip for two to anywhere in the world.
 
@@ -129,7 +129,7 @@ Outside of content marketing, UGC also helps with understanding customer sentime
 
 Yelp’s content strategy is built on leveraging UGC to rank well in search results. It ranks for more than 28 million keywords, many of which are for business reviews. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c26a6b1fb8aa13deb6_1623262851217.avif)
+![](../images/878800a8_683d00c26a6b1fb8aa13deb6_1623262851217.avif)
 
 People leave reviews for a few reasons:
 
@@ -144,11 +144,11 @@ Adobe runs multiple social media accounts for its various software products. For
 
 Each account engages with users in a targeted way. For example, Adobe’s Instagram accounts invite users to share projects according to their latest hashtag themes. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c232407ea89bba8488_1623255936421.avif)
+![](../images/360e6e31_683d00c232407ea89bba8488_1623255936421.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c26d119a9271378661_1623255936865.avif)
+![](../images/14e5e4b0_683d00c26d119a9271378661_1623255936865.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c2345816cf583dfd8c_1623255936031.avif)
+![](../images/c755c4cb_683d00c2345816cf583dfd8c_1623255936031.avif)
 
 Some of these hashtags are branded, e.g., #CreativeCloud_Charmed and #Ps_Bloom. This helps to collect all tagged UGC but also drives brand awareness through each creator’s network.
 
@@ -156,7 +156,7 @@ Adobe capitalizes on this UGC by reposting it and giving credit to the original 
 
 Social media isn’t the only channel where Adobe leverages its user-created content, though. It also publishes “roundup” posts on its blog, showing off user projects for different themes.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c27791558108ffb313_1623256168803.avif)
+![](../images/450e27e6_683d00c27791558108ffb313_1623256168803.avif)
 
 These blog posts aren’t keyword-optimized. The main point of them is to show off user-created content, which also creates a feedback loop:
 
@@ -173,15 +173,15 @@ How does the G2 team encourage UGC?
 
 G2 partners with the software companies shown on its site and emails their customers to ask for reviews. Here’s one example, where G2 offers a $25 Amazon gift card for users to review the sales prospecting software Seamless.ai. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c273a0abb8068701db_1623255937905.avif)
+![](../images/4187be50_683d00c273a0abb8068701db_1623255937905.avif)
 
 Looking at G2’s profile page about Seamless.ai, there are more than 475 user reviews—a lot more than on Capterra, TrustPilot, and other review sites. This helps the page’s strong SEO performance; it ranks #1 in Google’s search results for the phrase “seamless ai reviews” and #4 for “seamless ai”. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c251856406d6ba70c5_1623255935100.avif)
+![](../images/e4caed13_683d00c251856406d6ba70c5_1623255935100.avif)
 
 And it’s not just Seamless.ai that G2 collects user reviews for—G2 uses this strategy for hundreds of other software products. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c210ab97d9cba2e646_1623255937512.avif)
+![](../images/824179d2_683d00c210ab97d9cba2e646_1623255937512.avif)
 
 There’s a good chance anyone searching for reviews about a business software on Google will land on G2. The best part: most of these review pages weren’t created by G2 but rather, real-life software users.
 
@@ -191,17 +191,17 @@ Knowing that their products are big investments for customers, the online mattre
 
 After customers buy a mattress, Casper emails them to ask for a review. To help customers write more detailed feedback, its form includes a few questions as prompts.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c23a39f3f582933d4b_1623265400977.avif)
+![](../images/c8d8034a_683d00c23a39f3f582933d4b_1623265400977.avif)
 
 Source: [Sleeknote](https://sleeknote.com/blog/casper-marketing#14)How does Casper use this UGC for SEO?
 
 It features customer testimonials on a dedicated landing page that ranks #1 in search results for the keyword phrase “casper reviews”. The page includes customer reviews for each of its mattress products so users can quickly toggle between them for a quick snapshot of real people’s experiences. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c27791558108ffb317_1623265402987.avif)
+![](../images/74787258_683d00c27791558108ffb317_1623265402987.avif)
 
 In case users want to explore one specific product further, they can also click “See all reviews”—which leads them to another page with all reviews for a single product.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c26a6b1fb8aa13deba_1623265401460.avif)
+![](../images/e0d8a015_683d00c26a6b1fb8aa13deba_1623265401460.avif)
 
 For many companies, branded review keywords often lead to third-party review sites rather than the brand being judged. However, creating these product-specific review pages puts Casper’s website at the top of search results for all of these keywords, including:
 
@@ -214,11 +214,11 @@ For many companies, branded review keywords often lead to third-party review sit
 
 GoPro’s action cameras make it the perfect candidate for a virality and UGC-based content strategy. Customers are naturally eager to share their footage, and GoPro also incentivizes them to do so by setting up Awards challenges. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c294fd8018ae469314_1623265402518.avif)
+![](../images/e60794ac_683d00c294fd8018ae469314_1623265402518.avif)
 
 These challenges, split into different photo and video categories, offer cash prizes, free gear, and exposure. People submit their footage, which GoPro then repurposes for its blog, YouTube channel, and social media accounts.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d00c2be844a15d18e14c6_1623265404696.avif)
+![](../images/a46400b7_683d00c2be844a15d18e14c6_1623265404696.avif)
 
 This content regularly gets hundreds of thousands of views, likes, and comments. Even better, it creates a feedback loop of engagement:
 

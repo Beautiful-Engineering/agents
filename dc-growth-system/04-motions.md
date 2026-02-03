@@ -4,7 +4,7 @@ Let's now move into the second layer of your growth system: **your growth engine
 
 Again, this is the key outcome we are trying to help you reach in the Growth Program: scalable, predictable, repeatable growth.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68caedb913a5c2152f2f1070_Growth%20Syste%20m7.avif)
+![](../images/8d7a1e47_68caedb913a5c2152f2f1070_Growth_Syste_m7.avif)
 
 ## The Three Motions of the Growth Engine
 
@@ -12,7 +12,7 @@ At the core, your growth engine has three motions. To be clear, motions are syst
 
 Our three motions are our **acquisition motion** (how we bring in net new users and create our first relationship with them), our **monetization motion** (how we turn that initial interest and relationship into revenue), and our **retention motion** (how we keep and grow our existing customer base). 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68caedb913a5c2152f2f1070_Growth%20Syste%20m7.avif)
+![](../images/8d7a1e47_68caedb913a5c2152f2f1070_Growth_Syste_m7.avif)
 
 What this visual is showing us is that our motions work together in a compounding nature. Acquisition fuels our engine. Monetization captures value. That value can then be returned and fed back into our acquisition motion to drive additional customer acquisition. And it can also be pumped into our retention motion.
 

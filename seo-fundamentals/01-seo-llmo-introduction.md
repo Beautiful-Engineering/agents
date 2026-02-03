@@ -14,7 +14,7 @@ More than [189,000 searches](https://explodingtopics.com/blog/google-searches-pe
 
 Even with the rapid adoption and expansion of LLMs (Large Language Models) like ChatGPT, Perplexity, Grok, and Claude, Google searches are still growing (at least as projected): 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d24355b0230cea9a55391_1746470575038.avif)
+![](../images/ac1e7889_683d24355b0230cea9a55391_1746470575038.avif)
 
 Source: [https://explodingtopics.com/blog/google-searches-per-day](https://explodingtopics.com/blog/google-searches-per-day)Conversely, ChatGPT processes about 1 billion prompts/messages per day (as of 2025), which is pretty crazy given its relatively short existence. It's safe to assume that LLM usage will continue to increase exponentially.
 
@@ -62,7 +62,7 @@ Over the past many years, these trends with Google Search have continued to acce
 - ~[44% of searches are for specific brands](https://sparktoro.com/blog/new-research-we-analyzed-332-million-queries-over-21-months-to-uncover-never-before-published-data-on-how-people-use-google/). This is people using Google to find a site rather than typing in the URL of the site directly.
 - Given this, it's likely increasingly important to increase your startup's visibility for its company/product name—especially if you don't use a .com domain.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2435eed2e3df71ae8bbc_1746472730717.avif)
+![](../images/e8602d97_683d2435eed2e3df71ae8bbc_1746472730717.avif)
 
 - **Video is increasingly showing up in results.**
 - Videos can often rank more easily than a piece of content especially if you're new to SEO.

@@ -2,7 +2,7 @@
 
 This is one of my favorite tweets about startups:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683412b95c4268e87361fbc5_1745872449692.avif)
+![](../images/95daa626_683412b95c4268e87361fbc5_1745872449692.avif)
 
 Clearly, it resonated with quite a lot of other people, too.
 
@@ -20,7 +20,7 @@ Tapping into relatable truths makes your message more powerful and memorable.
 
 In the book [A Self-Help Guide for Copywriters](https://www.goodreads.com/book/show/59784779-a-self-help-guide-for-copywriters), Dan gives examples of relatable truths you can tap into during Christmas holidays:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683412b94e29871770fc28d5_1745872450340.avif)
+![](../images/d58bf838_683412b94e29871770fc28d5_1745872450340.avif)
 
 Notice how you felt after each of them. Did you find yourself nodding along?
 
@@ -32,12 +32,12 @@ Let’s dive into the different types of relatable truths.
 
 - **Context**: Truths related to where the message is seen. For example, an ad in LA:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683412b93cb110cee5fd4252_1745872450075.avif)
+![](../images/c4b0778e_683412b93cb110cee5fd4252_1745872450075.avif)
 
 - **Holidays/events:** Truths related to the current or recurring events such as advertising your product during Valentine’s Day, Christmas, a US election, a recession, or a global pandemic.
 - **Industry:** Truths related to the specific industry you operate in. For example, startups/business (like Andrew’s tweet), kids toys, dating, clothing, and for marketers:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683412b987695b70364a1946_1745872450047.avif)
+![](../images/00ea8416_683412b987695b70364a1946_1745872450047.avif)
 
 - **Cultural:**Truths related to social, societal, or cultural trends. Ranging from:
 - **Hype trends**: AI, crypto, Clubhouse, BeReal, and Squid Game.
@@ -45,11 +45,11 @@ Let’s dive into the different types of relatable truths.
 - **Technological shifts**: Internet, mobile, AI, blockchain, virtual reality/metaverse, 3d printing, quantum computing, and nuclear fusion.
 - **Memes**: rick rolling, ok boomer… too many to list.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683412b985ec9f39da83ee5c_1745872450035.avif)
+![](../images/13d06f79_683412b985ec9f39da83ee5c_1745872450035.avif)
 
 - **Human:** Truths related to core human behavior and psychology. This is the most broad-reaching and hardest to categorize. For example, how people act in an embarrassing moment:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683412baac3d321263058a12_1745872449769.avif)
+![](../images/0c33716d_683412baac3d321263058a12_1745872449769.avif)
 
 Spend time brainstorming relatable truths for your product, industry, culture, and context. And add to this list whenever you come across one.
 

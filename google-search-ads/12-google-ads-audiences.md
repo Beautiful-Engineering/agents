@@ -123,7 +123,7 @@ Follow these steps to set up and apply audience lists in Google Ads:
 - In Google Ads, click **Tools & Settings** > **Shared Library** > **Audience Manager**‍
 - Click the blue + button to create new audience.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371ce948225dd21c2eecbc_1741048099319.avif)
+![](../images/9ad30509_68371ce948225dd21c2eecbc_1741048099319.avif)
 
 ‍
 - **Choose a Type**:

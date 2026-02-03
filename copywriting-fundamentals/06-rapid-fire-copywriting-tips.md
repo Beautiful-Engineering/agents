@@ -10,7 +10,7 @@ Most people focus on what matters to them—their product and its features. Inst
 
 *“People aren’t against you, they’re just for themselves.”*
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118a3e7449437ac0d83f_1745869474176.avif)
+![](../images/8ab758e0_6834118a3e7449437ac0d83f_1745869474176.avif)
 
 Think: What are the main problems you solve? How does their life change as a result?
 
@@ -18,7 +18,7 @@ Think: What are the main problems you solve? How does their life change as a res
 
 Relate your product to something that they already understand perfectly. It’s a shortcut to comprehension.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118adc3283e9cacd292a_1745869474195.avif)
+![](../images/c7a7a571_6834118adc3283e9cacd292a_1745869474195.avif)
 
 Tip: Ask/watch current customers how they explain your product to a friend. Find the analogies they use.
 
@@ -26,7 +26,7 @@ Tip: Ask/watch current customers how they explain your product to a friend. Find
 
 Remove words that don’t add value. Particularly early on. People have infinite things demanding their attention. You need to hook their interest as succinctly as possible.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118aa969c472b20e8658_1745869474212.avif)
+![](../images/50706a70_6834118aa969c472b20e8658_1745869474212.avif)
 
 Tip: Remove adverbs, adjectives, and filler words—it makes it punchier. Also try restructuring the sentence entirely.
 
@@ -34,7 +34,7 @@ Tip: Remove adverbs, adjectives, and filler words—it makes it punchier. Also t
 
 Don’t use a $10 word when a $0.05 word will do. Don’t use industry jargon either. Pretend you’re explaining it to a 10-year old or a grandparent.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118a9e012639d2ee9de8_1745869474061.avif)
+![](../images/d04bbfdb_6834118a9e012639d2ee9de8_1745869474061.avif)
 
 Tip: This applies even if your audience is highly intelligent. Everyone appreciates it.
 
@@ -42,7 +42,7 @@ Tip: This applies even if your audience is highly intelligent. Everyone apprecia
 
 Don't make them do the work. Spell it out for them and make it easy to picture what they're getting.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118a5c4268e87361322e_1745869474259.avif)
+![](../images/8a8141d5_6834118a5c4268e87361322e_1745869474259.avif)
 
 Tip: Do audience research to identify the specific things they care about most and highlight them.
 
@@ -50,7 +50,7 @@ Tip: Do audience research to identify the specific things they care about most a
 
 Active voice results in shorter, sharper sentences. Making your copy easier to follow and finish.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118a927c30cd3536cbdd_1745869474243.avif)
+![](../images/9a716230_6834118a927c30cd3536cbdd_1745869474243.avif)
 
 Notice that this one also makes YOUR client the star of the show, not the edits.
 
@@ -60,7 +60,7 @@ Tip: Place emphasis on the subject. Use specific verbs to describe the primary a
 
 Stories make it relatable, interesting, and real. Don't make them do the work. Illustrate.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118a89ae3fafef823b3f_1745869474523.avif)
+![](../images/556f8b43_6834118a89ae3fafef823b3f_1745869474523.avif)
 
 Tip: Provide just enough details for readers to feel emotionally invested.
 
@@ -82,7 +82,7 @@ Wes Kao (founder of Maven and altMBA) says you need to find your story's MVB (**
 
 For example, that camping trip where you almost got eaten by a bear:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118a29c964ec1f165336_1745870205173.avif)
+![](../images/f3148d4a_6834118a29c964ec1f165336_1745870205173.avif)
 
 So tell stories in your copywriting, but cut out excess context. Your audience will be more captivated. And your message won't get lost in a sea of irrelevant details.
 
@@ -90,7 +90,7 @@ So tell stories in your copywriting, but cut out excess context. Your audience w
 
 Steal concepts from poetry. Use literary devices ([here's a post](https://www.nealsnewsletter.com/p/10-literary-devices-to-improve-your) summarizing some of the best ones). Chop up sentences. Add rhyme and rhythm.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118aaf5aa77344a6a9be_1745869474335.avif)
+![](../images/7ac8a966_6834118aaf5aa77344a6a9be_1745869474335.avif)
 
 Tip: Don't focus on having impeccable grammar. Focus on making it fun and easy to understand.
 
@@ -98,23 +98,23 @@ Tip: Don't focus on having impeccable grammar. Focus on making it fun and easy t
 
 Trying to sell something to someone without stopping to think through their most likely objections is like this guy:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118ac1de3b2630bbec73_1745870381659.avif)
+![](../images/232cd5a7_6834118ac1de3b2630bbec73_1745870381659.avif)
 
 Identify the most common objections that come to people's mind. And proactively handle them.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118a207bd251511503f9_1745869474569.avif)
+![](../images/400edf28_6834118a207bd251511503f9_1745869474569.avif)
 
 Tip: Ask customers: "What almost stopped you from buying?"
 
 Here are examples using some well-known companies:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118a268726c1e3e50227_1745870309764.avif)
+![](../images/35b5f118_6834118a268726c1e3e50227_1745870309764.avif)
 
 ## #10. Be bold
 
 No one identifies with wishy-washy statements. Take strong stances to find your tribe.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118a437e8106197bffa2_1745869474472.avif)
+![](../images/5eab67c0_6834118a437e8106197bffa2_1745869474472.avif)
 
 Tip: You'll annoy some people, but they aren't your target audience. Say the things your audience wishes they had the courage to say.
 
@@ -130,7 +130,7 @@ Savvy marketers and founders recognize this and leverage it.
 
 Here’s an example from [Poor Charlie’s Almanack](https://www.stripe.press/poor-charlies-almanack):
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834118ab0f2779254e171ca_1745870518017.avif)
+![](../images/787395dc_6834118ab0f2779254e171ca_1745870518017.avif)
 
 In short, to convince, don’t appeal to reason.
 

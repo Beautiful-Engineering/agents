@@ -12,7 +12,7 @@ And three core flywheels power our engine.
 
 While there are multiple types of acquisition motions, at the highest level, every new customer flywheel has the same shape:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc0ec33ddeed7cedcbfb9a_new-customer-flywheel.avif)
+![](../images/a18b6bda_68dc0ec33ddeed7cedcbfb9a_new-customer-flywheel.avif)
 
 *Fuel → New user acquired → User converted to revenue → Revenue reinvested as more fuel*
 
@@ -20,7 +20,7 @@ This is the universal engine behind net-new growth. Monetization is essential he
 
 ## **2. Engagement Flywheel (Retention)**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc0ede7cebbe96a65eb004_engagement-flywheel.avif)
+![](../images/b612df1a_68dc0ede7cebbe96a65eb004_engagement-flywheel.avif)
 
 *User engages → Receives value → Engagement deepens → Receives even more value*
 
@@ -28,7 +28,7 @@ Every extra cycle makes the product stickier.
 
 ## **3. Revenue Expansion Flywheel (Retention + Monetization)**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc0ed15c0590c393e0a995_revenue-expansion-flywheel.avif)
+![](../images/683248fc_68dc0ed15c0590c393e0a995_revenue-expansion-flywheel.avif)
 
 *User retained → More revenue → Revenue reinvested (acquisition + product) → More retention*
 
@@ -44,7 +44,7 @@ A flywheel isn’t something you “decide” to have. It’s an *outcome.* It e
 
 That outcome is a positive feedback loop. There’s a bunch of other technical jargon we could get into, but I just Googled “positive feedback loop” and don’t think I could put it more simply (or vividly, for that matter) than this image from Wikipedia:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc0ee6911e68d93dc6b098_Stampede_loop.avif)
+![](../images/5f9cae65_68dc0ee6911e68d93dc6b098_Stampede_loop.avif)
 
 Stampede flywheels aside, here’s a more textbook definition:
 

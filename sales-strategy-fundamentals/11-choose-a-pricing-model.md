@@ -16,7 +16,7 @@ By the end of this step, you'll have selected an initial pricing model that you 
 
 ### Seven Common SaaS Pricing Models
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dac8dc25d37a0ac8bec276_Screenshot%202025-09-29%20at%2011.58.32%E2%80%AFAM.avif)
+![](../images/c8298e98_68dac8dc25d37a0ac8bec276_Screenshot_2025-09-29_at_11.58.32_AM.avif)
 
 ### AI Research Prompt to Speed Up Analysis
 

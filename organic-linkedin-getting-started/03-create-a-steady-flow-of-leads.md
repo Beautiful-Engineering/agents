@@ -28,7 +28,7 @@ Consider avoiding that.
 
 **Our data found that when everyone is loading connection requests with templated messages, requests without messages seem more real—and get accepted more.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4c6f1910e0f1db8abc83_1636667317994.avif)
+![](../images/932ba163_683d4c6f1910e0f1db8abc83_1636667317994.avif)
 
 Neal O'Grady ([via LinkedIn](https://www.linkedin.com/in/nealogrady/))
 
@@ -54,7 +54,7 @@ Here's how to use Dux-Soup:
 - Enter a [search query](https://www.linkedin.com/search/results/all/?authorCompany=%5B%5D&authorIndustry=%5B%5D&contactInterest=%5B%5D&facetCity=%5B%5D&facetCompany=%5B%5D&facetConnectionOf=%5B%5D&facetCurrentCompany=%5B%5D&facetCurrentFunction=%5B%5D&facetGeoRegion=%5B%5D&facetGroup=%5B%5D&facetGuides=%5B%5D&facetIndustry=%5B%5D&facetNetwork=%5B%5D&facetNonprofitInterest=%5B%5D&facetPastCompany=%5B%5D&facetProfessionalEvent=%5B%5D&facetProfileLanguage=%5B%5D&facetRegion=%5B%5D&facetSchool=%5B%5D&facetSeniority=%5B%5D&facetServiceCategory=%5B%5D&facetState=%5B%5D&groups=%5B%5D&keywords=vp%20of%20sales&origin=GLOBAL_SEARCH_HEADER&refresh=false&skillExplicit=%5B%5D&topic=%5B%5D&page=1) for your target sub-audience into LinkedIn’s default search bar. Narrow your search using the prioritization framework we discussed earlier (by job title, location, etc).
 - Click on Dux-Soup’s "Visit & Connect" button while viewing that page. It’ll crawl through the search results list and send connection requests one at a time—up to your daily limit.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4c6f217e8e8247783a66_1636667318773.avif)
+![](../images/889d03f3_683d4c6f217e8e8247783a66_1636667318773.avif)
 
 Dux-Soup integrates with your LinkedIn profile.Again, for optimal performance, start by not including a Connection message. A/B test one later if you'd like.
 
@@ -77,6 +77,6 @@ The goal with jumpstarting connections is to unlock access to other LinkedIn mem
 - Say “yes” to inviting non-matches.
 All those people will now get sent an email by LinkedIn suggesting they add you.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4c70416523c5ff505de2_1636667317523.avif)
+![](../images/74f9344d_683d4c70416523c5ff505de2_1636667317523.avif)
 
 LinkedIn also allows you to sync your email so that they periodically send notifications to new contacts from your email account.

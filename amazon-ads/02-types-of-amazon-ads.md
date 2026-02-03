@@ -75,9 +75,9 @@ We won’t get into each ad type, since our focus here is on giving you the core
 
 We recommend starting out with sponsored product ads, which appear in search results and on product pages. They’re how you 1) attract customers who are shopping for the kinds of products you sell, and then 2) drive them to your product page.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683871d3175cc0f99fd40a81_image45.avif)
+![](../images/3198e642_683871d3175cc0f99fd40a81_image45.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683871d63e78d3a079b2b0bc_image14.avif)
+![](../images/c77a4915_683871d63e78d3a079b2b0bc_image14.avif)
 
 Sponsored product ads appear for shoppers who are:
 
@@ -93,16 +93,16 @@ Remember how “Focus Is Key” was one of our [guiding principles for startup g
 
 Whereas sponsored products are for individual products, sponsored brands are for groups of products. They feature a logo, custom headline, and selection of usually three products. They appear at the top of search results.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683871d3175cc0f99fd40a84_image23.avif)
+![](../images/46d15fb4_683871d3175cc0f99fd40a84_image23.avif)
 
 Clicking a product in the ad takes you to that product page; a click elsewhere in the ad takes you to a custom landing page or Amazon Store. We'll explain Stores—online brand storefronts—more in “Moving into Brand and Display Ads.”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683871d3d816307978ce53fb_image1.avif)
+![](../images/bc4b91c1_683871d3d816307978ce53fb_image1.avif)
 
 *Amazon Store for a yoga mat company*
 Unlike sponsored product ads, some creative is required for brand ads. For standard brand ads, that just means writing a short headline. But you can also launch **sponsored brand videos**, which require more creative involvement. It might be worth it: Because of the “early mover” advantage and their novel look in search results, sponsored brand videos are likely to have high-converting traffic for non-branded keywords.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683871d3bdd2cf60a797a03c_image9.avif)
+![](../images/0d77219f_683871d3bdd2cf60a797a03c_image9.avif)
 
 *Sponsored brand videos, like this one that appears on a search for yoga mats, are high converters.*
 
@@ -110,9 +110,9 @@ Unlike sponsored product ads, some creative is required for brand ads. For stand
 
 Sponsored display ads are Amazon’s multi-channel and remarketing ad type. They’re the only sponsored ad type with audience targeting, which you can use to reach shoppers who have viewed your products or similar ones, bought your products, or used search terms that are relevant to your products.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683871d46ec75e340bfd712e_image8.avif)
+![](../images/f43d00e6_683871d46ec75e340bfd712e_image8.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683871d46ec75e340bfd7129_image18.avif)
+![](../images/040aba91_683871d46ec75e340bfd7129_image18.avif)
 
 One downside of Amazon ads—and PPC ads in general—is that you don’t know who your customers are. Their direct relationship isn’t with you. It’s with Amazon. Sponsored display ads don’t solve that problem, but through audience targeting, they do bring you closer to direct customer outreach.
 

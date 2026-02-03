@@ -26,7 +26,7 @@ Whether inhouse or freelance, if you don’t already have these resources, ask a
 
 Take a look at how these two URLs appear in your browser:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d270ebb11df9731b89606_1636071343776.avif)
+![](../images/c70a54ab_683d270ebb11df9731b89606_1636071343776.avif)
 
 The difference is HTTPS, an internet communication protocol that protects the data shared between a user and a website. The alternative, an HTTP connection, is less secure.
 
@@ -34,7 +34,7 @@ Google announced [HTTPS as a ranking signal](https://developers.google.com/searc
 
 For example, with DreamHost, you can see which sites aren’t secure under the Manage Domains option. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d270e1185f97765588959_1636071346545.avif)
+![](../images/64595d69_683d270e1185f97765588959_1636071346545.avif)
 
 Click on the site you want to secure; then follow the prompts to activate it.
 
@@ -46,11 +46,11 @@ Search engine crawlers visit web pages to analyze their content and then store t
 
 To find out whether your site has any indexability issues, use [GSC](https://search.google.com/search-console/welcome). Click Coverage (under Index) in the sidebar. It’ll show any non-indexed pages as errors. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d270f35cea17eb0a028b4_1636071350876.avif)
+![](../images/9d22afb7_683d270f35cea17eb0a028b4_1636071350876.avif)
 
 To find out if a specific page has been indexed, you can look it up using GSC’s [URL Inspection Tool](https://support.google.com/webmasters/answer/9012289?hl=en). 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d270ff829b64f0b4a31d3_1636071347696.avif)
+![](../images/a6de1979_683d270ff829b64f0b4a31d3_1636071347696.avif)
 
 If a page isn’t indexed, the URL Inspection Tool will tell you. Click the Request Indexing button to bring it to Google’s attention. You can also do this for pages that are already indexed but that have been updated recently.
 
@@ -60,7 +60,7 @@ With more and more users browsing content on their phones, Google has shifted to
 
 What this means: Google crawls and indexes sites’ mobile versions. You can confirm this in GSC’s Coverage report, which shows how Google crawls your site. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d270fbaa8dc9c0d8b6f23_1636071344509.avif)
+![](../images/7d1432ef_683d270fbaa8dc9c0d8b6f23_1636071344509.avif)
 
 For most businesses, this won’t cause major problems. It’s a bigger concern for websites that have very different desktop and mobile versions—for example, less content on their mobile site or different URLs (www.example.com vs. m.example.com). 
 
@@ -97,24 +97,24 @@ You can create a robots.txt file by using a free robots.txt generator like [this
 
 Schema markups (also known as structured data) are snippets of code that, when added to your web pages, give Google more information about how to represent your content in SERPs. You’ve no doubt seen them before.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d270e73a0abb80699fb4f_1636071351443.avif)
+![](../images/a7409791_683d270e73a0abb80699fb4f_1636071351443.avif)
 
 Several types exist, and you can find more details about each on [schema.org](https://schema.org/docs/schemas.html).
 
 There’s no evidence that schema directly affects SEO—but it does improve user experience. How so? It gives visitors more insight about your content, which can then encourage them to actually click on your site. For example, a user looking for a specific item might be motivated to click on a result after seeing product schema that indicates it’s currently in stock.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d270f024257bbe5af4824_1636071345056.avif)
+![](../images/a3a7ea58_683d270f024257bbe5af4824_1636071345056.avif)
 
 Not as many websites as you might expect actually use schema, so adding it can make your content leave a stronger impression on users and improve clickthrough. We especially recommend adding the following schema:
 
 - **FAQ: **Add this markup to not only your actual FAQ page but also your product and service pages. By addressing user objections and concerns, this schema gives more readers info than your meta description on its own.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d270e2c5be804fba35ba0_1636071349841.avif)
+![](../images/9480621e_683d270e2c5be804fba35ba0_1636071349841.avif)
 
 - **Product/offer:** This schema shows price and availability. If your competitors don’t use it, it’s a quick way for your page to stand out. If they do use it, it helps users quickly compare products from different search results. 
 - **Ratings and reviews:** This schema functions as social proof. A search result with obviously good ratings and reviews is a lot more enticing than one without any of this information.
 - **Video:** Since this schema enables a video thumbnail in SERPs, your content gets a visual element that text-only search results lack.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d270e6a6b1fb8aa2828d1_1636071349083.avif)
+![](../images/1b3b2906_683d270e6a6b1fb8aa2828d1_1636071349083.avif)
 
 To set up schema markup, use Google’s [Structured Data Markup Helper](https://www.google.com/webmasters/markup-helper/u/0/) or another free online generator like [TechnicalSEO.com’s](https://technicalseo.com/tools/schema-markup-generator/). These tools walk you through the markup process and then provide a code to be added to a specific page’s HTML code.

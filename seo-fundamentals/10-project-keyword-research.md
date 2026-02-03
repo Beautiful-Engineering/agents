@@ -22,7 +22,7 @@ There are many ways to generate keywords, but starting out, we’ll focus on thr
 - **Autocomplete:** Find out popular searches using Google’s autocomplete feature
 We’ll walk you through each of these methods. Enter your keyword ideas in the Phase 1 tab of our spreadsheet.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb4eed2e3df71b58489_1633624133234.avif)
+![](../images/3048e3a9_683d2fb4eed2e3df71b58489_1633624133234.avif)
 
 Important note: You may think of or find keyword variations throughout this phase—keywords that have the same intent but use different phrasing. Include these in your spreadsheet.
 
@@ -57,7 +57,7 @@ Continuing with the above example, keywords for a photo editing app’s value pr
 
 Begin typing some of the keyword phrases you previously generated into Google and see what its autocomplete feature suggests. (You may not need to type the entire keyword phrase, as Google will give suggestions with just one or two words entered.) These suggestions are based on what users search, so you can easily find out other keywords relevant to your product. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb4c51867570967ed80_1633624128015.avif)
+![](../images/f70caf06_683d2fb4c51867570967ed80_1633624128015.avif)
 
 Not all of Google’s autocomplete suggestions will be relevant to your company or product. Look for keywords that are relevant and copy these into the third column of the Phase 1 tab—these are the keywords you should focus on targeting.
 
@@ -69,17 +69,17 @@ Copy each group of keywords, one at a time, and paste them into Ahrefs’ Keywor
 
 Then click the button with the magnifying glass. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb5fafb5d688696bba0_1633624130464.avif)
+![](../images/51504adb_683d2fb5fafb5d688696bba0_1633624130464.avif)
 
 Ahrefs will return keyword data, but not all of your entered keywords will necessarily match. You may see a message that says something like:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb5fafb5d688696bbab_1633624126676.avif)
+![](../images/13c69488_683d2fb5fafb5d688696bbab_1633624126676.avif)
 
 That’s fine—it may be that some of your ideated phrases are not very popular or searchers phrase it differently. You can identify these later on as you go through the data. 
 
 For now, select the keywords that do have data. Then add them to a new list in Ahrefs. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb4add32b6e6f1dac35_1633624128412.avif)
+![](../images/0c52f3ac_683d2fb4add32b6e6f1dac35_1633624128412.avif)
 
 You’ll continue building on this list in Phase 3, and eventually export this data to the keyword research spreadsheet’s Phases 2-4 tab. 
 
@@ -89,14 +89,14 @@ Again, most other keyword research tools generally have the same functionality, 
 
 We’re going to build on the keywords you came up with in Phase 1. On Ahrefs, click on each of the options under the **Keyword ideas **heading in the sidebar:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb4463cfd74cc8c8f45_1633624126983.avif)
+![](../images/d5a579c5_683d2fb4463cfd74cc8c8f45_1633624126983.avif)
 
 - **Matching terms: **Shows other keywords that match or closely resemble your top inputted keywords (the ones with the highest search volume). Since this list is focused on matching, it tends to be shorter than the list of related terms.
 - **Related terms: **Shows keywords related to your top inputted keywords. Since this list is more inclusive, not all keywords will be relevant.
 - **Search suggestions:** Shows autocomplete suggestions for your top inputted keywords. Think of this as a more detailed and expanded version of Google’s autocomplete feature.
 You can also click on Ahref’s **Parent topics** button to see keywords sorted according to a larger umbrella topic. Browse through all of these keywords and add those that are relevant to your product/company to your existing list on Ahrefs. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb461cd08b273325626_1633624131078.avif)
+![](../images/c0d9ef57_683d2fb461cd08b273325626_1633624131078.avif)
 
 There’s a lot of data to take in—Ahrefs may have more than a hundred pages of matching and related keywords. You don’t need to go through all of them. The goal is to collect only the highest-leverage keywords for your brand. You can quickly identify these based on three pieces of information: 
 
@@ -109,7 +109,7 @@ We recommend the latter approach so that you can get a better sense of how searc
 
 For this project, once you reach about 100-250 keywords, export it as a CSV file. There are many columns of data, but the keyword, search volume, and difficulty are most important. Copy these columns into the Phases 2-4 tab of your spreadsheet. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb5fafb5d688696bba8_1633624127504.avif)
+![](../images/5b36fa19_683d2fb5fafb5d688696bba8_1633624127504.avif)
 
 ### Mining for keywords
 
@@ -117,7 +117,7 @@ Besides your keyword tool’s suggestions, there are other tactics for finding r
 
 - **Competitor URLs:** Enter your competitors’ URLs into your keyword research tool. This could be their homepage or any relevant blog posts. Your keyword tool will show what keywords your competitors’ pages rank for. For Ahrefs, you can do this with the Site Explorer feature, under the Organic keywords section.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb4561133a4d29e2464_1633624129618.avif)
+![](../images/a2130359_683d2fb4561133a4d29e2464_1633624129618.avif)
 
 Grab the keywords that are relevant to your business and can funnel users toward your product. 
 
@@ -125,17 +125,17 @@ Grab the keywords that are relevant to your business and can funnel users toward
 - Example: In Semrush, if you want to find out all the keywords that a subreddit and its posts rank for, you should input the subreddit URL and choose “Subfolder.” You’ll then see data only for posts in the specific subreddit (rather than all posts across Reddit).
 - Look for pages of online communities that rank highly for keywords; these represent great opportunities for creating more targeted landing pages or blog posts for that specific keyword. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d50d844e4d35b720f78b9b_1633624127187.avif)
+![](../images/3c275941_68d50d844e4d35b720f78b9b_1633624127187.avif)
 
 Here’s an example of the second strategy in practice. 
 
 According to Ahrefs, one Reddit post at r/Entrepreneur ranks #4 in search results for the keyword phrase “starting a business with 50k”. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb51dc9d9c5b3400d92_1633624128862.avif)
+![](../images/b53a66cb_683d2fb51dc9d9c5b3400d92_1633624128862.avif)
 
 Googling the phrase confirms this, showing Quora and Reddit pages at the top of organic search results. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb4bb11df9731bd5c3c_1633624130011.avif)
+![](../images/01bbf5df_683d2fb4bb11df9731bd5c3c_1633624130011.avif)
 
 There’s clear interest in this question—consider how many questions have been asked about it on two platforms—but few landing pages and blog posts dedicated to answering it. In this case, keyword research has uncovered a great keyword/content opportunity for those in this particular niche.
 
@@ -145,7 +145,7 @@ The last phase of this project revolves around sorting your keyword data. At thi
 
 Now it’s time to organize them. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb4b236320c5063067d_1633624129267.avif)
+![](../images/b0b067bd_683d2fb4b236320c5063067d_1633624129267.avif)
 
 During your keyword research, you likely noticed keywords that were variations of each other. In our example, there were many phrases related to “how to edit photos on iphone.” These keywords all have the same goal, so it’s not necessary to create individual pages for each variation. Instead, you should group these related keywords, as a single piece of content can address them all. 
 
@@ -168,6 +168,6 @@ You can also cross-check each keyword cluster’s topic by searching them in Goo
 
 For example, in our sample data, we can see that a lot of users want to find out how to make their photos look professional. This is a fairly general query—it could refer to posing and staging for photos, not just editing. But we can see that the lower-volume secondary and tertiary keywords related to this topic refer to editing apps and programs like Photoshop.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2fb4add32b6e6f1dac3a_1633624131324.avif)
+![](../images/b8cfe3f5_683d2fb4add32b6e6f1dac3a_1633624131324.avif)
 
 To validate this, we also search for this topic in Google, and articles like “How to Edit Photos like a Pro in 10 Steps” appear. This is a good sign that the goal of these keywords actually revolves around photo editing.

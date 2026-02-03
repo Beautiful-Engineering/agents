@@ -23,7 +23,7 @@ This lesson explores both approaches, ultimately recommending Advantage+ for sta
 
 Based on the content someone views or interacts with both on and off Facebook, the algorithm might determine that they’re interested in environmentalism, dogs, and silly humor. So Facebook shows them dog videos, animal comics, and ads for reforestation nonprofits.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6734c30104ea89238b7f35a9_627bd2ead9fc0c20f9d1bc11_U4QR75KhUlGOZFJ9EQoOaBp3z0beSMDBwqctRZCQa30JcScjHZ9HAjnAJG-KDpCpQcFImKcQdWbVjuh8u4ORmLNQVjPpu2K4xrwAI4K2_79MpTsoLw-6IamcHHPGoGtbq1ycbCkT0Hn_kvfSvQ.avif)
+![](../images/c5ef3a05_6734c30104ea89238b7f35a9_627bd2ead9fc0c20f9d1bc11_U4QR75KhUlGOZFJ9EQoOaBp3z0beSMDBwqctRZCQa30JcScjHZ9HAjnAJG-KDpCpQcFImKcQdWbVjuh8u4ORmLNQVjPpu2K4xrwAI4K2_79MpTsoLw-6IamcHHPGoGtbq1ycbCkT0Hn_kvfSvQ.avif)
 
 *Facebook tailors its content—both paid and organic—to users' preferences so that they stay on its site and app for longer.*
 
@@ -43,7 +43,7 @@ Here are the key options to explore, using a fitness gear startup as an example:
 
 #### 1. Demographics
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e312e9a89a03489ca898_627bd2eb4a2dc3b2de18e3c6_GqIVbxnHWxRnMEuJ_Hre7dal_uSssTEQEWFyzN3tWqB7lKfQCJ9kdJIAx0ha4melf5e0Jn2u3-JE1fIvw-FdDY2ZsJAV-t9eFcuXqWB0DrRmPdmklMkeGkHIiblya692Iw4DEJSoqDZWWmtBcg.avif)
+![](../images/9ae36562_6837e312e9a89a03489ca898_627bd2eb4a2dc3b2de18e3c6_GqIVbxnHWxRnMEuJ_Hre7dal_uSssTEQEWFyzN3tWqB7lKfQCJ9kdJIAx0ha4melf5e0Jn2u3-JE1fIvw-FdDY2ZsJAV-t9eFcuXqWB0DrRmPdmklMkeGkHIiblya692Iw4DEJSoqDZWWmtBcg.avif)
 
 *Facebook makes it easy to target using basic demographic criteria.*
 - **Age**: Set a range (e.g., 18–45 for fitness gear targeting active adults).
@@ -54,7 +54,7 @@ Here are the key options to explore, using a fitness gear startup as an example:
 
 #### 2. Interests
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e3125ae1935ba491f273_627bd2ec64075cfaf3d9f371_Tld0_SKWZjo0cEhB9yhLSAHRDcw56EXt_2UhBHY6S-ozI0AKOxXOpYfAK1_E5YdFAl8J9jePFAaQkcqnSEn9ykTZCIgGzOShpzC8K3pBvd5mu8doPMl4FzOVG7tFjfDJo_8gR4QtIokQuJbCKw.avif)
+![](../images/65c1b446_6837e3125ae1935ba491f273_627bd2ec64075cfaf3d9f371_Tld0_SKWZjo0cEhB9yhLSAHRDcw56EXt_2UhBHY6S-ozI0AKOxXOpYfAK1_E5YdFAl8J9jePFAaQkcqnSEn9ykTZCIgGzOShpzC8K3pBvd5mu8doPMl4FzOVG7tFjfDJo_8gR4QtIokQuJbCKw.avif)
 
 *Facebook offers a wide variety of interest targeting options.*
 - **Categories**: Here, you target users interested in related topics (e.g., “Fitness,” “Health & Wellness,” “Gym Equipment” for fitness gear). These are predefined by Meta.
@@ -64,7 +64,7 @@ Here are the key options to explore, using a fitness gear startup as an example:
 
 #### 3. Behaviors
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e3128d384e89e87dabc5_627bd2ebd9fc0cba0fd1bc45_WA_9fZuwNTAkhPlnhCcXxY33uua8xvC-zEa1D38Gp-_WAaRaUTrx4iQqQZbIR4P7-CZPUZF6KG1BnBSkHLIv2crY3B62KUqCyFW2MMx1MfzpPT5nhBXviqKdXFTl9qVIN_YIx_YJeHm7r-BpUQ.avif)
+![](../images/94db3017_6837e3128d384e89e87dabc5_627bd2ebd9fc0cba0fd1bc45_WA_9fZuwNTAkhPlnhCcXxY33uua8xvC-zEa1D38Gp-_WAaRaUTrx4iQqQZbIR4P7-CZPUZF6KG1BnBSkHLIv2crY3B62KUqCyFW2MMx1MfzpPT5nhBXviqKdXFTl9qVIN_YIx_YJeHm7r-BpUQ.avif)
 
 *Facebook's behavior targeting options include general traits like device type and travel, plus niche behaviors like soccer-watching habits.*These are pre-defined audiences 
 
@@ -79,11 +79,11 @@ Here are the key options to explore, using a fitness gear startup as an example:
 
 #### 4. Custom audiences
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e312e59a97657efe70c6_627bd2ecdeba9d76b0133315_iFKzOTMp_ieSSPCNbFyG5adfl5mYARQIpGQ1U7Lbwf-uKG_9gxSedi4UEug7MWWdvJdgLPybDrCd7y1doyuErI6O9uI6gfLl1EySWYzIYFhMlbuf9CS9ncTLWB8i84GTNS99nuN1qxsdFmxkag.avif)
+![](../images/43c41338_6837e312e59a97657efe70c6_627bd2ecdeba9d76b0133315_iFKzOTMp_ieSSPCNbFyG5adfl5mYARQIpGQ1U7Lbwf-uKG_9gxSedi4UEug7MWWdvJdgLPybDrCd7y1doyuErI6O9uI6gfLl1EySWYzIYFhMlbuf9CS9ncTLWB8i84GTNS99nuN1qxsdFmxkag.avif)
 
 *When setting your targeting options, you can either create a new Custom Audience or choose a saved one from your existing list.*
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e31237c8ad143539a085_627bd2ecbcb4f4a53d684b69_3_uiljLarw6PmtkZFLdG2XAA7f7spc9kaDN6bq0chTwmx7A9h9yN_2wdP6vzOrC2q4yqIRH1bvpbEUktnut9kpNPQpRaKRal4RF6LnuQ9aWZTfKbX5SWfSisA303Udas9foES-OBre8GbrV1KQ.avif)
+![](../images/816cce90_6837e31237c8ad143539a085_627bd2ecbcb4f4a53d684b69_3_uiljLarw6PmtkZFLdG2XAA7f7spc9kaDN6bq0chTwmx7A9h9yN_2wdP6vzOrC2q4yqIRH1bvpbEUktnut9kpNPQpRaKRal4RF6LnuQ9aWZTfKbX5SWfSisA303Udas9foES-OBre8GbrV1KQ.avif)
 
 *To create a Custom Audience, you can upload your own customer data (Your Sources) or pull data from Meta. If you upload your data, Meta matches it with real Facebook profiles to find your audience.*
 - **Website visitors**: Upload a pixel-tracked list of users who visited your site (e.g., fitness gear product pages) for remarketing.
@@ -93,7 +93,7 @@ Here are the key options to explore, using a fitness gear startup as an example:
 
 #### 5. Lookalike audiences
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e313484ca3d59270608c_627bd2ec4c7df3984ebe6595_n3y8WoWlOgLXn4Vzyorn9GJ_1XCge0AMGstQ5wkZaE9hZnb5mpHtkCGDo3XaG1ppQCQSNSFfkBBfB8rMcwYHf9RjR__sExcdwk3SU6Dpgmr4ljcsu_1O5k49LNp3L0Sosiq5kUP7MtbuF1nFvg.avif)
+![](../images/fbed0d1d_6837e313484ca3d59270608c_627bd2ec4c7df3984ebe6595_n3y8WoWlOgLXn4Vzyorn9GJ_1XCge0AMGstQ5wkZaE9hZnb5mpHtkCGDo3XaG1ppQCQSNSFfkBBfB8rMcwYHf9RjR__sExcdwk3SU6Dpgmr4ljcsu_1O5k49LNp3L0Sosiq5kUP7MtbuF1nFvg.avif)
 
 *Choosing a higher percentage, like 5 or 10%, means you'll reach a wider audience with a tradeoff in audience similarity.*
 - **Overview: **Here, you get Meta to create a list of people who "look like" people in a source audience (like your top 500 customers)** **

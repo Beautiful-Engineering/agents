@@ -18,7 +18,7 @@ If you're a B2B startup, you should have a presence on LinkedIn. It has much of 
 
 ### A snapshot of the LinkedIn organic funnel
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4be25a66b044f7fe9870_1636666984713.avif)
+![](../images/763bee0e_683d4be25a66b044f7fe9870_1636666984713.avif)
 
 ## Why LinkedIn organic instead of LinkedIn ads?
 
@@ -36,7 +36,7 @@ The time that businesses spend investing in Twitter should likely be invested in
 
 A bold statement, but the facts bear it out.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4be21185f977656ffee2_1636666985224.avif)
+![](../images/0a8e994e_683d4be21185f977656ffee2_1636666985224.avif)
 
 Credit: [Matthew Kobach](https://twitter.com/mkobach/status/1216182466043678720)
 

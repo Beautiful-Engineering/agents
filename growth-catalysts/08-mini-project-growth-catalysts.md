@@ -24,4 +24,4 @@ Your job is to start filling it out in two passes:
 - *And provide your thought process in the “How could the catalyst be unlocked?” column to begin fleshing out how your foundation could be modified to unlock the respective “future” catalysts you’ve identified.
 *
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0cc2dc2ff6166dc2266b_image%20(100).avif)
+![](../images/0b3359b7_68da0cc2dc2ff6166dc2266b_image__100_.avif).avif)

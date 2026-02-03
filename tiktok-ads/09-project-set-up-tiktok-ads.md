@@ -21,7 +21,7 @@ In this project, you'll go through the steps to set up your TikTok ads account a
 
 First things first, head over to [ads.tiktok.com](https://ads.tiktok.com/i18n/signup?redirect=https%3A%2F%2Fads.tiktok.com%2Fi18n%2Fhome) to set up your TikTok For Business account.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd660f4d02a16347954_1646193513856.avif)
+![](../images/ef513006_68394fd660f4d02a16347954_1646193513856.avif)
 
 Enter your account information and contact details. 
 
@@ -34,27 +34,27 @@ On the next page, you should fill in:
 - Phone
 - Currency
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6fb0bd3a671817668_1646193544068.avif)
+![](../images/08fd5fb3_68394fd6fb0bd3a671817668_1646193544068.avif)
 
 Click **Register** and wait for TikTok to approve your account (usually within one business day).
 
 On the next screen, enter your business details and billing information.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd677acf742688f4cce_1646193569356.avif)
+![](../images/61ff920e_68394fd677acf742688f4cce_1646193569356.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd63ea4d58c120bb220_1646193580936.avif)
+![](../images/01682c5f_68394fd63ea4d58c120bb220_1646193580936.avif)
 
 Click the right arrow to continue. 
 
 Now, choose the Ads Manager mode you want to start with.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6722a3e6884e4b514_1646193606625.avif)
+![](../images/aba1bf82_68394fd6722a3e6884e4b514_1646193606625.avif)
 
 - **Simplified Mode** is a streamlined ads process that lets you create and launch ads quickly with fewer features and settings.
 - **Custom Mode** gives you more ad types, targeting options, and other advanced features—use this one.
 Select **Custom Mode**, and you’ll be redirected to the main TikTok Ads Manager campaign creation screen.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd7900aa54567647a8d_1646193650248.avif)
+![](../images/4b51b9ef_68394fd7900aa54567647a8d_1646193650248.avif)
 
 You're in. Now, go ahead and select your campaign objective. 
 
@@ -64,7 +64,7 @@ Make your selection and click **Continue**.
 
 ### Step 1b: Set up and install TikTok pixel on your website
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6624f81afb60a00e9_1646193714877.avif)
+![](../images/ae46ba06_68394fd6624f81afb60a00e9_1646193714877.avif)
 
 In a conversion campaign, you can choose from several Optimization events such as Add to Cart and Place an Order. But before we can select an optimization event, we need to set up conversion tracking with TikTok Pixel.
 
@@ -80,7 +80,7 @@ To install TikTok Pixel on your website:
 - Navigate to the top menu and select **Assets > Event**
 - Click **Manage** under the Web Events option.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd68797ad17208f3537_1646193778218.avif)
+![](../images/33169132_68394fd68797ad17208f3537_1646193778218.avif)
 
 Click **Create Pixel** and decide whether to add the pixel to your website manually or via Third-Party Integration. 
 
@@ -89,7 +89,7 @@ Give your Pixel a name, then choose between:
 - **Manual Install**: For TikTok’s official documentation on installing your pixel code manually on your website, [click here](https://ads.tiktok.com/help/article?aid=10021).
 - ‍**3rd Party Installation**: TikTok has integrations with several platforms (e.g., Shopify, Google Tag Manager) that make installation a breeze. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6722a3e6884e4b4fe_1646193860363.avif)
+![](../images/33252722_68394fd6722a3e6884e4b4fe_1646193860363.avif)
 
 - [Click here](https://ads.tiktok.com/help/article?aid=10000357) for detailed instructions on each.
 Instructions for mobile apps
@@ -106,7 +106,7 @@ Links to MMP-TikTok setup documentation:
 - [myTracker](https://tracker.my.com/docs/tracking/integration/tiktok/about)
 - [Singular](https://support.singular.net/hc/en-us/articles/360043457972-TikTok-Ads-Attribution-Integration)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6248ddb50f5522e35_1646193907158.avif)
+![](../images/65be397d_68394fd6248ddb50f5522e35_1646193907158.avif)
 
 Give your pixel a few days to start collecting data. Once it's ready to begin recording conversion events in your campaigns, your pixel will switch to Active.
 
@@ -118,7 +118,7 @@ You've installed TikTok Pixel. Now you need to set up some conversion event rule
 - Click into the pixel you created in Step 1b.
 - Click **Custom Events**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd62697f372654356f7_1646193956435.avif)
+![](../images/0cb8ed42_68394fd62697f372654356f7_1646193956435.avif)
 
 TikTok Pixel enables you to track all kinds of conversion events, including:
 
@@ -144,7 +144,7 @@ Every TikTok ad requires:
 - ‍**Ad Copy**:  Up to 48 characters in length. Anything longer will be truncated and changed from a static text string into a looped scroll of text. (i.e., product description, campaign slogan/tagline, brand ethos, etc.).
 These two elements are obligatorily included in the ad. They show up in tiny point sizes towards the lower left-hand corner of the screen. Like this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683950a837ce88fb602ad97d_Screenshot%202025-05-30%20at%202.31.00%E2%80%AFPM.avif)
+![](../images/fffa0e5e_683950a837ce88fb602ad97d_Screenshot_2025-05-30_at_2.31.00_PM.avif)
 
 Space is limited, so consider what copy needs to be visible in the ad creative to get the message across.
 
@@ -170,12 +170,12 @@ Before you start building a campaign in earnest,  you need to fill up your asse
 
 Navigate to **Assets > Creative > Videos** to access your video library.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6248ddb50f5522e38_1646194401286.avif)
+![](../images/5cf2e7bd_68394fd6248ddb50f5522e38_1646194401286.avif)
 
 - If you’re uploading a ready-made video to TikTok ads manager, click **Upload**.
 - If you’re creating one from scratch, choose **Create** to explore TikTok's Creative Tools suite. Here are the official [spec guidelines](https://ads.tiktok.com/help/article?aid=10002742) to be aware of as you get started.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd68797ad17208f353c_1646194431641.avif)
+![](../images/851b5d57_68394fd68797ad17208f353c_1646194431641.avif)
 
 TikTok has four ways to create and edit video:
 
@@ -184,7 +184,7 @@ TikTok has four ways to create and edit video:
 - ‍**Smart Video Soundtrack** lets you upload video creatives and test different background music. “Smart” because TikTok makes three audio recommendations based on your creative. These are usually hit or miss.
 - ‍**TikTok Video Editor** is a full-featured editing suite. We recommend this option because it gives you the most control over the finished product. It’s where you’ll upload raw footage and turn it into a fully-fledged TikTok using copyright-free music, text overlays, video transitions, effects, and stickers. [Here’s TikTok’s official documentation](https://ads.tiktok.com/help/article?aid=10000799) with instructions on using each of these features.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6ef2483db7f74acef_1646194485757.avif)
+![](../images/c0ec6191_68394fd6ef2483db7f74acef_1646194485757.avif)
 
 Use TikTok Video Editor to create ads from raw video footage.Once you’re satisfied with your creation, click **Confirm** and add it to your asset library. 
 
@@ -198,7 +198,7 @@ TikTok doesn’t let you create custom audiences on the fly, so we’ll want to 
 
 To get started, navigate to **Assets > Audiences**, and you’ll have the option to create a Custom Audience or Lookalike Audience.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd675550ecbe6e641ba_1646194675706.avif)
+![](../images/790c68e8_68394fd675550ecbe6e641ba_1646194675706.avif)
 
 Click **Create Audience**, and you’ll see five options: 
 
@@ -211,7 +211,7 @@ For now, we want to use an existing customer list to create a **Lookalike Audien
 
 **Important** → Unlike most platforms, **TikTok doesn’t let you upload email lists**, names, or phone numbers. Instead, your only option is to upload Customer Files using MAID (Mobile Ad ID) - either Apple IDFA (Identifier for Advertisers) or GAID (Google Advertising ID). 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6efad1d4a34462d7b_1646194631544.avif)
+![](../images/38058165_68394fd6efad1d4a34462d7b_1646194631544.avif)
 
 If you have this customer data available, upload a compatible file type and give your custom audience a name.
 
@@ -223,13 +223,13 @@ To create a Lookalike audience (LaL), navigate to:
 
 Assets → Audience → Create Audience →** Lookalike Audience**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd675550ecbe6e641ba_1646194675706.avif)
+![](../images/790c68e8_68394fd675550ecbe6e641ba_1646194675706.avif)
 
 From the dropdown menu, choose the Customer List that you uploaded previously in Step 3. 
 
 Select TikTok under the Placement dropdown, and enter the country or countries your audience is located in. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6503a0525d4cc0a6a_1646194695856.avif)
+![](../images/88e6c9ba_68394fd6503a0525d4cc0a6a_1646194695856.avif)
 
 In the next field, you’ll see three Lookalike Types to choose from:
 
@@ -261,11 +261,11 @@ Now, let's build a campaign.
 
 Click **Campaign** from the top menu bar and click **Create** under the Campaign tab.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd70b2cb6c904c10945_1646194841307.avif)
+![](../images/10329ef8_68394fd70b2cb6c904c10945_1646194841307.avif)
 
 Back where it all started. In the next view, you’ll see a selection of six **Advertising Objectives** to choose from.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd62a62e3eda2bc7fb6_1646194862185.avif)
+![](../images/0e0c6e3f_68394fd62a62e3eda2bc7fb6_1646194862185.avif)
 
 - **Reach**: Show your ad to as many people as possible.
 - **Traffic**: Send people to a destination on your website or app.
@@ -279,7 +279,7 @@ Select **Conversions** (if you sell products) or **App Installs** (if your compa
 - Give your campaign a name (e.g., Prospecting or Creative Testing).
 - Keep **Campaign Budget Optimization toggled OFF**. TikTok reps recommend optimizing the budget at the ad set level while starting—this gives you more control and better performance if you’re on a smaller budget.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd614ddc1966f89c4b6_1646194924831.png)
+![](../images/999b850c_68394fd614ddc1966f89c4b6_1646194924831.png)
 
 Check the “No Limit” box under Budget, then click Continue to make your way to the Ad Group level.
 
@@ -291,11 +291,11 @@ Within a campaign, there are ad sets (‘ad groups’ in TikTok). Let's build th
 
 To start, give your ad group a name.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd63fe03648692341d6_1646194985739.avif)
+![](../images/0f9b6351_68394fd63fe03648692341d6_1646194985739.avif)
 
 ### Step 5b. Promotion type
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6ef2483db7f74ace7_1646195014794.avif)
+![](../images/ebdee238_68394fd6ef2483db7f74ace7_1646195014794.avif)
 
 If you chose Conversions as your Campaign Objective, there's only one Promotion type—Website.
 
@@ -306,7 +306,7 @@ If you chose Conversions as your Campaign Objective, there's only one Promotion 
 
 Here, you'll choose where you want your ads to display. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd695c98dedd1683eac_1646195079350.avif)
+![](../images/b50ceca7_68394fd695c98dedd1683eac_1646195079350.avif)
 
 Since we're interested in optimizing for TikTok ads conversions, select **TikTok** as your sole placement. 
 
@@ -324,7 +324,7 @@ As you learned in the main curriculum, you’ll want to start with broad targeti
 - Set Gender to All and Ages to 18+.
 Yep, that's it. Seriously.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd677acf742688f4cc0_1646195179636.png)
+![](../images/8624f55b_68394fd677acf742688f4cc0_1646195179636.png)
 
 ‍
 
@@ -340,18 +340,18 @@ For your first campaign, leave all interest and behavior targeting options
 
 This is what 'open targeting' means.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd66d1c57636337f1f4_1646195223549.avif)
+![](../images/c01e3e53_68394fd66d1c57636337f1f4_1646195223549.avif)
 
 **Interests are defined by data on long-term user engagement based** on longer-term machine learning audiences and interests based on how people engage with the platform. Think of interests as long-term patterns of use.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd68797ad17208f353f_1646195246737.avif)
+![](../images/613e2333_68394fd68797ad17208f353f_1646195246737.avif)
 
 - There are 15 top-level categories to choose from and 100 nested interests.
 **Behavior targeting** is going to be a bit more specific. 
 
 These will be more recent actions (within the past 7 or 15 days) that people have taken within specific categories of content on the TikTok app. Think of behaviors as more recent patterns. Target specific actions within particular categories within the past 7 or 15 days. Behaviors are relatively similar to the interests, but a lot fewer options.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd695c98dedd1683eb3_1646195276384.avif)
+![](../images/eb796906_68394fd695c98dedd1683eb3_1646195276384.avif)
 
 For example, in the screenshot above, we’re targeting anybody who has watched, liked, commented, or shared a video in the Beauty & Style category within the past fifteen days.
 
@@ -367,15 +367,15 @@ But for now, we want to start with **broad, open targeting** and let TikTok serv
 
 TikTok requires advertisers to spend at least $20 per day but recommends spending 20x your CPA goal. Plan to commit $100 - $200 a day to get through the learning phase.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd63fe03648692341d3_1646195342923.avif)
+![](../images/d79c2579_68394fd63fe03648692341d3_1646195342923.avif)
 
 ### Step 5h. Bidding and optimization
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6624f81afb60a00ef_1646195367977.avif)
+![](../images/3f0c5a5f_68394fd6624f81afb60a00ef_1646195367977.avif)
 
 Since we want TikTok to show our ads to people who are most likely to buy, select Conversion from the Optimization goal dropdown
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd78733e484f65a48c1_1646195383483.avif)
+![](../images/5b33cf9f_68394fd78733e484f65a48c1_1646195383483.avif)
 
 - Tip: If at first you don't see enough volume with a Conversion goal, shift to Click for a few days to let TikTok cast a wider net, then later revert to Conversion once you have more data to go on.
 
@@ -393,17 +393,17 @@ In this step, you'll select the creatives you uploaded to your asset library in 
 
 Here, you'll use the Identity section to select your ad format and decide to launch an In-Feed ad or Spark ad.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6624f81afb60a00ec_1646195467123.avif)
+![](../images/2f7ec3b9_68394fd6624f81afb60a00ec_1646195467123.avif)
 
 For **In-Feed ads**, leave the Identity button toggled off (grey), then upload your profile image and enter your display name, like so:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6d6cb6ceb1b2e2b5d_1646195493830.avif)
+![](../images/6edd3f40_68394fd6d6cb6ceb1b2e2b5d_1646195493830.avif)
 
 For **Spark ads**, toggle the Identity button on (turquoise). As you learned in an earlier module, there are two types of Spark ads:
 
 - Deploy Spark ads through your **TikTok business profil****e**. These are Spark ads you create using organic posts from your TikTok business profile.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6ae0c6d36b03aea42_1646195588141.avif)
+![](../images/30892d3e_68394fd6ae0c6d36b03aea42_1646195588141.avif)
 
 - These are Spark ads you create using organic posts from your TikTok business profile.
         2. Deploy Spark ads through an authorized **Creator profile**
@@ -411,7 +411,7 @@ For **Spark ads**, toggle the Identity button on (turquoise). As you learned in 
 - Create Spark ads using organic posts that TikTok Creators have authorized you to use in your advertising. The Spark ad is promoted from the creator's page and displayed with their handle, with no visible branding.
 - ‍[Follow these instructions](https://drive.google.com/file/d/1uepie6vVeDkBSJO9AZJCVjIf2gb5l7Og/view?usp=sharing) to obtain the authorization code from the Creator you're working with—you'll need it to authorize their account/posts for use in your Spark ads.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6d20ade43cd25bea5_1646195671893.avif)
+![](../images/5fd8b442_68394fd6d20ade43cd25bea5_1646195671893.avif)
 
 ### Step 6b. Upload ad creatives
 
@@ -419,17 +419,17 @@ Next, upload, create, or select the creative you want to use in the ad group, or
 
 Paste the ad copy you drafted in Step 2 into the text field.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683953f8b1e1153fbbaca467_Screenshot%202025-05-30%20at%202.44.55%E2%80%AFPM.avif)
+![](../images/f39f7855_683953f8b1e1153fbbaca467_Screenshot_2025-05-30_at_2.44.55_PM.avif)
 
 ### Step 6c. Specify CTA and Destination page URL
 
 Once you've uploaded your creative and added the copy, choose the call to action you want people to take, and add your destination page URL.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6b2937f23b965a50b_1646195932804.avif)
+![](../images/2af3319a_68394fd6b2937f23b965a50b_1646195932804.avif)
 
 - **Call to action**: TikTok gives advertisers two CTA options. The Dynamic setting means TikTok will test multiple CTAs and optimize for the one that performs best. Click 'edit text options' and select CTAs with language that matches the action you're asking people to take in your ad.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd6fb0bd3a671817672_1646195956495.avif)
+![](../images/7625a9ea_68394fd6fb0bd3a671817672_1646195956495.avif)
 
 - **Destination URL**: TikTok doesn't have a handy UTM creator tool like Facebook and Snapchat do, so you'll have to add your tags manually.
 - Grab the UTM tags you jotted down in Step 2b and pair them with our [UTM templates](https://demandcurve.notion.site/Tracking-UTM-Tag-Templates-274f8522113280969661ec2a9d1751f1?source=copy_link) to make sure you get these right.
@@ -439,7 +439,7 @@ At this point, you've finished setting up the first ad in your ad group.
 
 When you’re ready to add more, click **Duplicate** to save time rather than starting from scratch. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394fd608a54c6306f247fd_1646196017395.png)
+![](../images/3cb63cc7_68394fd608a54c6306f247fd_1646196017395.png)
 
 ‍
 

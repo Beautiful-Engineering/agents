@@ -97,7 +97,7 @@ This is in part because a lot of people search the single word *shirts* . But th
 
 We call them long-tail because if you graph out how often people search for them, they show up in the “tail” of the graph — where there are a lot fewer searches:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837133506821cf09cc1ec4c_1632173488135.avif)
+![](../images/985e9246_6837133506821cf09cc1ec4c_1632173488135.avif)
 
 ## Benefits of long-tail keywords
 
@@ -173,7 +173,7 @@ Spending money on irrelevant keywords is an incredibly easy way to lose money.
 - **Throw your keywords into Google and see what comes up **(both in the search results but also as suggested searches)
 - For example, for a UI design software program, you may be tempted to add a keyword for design program. Searching "UI design program" (in Vancouver) comes up with things like this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371240a4c34eb7bac4ac17_1740514740346.avif)
+![](../images/7dbcd48d_68371240a4c34eb7bac4ac17_1740514740346.avif)
 
 - This tells us that we should add negative keywords for things like:
 
@@ -193,7 +193,7 @@ Spending money on irrelevant keywords is an incredibly easy way to lose money.
 - Give your favorite AI tool (or several of them) your website, tell them you're running your first Search Ads, and ask them to generate a list of negative keywords
 - For example, here I got ChatGPT 4o to do it here: [https://chatgpt.com/share/67be2663-0afc-800a-80ca-2adaa5192e4c](https://chatgpt.com/share/67be2663-0afc-800a-80ca-2adaa5192e4c). Here's a preview:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371240cc74334ce7553913_1740514974684.avif)
+![](../images/3f15306a_68371240cc74334ce7553913_1740514974684.avif)
 
 - ‍**Don't just blindly copy paste from AI. **
 
@@ -209,7 +209,7 @@ So you’ll mostly have to add negative keywords after you run some ads. This is
 
 Pop into **Insights & reports** > **Search Terms** within Google Ads to see the searches people are making when they see your ads. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371241d220426b43807b68_1740515954038.avif)
+![](../images/494c8246_68371241d220426b43807b68_1740515954038.avif)
 
 Add negative keywords for things in that list.
 
@@ -229,7 +229,7 @@ For those situations, you can create a **Negative keyword list** and add it to m
 
 You can do that here:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837124148225dd21c27cd83_1740516026877.avif)
+![](../images/dde9316b_6837124148225dd21c27cd83_1740516026877.avif)
 
 ## Recommendation
 

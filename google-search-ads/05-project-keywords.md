@@ -70,7 +70,7 @@ You can do it in the **Keywords** > **Negative Keywords** tab as you add them to
 
 #2. Click the massive blue **+**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371547195604758e2a3542_1740517497576.avif)
+![](../images/b148fca4_68371547195604758e2a3542_1740517497576.avif)
 
 #3. Name it **All Campaigns**
 
@@ -79,18 +79,18 @@ You can do it in the **Keywords** > **Negative Keywords** tab as you add them to
 - Reference our section on negative keywords [here](/lessons/keywords).
 - Use ChatGPT to generate a bunch of ideas (make sure to verify before using). [For example](https://chatgpt.com/share/67be2663-0afc-800a-80ca-2adaa5192e4c):
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371547feb0144a13858728_1740517769906.png)
+![](../images/017743ad_68371547feb0144a13858728_1740517769906.png)
 
 - Use Google search to generate ideas by typing in some keywords (both from search results and suggested results)
 - As a simple example, we are a paid growth marketing course for adults done remotely. We want to filter out people looking for free/cheap things, courses for children, and courses at colleges. We also want to filter out people who don’t know what marketing is. They are way too low on the product awareness level to lead to a sale anytime soon.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683715477a8dfb4016220258_1740517743479.avif)
+![](../images/de956bf0_683715477a8dfb4016220258_1740517743479.avif)
 
 #5. Click **Save**
 
 #6. Select the list by ticking the box at the left of it, and then click **Apply to campaigns**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371547a091ff14cf55afbe_Screen_Shot_2023-04-20_at_9.39.20_PM.avif)
+![](../images/60f1db9f_68371547a091ff14cf55afbe_Screen_Shot_2023-04-20_at_9.39.20_PM.avif)
 
 **#7. Select every campaign in the list and click Apply**
 
@@ -122,12 +122,12 @@ If we ran a Brand campaign (not the ad groups, because the “generic” problem
 - Then click in the top middle** Negative search keywords**
 - Click the big blue **+**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371547c6417a501ff7a4db_1740526540493.jpeg)
+![](../images/05ac9f4a_68371547c6417a501ff7a4db_1740526540493.jpeg)
 
 - Add keywords as necessary
 - Remember that you can also type your keywords into Google to see what comes up if you need ideas, or use other methods of keyword research.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371547b79bd855d1715482_1740526571006.avif)
+![](../images/ddd039fd_68371547b79bd855d1715482_1740526571006.avif)
 
 - When you’ve added everything, click **Save**
 Repeat this for all other campaigns and ad groups

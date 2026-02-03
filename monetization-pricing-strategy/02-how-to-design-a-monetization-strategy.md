@@ -13,7 +13,7 @@ As you know, your growth foundation is interconnected. If our monetization strat
 
 ### Here are four common mistakes we see startups make:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e82a76f9f7b750bf98b936_1739388967710.avif)
+![](../images/b8b40b93_68e82a76f9f7b750bf98b936_1739388967710.avif)
 
 - **Pricing too low.** Leaving money on the table and capping growth potential.
 - **Charging the wrong way.** E.g. charging per seat when customers would rather pay per  usage.
@@ -28,7 +28,7 @@ The good news: you don’t need a perfect system right away.
 - **Precision isn’t the goal.** Early on, it’s about landing in the right ballpark, not about fancy Excel spreadsheets and exotic pricing studies. What matters is that your price and model align with the rest of your Foundational Five.
 - **Action beats theorizing.** You’ll make more progress by testing and talking to your market than by over-engineering from behind a desk.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e82a77f9f7b750bf98b93b_gaffney.avif)
+![](../images/ba57c016_68e82a77f9f7b750bf98b93b_gaffney.avif)
 
 Here’s how Tyler Gaffney, the CEO of ZenHub, put it:
 

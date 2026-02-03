@@ -12,7 +12,7 @@ Let’s take a look at a few examples and their strengths and weaknesses.
 
 Here’s one from The New Yorker.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b69ea7801f46e29692e0_1626190615106.avif)
+![](../images/8c1f551b_6837b69ea7801f46e29692e0_1626190615106.avif)
 
 #### The good
 
@@ -32,7 +32,7 @@ Free tote included. Cancel anytime.
 
 Now check out this ad from Semrush.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b6a09bbe03a5403220b8_1626190696306.gif)
+![](../images/b1ea7160_6837b6a09bbe03a5403220b8_1626190696306.gif)
 
 #### The good
 
@@ -48,7 +48,7 @@ Now check out this ad from Semrush.
 
 If you have a limited time offer, you can also promote it in your display ad, like Casper does here.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b69f2d2caea49185e7d7_1626190615555.avif)
+![](../images/b593d24e_6837b69f2d2caea49185e7d7_1626190615555.avif)
 
 #### The good
 
@@ -62,7 +62,7 @@ If you have a limited time offer, you can also promote it in your display ad, li
 
 Finally, one more example—this time, a responsive display ad.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b69f2d2caea49185e7da_1626190614761.avif)
+![](../images/41b8d977_6837b69f2d2caea49185e7da_1626190614761.avif)
 
  There are a few areas of improvement:
 

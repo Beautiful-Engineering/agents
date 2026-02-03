@@ -43,7 +43,7 @@ A few examples:
 - Fidelity Investments partnered with Morning Brew to create [Fresh Invest](https://www.fidelity.com/learning-center/trading-investing/fresh-invest-podcast), a podcast series about investing.
 - The sales software tool timetoreply sponsored an educational segment about response time in theCLIKK’s newsletter.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d03afbb11df9731a66efd_1642524605340.avif)
+![](../images/c23a8d08_683d03afbb11df9731a66efd_1642524605340.avif)
 
 The most effective kinds of sponsored content are those that actually reach your target audience. Given this, you should consider what websites and newsletters your target users regularly visit or subscribe to. For example, a B2B software company might look for sponsored content opportunities with a website like FastCompany rather than BuzzFeed.
 
@@ -52,15 +52,15 @@ You may already know major websites and newsletters in your niche. To quickly fi
 site:fastcompany.com “advertise with us”
 site:fastcompany.com “sponsored content”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d03aff5908465c84f8d4c_1642524605823.avif)
+![](../images/83b4a4a7_683d03aff5908465c84f8d4c_1642524605823.avif)
 
 As for newsletters in your niche, take a look at past issues to find out whether they have advertising opportunities; and if so, how their sponsored content actually appears in the email. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d03af8875d9729e3d4329_1642524604594.avif)
+![](../images/84b4d661_683d03af8875d9729e3d4329_1642524604594.avif)
 
 To find other relevant newsletters, Google your niche and “newsletters.” Lists of the top newsletters may appear, like so:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d03af779155810801200f_1642524603916.avif)
+![](../images/ba5010a8_683d03af779155810801200f_1642524603916.avif)
 
 Even if publishers don’t outright say they allow sponsored content, it’s always worth reaching out to ask. 
 
@@ -75,7 +75,7 @@ You’ll need to do some digging to find these communities. This means manually 
 - **Quora: **Quora organizes content by topic, letting users follow each topic so they can see the latest questions and answers in each. Follow key topics related to your industry and make note of relevant questions that you can answer with a natural, non-promotional link back to your content. 
 - **Reddit: **There are probably one or two obvious subreddits related to your niche. Use [Sayit](https://anvaka.github.io/sayit/) to find related subreddits based on where users are posting. For example, entering “SEO” reveals an overlap with subreddits focused on social media, affiliate marketing, and WordPress.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d03af36d7dc8d778d13ee_1633625324137.avif)
+![](../images/24884405_683d03af36d7dc8d778d13ee_1633625324137.avif)
 
 - **Slack:** Quality Slack communities can be hard to find. Oftentimes, general purpose groups devolve into spammy, self-promotional groups without genuinely engaged members. Niche groups with active moderators tend to have the most potential for meaningful content promotion. To find these groups, ask around your network to find out what communities people are in. Also look through this [Airtable](https://www.airtable.com/universe/expRhUQt5YsHhMdhO/the-full-list-of-slack-communities?explore=true) of niche Slack communities. 
 Record relevant forums and communities in the Acquired (Communities) tab. Sign up or apply to join the ones where your target audience might be—then repurpose your content for sharing in them. Remember to be mindful of each community’s rules and culture; you should avoid coming off as sales-y or overly promotional. 

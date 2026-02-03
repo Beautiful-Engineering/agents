@@ -2,7 +2,7 @@
 
 Okay, now, a really important concept. You do not own all of your Foundational Five. Specifically, you do not own your market or your channel.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da07d7253ca958e682a094_6.avif)
+![](../images/2d5e2ada_68da07d7253ca958e682a094_6.avif)
 
 Channels are owned by external parties. Think of Meta Ads, literally owned by Meta. Google Ads, literally owned by Google. They set the rules. They can ban you from their channel. Competitors can come flooding in, increasing the costs of the channel. They can change their algorithms. They can control your distribution and reach.
 

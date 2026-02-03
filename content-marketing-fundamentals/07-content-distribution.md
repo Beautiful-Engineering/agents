@@ -75,11 +75,11 @@ Two ways to distribute content through your site:
 
 - **Repurpose content as blog posts:** This strategy is for content that isn’t already on your site. For example, Robinhood repurposes its Fireside Chat video series from YouTube as individual blog posts. You can do the same with infographics, videos, podcast episodes, and anything else that doesn’t already live on your blog.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d01782c5be804fb90259a_1629339500539.avif)
+![](../images/0003db95_683d01782c5be804fb90259a_1629339500539.avif)
 
 - **Syndicate blog posts on Medium:** Republish blog posts from your site onto Medium using the platform’s import feature. Then submit your content to relevant Medium publications to amplify its reach.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d0178fdf1aa1dabc0fc76_Screen_Shot_2022-05-11_at_11.48.50_AM.avif)
+![](../images/251c5f6a_683d0178fdf1aa1dabc0fc76_Screen_Shot_2022-05-11_at_11.48.50_AM.avif)
 
 You can also promote content through other websites (acquired distribution) in a few ways:
 
@@ -87,7 +87,7 @@ You can also promote content through other websites (acquired distribution) in a
 - **Mentions: **A mention is a link to your brand’s content on another website. Brands can get mentions through outreach to websites, influencers, and journalists. You can also use platforms like [HARO](https://www.helpareporter.com/) to connect with journalists interested in your industry. 
 - **Curated posts: **Some websites compile original content from multiple contributors into a single blog post. Brands can pitch their content to be included, though some websites also independently select content to feature in these roundup posts. Others invite people to contribute.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d017864f80d1a688f154b_1629339544036.avif)
+![](../images/8fe231a7_683d017864f80d1a688f154b_1629339544036.avif)
 
 ### Newsletters and email
 
@@ -95,7 +95,7 @@ For brands with an existing email list, newsletters are an easy means of content
 
 For more distribution, encourage readers to share your newsletter with others, just as Medium does in its writer newsletter.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d01786d119a927137d7fe_1629339588317.avif)
+![](../images/1eae6085_683d01786d119a927137d7fe_1629339588317.avif)
 
 Many companies, like the Skimm and The Hustle, send newsletters with curated content. If you’re connected with businesses that do this, try reaching out to ask for your content to be included. Or use cold outreach to pitch them on including your content.
 
@@ -107,7 +107,7 @@ Important note: Posting a link to your content on social media isn’t enough to
 
 For example, here’s how Betterment promotes one of its blog posts on Facebook. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d0178737957ac18220f04_1623263111969.avif)
+![](../images/6b47e17b_683d0178737957ac18220f04_1623263111969.avif)
 
 It’s short and to the point, and it also tags #stimuluscheck to make it visible to anyone interested in this topic. 
 
@@ -115,13 +115,13 @@ Businesses just starting out may not have a strong presence on social media. In 
 
 Besides business pages, brands can also promote content through social media groups. You can find relevant groups that already exist or create a community for your users. For example, Airbnb encourages its hosts to connect and share tips with one another in Facebook groups. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d01797cbc35a15910c8dc_1623263111324.avif)
+![](../images/8fc4f121_683d01797cbc35a15910c8dc_1623263111324.avif)
 
 Groups are a great place to engage users and share your brand’s new content. However, it’s important to avoid being overly promotional or sales-y. Instead, focus on explaining why a piece of content is valuable to get engagement.
 
 Instant Pot created a Facebook community to share recipes and cooking tips. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d0178f99222bf19e5c88e_1623268637565.avif)
+![](../images/bfced099_683d0178f99222bf19e5c88e_1623268637565.avif)
 
 Important note: self-promotion is usually frowned upon in these communities. Focus instead on explaining why a piece of content is valuable to get engagement.
 
@@ -157,7 +157,7 @@ If you’re a B2B product, LinkedIn is a particularly good ad channel for this �
 
 You can also link to your articles on other publications to teach people about your product using a platform like [Taboola](https://www.taboola.com/). You’ve probably seen Taboola ads before at the bottom of news articles:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d0182ba958d1509642603_1632185210050.avif)
+![](../images/29c2268e_683d0182ba958d1509642603_1632185210050.avif)
 
 ## The best distribution channel for your business 
 
@@ -215,7 +215,7 @@ For companies with fewer brand relationships and less user affinity, begin by pr
 
 For example, Eric Bandholz, the founder of Beardbrand, used Reddit to build a community of around 300 members for his blog and YouTube channel before even launching an ecommerce shop.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d01a83910dbf8b2898651_1623268703909.avif)
+![](../images/9b00ae87_683d01a83910dbf8b2898651_1623268703909.avif)
 
 Source: [Sleeknote](https://sleeknote.com/blog/beardbrand-marketing)Since then, he’s consistently been active on Reddit, sharing his personal experiences building Beardbrand and other business ventures on r/entrepreneur. Although he talks about Beardbrand, Bandholz doesn’t do so promotionally—instead, a lot of his content is about helping other entrepreneurs, e.g., his post on what it’s like to go on “Shark Tank.”
 

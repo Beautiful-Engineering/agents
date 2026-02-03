@@ -8,7 +8,7 @@ Your business model fundamentally changes how you approach onboarding. Here's wh
 
 > *Note: These aren't the only models out there. There are edge cases and hybrid models that combine elements from multiple categories, but these five cover the majority of B2B products.*
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c3d3b370e2c984efa2e7_onb1.avif)
+![](../images/9edb57d0_68e6c3d3b370e2c984efa2e7_onb1.avif)
 
 ### 1. Freemium Model
 
@@ -31,17 +31,17 @@ Notion lets individuals and small teams run almost everything for free: unlimite
 
 Onboarding is personalized. New users are asked whether they’re using Notion for personal projects, startups, or enterprise teams. When you share what you’ll be using Notion for, the workspace preview updates live with relevant templates.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c4304e2d6babb7379d24_notion1.avif)
+![](../images/362b60d5_68e6c4304e2d6babb7379d24_notion1.avif)
 
 The “Getting started in Notion” page is ever present in the left column of the interface, offering very simple ways to make use of Notion. (One of the challenges of products with lots of capabilities is offering too much too soon, leading to overwhelm or burnout.) Once users are comfortable with the basics and want to get fancier, the Help Center is packed with guides, tutorials and plug and play templates.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c43f71eced17b19890fd_notion2.avif)
+![](../images/cf9a7888_68e6c43f71eced17b19890fd_notion2.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c4531382214863d7f726_notion3.avif)
+![](../images/904736c0_68e6c4531382214863d7f726_notion3.avif)
 
 Notion is built for collaboration, so users will naturally share what they’ve build with their teammates. Once a team tries to invite more than 5 guests, exceed free usage limits, or integrate with external tools like Slack or Google Drive, Notion places an upgrade prompt.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c4643e37f8d27b60909c_notion4.avif)
+![](../images/1f76ae7e_68e6c4643e37f8d27b60909c_notion4.avif)
 
 The genius of Notion’s freemium model is that you *don’t feel limited until you’re succeeding.* You can run an entire personal or small-team system for free. Once you’ve embedded Notion into your workflow, paying for more seats, storage, or admin controls is an easy decision.
 
@@ -61,23 +61,23 @@ HubSpot needs to be strategic with onboarding since their full-featured hubs (Ma
 
 The first screen you see is a clear positioning pitch: **“Where go-to-market teams go to grow.”** They remind you of the value you’ll unlock before you’ve even entered details.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c58174b10955cf68e212_hs1.avif)
+![](../images/bab7c3ac_68e6c58174b10955cf68e212_hs1.avif)
 
 Next, they ask you to request a demo, or create an account. The moment you specify your role, HubSpot tailors the CRM setup. Based on your goals, it also makes recommendations on what tools and dashboards might be useful and whips them up on the spot.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c598f8fea392989b2035_hs2.avif)
+![](../images/46718fff_68e6c598f8fea392989b2035_hs2.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c5a4ffde2d5c796cdffa_hs3.avif)
+![](../images/c66cae0b_68e6c5a4ffde2d5c796cdffa_hs3.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c5aeb9363a4e43c27e57_hs4.avif)
+![](../images/1a00a1eb_68e6c5aeb9363a4e43c27e57_hs4.avif)
 
 Right after signup, HubSpot shows their value. Instead of dumping you into a blank CRM, they **seed your account with demo contacts, deals, and emails**. This allows you to play with the fields and get an idea with what you can do with the tool.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c5c91382214863d85e1e_hs5.avif)
+![](../images/8af715f8_68e6c5c91382214863d85e1e_hs5.avif)
 
 One of my favorite onboarding moves: they combine a **personalization question** with a feature preview. So depending on what you want to accomplish, the first (for example, “get leads for your business”) the first tasks you’re given are directly related to that objective. It’s a simple way to keep users from getting overwhelmed and seeing value right away.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c5dd6e8be4043995c995_hs6.avif)
+![](../images/55264046_68e6c5dd6e8be4043995c995_hs6.avif)
 
 In conjunction with the in-product user guide, HubSpot sends a simple customized email offering 1:1 help to guide you through your specific challenges.
 
@@ -103,7 +103,7 @@ But there were problems: some users showed up with empty inboxes, tutorials brok
 
 Today, new users still get that promise of speed, but now through a **full-screen onboarding with a synthetic inbox**. Instead of acting on your real emails, you practice inside a sandbox environment pre-loaded with sample threads.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c6bc012bf5a52c96c1c4_sh1.avif)
+![](../images/d3049ff6_68e6c6bc012bf5a52c96c1c4_sh1.avif)
 
 This solves several issues:
 
@@ -112,7 +112,7 @@ This solves several issues:
 - **Guidance front and center.** Instructions appear at the bottom of the screen, impossible to miss while you practice.
 Superhuman also refined discoverability. For example, their minimalist design once hid the “Compose” and “Search” buttons. Now those icons appear larger, with temporary labels for the first week so new users don’t get stuck. After 7 days, the labels disappear and the interface returns to its clean look.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c6d3bff2dd90cd2c2858_sh2.avif)
+![](../images/a3de6898_68e6c6d3bff2dd90cd2c2858_sh2.avif)
 
 The results speak to why this onboarding matters: shortcut usage up 20%, reminder adoption up 67%, activation within week one up 17%. Even small tweaks like clearer Compose buttons increased draft creation and helped users get to the “aha” moment of faster email.
 
@@ -137,19 +137,19 @@ Key tactics:
 
 Figma starts onboarding by asking what you’ll be using the tool for: design, product, or engineering. That choice tailors the recommended templates.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c704c408509ea8a7687e_fig1.avif)
+![](../images/3dc2cb20_68e6c704c408509ea8a7687e_fig1.avif)
 
 Next, you’re prompted to name your first team and invite collaborators. This happens *before* you ever create your first file. It plants the seed that Figma is meant for groups, not just individuals.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c7202f6a2563ad1ddd43_fig2.avif)
+![](../images/98d218e0_68e6c7202f6a2563ad1ddd43_fig2.avif)
 
 Instead of gating too early, Figma drops you straight into the product. You see a blank canvas with quick-start templates and an onboarding walkthrough. Within minutes, you can create and share a project with teammates.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c966af5fc93af83f00fb_image%20(101).avif)
+![](../images/d51a69c7_68e6c966af5fc93af83f00fb_image__101_.avif).avif)
 
 The upgrade prompts are contextual. For example, once you try to add multiple editors to a file or set advanced permissions, Figma reminds you that’s a premium feature. By that point, you’ve already built something worth sharing, so the upgrade feels natural, not forced.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c70fe820ac5215745038_fig4.avif)
+![](../images/eab811f0_68e6c70fe820ac5215745038_fig4.avif)
 
 This flow is effective because teams get real value for free, while premium gates hit at the exact moment a team wants to scale usage.
 
@@ -169,23 +169,23 @@ Get users comfortable with the core flow using free credits or free-tier feature
 
 The first thing Twilio does after you sign up is give you **$15 in free credits** and a choice of which channel you’d like to try first: SMS, voice, WhatsApp, or email. This makes the product feel approachable because you can start with whatever’s most relevant.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c9b30a284d828bb477b4_tw1%60.avif)
+![](../images/0de2cc55_68e6c9b30a284d828bb477b4_tw1_.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c9bd8ffb331f9f207970_t2.avif)
+![](../images/9afddc91_68e6c9bd8ffb331f9f207970_t2.avif)
 
 Next, they drop you into a guided tutorial with **copy-and-paste code snippets**. Within minutes, you can send your first SMS to your own phone, no matter how comfortable you are with coding. This is the lightbulb moment.  You’ve just proven the product works in a low-stakes, high-trust way.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c9e6f538f363c658b38c_t4.avif)
+![](../images/d313fd71_68e6c9e6f538f363c658b38c_t4.avif)
 
 Instead of asking you to pay right away, Twilio encourages you to use up your free credits experimenting. The dashboard shows a **live balance meter** so you can see how much is left, keeping the experience transparent and low-risk.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c9daa03b4f76c10bba7d_t5.avif)
+![](../images/4ba36b92_68e6c9daa03b4f76c10bba7d_t5.avif)
 
 As soon as you’ve sent a few test messages, Twilio nudges you toward **expansion use cases**: bulk notifications, 2FA, or voice calls. These prompts appear inside the console, so you’re learning what else you can do at the exact moment you’re ready to try more.
 
 When you run out of credits, Twilio asks for a payment method. But by then, you’ve already seen real messages land on real phones. Paying feels like a natural continuation, not a leap of faith.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e6c9d1ab3a72c9432e9949_t6.avif)
+![](../images/6e6bc0ac_68e6c9d1ab3a72c9432e9949_t6.avif)
 
 This flow is effective because Twilio:
 

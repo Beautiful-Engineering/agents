@@ -189,7 +189,7 @@ So although we recommend usage-based pricing, we don’t recommend jumping into 
 - Postmates—price is based on orders (unless you sign up for a flat-fee monthly membership)
 - The [Barcelona comedy club](https://www.bbc.com/news/technology-29551380) that charges per laugh
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683033dc4f762cdbc5ef0d6b_mailchimp.avif)
+![](../images/c5b38f1e_683033dc4f762cdbc5ef0d6b_mailchimp.avif)
 
 *Mailchimp’s marketing platform. Pricing is based on the number of contacts.***Pros:**
 
@@ -221,7 +221,7 @@ Tiered pricing is often used for SaaS, but it can also be used for physical prod
 - Peloton membership—two tiers, standard and all-access, with different features. All-access is only available to Peloton equipment owners.
 - LinkedIn Premium—four plans based on different goals: Career, Business, Sales Navigator Professional, and Recruiter Lite
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e82c4688a681907c611679_image%20(102).avif)
+![](../images/1f8f122b_68e82c4688a681907c611679_image__102_.avif).avif)
 
 **Pros:**
 
@@ -232,7 +232,7 @@ Tiered pricing is often used for SaaS, but it can also be used for physical prod
 
 - Compared to non-tiered usage-based pricing, you’re missing out on revenue potential. Patrick Campbell, the CEO of ProfitWell, represents this graphically:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683033dbe75c8e4483f0887c_revenue_potential.avif)
+![](../images/d9d8bcb0_683033dbe75c8e4483f0887c_revenue_potential.avif)
 
 *Source: *[*Lenny's Newsletter*](https://www.lennysnewsletter.com/p/saas-pricing-strategy)
 - Could introduce friction by requiring a decision at the purchase conversion point (which is why one tier is often “recommended”)
@@ -261,7 +261,7 @@ Because of its simplicity, and because it doesn’t require a ton of customer da
 - Bon Appetit—other than some discount options (e.g., for students and educators), everyone pays the same amount for a digital + print subscription
 - Pretty much all retail ecommerce
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683033db18e46ff16b698c39_strava.avif)
+![](../images/32eef3e1_683033db18e46ff16b698c39_strava.avif)
 
 *Everyone pays the same amount for a Strava subscription.*
 **Pros:**
@@ -301,7 +301,7 @@ Another use case for per-user pricing: When you can’t find a strong value metr
 - Gusto—four B2B tiers with per-user pricing for each, plus a contractor-only plan
 - Auth0—B2C and B2B plans are based on monthly active users
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683033db852ef8f054154a84_donut.avif)
+![](../images/ef43a7c8_683033db852ef8f054154a84_donut.avif)
 
 *Donut's pricing tiers are user-based.*
 As you can see, per-user pricing is often used in conjunction with another structure—typically either tiered or usage-based pricing. If you’re going to implement per-user pricing, that’s what we recommend: pairing it with another structure.
@@ -309,7 +309,7 @@ As you can see, per-user pricing is often used in conjunction with another struc
 - **Per-user + tiered:** Per-user pricing can have its own form of taxi-meter effect. Charging by tier instead of individual user makes the “more users, more money” concept less salient.
 - **Per-user + usage-based: **One way to combine per-user and usage-based pricing is by charging for *active* users instead of *all* users—so customers are getting more value with more use (and so they don’t have to pay for inactive seats). Another way is with add-ons. You could either 1) have usage-based core pricing with add-ons per number of users, or 2) have per-user core pricing with feature add-ons. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683033dbf9210bd7527685cc_ahrefs.avif)
+![](../images/0fcb5a11_683033dbf9210bd7527685cc_ahrefs.avif)
 
 *Ahrefs has usage-based pricing with add-ons per user.*
 **Pros:**
@@ -343,7 +343,7 @@ Examples of variable pricing:
 - Notion—four tiers, from Personal to Enterprise. Signing up for Enterprise requires contacting sales.
 - Agencies that negotiate contracts for unique deliverables with individual clients
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683033db7ec0959e855c9076_clickup.avif)
+![](../images/c98830c2_683033db7ec0959e855c9076_clickup.avif)
 
 *ClickUp's tiered pricing includes a variable enterprise tier.*
 **Pros:**

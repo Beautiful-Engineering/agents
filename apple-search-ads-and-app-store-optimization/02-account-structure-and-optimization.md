@@ -12,7 +12,7 @@ But with Apple, you focus on exact keywords, and only use a broad match campaign
 
 Basically it ends up looking like the chart below:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683959a61617de7db4313aa9_1632183654073.avif)
+![](../images/f03f9af3_683959a61617de7db4313aa9_1632183654073.avif)
 
 ## Campaigns
 

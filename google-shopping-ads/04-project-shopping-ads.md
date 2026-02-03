@@ -87,15 +87,15 @@ You don't have a ton of control with Shopping campaigns but there is a bit you c
 - Navigate to the campaign's Product Group
 - Beside the Product Group name you'll see a **+** when you hover, click it
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837bbcc955b19d8eae1badc_1741216608671.avif)
+![](../images/255ce2fe_6837bbcc955b19d8eae1badc_1741216608671.avif)
 
 - You'll see a dropdown at the top that lets you segment the products by, click that and choose Item ID
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837bbcc459ead06f2a4b518_1741216652091.avif)
+![](../images/7c5de78f_6837bbcc459ead06f2a4b518_1741216652091.avif)
 
 - Configure the columns to be Cost, Conversion Value/Cost, and Conversions and sort by Descending so you can see the relative performance of each product
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837bbcc2d2caea49189c1ac_1741216746858.avif)
+![](../images/87c5faa3_6837bbcc2d2caea49189c1ac_1741216746858.avif)
 
 - You can then select individual products and increase or decrease your bid on them. Or, you can break top winners into their own campaigns and set high budgets, or you can remove the bad performers from the product group entirely.
 

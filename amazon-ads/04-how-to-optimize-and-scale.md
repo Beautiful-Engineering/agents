@@ -33,7 +33,7 @@ What that last point means for your campaigns:
 - It’s important to monitor your keywords’ performance metrics and search terms. Underperforming and irrelevant keywords will hurt your ad rankings and CPC.
 - A higher bid doesn’t automatically equal a better ad ranking. You don’t have to bid like an anonymous tycoon on the phone at a Christie’s auction in order to drive clicks. *Smarter* bidding, not *higher* bidding, means better ad rankings, which mean better performance—and better rankings in turn.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391da8e29c4ba8aee5566a_image15.avif)
+![](../images/aeed217a_68391da8e29c4ba8aee5566a_image15.avif)
 
 Here’s how to find out exactly what bids to place.
 
@@ -58,7 +58,7 @@ You probably won’t get many conversions at first, but eventually you’ll star
 
 The target bid formula shows you how much you should be bidding on keywords, so you’re never over- or underbidding. Calculate your target bid by multiplying your **average order value (AOV) **by your conversion rate, then dividing by one over your target ACOS.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391da8bc4e06a7ede1d639_image26.avif)
+![](../images/3463b208_68391da8bc4e06a7ede1d639_image26.avif)
 
 Average order value is just your total revenue divided by the number of orders. You can find your CvR in your Search Term Report.
 

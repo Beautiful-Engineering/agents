@@ -24,7 +24,7 @@ Offer a tool (e.g., ROI calculator, savings estimator) where users input data, s
 
 This is great for any company where the user has a complex question they're trying to answer that can be solved algorithmically. For example:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68350ccf3fb873b0cc11876a_1744152762015.avif)
+![](../images/1ad2e35a_68350ccf3fb873b0cc11876a_1744152762015.avif)
 
 Source: [Databox](https://databox.com/landing-page-examples)
 - Health/Fitness: Macros, BMI, protein needs, etc.
@@ -37,13 +37,13 @@ If your ad directly calls out a competitor, send them to a page that directly co
 
 Webflow directly compares itself to Squarespace on a variety of metrics:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68350ccf214821d732834c25_1744152785711.avif)
+![](../images/78c4170b_68350ccf214821d732834c25_1744152785711.avif)
 
 [https://webflow.com/vs/squarespace](https://webflow.com/vs/squarespace)Note: If you're going to do that, make sure that you're honest and make your competitor win where it actually wins. If you win every single category, it becomes less believable.
 
 Shopify does a great job showing all the reasons why people choose them over Woocommerce with this thorough landing page:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68350ccfba729b3484cc83f9_1744152802583.avif)
+![](../images/7d32c45e_68350ccfba729b3484cc83f9_1744152802583.avif)
 
 [https://www.shopify.com/ca/compare/shopify-vs-woocommerce](https://www.shopify.com/ca/compare/shopify-vs-woocommerce)Takeaway: Don't just compare in the ad, go deep and compare yourself to your competitor side-by-side. Highlight your product’s superior features, pricing, or benefits, with a CTA to purchase or sign up.
 
@@ -53,7 +53,7 @@ Normally marketing advice is focused on reducing the number of steps. Here you'r
 
 For example, Ritual had a page that tells a story about personalized nutrition, and then links to their product page for vitamins:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68350ccfcbeea7fd17550322_1744152822451.avif)
+![](../images/e49dc27e_68350ccfcbeea7fd17550322_1744152822451.avif)
 
 Source: [https://x.com/oliviercroguy/status/1571948208850452484/photo/1](https://x.com/oliviercroguy/status/1571948208850452484/photo/1)Takeaway: warm up cold traffic with storytelling and persuasive copy to build trust before redirecting to a product page (or App/Play Stores).
 
@@ -65,11 +65,11 @@ There's a reason why brands are constantly running promos—they work.
 
 This landing page type's focus is getting them an exclusive welcome offer. For example, here's AG1:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68350ccf40f51fc0e00f986e_1744152922913.avif)
+![](../images/c45fe811_68350ccf40f51fc0e00f986e_1744152922913.avif)
 
 And here an example of an ad they used to get there:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68350ccf5107e966b140e39e_1744152911832.avif)
+![](../images/31a826a1_68350ccf5107e966b140e39e_1744152911832.avif)
 
 Takeaway: Test an exclusive welcome offer and make a landing page completely dedicated to it.
 
@@ -81,7 +81,7 @@ A quiz is a great way to reduce the perceived risk in a purchase decision.
 
 This is why bra brands like Third Love have quiz funnels to help you feel more comfortable committing to a purchase:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68350ccf5b4a8095388f109e_1744152940945.avif)
+![](../images/a1b3dee8_68350ccf5b4a8095388f109e_1744152940945.avif)
 
 [https://www.thirdlove.com/en-ca/pages/fitting-room](https://www.thirdlove.com/en-ca/pages/fitting-room)[And here's an ad that links to this quiz](https://www.facebook.com/ads/library/?id=9034535186596816).
 
@@ -95,7 +95,7 @@ Another way to soft sell is to link to a piece of content that educates your aud
 
 Here's an example from PetLabCo
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68350ccf0bf28f079fd98e74_1744152974667.avif)
+![](../images/7bf66127_68350ccf0bf28f079fd98e74_1744152974667.avif)
 
 We actually used to do this using my cofounder's old "Growth Guide" (which he's now turned into a Startup Guide on his site).
 
@@ -115,7 +115,7 @@ A listicle, as the name implies, is a list of things (reasons, tools, ways).
 
 Here's an example from baby food brand Yumi:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68350ccfcf14fee819120d20_1744152986892.avif)
+![](../images/6f3be675_68350ccfcf14fee819120d20_1744152986892.avif)
 
 [https://x.com/oliviercroguy/status/1571948233102098432/photo/1](https://x.com/oliviercroguy/status/1571948233102098432)A classic listicle style is to compare the "best X tools" and then you include your own tool and present it as the best. Here the listicle that Kit/ConvertKit made about the 13 best newsletter tools that conveniently ranks Kit first.
 

@@ -42,7 +42,7 @@ Instead of asking customers to provide ratings on a numerical (e.g., 1-10) scale
 
 Max-diff is complicated to set up and analyze, which is why we recommend using a survey platform that has built-in max-diff tools, like SurveyKing. You’ll use a series of sets with a “most” and “least” layout—it will look something like this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68303a23b40dd9194047f896_Screenshot%202025-05-23%20at%205.04.32%E2%80%AFPM.avif)
+![](../images/9a046c32_68303a23b40dd9194047f896_Screenshot_2025-05-23_at_5.04.32_PM.avif)
 
 Once you have your survey software in place, go ahead and turn your value metric proxies into features. For instance, for our language-learning app, we’ll convert our proxies “live classes taken” and “quizzes taken” into “live classes” and “quizzes.”
 
@@ -52,7 +52,7 @@ SurveyKing has a [helpful explanation of max-diff](https://www.surveyking.com/he
 
 **2. Offer price ranges for your willingness-to-pay (Van Westendorp) questions.** That way, you won’t get prices that are wildly off from what you would ever consider implementing. One option is to use sliders:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68303a5adc97631e2921ebe4_Screenshot%202025-05-23%20at%205.05.27%E2%80%AFPM.avif)
+![](../images/8e2ab1ca_68303a5adc97631e2921ebe4_Screenshot_2025-05-23_at_5.05.27_PM.avif)
 
 **3. Test your survey before shipping it.** Have colleagues from different teams go through the survey to make sure it’s clear, logical, and easy to complete.
 
@@ -74,13 +74,13 @@ Your four Van Westendorp questions will require special analysis. Marketing stra
 
 We recommend following the steps he provides. Once you do, you’ll have a graph that shows you your range of acceptable prices.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6830398c7a04ed2647ad83da_van_westendorp.avif)
+![](../images/6c1f90f5_6830398c7a04ed2647ad83da_van_westendorp.avif)
 
 *Credit: *[*Matej Lupták*](https://themaykin.com/blog/a-complete-guide-to-van-westendorp-how-to-graph-it-in-excel)**Bonus: Segmentation**
 
 When you have your Van Westendorp graph, you can use **segmentation** to narrow your range down even further. Go back to your survey/interview responses and segment them. For instance, you could map out feature preferences vs. willingness-to-pay responses to see if certain features are what people are willing to pay (or pay more) for.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68303aa0e75c8e4483f48250_Screenshot%202025-05-23%20at%205.06.36%E2%80%AFPM.avif)
+![](../images/da796b8c_68303aa0e75c8e4483f48250_Screenshot_2025-05-23_at_5.06.36_PM.avif)
 
 *Example willingness-to-pay chart for a fictional project management app
 *We recommend segmenting your findings by customer persona too, to see how your willingness-to-pay data maps onto different personas. B2C companies could compare willingness to pay across different persona traits, like annual household income or age. B2B companies will want to look at criteria such as company size, industry, and/or job title to determine how personas might align with pricing (and tiers if applicable).

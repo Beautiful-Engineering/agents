@@ -39,7 +39,7 @@ Here are five best practices for producing the right kind of UGC videos for TikT
 
 Most people decide whether to swipe or watch an ad based on the first frame alone, and only 25% of users watch beyond the first 5 seconds (average watch time is 5-6 seconds). Without a thumb-stopping hook, nobody will see your ad, so plan on testing a variety of hooks, headlines, and video openers to find out what works best
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394c76624f81afb607911f_1646188789616.avif)
+![](../images/c36ae339_68394c76624f81afb607911f_1646188789616.avif)
 
 #### 2. Sell with stories
 
@@ -61,7 +61,7 @@ If you're offering a deal, feature it prominently with a colorful price bubble a
 
 **Bonus best practice**: Make sure to design your ads for TikTok's mobile, vertical video format (9x16) and be mindful of [safe zones](https://ads.tiktok.com/help/article?aid=10002742).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394d63efad1d4a34449c05_Screenshot%202025-05-30%20at%202.17.03%E2%80%AFPM.avif)
+![](../images/84058ad0_68394d63efad1d4a34449c05_Screenshot_2025-05-30_at_2.17.03_PM.avif)
 
 - Keep content-centered and well-framed, and your product in clear view.
 - Ensure captioning elements don't overlap with the CTA, body copy, or engagement buttons on the right side of the screen
@@ -139,7 +139,7 @@ True Classic sells premium fitted t-shirts for men of all body types.
 
 - **Smooth app-to-landing page experience**: The main elements in the ad are also featured front and center on the landing page, which makes the transition experience feel seamless, thus reducing friction and barriers to purchase. Many brands neglect this low-hanging fruit opportunity.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394de7757a1d38eaac187e_Screenshot%202025-05-30%20at%202.19.14%E2%80%AFPM.avif)
+![](../images/54ff75bd_68394de7757a1d38eaac187e_Screenshot_2025-05-30_at_2.19.14_PM.avif)
 
 #### Example: Momentary Ink
 

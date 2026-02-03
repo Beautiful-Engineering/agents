@@ -53,7 +53,7 @@ But when it’s done correctly, it works. Some businesses single-handedly grow t
 
 Here’s an example:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5807ac231c5f1b8eb903_Cold_Outreach_1.avif)
+![](../images/33d8f891_683d5807ac231c5f1b8eb903_Cold_Outreach_1.avif)
 
 This is cold email perfection:
 
@@ -125,7 +125,7 @@ How did cold outreach help them? We programmatically scraped blogs to find peopl
 
 Here’s a screenshot of that email:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d58074246d1a75194cd7d_Cold_Outreach_2.avif)
+![](../images/7451fdac_683d58074246d1a75194cd7d_Cold_Outreach_2.avif)
 
 That email led to over $500,000 in sales within a couple months. Over 40% of people responded to our emails. (Response rates are usually 2-10%).
 

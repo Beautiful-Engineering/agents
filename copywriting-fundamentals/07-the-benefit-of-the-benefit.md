@@ -42,25 +42,25 @@ Trampoline → fun for multiple kids → parents get some time off
 
 Sports car → no back seats (drawback) → no room for kids (there's a theme here)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834123a207bd25151157b15_1745872064444.avif)
+![](../images/0c8ed46b_6834123a207bd25151157b15_1745872064444.avif)
 
 Dog bed → dog will have a place to sleep → he won’t sleep in your bed
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834123ad26c3191a21d7cc5_1745872064481.avif)
+![](../images/ae2ca11e_6834123ad26c3191a21d7cc5_1745872064481.avif)
 
 Electric car → no visiting gas stations → not caring when gas prices go up → not 
 
 Durex → no unexpected pregnancies → no kids stuff (Durex = cheaper than baby)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834123bcedd37ace51c31e9_1745872064574.avif)
+![](../images/3dbcd2ee_6834123bcedd37ace51c31e9_1745872064574.avif)
 
 Jeep → amazing off road vehicle → can park anywhere
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834123b7dc94e80c4ce424d_1745872064592.avif)
+![](../images/b042b154_6834123b7dc94e80c4ce424d_1745872064592.avif)
 
 McDonald’s → open 24/7 → only food available on a late party night → good at interpreting drunk people (note this is a benefit of a benefit of a benefit).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6834123a268726c1e3e56140_1745872064459.avif)
+![](../images/836e7d95_6834123a268726c1e3e56140_1745872064459.avif)
 
 You get the point.
 

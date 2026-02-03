@@ -14,7 +14,7 @@ We know that a network effect flywheel spins faster as the user base becomes lar
 - Retention strengthens as leaving means losing access to that growing value.
 - Monetization opportunities expand as engagement and data compound.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0c95b84db255334949c9_image%20(99).avif)
+![](../images/1aa15582_68da0c95b84db255334949c9_image__99_.avif).avif)
 
 So how does that map to strategy?
 

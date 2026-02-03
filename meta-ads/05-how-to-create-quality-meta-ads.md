@@ -14,11 +14,11 @@ For Meta specifically, there are four important variables involved in creating g
 - **The rest of the funnel: **What happens after users click your ad
 Here’s a look at some of these components.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e43328c6f6766ea19e81_Facebook-ad-components-example.avif)
+![](../images/d26ae362_6837e43328c6f6766ea19e81_Facebook-ad-components-example.avif)
 
 You’ve probably seen some companies that take a more straightforward approach with their creatives, presenting their products exactly as is in their creatives. Then there are brands that create out-of-the-box ads, using more abstract imagery.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e43385538c24c4f486d2_1632328104685.avif)
+![](../images/78103e3d_6837e43385538c24c4f486d2_1632328104685.avif)
 
 Which ads perform better? There’s no hard answer. Testing your Meta ads will require experimentation with all of the elements listed above. And you need to experiment *a lot*—don't expect to land on very affordable conversions with your first 5-10 ads.
 
@@ -41,7 +41,7 @@ Let’s look at some Meta ads to see what works and what doesn’t.
 
 Here’s an offer ad from HelloFresh targeting churned customers.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e4335ae1935ba492ba29_1632328101151.avif)
+![](../images/d4e0dc50_6837e4335ae1935ba492ba29_1632328101151.avif)
 
 What makes this ad work? 
 
@@ -50,7 +50,7 @@ What makes this ad work?
 - The copy in the creative creates urgency—it’s a flash sale, and the offer is for this week only.
 Now check out these prospecting ads from three different companies advertising some kind of scheduling software.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e43337c8ad14353a4eb9_1632328103065.avif)
+![](../images/f8db4356_6837e43337c8ad14353a4eb9_1632328103065.avif)
 
 All three use a static image but take very different approaches. 
 
@@ -59,7 +59,7 @@ All three use a static image but take very different approaches.
 - **Right: **This ad is the best of both worlds: the creative shows a large headline above a relevant visual. The copy is short and simple (unlike the first ad’s), and the image clearly illustrates what the product does (Instagram scheduling).
 Now take a look at this retargeting video from ClickUp using Instagram Stories.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e482ad0a6cc38b0bfa73_1632328110120.avif)
+![](../images/65509dbc_6837e482ad0a6cc38b0bfa73_1632328110120.avif)
 
 This ad works well because:
 
@@ -71,7 +71,7 @@ This ad works well because:
 
 Finally, a few examples of right column ads on Facebook from Superside (top) and Chargebee (bottom). 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e433833faa733041dfe5_1632328099084.avif)
+![](../images/0ef3e959_6837e433833faa733041dfe5_1632328099084.avif)
 
 - Neither ad creative is 100% clear. Can you tell what company logos are in Superside’s ad? Or what the text says in Chargebee’s? The small image size makes them illegible.
 - When including text in your ad, aim for fewer words so that they can be bigger and work for more ad placements. (Alternatively, create different versions of your ads for specific placements.)
@@ -83,9 +83,9 @@ Remember that the rest of the funnel, or what happens after someone clicks your 
 
 For example, here’s a prospecting ad from the B2B sales tool Showpad and the page it leads to.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e43396fc20c65e947bc4_1632328100538.avif)
+![](../images/431a8174_6837e43396fc20c65e947bc4_1632328100538.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e433f0ef832b921e038d_1632328100102.avif)
+![](../images/4901772c_6837e433f0ef832b921e038d_1632328100102.avif)
 
 The ad leads to a landing page designed to educate users about hybrid sales. It’s a lot more informative than Showpad’s homepage, which features company logos and customer testimonials—elements that build social proof but don’t fully explain what Showpad does. 
 

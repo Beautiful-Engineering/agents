@@ -4,7 +4,7 @@ Now let's examine the second layer of your foundation: **growth catalysts**.
 
 As said, your Foundational Five explains the conditions required for growth to be possible. It doesn't, however, inherently explain how and why breakout growth happens.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68caed7f40ea6fecccf85945_Growth%20System%206.avif)
+![](../images/6dfe6daf_68caed7f40ea6fecccf85945_Growth_System_6.avif)
 
 Or, put very simply, the Foundational Five tells us* if we’ll grow*. Growth Catalysts explain *how fast and how much we’ll grow. *
 

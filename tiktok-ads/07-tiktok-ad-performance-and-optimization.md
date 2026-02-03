@@ -14,7 +14,7 @@ In this section, we'll show you a straightforward creative testing methodology t
 
 ### **Example**: True Classic
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394f229fcbbea4d94df905_True_Classic_AB_Test.avif)
+![](../images/f13118b4_68394f229fcbbea4d94df905_True_Classic_AB_Test.avif)
 
 - The only difference between these ad variants is the "3 reasons why…" headline. 
 Here's an example of a big swing creative test using two wildly different video openers.

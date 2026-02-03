@@ -12,9 +12,9 @@ There’s a strategy for optimizing your cold email open and response rates:
 - Then send the winning email to the rest of your list.
 Here are two email archetypes. These sell a video tool that helps with meetings and team collaboration:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5cb3e7ee4a66f3077fdd_1632233623026.avif)
+![](../images/9bc09597_683d5cb3e7ee4a66f3077fdd_1632233623026.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5cb4e6f776950991322a_1632233636716.avif)
+![](../images/ca913994_683d5cb4e6f776950991322a_1632233636716.avif)
 
 For each option, you want to create:
 
@@ -205,7 +205,7 @@ You want a next step that is low enough investment so they don’t feel like the
 
 Some examples:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5cb4a9b2b5327fcc52ba_1632233681050.avif)
+![](../images/f30ac26f_683d5cb4a9b2b5327fcc52ba_1632233681050.avif)
 
 ### Legal disclaimer‌
 

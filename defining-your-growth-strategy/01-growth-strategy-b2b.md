@@ -18,7 +18,7 @@ Within this program, your strategy is framed around five key questions:
 - What’s the most important problem to solve now?
 - What’s our plan of attack?
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da02b37043925d3b33ac7a_08a42ac7.avif)
+![](../images/466a510e_68da02b37043925d3b33ac7a_08a42ac7.avif)
 
 ### **What You’ve Answered So Far**
 

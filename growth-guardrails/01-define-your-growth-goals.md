@@ -10,7 +10,7 @@ But before you can build an engine, you need to know:
 - The constraints you must operate within (at least right now) to get there
 Remember, the Growth Engine exists within the overall [Growth System](/courses/dc-growth-system) from Part 1. As we saw then, by designing our growth system, we are also defining the inputs required to produce a strong growth strategy:
 
-![image.png](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d49b06463d4c53168ae573_962ca005.avif)
+![image.png](../images/b8f7bcc8_68d49b06463d4c53168ae573_962ca005.avif)
 
 While many think strategy is rooted in clever tricks and tactics, the reality is that *good strategy *starts with having a deep understanding of the problem you’re trying to solve. Good strategy starts with **shrinking the problem.**
 

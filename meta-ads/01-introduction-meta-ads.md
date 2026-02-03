@@ -30,7 +30,7 @@ Meta Ads on Facebook and Instagram are often misunderstood as being only for B2C
 
 Take a look at these ads from three successful companies in very different industries: the meal delivery service Daily Harvest, consumer meditation app Headspace, and real estate listings website Realtor.com.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837dbdde0b8ded3d7a6ad5a_1632322874712.avif)
+![](../images/41657a0d_6837dbdde0b8ded3d7a6ad5a_1632322874712.avif)
 
 **Meta ads excel at creating demand rather than capturing it** (Google Search Ads excel at capturing it), making them ideal for:
 

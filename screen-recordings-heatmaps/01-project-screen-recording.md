@@ -22,7 +22,7 @@ Then, break down your recordings by the different acquisition channels. To do th
 
 For example, if you wanted to track everyone who came from a Facebook ad, you could filter like this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e48629645d4ad60960577_project-screen-recording-1.avif)
+![](../images/fc23c465_683e48629645d4ad60960577_project-screen-recording-1.avif)
 
 ## Phase 3: Find patterns
 

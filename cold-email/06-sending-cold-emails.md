@@ -94,7 +94,7 @@ Make sure your follow ups accomplish the following:
 - “What’s holding you back from exploring this?”
 - “Are you still facing XYZ problem?”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5e34404da6b0f23945f3_1632233864657.avif)
+![](../images/68f1f17f_683d5e34404da6b0f23945f3_1632233864657.avif)
 
 You want to build credibility until your prospect can’t help but respond.
 

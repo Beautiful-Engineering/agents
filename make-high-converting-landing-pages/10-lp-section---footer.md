@@ -2,7 +2,7 @@
 
 **If needed, to put this back into context of the page, see "Footer" below.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683506aa08e3200b82786621_1744225409912.avif)
+![](../images/1e29c884_683506aa08e3200b82786621_1744225409912.avif)
 
 You can generally keep it pretty simple:
 
@@ -16,6 +16,6 @@ You can generally keep it pretty simple:
 
 We also add this to the top of our footer to push people to our key pages:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68350b39382584f63bd8d0c2_1744228919917.avif)
+![](../images/b0086ebb_68350b39382584f63bd8d0c2_1744228919917.avif)
 
 ### Congrats, you've got a landing page!

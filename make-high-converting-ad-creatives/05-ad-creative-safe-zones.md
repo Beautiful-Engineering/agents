@@ -12,7 +12,7 @@ It's instead viewed in the context of Instagram, Facebook, LinkedIn, or TikTok, 
 
 **Here's a great image from CreativeX that illustrates this quite well:**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683549d794b3e7d8c4153db3_1742420068880.avif)
+![](../images/e4b98f46_683549d794b3e7d8c4153db3_1742420068880.avif)
 
 For the Reel on the left, look at all the visual elements like the brand name, button, text, likes, comments, and shares that crowd the Reel. If you placed an important part of the ad in the bottom half of the ad, it'd be completely covered.
 
@@ -30,12 +30,12 @@ But here are some great templates from [Ascenial](https://www.ascenial.com/blog/
 
 #### Instagram Reels
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683549b674b6f7e97cb66fb7_tool_IG_Reel_%2528safety_zone%2529-01_copy.avif)
+![](../images/8189ee52_683549b674b6f7e97cb66fb7_tool_IG_Reel__28safety_zone_29-01_copy.avif)
 
 #### Instagram Stories
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683549b5ec4b1d80f633c519_tool_IG_Story_%2528safety_zone%2529-01_copy.avif)
+![](../images/e7931351_683549b5ec4b1d80f633c519_tool_IG_Story__28safety_zone_29-01_copy.avif)
 
 #### TikTok
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683549b6327b60cf764dbefb_tool_Tik_Tok_%2528safety_zone%2529-01_copy.avif)
+![](../images/a14fcd1d_683549b6327b60cf764dbefb_tool_Tik_Tok__28safety_zone_29-01_copy.avif)

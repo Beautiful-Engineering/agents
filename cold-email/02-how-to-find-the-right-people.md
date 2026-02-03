@@ -54,7 +54,7 @@ Once you understand your ideal customer, the next step is to find the **names** 
 
 As a refresher, here’s a picture of the ladder of product awareness, which is a proxy for a customer journey:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5a920aa741ca59bbb8df_1632233531312.avif)
+![](../images/8a90e648_683d5a920aa741ca59bbb8df_1632233531312.avif)
 
 Higher up on the ladder, prospects will fit into one of these categories:
 

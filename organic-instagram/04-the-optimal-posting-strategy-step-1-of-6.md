@@ -56,7 +56,7 @@ Simply pair a content type from the previous section with a post type below—an
 
 Feed posts make up the grid of recent posts on your profile page — your home feed.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3baa8dc9c0d962d84_1630460604674.avif)
+![](../images/cdae8207_683d38e3baa8dc9c0d962d84_1630460604674.avif)
 
 We'll go over a few considerations for grid aesthetics in an upcoming section, but for now just remember that every feed post should align with one of your core content buckets. 
 
@@ -64,15 +64,15 @@ There are three types of feed posts.
 
 Static posts are still images or graphics.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e30697f0f74385a23e_1630460734458.avif)
+![](../images/b96d9e09_683d38e30697f0f74385a23e_1630460734458.avif)
 
 Video posts can be up to 60 seconds in length.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e310ab97d9cbc1f699_1630460772021.avif)
+![](../images/7a284404_683d38e310ab97d9cbc1f699_1630460772021.avif)
 
 Carousel posts let you upload a sequence of static posts and or videos for users to swipe through.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e430793ff0d5513b52_1630460808127.avif)
+![](../images/6aea0204_683d38e430793ff0d5513b52_1630460808127.avif)
 
 Visuals are only half of the equation in feed posts. 
 
@@ -86,15 +86,15 @@ Here’s how to write an effective caption:
 
 **Make your first sentence a hook: **You can only see about the first sentence (125 characters), before the rest of the copy gets truncated behind the “more” button. Think of the hook as the subject line that entices the reader to click through.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e32f7cfd028b3305ba_1630460974541.avif)
+![](../images/7f0dd865_683d38e32f7cfd028b3305ba_1630460974541.avif)
 
 Deliver on your hook’s promise in the body copy: Provide 2-3 valuable insights or details that deliver on the promise you made in the hook. This is where you must deliver the value.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e30aa741ca59a69644_1630461014581.avif)
+![](../images/2c3d0aa7_683d38e30aa741ca59a69644_1630461014581.avif)
 
 Close with a call to action: We recommend using CTAs on the majority of your posts. Anytime you ask your audience to do something just make sure it’s relevant and complementary to the content, and worthwhile.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e32b3e6853415cdb2e_1630461049875.avif)
+![](../images/542ef978_683d38e32b3e6853415cdb2e_1630461049875.avif)
 
 Good choices for a CTA include:
 
@@ -108,17 +108,17 @@ Experiment with caption length: Data suggest that longer captions lead to higher
 We recommend that you try both and see what resonates. If you start with short captions, stick with it for a few weeks, then try increasing the length by 25% - 50% for a few weeks. Evaluate the difference in engagement rate. Stick with what works.
 ‍
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d477fcc1b3148ca890359_Screenshot%202025-06-02%20at%202.41.01%E2%80%AFPM.avif)
+![](../images/68192309_683d477fcc1b3148ca890359_Screenshot_2025-06-02_at_2.41.01_PM.avif)
 
 Format for readability: If you experiment with long captions, make sure to use line breaks and the occasional emoji to make them easier to consume. Up until recently you would have had to use a tool to assist in formatting, but now you can format captions to your heart’s content directly in the app.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e37d79944cfdd8cc1a_1630461177108.avif)
+![](../images/49196965_683d38e37d79944cfdd8cc1a_1630461177108.avif)
 
  
 
 Encourage virality: Stories are Instagram’s only real virality feature. Content that gets re-shared to Stories is the most likely to be viewed by the initial sharer’s entire audience, and the audiences of everyone who shares it beyond that. Design content with this feature in mind, and consider asking your audience to reshare to Stories if they got value from it.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3c516a83bf2dd407e_1630461208262.avif)
+![](../images/44e4499f_683d38e3c516a83bf2dd407e_1630461208262.avif)
 
 #### **Consideration**: Use relevant hashtags
 
@@ -141,19 +141,19 @@ Instagram used to favor posts that included the maximum 30 hashtags, but followi
 
 Everyone loves a giveaway. And on Instagram you can build excitement for your giveaway among people who don’t even know your brand — that’s the power of strong visuals and baked-in engagement.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3ba65ade01308133e_1630461291001.avif)
+![](../images/b91351fb_683d38e3ba65ade01308133e_1630461291001.avif)
 
 - Notice there’s nothing fancy in the visual, just a clear photo of the products featured in the giveaway and a clean headline overlay. 
 - To enter, contestants had to perform a number of actions—every one of them a valuable form of engagement.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3edf0222ee8ae066a_1630461345643.avif)
+![](../images/5f0ce871_683d38e3edf0222ee8ae066a_1630461345643.avif)
 
 - Another example from Fast. People love hoodies and free swag.
 - High-res photography shows off the product. 
 - Simple rules: Tag a friend to enter. No tagging limit, just one tag per comment to rack up individual comments and engagement points. 
 Make it a joint giveaway and reach more audiences.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e5c337fec807b29bf8_1630461387787.avif)
+![](../images/cf64b3ba_683d38e5c337fec807b29bf8_1630461387787.avif)
 
 Legendary Foods partnered with five brands that sell functional foods and snacks.
 
@@ -167,7 +167,7 @@ In reaction posts, pure engagement is the goal. Reaction posts are made to captu
 
 Foundr is a popular entrepreneurial magazine that clearly knows their audience (entrepreneurs). 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3345816cf585c4f83_1630461467205.avif)
+![](../images/c8ec06c6_683d38e3345816cf585c4f83_1630461467205.avif)
 
 You can see this post generated nearly 17,000 likes and over 200 comments:
 
@@ -175,7 +175,7 @@ You can see this post generated nearly 17,000 likes and over 200 comments:
 - The quote is controversial. You can’t help but ask yourself which side you’re on.
 - Simple CTA: Do you agree? Yes or No?
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3e9fd0ed0efc2039f_1630461516626.avif)
+![](../images/5e3d4edf_683d38e3e9fd0ed0efc2039f_1630461516626.avif)
 
 - Deathwish Coffee Co. stands apart because they have such a strong personality (for any brand, let alone a coffee company). Their motto is also their value prop: “the world’s strongest coffee.” 
 - Their brand voice is distinct and they know their audience: no-nonsense black coffee drinkers who appreciate righteous metal riffs, high octane beverages, and a touch of f-you attitude. 
@@ -186,7 +186,7 @@ You can see this post generated nearly 17,000 likes and over 200 comments:
 
 Humor is a great way to show personality and humanize your brand
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3273664d3d72634b6_1630461592636.avif)
+![](../images/9400f9ae_683d38e3273664d3d72634b6_1630461592636.avif)
 
 - Hubspot does a nice job here by using humor to call out something we’re all thinking, but maybe haven’t expressed — exactly the type of insightful content that resonates.
 - If you’re thinking about using humor in your posts, remember, It’s important to stick to a consistent theme. 
@@ -195,7 +195,7 @@ Humor is a great way to show personality and humanize your brand
 
 Use carousel posts to share tips, how-tos, tutorials, and any kind of useful education content that helps the user have a better experience with your product.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e5c337fec807b29bdf_1630461646909.avif)
+![](../images/7331febc_683d38e5c337fec807b29bdf_1630461646909.avif)
 
 - Glossier does a nice job balancing value and promotion. 
 - The post explains the importance of cleansing and how to do it right.
@@ -203,7 +203,7 @@ Use carousel posts to share tips, how-tos, tutorials, and any kind of useful edu
 
 #### Showcase community
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e373f7219befee45a2_1630461706274.avif)
+![](../images/9e53c1e6_683d38e373f7219befee45a2_1630461706274.avif)
 
 - Dribbble shares graphic design samples from their community of freelance creators.
 - They tag designers so people can find and admire their work, and hire them.
@@ -230,13 +230,13 @@ If your home feed is the face of your company, think of Stories as an “inside 
 
 The founder of the probiotic soda brand, Poppi, filmed over a dozen Stories throughout the day, stringing them together to give her followers an impromptu office tour and a chance to meet the team.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e36d119a927155f4ee_1630462134443.avif)
+![](../images/36036969_683d38e36d119a927155f4ee_1630462134443.avif)
 
 #### Poll your followers
 
 Everlane is a brand that sells ethical activewear, including a variety of denim goods. To communicate one of their central themes, transparency, they published a sequence of stories to educate followers on the reality of denim manufacturing.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e37d79944cfdd8cc1d_1630462189665.avif)
+![](../images/d3756250_683d38e37d79944cfdd8cc1d_1630462189665.avif)
 
 - Binary yes-no engagement poll sticker (just tap a button to weigh in)
 - A small form of engagement at the start, or micro commitment, increases the odds you’ll stick through to see the end.
@@ -246,14 +246,14 @@ Everlane is a brand that sells ethical activewear, including a variety of denim 
 
 Digital Marketer asked their LInkedIn audience if email marketing was dead, then repurposed the responses in this Story sequence.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3f470a936dac3fb2d_1630462262481.avif)
+![](../images/1706442f_683d38e3f470a936dac3fb2d_1630462262481.avif)
 
 - Survey your audience about a controversial or divisive topic
 - “Email marketing is dead” is a proven content topic because it provokes strong, opinionated responses from marketers (Digital Marketer’s audience)
 - Use sliders as an alternative if they don’t want to write
 - End the Story sequence with an open-ended question
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3c018cbe8e6aed766_1630462335455.avif)
+![](../images/ed4e050e_683d38e3c018cbe8e6aed766_1630462335455.avif)
 
 Summer Fridays Credit: [Later](https://www.instagram.com/reel/CShnypTgpVu/?utm_source=ig_web_copy_link)
 - Be direct and ask your audience what they want.
@@ -271,7 +271,7 @@ One way to source it is to check and see who has already tagged your company wit
 
 Warby Parker does a great job of curating and resharing UGC content to their stories.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e373f7219befee459c_1630462409679.avif)
+![](../images/0733e4f8_683d38e373f7219befee459c_1630462409679.avif)
 
 Instead of cranking out images of bespectacled beauty models in contrived scenes, Warby features real, happy-looking people from all walks of life. 
 
@@ -279,7 +279,7 @@ Instead of cranking out images of bespectacled beauty models in contrived scenes
 - Captures the emotional “after” state their customers feel with their new frames.
 - Social proof builds trust and credibility.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3e9fd0ed0efc2039c_1630462455773.avif)
+![](../images/9520b3ed_683d38e3e9fd0ed0efc2039c_1630462455773.avif)
 
 Carbon Diet Coach, who we mentioned earlier, sells a novel health and fitness app that tracks calories and diet composition over time. And it uses machine learning to fine-tune your routine for better results.
 
@@ -296,11 +296,11 @@ The great thing about Highlights is that they allow you to create a highlight re
 
 Highlights can function as a guide for people arriving at your page for the first time who want to find out more about your brand.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e4cc1b3148ca7fbc39_1630462523782.avif)
+![](../images/1d417a13_683d38e4cc1b3148ca7fbc39_1630462523782.avif)
 
 #### Example: Lush Cosmetics
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e36a6b1fb8aa337c07_1630462555250.avif)
+![](../images/7d1dc66a_683d38e36a6b1fb8aa337c07_1630462555250.avif)
 
 - **New products**: Every time a new product is released, Lush creates a Story and tags the product, creating a direct link to drive traffic to.
 - **Community showcase**: Lush keeps a highlight reel of stories and UGC that reflect the values the company stands for.
@@ -308,7 +308,7 @@ Highlights can function as a guide for people arriving at your page for the firs
 
 #### **E**xample: Magic Spoon
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3baa8dc9c0d962d81_1630462621036.avif)
+![](../images/79f6c0e8_683d38e3baa8dc9c0d962d81_1630462621036.avif)
 
 - Magic Spoon collects UGC from their “Spooners.”
 - Shows enticing close-ups of the product and people enjoying it.
@@ -339,7 +339,7 @@ The ability to reach new audiences with Reels boils down to the quality of your 
 
 Flavor God is a popular ecom seasoning company that uses Reels to give users tons of tasty recipe ideas featuring their seasoning products.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e4baa8dc9c0d962d89_1630462727373.avif)
+![](../images/862c753d_683d38e4baa8dc9c0d962d89_1630462727373.avif)
 
 - This air fryer “fried” chicken recipe generated over 200k views and 70 comments.
 - The reel is like a storyboard of quick cuts using subtitles to string them together.
@@ -361,7 +361,7 @@ Watching short, fast cooking [videos](https://www.instagram.com/reel/CShnypTgpVu
 
 Frank Body sells a variety of cruelty-free skincare beauty products.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e5c337fec807b29bf5_1630462845808.avif)
+![](../images/16fcbb8e_683d38e5c337fec807b29bf5_1630462845808.avif)
 
 - Quick video cuts of product demonstrations and tutorials.
 - Close-up visuals of the interesting textures of each product (gritty rubs, glistening serums, creamy moisturizers, and so on).
@@ -371,7 +371,7 @@ Frank Body sells a variety of cruelty-free skincare beauty products.
 
 Blueland is an ecommerce brand that sells plastic-free cleaners in reusable eco-friendly bottles.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3e88b4ec07a29f769_1630546722032.avif)
+![](../images/00aacee4_683d38e3e88b4ec07a29f769_1630546722032.avif)
 
 - Unique form factor of the refill cleaning tablets provokes intrigue and curiosity.
 - See the product in action: Reels show all the different ways to use their suite of cleaning products. (There is a strange fascination in watching a fresh sponge cut through grimy shower tiles).
@@ -399,7 +399,7 @@ IGTV videos let you put clickable links in the description, which makes it a sui
 
 Zero is a popular fasting app. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e5c337fec807b29bee_IMG_3831.avif)
+![](../images/e58a8475_683d38e5c337fec807b29bee_IMG_3831.avif)
 
 - Fasting is a popular health topic that generates a lot of questions (how to start, optimal length, supplements, etc.)
 - Zero uses IGTV to post in-depth content exploring the subject of intermittent fasting for health and longevity. 
@@ -409,7 +409,7 @@ Zero is a popular fasting app.
 
 Neil Patel is a prominent digital marketer and agency owner. He helps clients increase traffic to their websites. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e3b236320c50689a32_1630546717986.avif)
+![](../images/93e8a235_683d38e3b236320c50689a32_1630546717986.avif)
 
 - Neil provides in-depth insights on a wide range of digital marketing topics.
 - For deeper insights, he directs viewers to his agency website.
@@ -429,7 +429,7 @@ IG Live is used for live video broadcasts that can last up to four hours. Going 
 - Viewers can leave comments in real-time so you can answer them while you’re live. 
 Promote an upcoming event or product launch
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e42525948b0fec30be_1630546718867.avif)
+![](../images/ec07385c_683d38e42525948b0fec30be_1630546718867.avif)
 
 Credit: [Later](https://later.com/blog/instagram-live/)
 - Best used when you already have a following because it’s a direct line of communication to people who are already interested in what you have going on. 
@@ -451,13 +451,13 @@ Guides are less commonly used, and not a priority if your goal is to increase re
 
 If you have a great deal of existing content, or your product or service requires a lot of education, guides can help new followers find your best-of content with ease.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e55db8cedd2444ba7d_1630546719648.avif)
+![](../images/4ad45453_683d38e55db8cedd2444ba7d_1630546719648.avif)
 
 - Instagram marketing agency Squared Academy organizes their feed posts into topics. 
 - Guides function like blog posts and are collections of related feed posts. 
 - A good way to demonstrate expertise and show followers you’re an expert.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d38e30aa741ca59a69641_1630546720701.avif)
+![](../images/c2f5dfb1_683d38e30aa741ca59a69641_1630546720701.avif)
 
 - D2C brands and ecommerce companies that have a wide product selection can create gift guides and “best of” collections. 
 - This helps newcomers find the most popular or top-rated products.

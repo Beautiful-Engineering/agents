@@ -15,7 +15,7 @@
 
 These are Shopping ads:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837ba55931515fa0f2b2b7f_1741213818205.avif)
+![](../images/35b17027_6837ba55931515fa0f2b2b7f_1741213818205.avif)
 
 Shopping Ads showcase your products directly in Google search results, on the Google Shopping tab, and across channels like Display and YouTube via Performance Max (PMax). 
 

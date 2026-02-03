@@ -9,11 +9,11 @@ Now, let's take a look at the Catalyst Boosters, which we organize into six diff
 - Channel boosters
 - Company boosters
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0a9da1769ac8f7162626_image%20(90).png)
+![](../images/c566742b_68da0a9da1769ac8f7162626_image__90_.png).png)
 
 ### Market Boosters
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0c313af314104ef85e24_image%20(96).avif)
+![](../images/95b9a808_68da0c313af314104ef85e24_image__96_.avif).avif)
 
 There are several different types of market boosters. The first and one of the strongest market catalysts is targeting an **underserved market**. 
 
@@ -31,7 +31,7 @@ Deel is a prime example of a company that benefits from a market shift catalyst.
 
 ### Product Boosters
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0c281d9b495c1d8c2e9e_image%20(95).avif)
+![](../images/72ad24df_68da0c281d9b495c1d8c2e9e_image__95_.avif).avif)
 
 The next category is Product Boosters, and as you can see, most of our catalysts align with our Foundational Five, which is no coincidence.
 
@@ -51,7 +51,7 @@ That makes built-in virality powerful but fragile: it can generate early momentu
 
 ### Model Boosters
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0c20e04d54f2db2b69a3_image%20(97).avif)
+![](../images/65f1f92c_68da0c20e04d54f2db2b69a3_image__97_.avif).avif)
 
 Model boosters emerge from your business model mechanics. 
 
@@ -65,7 +65,7 @@ Offering a free plan or product isn’t a Growth Catalyst if your competitors ar
 
 ### Brand Boosters
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0bf27751f74e5d62297b_image%20(94).avif)
+![](../images/04d6d95f_68da0bf27751f74e5d62297b_image__94_.avif).avif)
 
 Under the Brand category, our first Booster is **founder story**. 
 
@@ -89,7 +89,7 @@ The true power comes if you can define and own the category long enough that you
 
 ### Channel Boosters
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0bec201975b8d3845373_image%20(93).avif)
+![](../images/9664af9c_68da0bec201975b8d3845373_image__93_.avif).avif)
 
 The next category, and to wrap up the connection to the Foundational Five, is our channel boosters. Meaning you have some sort of asymmetric or unfair distribution edge.
 
@@ -101,7 +101,7 @@ The next category, and to wrap up the connection to the Foundational Five, is ou
 
 ### Company Boosters
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0be463a729c894eaa330_image%20(92).avif)
+![](../images/ceb36df9_68da0be463a729c894eaa330_image__92_.avif).avif)
 
 Now, our final catalyst category: Company Boosters. 
 

@@ -32,7 +32,7 @@ After launching your PMax campaign, wait 30–60 days (or until you achieve 50+ 
 - **Conv. Value/Cost (ROAS)**: Return on ad spend—aim for ≥300% if targeting revenue-based conversions (e.g., purchases).
 - **Conversion Rate**: Percentage of clicks leading to conversions.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b977688a8f8d7966e234_1741197132401.avif)
+![](../images/edb7d44a_6837b977688a8f8d7966e234_1741197132401.avif)
 
 - Analyze the performance of the PMax campaign relative to your Search to see if it's meeting your expectations or not. 
 - If it's performing very poorly compared to your Search campaigns, keep a close eye on it and be prepared to pause it if you're burning money. You can always try again when you have more conversion history in the account.
@@ -60,11 +60,11 @@ This tab isn't super helpful tbh but it's the only place you get any insight int
 - Note you can't see conversion performance but you can likely infer that by which ones are getting more of the clicks
 - Use this information to decide which audience segments to put more focus on
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b97724d2b0187c0d4adf_1741198126248.avif)
+![](../images/57ac35ce_6837b97724d2b0187c0d4adf_1741198126248.avif)
 
 - Use Asset Insights to see the overlap of your assets and audiences to see if you can create specific Asset Groups for those segments using similar messaging
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b9771c5f217eaca1b478_1741198234526.avif)
+![](../images/156338b6_6837b9771c5f217eaca1b478_1741198234526.avif)
 
 Use Insights to understand overall campaign health, but rely on Asset Groups for granular optimization, as channel-specific breakdowns aren’t directly segmentable.
 
@@ -78,14 +78,14 @@ We generally believe in letting Google do its thing, especially with Performance
 - If there's no technical or usability issues, you might want to reduce bids or exclude (-100% bid adjustment) that device, or prioritize other ones
 - For example this account shows very expensive Tablet conversions (hence why the impressions are likely low), and that Mobile devices are ~50% more expensive than Computers. So it would be worth checking the usability of their site/funnel/app on Mobile and Tablet.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b9778a11232ed552c451_1741197892297.avif)
+![](../images/a97117fc_6837b9778a11232ed552c451_1741197892297.avif)
 
 - **Analyze Matched Locations:**
 -  Are there locations that significantly under or overperform?
 - If so, can we either remove or give priority to ones?
 - For example, this same account appears to get a lot of conversions from India and Pakistan, but at CPAs that are 50-100% higher than other countries. It might be worth excluding India and Pakistan if that CPA exceeds their target
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b977a7801f46e298d2c1_1741198039689.avif)
+![](../images/ae38eba5_6837b977a7801f46e298d2c1_1741198039689.avif)
 
 ### Phase 2: Scale your PMax campaign
 

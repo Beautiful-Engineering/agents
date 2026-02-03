@@ -48,7 +48,7 @@ Keep it simple and concise, and separate keywords with hyphens. Below are a few 
 
 A title tag is the HTML snippet that specifies a web page’s title on SERPs. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d25b9ba65ade013fccad5_1636070869844.avif)
+![](../images/787bb490_683d25b9ba65ade013fccad5_1636070869844.avif)
 
 Including your target keyword in the title tag helps both search engines and humans understand what your page is about. But all of your competitors will do the same, so you need to find ways to make your title more interesting and get users to click. Consider adding some emotion—but don’t go overboard and write clickbait.
 
@@ -63,7 +63,7 @@ Ideally, title tags should be under 60 characters so they aren’t cut off. Use 
 
 The meta description is the longer snippet of info that appears underneath the title tag in SERPs. You can set it yourself, but Google often generates its own description to show more relevance to a user’s query. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d25b9345816cf5851472e_1636070984891.avif)
+![](../images/312fc603_683d25b9345816cf5851472e_1636070984891.avif)
 
 Like your title tag, focus on writing compelling copy that attracts users’ attention. Think of the description as an organic ad to encourage clicks. Don’t repeat the same description across multiple pages.
 
@@ -71,7 +71,7 @@ Like your title tag, focus on writing compelling copy that attracts users’ att
 
 Subheadings are the section headers that break up your content, formatted like so:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d25ba123968404898ab03_1636070984703.avif)
+![](../images/84d68d46_683d25ba123968404898ab03_1636070984703.avif)
 
 They’re arranged in a hierarchy, with a single h1 as the title of your content, then h2s at the top, followed by h3s, h4s, and so on. (Not to be confused with the title tag, the h1 tag doesn’t appear in SERPs.)
 
@@ -111,7 +111,7 @@ From a usability perspective, internal links also help keep users on your site f
 
 To get internal link suggestions, use Ahrefs Site Audit’s [Link opportunities](https://ahrefs.com/blog/link-opportunities/) feature. It shows relevant anchor text on your site that could be linked to another page—encouraging users to continue browsing your site. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d25b9345816cf58514732_1636070987533.avif)
+![](../images/7f145270_683d25b9345816cf58514732_1636070987533.avif)
 
 Image credit: [Ahrefs](https://ahrefs.com/blog/link-opportunities/)
 Your website shouldn’t only have internal links, though. Link externally to helpful references and trustworthy resources related to your content. These enhance your site’s authority and also help Google understand what your content is about. 
@@ -120,7 +120,7 @@ Your website shouldn’t only have internal links, though. Link externally to he
 
 Link optimization depends not just on where links take users, but also the actual text used, known as **anchor text**. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d25b96d119a92714ad186_1636071113176.avif)
+![](../images/b24a00da_683d25b96d119a92714ad186_1636071113176.avif)
 
 A few tips for optimizing your anchor text:
 
@@ -151,7 +151,7 @@ You can use multiple attributes for a single link.
 
 To find out whether a link on any website has any relationship attributes, highlight its anchor text, right click, and select **Inspect** to look at its source code.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d25b910ab97d9cbb5fa48_1636070985603.avif)
+![](../images/61669ed4_683d25b910ab97d9cbb5fa48_1636070985603.avif)
 
 ## Jump links
 
@@ -163,11 +163,11 @@ Whenever possible, include jump links in your content. These are internal links 
 
 Jump links are often used in tables of contents and make your content more easily navigable, especially long pieces of content. Check out how Buffer formats its guides with a sticky table of contents.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d25b91185f9776557c879_1636070873984.avif)
+![](../images/0094eef0_683d25b91185f9776557c879_1636070873984.avif)
 
 From an SEO perspective, jump links help tell Google what your content is about. They may also appear in SERPs, giving additional info to users and making your content more enticing. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d25b9d31027500e75a466_1636070986227.avif)
+![](../images/a8fe912a_683d25b9d31027500e75a466_1636070986227.avif)
 
 Another perk of including jump links, specifically in a table of contents: You can use a heat mapping tool like [Hotjar](https://www.hotjar.com/) to find out where users are clicking most often. Based on this info, you could reorganize your content to place this info more prominently, or add CTAs to those specific sections.
 
@@ -182,7 +182,7 @@ Images (and other forms of media like video) make a website more engaging than i
 - **Give your images descriptive file names. **A descriptive file name helps search crawlers understand its subject matter better than something like “IMG_97950” or another default name. Use hyphens to separate words, like automatic-timer-feature.png.
 - **Write descriptive alt text. **Alt text (short for “alternative text”) is the snippet of information included in an image’s HTML code. When an image fails to load, the alt tag is what appears. Screen readers also read alt text to let users with visual impairments know what’s in it. It gives context to images’ subject matter and like file names, helps search engine crawlers index images correctly.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d25ba123968404898aaf8_1636070871639.avif)
+![](../images/f8510bf1_683d25ba123968404898aaf8_1636070871639.avif)
 
 Image credit: [SE Ranking](https://seranking.com/blog/html-tags-in-seo/)
 
@@ -194,7 +194,7 @@ Google looks at a website’s E-A-T—the expertise, authoritativeness, and trus
 
 Some SEOs have observed that including author bios with their degrees/certifications can [lead to a ranking boost](https://moz.com/community/q/topic/68618/how-important-are-author-bios-to-seo/4). This doesn’t mean Google ranks sites based on author reputation, though. It’s possible users viewed a site more credibly and were more likely to share it if author info was included.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d25b92c5be804fba29c70_1636070868850.avif)
+![](../images/42f2674f_683d25b92c5be804fba29c70_1636070868850.avif)
 
 The point here: Author info provides transparency to readers and builds your brand’s credibility. 
 

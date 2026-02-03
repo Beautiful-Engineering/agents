@@ -1,6 +1,6 @@
 # Common mistakes to avoid
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d9d224e65e3ad1c0e1e366_image.avif)
+![](../images/bf47af0a_68d9d224e65e3ad1c0e1e366_image.avif)
 
 ### The Broadcast Approach
 

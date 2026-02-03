@@ -4,14 +4,14 @@ Site architecture is one of the foundational pieces of practicing good SEO. It d
 
 Websites with poor site architecture are disorganized. Visitors get lost in them; it’s not easy to find what they’re looking for. There may even be “orphan” pages, pages that can be found in SERPs but not through any link on the website.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d255e28992d2318f54ec2_Screenshot%202025-06-02%20at%2012.15.23%E2%80%AFPM.avif)
+![](../images/7d29727f_683d255e28992d2318f54ec2_Screenshot_2025-06-02_at_12.15.23_PM.avif)
 
 Image credit: [Backlinko](https://backlinko.com/hub/seo/architecture)
 The ideal site architecture uses a hierarchical structure that’s intuitive and easy to navigate. Pages are grouped together as subcategories of broader categories, with each page just a few clicks from one another. They generally follow this format:
 
 https://www.example.com/category/subcategory/
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d252b3d848173f86119f8_Screenshot%202025-06-02%20at%2012.14.33%E2%80%AFPM.avif)
+![](../images/d5b4fe00_683d252b3d848173f86119f8_Screenshot_2025-06-02_at_12.14.33_PM.avif)
 
 Image credit: [Backlinko](https://backlinko.com/hub/seo/architecture)Consider how Salesforce organizes its pages under higher-level categories like its products, resources, and blog:
 
@@ -34,7 +34,7 @@ You should do the same for your site—create logical categories and subcategori
 
 In WordPress, for example, Page Attributes in your web page’s settings sidebar allows you to categorize a page by nesting it under a “parent.” 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d24ffac2fe38f7e726d2f_1636070668747.avif)
+![](../images/88c2571e_683d24ffac2fe38f7e726d2f_1636070668747.avif)
 
 ## How many landing pages should your website have?
 
@@ -61,4 +61,4 @@ Here are a few guiding principles.
 - After you’ve set up your website’s foundational pages, create more detailed pages, like about each of your product’s core features or served industries. This is a commonly missed SEO opportunity because many users search for a very specific feature or offering that a high-level product features page can’t rank well for. More detailed landing pages expand your company’s online presence.
 - For example, Zoho has separate pages about how its CRM can be used by companies of different sizes and in different industries, plus employees in different roles.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d24ff2f7cfd028b26a03f_1636070669693.avif)
+![](../images/16ea4da1_683d24ff2f7cfd028b26a03f_1636070669693.avif)

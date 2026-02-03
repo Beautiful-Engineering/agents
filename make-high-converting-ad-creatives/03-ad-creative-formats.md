@@ -24,13 +24,13 @@ If it’s something people already understand, but for a new market for example,
 
 These ads are to the point
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fb044b892efe02c11e_1742332055450.avif)
+![](../images/200ba77a_683546fb044b892efe02c11e_1742332055450.avif)
 
 #### This vs. That comparisons
 
 Here you directly contrast two things. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fab30ed7065b1f1e1e_1742332266411.avif)
+![](../images/f5ea3f03_683546fab30ed7065b1f1e1e_1742332266411.avif)
 
 Generally this can be:
 
@@ -43,19 +43,19 @@ Generally this can be:
 
 Here you specifically highlight one or more testimonials:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fa8059fd54d2e20c7d_1742332372478.avif)
+![](../images/c7d167d6_683546fa8059fd54d2e20c7d_1742332372478.avif)
 
 #### Feature callouts
 
 Here you have your product and have various value props/features called out:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fbb628c5810616284b_1742332408932.avif)
+![](../images/2ba29f70_683546fbb628c5810616284b_1742332408932.avif)
 
 #### Ugly ads
 
 Purposely low-budget ads that look like organic content:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fa03460e80fe982beb_1742332434532.avif)
+![](../images/f8aca32f_683546fa03460e80fe982beb_1742332434532.avif)
 
 #### Press screenshots
 
@@ -63,39 +63,39 @@ Here you either use a direct screenshot of a press article about your product.
 
 OR, you make it look like a “fake blog post” or “fake breaking news”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fad411b2c8c6315710_1742332455276.avif)
+![](../images/98f7d009_683546fad411b2c8c6315710_1742332455276.avif)
 
 #### Social proof
 
 Here you highlight social proof like impressive users, clients, review scores, or numbers:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fba151f43d6de02124_1742332518994.avif)
+![](../images/6e853b11_683546fba151f43d6de02124_1742332518994.avif)
 
 #### Meme
 
 You use meme generators to make memes that are really ads:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fbdffa7a5f18ce83b2_1742332558305.avif)
+![](../images/2b3f3083_683546fbdffa7a5f18ce83b2_1742332558305.avif)
 
 Our highest performing ad for our client VideoGen:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fbc9ef1a21d03b672e_1742332571811.avif)
+![](../images/a4c5d8a5_683546fbc9ef1a21d03b672e_1742332571811.avif)
 
 #### Problem callout
 
 Here you directly callout someone's problem:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fada5b098570ec3f43_1742332598259.avif)
+![](../images/ddf4d096_683546fada5b098570ec3f43_1742332598259.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fa044b892efe02c107_1742332611048.avif)
+![](../images/047b5a7e_683546fa044b892efe02c107_1742332611048.avif)
 
 #### Common interface
 
 You make an ad that looks like something they're familiar with:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546faa6796062ea9134fb_1742332675793.avif)
+![](../images/cbdbaa4d_683546faa6796062ea9134fb_1742332675793.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683546fbdffa7a5f18ce83c0_1742332689871.avif)
+![](../images/08e0fc0e_683546fbdffa7a5f18ce83c0_1742332689871.avif)
 
 ## Motion ads
 

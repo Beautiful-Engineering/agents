@@ -69,7 +69,7 @@ This is especially important for startups because you don't have brand recogniti
 
 **Even with AI tools like ChatGPT becoming popular, they still rely on information from websites.** When ChatGPT or Claude answers questions, they often pull information from web sources. Having strong SEO makes it more likely that AI tools will reference and recommend your company.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68e8247e1d363670e4d36575_s1.avif)
+![](../images/ae8d367a_68e8247e1d363670e4d36575_s1.avif)
 
 **Plus, people use AI tools and Google differently:**
 

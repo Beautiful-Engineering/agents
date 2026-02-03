@@ -126,7 +126,7 @@ Let's walk through researching Ali Abdaal from his YouTube channel as a potentia
 
 #### Step 1: Content Analysis (15 minutes)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d11020fecef0db3020ede8_image%20(66).avif)
+![](../images/01748322_68d11020fecef0db3020ede8_image__66_.avif).avif)
 
 - Go to his YouTube channel (6.4M+ subscribers)
 - Watch his last 5 videos - what topics does he cover?
@@ -135,7 +135,7 @@ Let's walk through researching Ali Abdaal from his YouTube channel as a potentia
 
 #### Step 2: Social Media Research (10 minutes)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d119b80bb9fa69c50c72ea_image%20(68).avif)
+![](../images/9d252662_68d119b80bb9fa69c50c72ea_image__68_.avif).avif)
 
 - Check his Twitter (@AliAbdaal)
 - Recent tweets: Sharing productivity tips, discussing his favorite apps and tools
@@ -151,7 +151,7 @@ Let's walk through researching Ali Abdaal from his YouTube channel as a potentia
 
 #### Step 4: Contact Information (5 minutes)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d119e26a399efa40dee6e9_image%20(69).avif)
+![](../images/613fe0fb_68d119e26a399efa40dee6e9_image__69_.avif).avif)
 
 - Check his YouTube about page - has business email
 - Website ([aliabdaal.com](http://aliabdaal.com)) has contact form for business inquiries

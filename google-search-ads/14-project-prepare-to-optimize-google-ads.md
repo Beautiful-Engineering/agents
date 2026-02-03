@@ -80,7 +80,7 @@ To evaluate performance effectively, customize your Google Ads columns for quick
 - Click **Segment** > **Conversions** > **Conversion Action** to break down data by specific conversion types (e.g., “Purchase,” “Sign-Up”).
 - Segment by other dimensions (e.g., device, location, day of week) to uncover trends (e.g., mobile converts better on weekends).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371e93cd712481b9e82b56_1632175522273.avif)
+![](../images/e8288693_68371e93cd712481b9e82b56_1632175522273.avif)
 
 As you can see in this example, only the **Signup** event is recording in **Conversions**, and all others are being recorded under **All conv.**
 

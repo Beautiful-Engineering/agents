@@ -19,7 +19,7 @@ But any data research is better than none.
 
 [Crack open this spreadsheet in a new tab.](https://demandcurve.notion.site/Growth-Course-A-B-Test-Data-Findings-273f8522113280e3bba5dc07b7f0fd4d?source=copy_link) We're also putting a screenshot below.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e45042828b86570c27bd3_f0e77e3ef969da5eb938d271761ba9244601150c-2682x904.avif)
+![](../images/93f2ac6a_683e45042828b86570c27bd3_f0e77e3ef969da5eb938d271761ba9244601150c-2682x904.avif)
 
 The first seven columns contain the data you gathered in the previous lesson. The last column is where you come up with solutions to address the problems identified by your data.
 

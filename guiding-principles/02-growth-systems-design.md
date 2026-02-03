@@ -2,7 +2,7 @@
 
 That brings us to the idea that growth equals systems design. The systems design concept is critical to understand, largely because the most common reason startups fail is actually due to systematic misalignment. It's not because they weren't running Meta ads at a high enough level. It's not because they weren’t running enough tests or publishing enough content.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d20f1ba6a64831d8be013e_68cb0e5fc8ad99d2ebb8d2b1_4.avif)
+![](../images/d34ac7ab_68d20f1ba6a64831d8be013e_68cb0e5fc8ad99d2ebb8d2b1_4.avif)
 
 If growing a company were as simple as knowing all the secrets of Meta ads or the latest and greatest SEO tactics, then we would all have billion-dollar companies. Very sadly, that’s just not how it works.
 

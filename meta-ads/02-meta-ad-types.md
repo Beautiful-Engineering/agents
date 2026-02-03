@@ -12,7 +12,7 @@ We’ll focus on modern formats and best practices, leveraging Meta’s Advantag
 
 Meta Ads are organized in three levels: the campaign, ad sets, and ads.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e26147c30d116f0d716d_Screenshot%202025-05-29%20at%2012.28.13%E2%80%AFPM.avif)
+![](../images/0c319bd5_6837e26147c30d116f0d716d_Screenshot_2025-05-29_at_12.28.13_PM.avif)
 
 - **Campaign**: The top level, where you set your objective (e.g., Sales, Traffic, Engagement). We recommend the **Sales** objective (conversions) to focus on traceable actions tied to revenue (e.g., purchases, sign-ups). Advantage+ Sales campaigns automate most settings, making them ideal for beginners.
 - **Ad set**: Groups of ads under a campaign, where you define your audience, budget, schedule, and placements. In Advantage+ campaigns, Meta’s AI handles audience targeting and placement, but you can refine with custom audiences or remarketing if needed after testing.
@@ -51,7 +51,7 @@ Here are the most effective formats:
 
 #### Image ads
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e23f52e289daa4f391a2_1741718352814.avif)
+![](../images/334e02d4_6837e23f52e289daa4f391a2_1741718352814.avif)
 
 - **Overview**: Single-image ads are simple to create and can still be very effective.
 - **Best for**: Startups with limited creative resources or products that don’t require dynamic storytelling.
@@ -63,7 +63,7 @@ Here are the most effective formats:
 
 #### Carousel ads
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e23f405db81da258195e_1741719724435.avif)
+![](../images/f735c734_6837e23f405db81da258195e_1741719724435.avif)
 
 - **Overview**: Carousel ads display 3–10 images or videos in a swipeable format, ideal for showcasing multiple products or features in one ad.
 - **Best for**: E-commerce startups with diverse products (e.g., landscaping tools, garden decor) or to highlight features of a single product (e.g., a lawn mower’s speed, battery life, eco-design).
@@ -76,7 +76,7 @@ Here are the most effective formats:
 
 #### Lead ads
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e23f0bdbf8b1657698a9_1741719831246.avif)
+![](../images/af0278ce_6837e23f0bdbf8b1657698a9_1741719831246.avif)
 
 Source: [https://www.driftrock.com/facebook-lead-ads-guide](https://www.driftrock.com/facebook-lead-ads-guide)
 - **Overview**: Lead ads use in-platform forms (e.g., on Facebook/Instagram) to capture user information without redirecting to a landing page, reducing friction for lead generation.
@@ -103,7 +103,7 @@ Here are the key placements:
 - **Marketplace (Facebook)**: Ads in the Marketplace tab, ideal for ecomm startups targeting users browsing products.
 **Automatic Placements recommendation**: Let Advantage+ AI select placements by enabling **Automatic Placements** in your campaign setup. Meta’s AI tests all options (Feed, Stories, Reels, etc.) in the first 14–30 days, prioritizing high-performing placements (e.g., Instagram Stories for a landscaping ad). Manual placements limit reach and efficiency—avoid them unless refining after 30+ days of data.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e23f0bdbf8b1657698ac_1632327523577.avif)
+![](../images/ef03afa5_6837e23f0bdbf8b1657698ac_1632327523577.avif)
 
 ## Final notes
 

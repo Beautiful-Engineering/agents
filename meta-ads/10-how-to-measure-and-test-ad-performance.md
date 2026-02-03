@@ -8,7 +8,7 @@ First, here's how to create custom metrics. (We'll create a few custom ones for 
 - Select the Metrics tab. Scroll down to **Custom Metrics**, where any custom metrics you've created are listed.
 - Click the Create button to fill out a custom metric creation form. You'll then need to complete the form, name your metric, and click **Create Metric**.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eaa3dcaaae5738ef2ae2_1632328907340.avif)
+![](../images/94916ec9_6837eaa3dcaaae5738ef2ae2_1632328907340.avif)
 
 What custom metrics should you create? For a more detailed look at your ads' performance, we suggest these four:
 
@@ -20,7 +20,7 @@ Once you've finished creating these custom metrics, customize your default ads v
 
 - Navigate to Meta Ads Manager. Click on the **Columns** icon, which looks like three vertically oriented rectangles. Click **Customize Columns** at the bottom of the menu.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eaa3a488565d5f953dbd_1635200279581.avif)
+![](../images/288e1db7_6837eaa3a488565d5f953dbd_1635200279581.avif)
 
        2. A Customize Columns window will appear, showing your dashboard's current data columns and others you can add. Check and uncheck the boxes of the metrics that you want to appear in your dashboard, including your custom metrics. (We'll give specific recommendations about which metrics to include after this.)
 
@@ -28,7 +28,7 @@ Once you've finished creating these custom metrics, customize your default ads v
 
        4. Click the Columns icon again. Save and name your custom view. Then click **Set as Default**.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eaa32938014ced53696d_1635200925102.avif)
+![](../images/65d3e25d_6837eaa32938014ced53696d_1635200925102.avif)
 
 Now, every time you open Ads Manager, your default view will be updated with the metrics you've checked. 
 
@@ -57,12 +57,12 @@ To understand how your ad creatives are doing, we recommend creating another cus
 - Also look at your video ads’ drop-off data to find out at what point users stop watching your video ad. This will give you an idea of how much information they’ve gotten through. You can find this data by clicking the View Charts option of any video ad listed in Ads Manager. This will take you to the Performance Overview page; scroll down to find the Video Performance chart. Note that your video ad needs a minimum of 1,000 plays in order to display this data.
 - In the example below, most users drop off after the first second—so it’s no wonder this ad hasn’t gotten any conversions.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eaa24e79d9a9a3a7a9e6_1632328678793.avif)
+![](../images/f5fbeff9_6837eaa24e79d9a9a3a7a9e6_1632328678793.avif)
 
 - **Desire: **Does your ad make users want to learn more? Look at link clicks, Meta's version of clickthrough rate (CTR), to gauge your ad’s effectiveness here.
 - Meta offers several different CTRs, which include clicks to your Facebook/Instagram page and clicks on something other than your CTA. We recommend looking at link clicks specifically because it looks only at clicks on your CTA button.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eaa2c71f9243c1cfb252_facebook-link-clicks.avif)
+![](../images/051d7add_6837eaa2c71f9243c1cfb252_facebook-link-clicks.avif)
 
 **           4. Action: **Do users convert after seeing your ad? The cost per result metric, which is Meta's version of CPA, measures the amount spent per whatever conversion chosen for your ad objective, like purchase or app install.
 
@@ -88,20 +88,20 @@ Here are some ideas for improving your ads based on data:
 
 - Look at your video ads’ drop-off data and map the biggest drop-off points in your video. What happens at those points? Is it after the first cut? Is there a long headline? Maybe your ad took too long to get to the point.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eaa3ffed235ffe61b716_1632328678429.avif)
+![](../images/bfb79fe8_6837eaa3ffed235ffe61b716_1632328678429.avif)
 
 - If an ad’s CTR is low, it may not be creating enough desire in users. Try a different CTA—or a different offer altogether. For example, offer a free trial instead of a discount code.
 - If conversion rates are low, revisit your ad landing page. Does it accurately build on your ad? For example, if you’re advertising a free gift, you shouldn’t direct users to the homepage; instead, take them to a page with instructions for redeeming that gift.
 - More broadly, continue the same messaging used in your ad on your landing page. Vidyard does that by featuring the same characters in both its video ad and landing page so that the page feels like an extension of the same story.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eaa37aadbdd172ba389a_1632328831047.gif)
+![](../images/578eb6e5_6837eaa37aadbdd172ba389a_1632328831047.gif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eaa3484ca3d59274e066_1632328679929.avif)
+![](../images/5c6b2648_6837eaa3484ca3d59274e066_1632328679929.avif)
 
 - Alternatively, if conversion rates are low, consider revisiting your signup or order form, whatever process users have to go through to convert. Can it be made shorter to reduce friction?
 Experiment with radically different concepts, especially if you’re not seeing many conversions. This also applies to ad format; if you’ve only used static images, try video, and vice versa. Trying very different creatives will give you a wider sample of data to learn from. Consider how BambooHR runs both video and static image ads with very different creatives and copy.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eaa38053a16cbee313ed_1632328679505.avif)
+![](../images/1ce0fe1e_6837eaa38053a16cbee313ed_1632328679505.avif)
 
 Also don’t wait for Meta's [learning phase](https://www.facebook.com/business/help/112167992830700?id=561906377587030) to finish to decide whether to keep running a particular ad. The recommendation to reach 50 conversions isn’t one-size-fits-all and will inevitably vary for different industries and products. Your goal is to determine if an ad works for a given moment in time by comparing it against others within the same ad set. Pause underperforming ads—those with the highest cost per result, getting the fewest clicks, etc.
 

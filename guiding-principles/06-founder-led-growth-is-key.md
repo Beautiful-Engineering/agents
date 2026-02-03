@@ -14,7 +14,7 @@ Founders have full system visibility. You know how the entire system has been bu
 
 So on one hand, founders are simply better positioned to fill the growth seat from a leverage standpoint. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0ea9480e0ac6a3295c71_9.avif)
+![](../images/7f16a95c_68cb0ea9480e0ac6a3295c71_9.avif)
 
 #### **Why Outsourcing Early Rarely Works**
 

@@ -11,7 +11,7 @@ These are the deliverables that result from all the research you did in this cha
 
 **Customer personas** are fictional user profiles that represent your ideal audience and are based on your research. While the other frameworks listed below can also accomplish this, we’ll focus primarily on personas in this program. You can create them using [our template](https://docs.google.com/presentation/d/16zR3KDi1CVFxvBgDuz21EKlvYKkSiYgLTkiXinqMXMw/copy).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682fd8e1bd712ef015674505_1625847676679.avif)
+![](../images/362696a7_682fd8e1bd712ef015674505_1625847676679.avif)
 
 Personas tell the story of different types of customers at the moment they encounter a problem—aka the job that they need to hire your product for. Giving detail to these stories helps to identify customer pain points and personalize your marketing for better performance.
 
@@ -43,7 +43,7 @@ The **customer/market profile** is a concept we’ve developed to aggregate all 
 - How competitors and alternative solutions stack up against your product
 Here’s an example of one we created for Demand Curve:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682fd8e1cbdda9bd85867f20_1625847675929.avif)
+![](../images/3609272f_682fd8e1cbdda9bd85867f20_1625847675929.avif)
 
 Use our [template](https://demandcurve.notion.site/Customer-Market-Profile-274f852211328007899cd35ebb2eff37?source=copy_link) to create your own. Share it with your team and help them understand who you’re building your products for.
 
@@ -57,7 +57,7 @@ It includes the same four stages used in the JTBD interview process, as well as 
 
 Here’s [a template](https://demandcurve.notion.site/Customer-Journey-Map-Template-274f85221132807a89b0d3545f2e5c12?source=copy_link) we’ve created.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682fd8e15041ebbc4f1327df_1625847675266.avif)
+![](../images/8d3824b0_682fd8e15041ebbc4f1327df_1625847675266.avif)
 
 Use this map to track:
 

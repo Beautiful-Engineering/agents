@@ -6,7 +6,7 @@ Geography is the most significant demographic determinant of cost-per-impression
 
 So let's begin our ad set targeting with a discussion on geography! It's like you're back in high school!
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837eba6c058c56d3b561c21_1633023449566.avif)
+![](../images/52bd781d_6837eba6c058c56d3b561c21_1633023449566.avif)
 
 ‍
 

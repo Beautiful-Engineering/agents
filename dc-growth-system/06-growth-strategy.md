@@ -2,7 +2,7 @@
 
 We kicked off by saying the Growth System produces your growth strategy. And that’s partially true. With an important caveat.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68caf031a0716e19d0815878_Growth%20System%2010.avif)
+![](../images/36014d3c_68caf031a0716e19d0815878_Growth_System_10.avif)
 
 At this point, you’ve designed the system-level layers: your Foundational Five, any viable catalysts, and the configuration of your motions.
 

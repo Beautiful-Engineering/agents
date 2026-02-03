@@ -53,7 +53,7 @@ Let’s dive a little deeper. We’ll jot down ten first-thought ideas for each 
 
 For example, for the bucket “**You can learn from home:**”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683402534a658ff4eb2c5ed2_1745611206346.avif)
+![](../images/f33c1634_683402534a658ff4eb2c5ed2_1745611206346.avif)
 
 Note: This is straight from [A Self-Help Guide for Copywriters](https://www.goodreads.com/book/show/59784779-a-self-help-guide-for-copywriters)
 

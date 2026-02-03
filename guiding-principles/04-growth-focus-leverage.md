@@ -10,7 +10,7 @@ Think about it:
 
 If you try to do too many things at once without the resources or the experience to execute them at a high level, you not only waste precious resources and time, you come away with the wrong learnings.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0e7f58a8292c99d44e55_6.avif)
+![](../images/38b8b174_68cb0e7f58a8292c99d44e55_6.avif)
 
 ### **Quick Story**
 

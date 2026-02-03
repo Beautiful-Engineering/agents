@@ -53,13 +53,13 @@ The challenge here: transforming your data into an interesting narrative that pe
 
 OkCupid often uses its own platform data to create blog posts that people share and major media outlets quote or link to. Here’s one such article.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d002b713c001dcd0ef289_1623259748628.avif)
+![](../images/7cca991a_683d002b713c001dcd0ef289_1623259748628.avif)
 
 **Example**: LinkedIn
 
 LinkedIn wrote about [the most in-demand skills in 2020](https://www.linkedin.com/business/talent/blog/talent-strategy/linkedin-most-in-demand-hard-and-soft-skills) and gave employers tips on how to get better candidates. The article was shared more than 19,000 times across Facebook.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d002b7125a673fd19cc1c_1623255555308.avif)
+![](../images/068a2825_683d002b7125a673fd19cc1c_1623255555308.avif)
 
 No matter your industry, your data can be interesting. Look for ways to relate it to your audience.
 
@@ -141,13 +141,13 @@ Although there’s no easy answer to virality, you can increase its likelihood t
 
 The real estate marketplace Zillow has enough resources to invest in all kinds of content marketing, including creative content with the goal of getting lots of shares. For example, it’s created property listings for Santa’s home and the Incredibles’ super-home.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d002b5b5bb0142bd369ba_1623262315321.avif)
+![](../images/4ff9015f_683d002b5b5bb0142bd369ba_1623262315321.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d002b534204f62cfa90b6_1623262314071.avif)
+![](../images/4651255c_683d002b534204f62cfa90b6_1623262314071.avif)
 
 Zillow’s team even created press releases to get more eyes on these listings. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d002bba958d1509636ea9_1623262310907.avif)
+![](../images/5d68eb10_683d002bba958d1509636ea9_1623262310907.avif)
 
 These fictional property listings aren’t meant to be optimized for SEO—they’re for entertainment. Anyone who likes Christmas or Pixar might share them for fun, placing Zillow’s brand in front of more people. 
 
@@ -155,7 +155,7 @@ These fictional property listings aren’t meant to be optimized for SEO—they�
 
 The online learning platform Course Hero commissions infographics as a key part of its content marketing strategy. There are more than 500 infographics, each of which summarizes a famous piece of literature.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d002b5b5bb0142bd369bd_1623262312747.avif)
+![](../images/1a74e4c9_683d002b5b5bb0142bd369bd_1623262312747.avif)
 
 Free for anyone to use, the infographics are especially useful for Course Hero’s target audience: teachers and students. 
 
@@ -167,7 +167,7 @@ The men’s grooming company Beardbrand is known for reinventing its market with
 
 You can find this content on Beardbrand’s YouTube channel, which has more than 1.7 million subscribers. Some of its most popular videos are hair and beard transformations, which receive millions of views and thousands of comments.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d002b8875d9729e3ba152_1623265001216.avif)
+![](../images/236796fe_683d002b8875d9729e3ba152_1623265001216.avif)
 
 The videos aren’t optimized for popular keywords—instead, they’re meant to be entertaining and grab the attention of those who fit Beardbrand’s target audience. 
 
@@ -179,7 +179,7 @@ Early on, its writers focused mostly on targeting keywords to create educational
 
 So they created the content site [BarkPost](https://post.bark.co/), which publishes mostly entertaining articles about dogs. Take a look at some of its slideshow titles.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d002b8ef25be721c27150_1623265002638.avif)
+![](../images/39c84eb8_683d002b8ef25be721c27150_1623265002638.avif)
 
 Finding humor in everyday dog antics is something that many dog owners can relate to—and something that they’d find shareworthy. Many of BarkPost’s articles regularly get thousands of shares on Facebook, Pinterest, and other social media networks, as well as mentions and links from major media outlets like HuffPost, USA Today, and PBS.
 
@@ -211,7 +211,7 @@ A few years ago, email marketing platform Mailchimp partnered with an advertisin
 - SnailPrimp: an anti-aging beauty treatment
 The goal: drive awareness of Mailchimp’s brand among small to medium-sized businesses across various niches.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d002be49a942dc2be2dfd_1623255053694.avif)
+![](../images/e9b89a55_683d002be49a942dc2be2dfd_1623255053694.avif)
 
 Source: [Washington Post](https://www.washingtonpost.com/news/food/wp/2017/03/27/are-bags-of-pre-crushed-potato-chips-the-future-of-snacking-or-the-end-times/)
 The campaigns had little in common, but they were each designed to get attention—and they worked. Media outlets like RollingStone, BuzzFeed, and PopSugar covered them; then, when anyone turned to Google to look up one of the campaigns, they’d land on Mailchimp. 

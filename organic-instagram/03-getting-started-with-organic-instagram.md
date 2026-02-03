@@ -43,13 +43,13 @@ What might your target audience expect to see you post about on Instagram?
 
 Brainstorm 3-5 content buckets that meet those expectations. This should feel intuitive. Some examples:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d3807eed2e3df71ba41d5_Screenshot%202025-06-02%20at%201.35.01%E2%80%AFPM.avif)
+![](../images/84a0f86e_683d3807eed2e3df71ba41d5_Screenshot_2025-06-02_at_1.35.01_PM.avif)
 
 #### Example: Legion
 
 Legion is an ecom fitness supplement brand that uses 6 clear content buckets. Each new post falls into a bucket. This gives their content purpose, and their strategy, direction.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d383fe49a942dc2db87fa_Screenshot%202025-06-02%20at%201.35.56%E2%80%AFPM.avif)
+![](../images/ff343b80_683d383fe49a942dc2db87fa_Screenshot_2025-06-02_at_1.35.56_PM.avif)
 
 The first content buckets you brainstorm will be educated guesses. And that’s fine. Use your intuition and existing knowledge of your customers and business. Turn to your value props and customer research.
 
@@ -87,7 +87,7 @@ One word comments like “nice!” or “cool!” or the colorful waste bin of �
 
 Authentic engagement, conversely, is equally obvious. It looks like this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d3815273664d3d725a9e2_1630459579563.avif)
+![](../images/d2523fcd_683d3815273664d3d725a9e2_1630459579563.avif)
 
 - Only people who consumed the post could leave thoughtful comments and pointed questions.
 You’ll want to be more vigilant about fake engagement if you’re scouting influencer marketing opportunities (covered in our influencer module), but in our case we just want to make sure we’re studying brands that have real followers that they earned through high quality content, not just bots or “ghost followers.”

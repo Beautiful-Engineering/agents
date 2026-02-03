@@ -10,7 +10,7 @@ Creativity in conversion-focused funnels is generally a bad thing. A confused pe
 
 Here's a cheat sheet of this landing page structure:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683506aa08e3200b8278662b_1744224389908.avif)
+![](../images/11172d55_683506aa08e3200b8278662b_1744224389908.avif)
 
 > Thanks to Tuff Growth for this great graphic. Instead of inventing our own cheatsheet, we're leveraging theirs throughout this lesson.
 
@@ -32,7 +32,7 @@ Don’t do something avant-garde with your homepage structure unless you have a 
 
 ## Here’s the typical landing page structure we'll be using:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683506aa08e3200b82786621_1744225409912.avif)
+![](../images/1e29c884_683506aa08e3200b82786621_1744225409912.avif)
 
 - **Navbar**: The top of the page — where your logo and navigation links are. Ideally sticky.
 

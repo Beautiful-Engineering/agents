@@ -36,7 +36,7 @@ Ecommerce brands are a great fit for building an organic following on Instagram.
 
 If you can capture the lifestyle that your product fits into, or emphasize the visceral quality in a compelling way, you can show people how much better life could be with your products in it. Within ecom, here are a few types of companies that have the potential to grow on Instagram:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d3779d3a5b08ed18e6070_1630457811179.avif)
+![](../images/3e22f3b5_683d3779d3a5b08ed18e6070_1630457811179.avif)
 
 - **Beauty and cosmetics**: Glossier captures the vibrant colors, diverse textures, and the visceral experience of using their products with makeup tutorial videos and high-res imagery.
 - ‍**Fashion**: Pura Vida (sells bracelets) portrays a fanciful carefree lifestyle with exotic beach locales, stylish outfits, and good times with good friends. Low-dollar value accessories are impulse buys.
@@ -46,7 +46,7 @@ If you can capture the lifestyle that your product fits into, or emphasize the v
 
 If you have creative expertise that you sell as a service or product, you can do well with an education-focused approach to your content.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d3779c2f6395cf4e07c37_1630458143020.avif)
+![](../images/7e276b97_683d3779c2f6395cf4e07c37_1630458143020.avif)
 
 - **Marketing agencies**: Squared Academy is a boutique agency that teaches people about Instagram marketing. They show businesses what a job well done looks like—using Instagram’s native posting features to their fullest potential. Their recipe: great visuals plus great content, designed for Instagram.
 - **Graphic design**: Dribbble is a design marketplace where creators and employers can discover one another and collaborate on projects. Dribbble features design work from community members to attract new users to the platform, and broadcasts their talent pool to people who might want to hire them.
@@ -56,7 +56,7 @@ If you have creative expertise that you sell as a service or product, you can do
 
 Mobile apps that either have a community aspect, are visual, or are genuinely remarkable can work well.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d377932407ea89bd70444_1630458259621.avif)
+![](../images/1b6c8f31_683d377932407ea89bd70444_1630458259621.avif)
 
 - **Health and fitness apps**: Carbon Diet Coach is a premium health and fitness app. They use Instagram Stories as a dedicated channel to repost user-generated content and testimonials that speak to the quality and positive experience of using the app.
 - **Design apps**: Pixelcut is a simple app that removes the background from photos you take with your phone. Useful for DIY headshots and product page photos. They use a combination of testimonials and videos of the app in action and use one universal CTA: download the app in the app store.

@@ -18,15 +18,15 @@ Since links play such an important role in SEO, getting links (“**link buildin
 
 GSC gives basic data about your backlink profile under **Links** in the sidebar, like which of your pages has received the most external links. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2cd21185f977655b8cae_1636124936587.avif)
+![](../images/abd515bc_683d2cd21185f977655b8cae_1636124936587.avif)
 
 But for a more detailed backlink audit, look up your website in Ahrefs’ Site Explorer. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2cd3d11e67308fd88ddb_1636124935549.avif)
+![](../images/d4e78baa_683d2cd3d11e67308fd88ddb_1636124935549.avif)
 
 Click on the number under Referring domains to find out which sites link to yours, or the Backlinks number to find out the individual linking pages. In the results page, Ahrefs even includes the date each backlink is detected. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2cd2c2f6395cf4d9b0c7_1636124937481.avif)
+![](../images/3b0d1bd6_683d2cd2c2f6395cf4d9b0c7_1636124937481.avif)
 
 (You can do this to not only find out your website’s backlink profile but your competitors’ as well—a great way to do competitive SEO analysis.)
 

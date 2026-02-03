@@ -2,7 +2,7 @@
 
 We are now into the execution layer. This is how you bring the **system and engine to life**.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68caf071fa320e395bd8fe98_Growth%20System%2011.avif)
+![](../images/3ff61294_68caf071fa320e395bd8fe98_Growth_System_11.avif)
 
 These are the specific channels and tactics used within our three motions. 
 

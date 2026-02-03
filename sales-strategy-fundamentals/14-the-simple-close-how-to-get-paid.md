@@ -17,7 +17,7 @@ By the end, you'll understand:
 
 Before diving into tactics, be honest about why deals fail. It's almost always caused by a misalignment of one or more of the foundational five. Here are a couple examples outside of the Foundational Five framework (not exhaustive).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dacc8fac84e0b40d60eaf5_Screenshot%202025-09-29%20at%2012.14.23%E2%80%AFPM.avif)
+![](../images/9341ce14_68dacc8fac84e0b40d60eaf5_Screenshot_2025-09-29_at_12.14.23_PM.avif)
 
 If you're consistently struggling to close, the answer isn't more tactics. It's a hard look in the mirror at these basics.
 
@@ -109,7 +109,7 @@ Your default answer should be no. Only offer a discount in exchange for somethin
 
 **Should You Offer a Discount? A Decision Framework**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dacd39dabaa0b1327236fb_Screenshot%202025-09-29%20at%2012.16.57%E2%80%AFPM.avif)
+![](../images/34df2868_68dacd39dabaa0b1327236fb_Screenshot_2025-09-29_at_12.16.57_PM.avif)
 
 Prefer reducing scope (e.g., fewer seats, lower volume) over reducing your price.
 
@@ -119,7 +119,7 @@ Reframe this from a "free trial" to a "Proof of Value" (PoV). They don't pay wit
 
 **The Proof of Value (PoV) Framework**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dacd9ae93270af6508c7dc_Screenshot%202025-09-29%20at%2012.18.57%E2%80%AFPM.avif)
+![](../images/47abb296_68dacd9ae93270af6508c7dc_Screenshot_2025-09-29_at_12.18.57_PM.avif)
 
 ### Getting to No, Fast
 

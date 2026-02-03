@@ -71,7 +71,7 @@ Examples:
 - Being the first friend to discover a new app like BeReal
 Folks on Twitter tweet about Cluely to feel like they’re “in the startup know”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0bd70c9653edac7029e77_image%20(50).avif)
+![](../images/0cfd26f0_68d0bd70c9653edac7029e77_image__50_.avif).avif)
 
 ### 2. Financial capital
 

@@ -66,7 +66,7 @@ Content that targets these keyword phrases has a better chance of bringing in vi
 
 As you go through your keyword data, you’ll probably notice very similar phrases. Since users search for topics using different wording, some phrases are variations with the same intent. In these cases, a single piece of content can target all of them. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683cff6932407ea89bb9ad12_1623259425662.avif)
+![](../images/0a6bca58_683cff6932407ea89bb9ad12_1623259425662.avif)
 
 Here’s how to organize your keyword data into topic clusters:
 
@@ -75,7 +75,7 @@ Here’s how to organize your keyword data into topic clusters:
 - For the other keywords, categorize them as **secondary** and **tertiary keywords**. These are the keywords that relate to the primary one but have lower search volume and relevance.
 For example, check out this topic cluster about sending money abroad:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683cff8e5b0230cea992a35d_Screenshot%202025-06-02%20at%209.34.04%E2%80%AFAM.avif)
+![](../images/c5bb44f7_683cff8e5b0230cea992a35d_Screenshot_2025-06-02_at_9.34.04_AM.avif)
 
 Based on this data, it makes sense to create content targeting “send money abroad” as your primary keyword. Related keywords like “how to send money abroad without fees” and “how long does it take to send money abroad” are less popular but still relevant, so they should be secondary/tertiary keywords.
 
@@ -159,7 +159,7 @@ According to Semrush, its website ranks for more than 775,000 keywords, includin
 - eye drops for dogs (14,800 searches per month)
 A lot of this content is helpful and educational, with the goal of answering new dog owners’ questions about their pets. This is the same on Rover.com’s YouTube channel, which has more than 1.1 million views and videos like “How to Measure Your Dog for Clothing.”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683cffa33d848173f84ec8f6_1623259620061.avif)
+![](../images/1a3695ed_683cffa33d848173f84ec8f6_1623259620061.avif)
 
 Chances are that anyone looking for advice on caring for a dog will come across Rover.com’s content, either on its blog or YouTube, because of how keyword-targeted it is.
 
@@ -167,7 +167,7 @@ Chances are that anyone looking for advice on caring for a dog will come across 
 
 Many people who want to pick up a new creative hobby first turn to Google for answers. The learning platform Skillshare capitalizes on this by creating educational blog posts about art and design, all optimized for the most popular search queries. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683cffa364f80d1a688e20e0_1623259618696.avif)
+![](../images/3f910fe5_683cffa364f80d1a688e20e0_1623259618696.avif)
 
 For example, here are the titles of a few of its top-ranking posts and what they rank for:
 
@@ -180,7 +180,7 @@ The result: Skillshare’s site ranks for more than 31,000 keywords related to p
 
 Many people who want to start getting into shape first turn to Google for answers. Fitbit capitalizes on this by creating educational blog posts about fitness and health, all optimized for the most popular search queries. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683cffa37125a673fd19810f_1623264628290.avif)
+![](../images/34e6763f_683cffa37125a673fd19810f_1623264628290.avif)
 
 According to Semrush, Fitbit’s blog ranks for more than 62,400 keywords, including: 
 
@@ -195,7 +195,7 @@ Like health and fitness, fashion is a topic that many people search for answers 
 
 To get in front of these users, Stitch Fix focuses its content strategy on SEO. Although it publishes a few topical posts (e.g., “Women’s Summer 2021 Fashion Trends: Your Guide”), most of its blog is optimized around providing evergreen fashion tips and answering styling questions. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683cffa35d9336ef0d3bc092_1623264626539.avif)
+![](../images/cbada66a_683cffa35d9336ef0d3bc092_1623264626539.avif)
 
 For example, here are the titles of a few of its top-ranking posts and what they rank for:
 
@@ -208,7 +208,7 @@ The result: Stitch Fix’s blog ranks for more than 87,000 keywords related to f
 
 Ahrefs’ content marketing strategy revolves around creating optimized content for its blog and YouTube channel.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683cffa36a6b1fb8aa133ed5_1623253492616.avif)
+![](../images/2c43b854_683cffa36a6b1fb8aa133ed5_1623253492616.avif)
 
 According to Semrush, its website ranks for more than 78,000 keywords, including: 
 
@@ -217,7 +217,7 @@ According to Semrush, its website ranks for more than 78,000 keywords, including
 - backlinks (8,100 searches per month)
 Ahrefs’ [YouTube channel](https://www.youtube.com/c/AhrefsCom/featured) also has more than 10 million views and 218,000 subscribers, with videos showing on the first page for searches about SEO. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683cffa3737957ac1820e26c_1623253493248.avif)
+![](../images/e7b62c04_683cffa3737957ac1820e26c_1623253493248.avif)
 
 Chances are that anyone looking for SEO and digital marketing tutorials will come across Ahrefs’ content because of its excellent optimization.
 
@@ -229,7 +229,7 @@ Some of these posts feature **lead magnets**—pieces of content that readers ca
 
 One example: CoSchedule’s social media content calendar template. Users just need to provide their name, email, and company information to get it.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683cffa3e9fd0ed0efa2862d_1623253492288.avif)
+![](../images/f0a44514_683cffa3e9fd0ed0efa2862d_1623253492288.avif)
 
 The page ranks highly for 693 organic keywords, including: 
 

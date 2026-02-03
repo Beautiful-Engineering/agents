@@ -4,7 +4,7 @@ You already did most of this work in the [Story System](/courses/create-your-sto
 
 ## Subject lines that get opened
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d1eba61faa8e70baef2bd3_image%20(93).avif)
+![](../images/c06b76ed_68d1eba61faa8e70baef2bd3_image__93_.avif).avif)
 
 Pull inspiration from your **Hooks** section of your Story System. Here are 15 proven formulas with examples:
 
@@ -44,7 +44,7 @@ Use your **value propositions** from the Story System to drive the message.
 
 #### ** Ideal flow**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d1ebca4c79120dbe75037d_image%20(94).avif)
+![](../images/91c5bac3_68d1ebca4c79120dbe75037d_image__94_.avif).avif)
 
 #### 1. Hook (first 1-2 sentences)
 

@@ -4,7 +4,7 @@ Keyword data tells you what keywords to create content about, but you need to do
 
 For this project, we’ll focus on developing content ideas based on your keyword data. You’ll end up with a list of ideas that will look like this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d31772192c853a078bf97_1633624868142.avif)
+![](../images/d84c83ae_683d31772192c853a078bf97_1633624868142.avif)
 
 To get started, make a copy of our [editorial content research worksheet](https://demandcurve.notion.site/Editorial-Content-Research-Worksheet-make-a-copy-273f85221132806faef3f35da984f8e1?source=copy_link).
 
@@ -14,14 +14,14 @@ In our earlier keyword research project, you gathered and sorted keyword data ab
 
 - Filter your keyword research spreadsheet’s Phase 2-4 tab by the Type column so that only primary keywords show.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d31767d79944cfdd3ea1e_1633624869041.avif)
+![](../images/60607052_683d31767d79944cfdd3ea1e_1633624869041.avif)
 
 - Then copy the Page column (column E) into the Page column (column A) of your new content research spreadsheet.
 - We use the Page field rather than the Keyword field because your primary keyword isn’t necessarily always the name of your page.
 
 - Also copy the Difficulty and Search Volume columns from your keyword data and paste them into their respective columns in the new content research spreadsheet. Your sheet should look like this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d3176f470a936dabe816a_1633624868680.avif)
+![](../images/bf54552e_683d3176f470a936dabe816a_1633624868680.avif)
 
 ## Phase 2: SERP research
 
@@ -36,7 +36,7 @@ Consider:
 - What other questions are included in the “People also ask” section?
 Here’s an example from Googling “app for stress relief”:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d317632407ea89bd383f3_1633624869608.avif)
+![](../images/c30f9d30_683d317632407ea89bd383f3_1633624869608.avif)
 
 The results are Google’s current idea of what users are looking for. In this case, the majority of results are listicles, with an average of 15 or so apps listed. And although the original keyword phrase doesn’t include words like “anxiety” or “relax,” Google clearly associates them with this search phrase. It would be worth looking at a few of these lists to see which apps are repeated, as it might show that Google associates certain apps more with stress relief.
 
@@ -49,7 +49,7 @@ Record your observations for each keyword in the worksheet. We’ve included the
 - **Title:** List any title ideas for your content based on what other sites are doing. How can you frame the topic in a more exciting and appealing way? What else can you offer? 
 - **#1-3:** For easy reference, copy and paste the URLs of top-performing content here. You can refer back to these pages quickly instead of having to Google the keyword again later on.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d317653dd1c7d93a61ac1_1633624870088.avif)
+![](../images/b19ecb16_683d317653dd1c7d93a61ac1_1633624870088.avif)
 
 Remember that your goal is to create content that outperforms what’s currently at the top of SERPs—you’re not just trying to imitate what others are doing. Instead, think of ways to outdo other websites and deliver on what users are searching for.
 

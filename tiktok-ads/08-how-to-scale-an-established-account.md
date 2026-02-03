@@ -14,7 +14,7 @@ We recommend scaling in increments to see where the performance curve starts to 
 - **Measure Watch Time, CTR, and ROAS week-over-week**: If you see these metrics are decreasing, it often means audiences are being depleted, or your ads are fatiguing, and it’s time to refresh your creative.
 - **Diversify creator talent**: Take advantage of TikTok's broad targeting to test multiple different personas in your ad creatives to reach potential secondary audiences. For example, the cosmetics brand, Glossier, tested using creators of varying skin tones to help attract customers in new demographics.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394f9080ee528a6526d28b_1646193287134.avif)
+![](../images/19ed5c91_68394f9080ee528a6526d28b_1646193287134.avif)
 
  
 

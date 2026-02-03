@@ -70,7 +70,7 @@ Create 1–2 asset groups to test PMax’s cross-channel performance:
 
 - Choose some high-intent segments to target. For example, for our ads agency we might choose ("Digital Marketing Services" and "Advertising & Marketing Services) as in-market intent audiences
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837b7fc74043325a287132f_1741198656145.avif)
+![](../images/168aeea7_6837b7fc74043325a287132f_1741198656145.avif)
 
 - Include demographics (e.g., 25–54-year-olds, all genders, 11–50% household income) and locations (e.g., U.S., UK) to align with your business’s target market, letting PMax refine dynamically.
 

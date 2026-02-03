@@ -20,7 +20,7 @@ Google Ads has a few very different types of campaigns. It has…
 
 The bread and butter of Google. Ads that display along with organic results as people search on Google.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370d1a854936d927d482b6_1629334980866.avif)
+![](../images/b52b64ce_68370d1a854936d927d482b6_1629334980866.avif)
 
 ### Performance Max
 
@@ -34,7 +34,7 @@ Performance Max is an automated campaign that you feed a bunch of copy and creat
 
 Banner ads that display on sites and within apps that enable them
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370d1a3a2a59b9eece786e_1632173057982.avif)
+![](../images/e1bbfdcc_68370d1a3a2a59b9eece786e_1632173057982.avif)
 
 **We'll be focusing on these in the context of Performance Max.**
 
@@ -48,7 +48,7 @@ Video ads on YouTube and on sites and within apps that enable them.
 
 Ecommerce product ads that display alongside search results and link directly to product pages.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68370d1a349bf837c449546b_1739401941416.avif)
+![](../images/aa0843a8_68370d1a349bf837c449546b_1739401941416.avif)
 
 ### Universal app campaign
 

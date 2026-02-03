@@ -19,7 +19,7 @@ Instead of pitching, you’re proposing a collaboration.
 
 ### When Strategic Cold Email Works Best
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cc5a023917cb56f72de08c_usecoldemailfor.avif)
+![](../images/ef279cee_68cc5a023917cb56f72de08c_usecoldemailfor.avif)
 
 **Perfect for B2B founders who need:**
 

@@ -46,9 +46,9 @@ Their perspectives will give you a fuller picture of where you can improve your 
 - Avoid adding random comments. Keep your observations focused on the five categories listed above.
 Here’s an example of an experience-based assessment of [OpenPhone's landing page](https://www.openphone.co/).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e44b3438aa551114de32b_d2dcd215d66889f34d9c54065d141e319a62db89-2476x1218.avif)
+![](../images/62d9fc48_683e44b3438aa551114de32b_d2dcd215d66889f34d9c54065d141e319a62db89-2476x1218.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e44b433c30e60a41751d7_e6b0eaaa81b39cd5778c195b2249e5d4071a8ab5-2428x1146.avif)
+![](../images/c532725d_683e44b433c30e60a41751d7_e6b0eaaa81b39cd5778c195b2249e5d4071a8ab5-2428x1146.avif)
 
 This assessment is a good start. And it's easy to perform, even if you're strapped for time or resources.
 

@@ -29,7 +29,7 @@ Keep this in mind as we dive into Search ads.
 
 This is an example of two search ads that come up when I search "accounting software*" *in Canada:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837197a87473c26638a3b69_1740613952984.avif)
+![](../images/d6136f8c_6837197a87473c26638a3b69_1740613952984.avif)
 
 As you can see, the ad:
 
@@ -46,7 +46,7 @@ As you can see, the ad:
 
 Then the landing page it links to repeats the term twice in the hero alone (and 5 times total):
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837197afeb0144a13881d03_1740614049649.avif)
+![](../images/d0846913_6837197afeb0144a13881d03_1740614049649.avif)
 
 You should strive for this with every ad you write.
 
@@ -58,11 +58,11 @@ With Responsive Search Ads, you'll insert multiple copy variations (e.g. differe
 
 Let’s see that example ad again to reference the different parts:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837197b39594fa8b6c6a517_Intuit_Ad.avif)
+![](../images/51d8ba46_6837197b39594fa8b6c6a517_Intuit_Ad.avif)
 
 And note, ads can look quite different from each other. For example, this Sage ad displays the Sitelinks quite differently, and don't have paths.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837197be2bf1a51dc1ccbc7_Sage_Ad.avif)
+![](../images/a838d1ec_6837197be2bf1a51dc1ccbc7_Sage_Ad.avif)
 
 For a Search ad, you can configure the following things:
 

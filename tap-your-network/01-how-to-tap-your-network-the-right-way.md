@@ -16,7 +16,7 @@ The game is all about reaching the right people with the right approach.
 
 ## How to Tap Your Network the Right Way
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d9d167490ab615f7ef6662_image%20(89).avif)
+![](../images/843153fa_68d9d167490ab615f7ef6662_image__89_.avif).avif)
 
 ### Step 1: Identify Your Goal
 

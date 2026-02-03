@@ -49,7 +49,7 @@ Lesser-known influencers give brands the most bang for their buck. And especiall
 
 Here's a rough breakdown of pricing-per-post based on the size of an influencer's follower count: 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394e5544163db73add2133_1646191542332.avif)
+![](../images/f9915a6f_68394e5544163db73add2133_1646191542332.avif)
 
 Pricing data from [Influencer Marketing Hub](https://influencermarketinghub.com/influencer-rates/)Less-known influencers are cheaper, which means you can commission a higher volume of creatives to test in your campaigns. And since many of them are either early in their careers or striving to work as creators full-time, they’ll work harder to deliver a result you’re happy with
 
@@ -61,7 +61,7 @@ The best place to source great content creators is also the most obvious one—r
 
 Search for creators in your niche with 10k - 50k followers via relevant hashtags. For example, if you're an ecommerce store that sells cruelty-free skincare products, you'd quickly discover popular hashtags like #crueltyfreeskincare (17.5 million views) or #crueltyfreeskincareproducts (6 million views).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394e555a4aed70f03012cc_1646191647163.avif)
+![](../images/6706f139_68394e555a4aed70f03012cc_1646191647163.avif)
 
 #### Step 2: Verify engagement
 

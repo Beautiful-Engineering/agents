@@ -35,15 +35,15 @@ You can find out a company’s level of rigor through these three indicators:
 
 - **Public experiment results: **Some companies, like Pinterest and Uber, have blog posts dedicated to experimentation. Do a quick site search of your competitors and phrases like “A/B test” and “experiments” to see if any of this is public.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffa2e6107aeb3b6759322_1631571114610.avif)
+![](../images/56554227_682ffa2e6107aeb3b6759322_1631571114610.avif)
 
 - **Growth roles: **Check out competitors’ LinkedIn pages to see if there are team members or open positions dedicated to growth, experimentation, or CRO. This includes not only growth marketers, but also engineers and data scientists. Bonus: Some job descriptions also give away a lot of marketing/product strategy, even future plans—in other words, lots of free insight.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffa2d9c67928069d15a8b_1631571114233.avif)
+![](../images/6977b290_682ffa2d9c67928069d15a8b_1631571114233.avif)
 
 - **Experimentation software:** Use [BuiltWith](https://builtwith.com/) to find out what paid analytics and experimentation software companies are using on their website. Look at BuiltWith’s Detailed Technology Profile tab to see whether/how long this software has been active. Companies that are dedicated to experimentation often invest in more software and are running it on an ongoing basis.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffa2dbd06758f5dea8b8f_1631571237716.avif)
+![](../images/28f34ca1_682ffa2dbd06758f5dea8b8f_1631571237716.avif)
 
 Not all companies openly share about their growth experiments, so how dedicated one is to experimental rigor isn’t always obvious. Prioritize studying businesses that show at least two of these three indicators. 
 

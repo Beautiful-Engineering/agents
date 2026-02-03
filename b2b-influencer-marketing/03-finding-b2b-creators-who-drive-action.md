@@ -39,7 +39,7 @@ There's a massive difference between creators with big audiences and creators wh
 
 Don't spend weeks researching. Spend 2-3 focused hours and get started.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d106bdd78b2f27bbdaf5ce_image%20(64).avif)
+![](../images/0f283d28_68d106bdd78b2f27bbdaf5ce_image__64_.avif).avif)
 
 ### **Hour 1: Hashtag archaeology**
 

@@ -25,7 +25,7 @@ Word-of-mouth is fundamentally a trailing result of core product value. It gets 
 - **Netflix:** Their witty social media and culture makes subscribers want to share and engage with the brand
 The brands that win word-of-mouth make every touchpoint remarkable. When Netflix writes a cease and desist letter that goes viral because it's hilarious, they're turning legal communications into brand advocacy moments.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0bc21fe9ff61a7bb1a241_image%20(48).avif)
+![](../images/dbab8c27_68d0bc21fe9ff61a7bb1a241_image__48_.avif).avif)
 
 Messaging like that could convert users—and even prospects—into brand advocates. Netflix subscribers who get the references and inside jokes will delight in the connections they feel.
 
@@ -84,7 +84,7 @@ That could have all been great. Except that when the product actually debuted, t
 
 Compare that to electric scooters. Those emerged on the market more gradually. City-dwellers started using them to get around, with urban centers like San Francisco and San Antonio acquiring thousands of them to improve sustainable transportation options.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d0bc37a8209ff992ef0908_image%20(49).avif)
+![](../images/4147f9d7_68d0bc37a8209ff992ef0908_image__49_.avif).avif)
 
 As more people used electric scooters along city streets, they gained visibility through **push virality**. They demonstrated their usefulness *in action*. Global revenue for the electric scooter market [grew](https://blog.marketresearch.com/scooter-rental-market-growth-accelerates-as-urban-mobility-evolves) 9.8% from 2020 to 2021, with sales expected to triple between 2021 and 2031.
 

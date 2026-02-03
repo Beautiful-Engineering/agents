@@ -2,7 +2,7 @@
 
 **If needed, to put this back into context of the page, see "Benefits" below.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683506aa08e3200b82786621_1744225409912.avif)
+![](../images/1e29c884_683506aa08e3200b82786621_1744225409912.avif)
 
 This section contains multiple features/benefits—often 3 to 6. Each is a value prop paired with copy addressing objections that arise upon hearing that value prop:
 
@@ -13,7 +13,7 @@ This section contains multiple features/benefits—often 3 to 6. Each is a value
 
 ### Here’s how this looks in practice:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683508f88ce00affa64598c9_1744227946227.avif)
+![](../images/a328a498_683508f88ce00affa64598c9_1744227946227.avif)
 
 As you can imagine, the Features section spans the bulk of your page. Its job is to deliver your product's complete sales pitch.
 
@@ -27,7 +27,7 @@ Instead, focus on your customers*.* Your customers are the protagonist in this s
 
 Got that? Okay, here’s a great example from Apple:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683508f8ba729b3484ca163c_1744227957758.avif)
+![](../images/4041b981_683508f8ba729b3484ca163c_1744227957758.avif)
 
 Apple here focuses on the benefit of their SOS and Crash detection features in the headline, and then explain *how* the product achieves that benefit (the features).
 
@@ -63,7 +63,7 @@ The latter is preferable because it keeps users in the flow of your current page
 
 ## Feature — Image
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683508f949a54fd20d39134f_1744228183289.avif)
+![](../images/6d371058_683508f949a54fd20d39134f_1744228183289.avif)
 
 Features are paired with an image so that your landing page isn't a giant wall of text and to reinforce what you're describing.
 
@@ -73,7 +73,7 @@ For your feature image, consider two goals:
 - **Demonstrate the value of your product:** Show the product in action. For software, avoid useless abstract imagery.
 HelloSign includes a GIF of their product in action in the example below. It shows us what we're about to sign up for. It de-risks our time investment and **removes uncertainty.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683508f849a54fd20d391343_1744228195194.avif)
+![](../images/0a5417ed_683508f849a54fd20d391343_1744228195194.avif)
 
 Further, instead of making the visitor read tiny text, they blur it out so you can focus on what matters: how the product works.
 
@@ -82,9 +82,9 @@ Another example: If you're selling physical goods, consider doing two things:
 - Show off the various use cases or features
 - Show close-ups of the build quality. This gives visitors a fuller appreciation of the product's magic. Here’s an example from Outway and Allbirds:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683508f8214821d73280fd4b_1744228209172.avif)
+![](../images/ea3aadb6_683508f8214821d73280fd4b_1744228209172.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683508f84134d3ecd88cd8d4_1744228237347.avif)
+![](../images/d23a060b_683508f84134d3ecd88cd8d4_1744228237347.avif)
 
 ## Feature – CTAs
 
@@ -97,8 +97,8 @@ Let them take action immediately:
 - Consider adding relevant social proof as well to overcome objections.
 **Here’s how Stripe does it:**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683508f8cad1f3e7234d4a8d_1744228248854.avif)
+![](../images/228c37e3_683508f8cad1f3e7234d4a8d_1744228248854.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683508f8d1111d1fb595fd87_1744228257627.avif)
+![](../images/26c54c19_683508f8d1111d1fb595fd87_1744228257627.avif)
 
 Now onto Social Proof #2!

@@ -51,10 +51,10 @@ Add this link in the blog post where you’re actually discussing the problem th
 
 For example: Fomo is a widget you stick on your landing page to show visitors a live feed of the people who just bought your product:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d02fad9c15be471081a28_1632186616592.avif)
+![](../images/8161215f_683d02fad9c15be471081a28_1632186616592.avif)
 
 Here’s a snippet from a blog post they wrote about a fine art client of theirs:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d02fa8ef25be721c3bb29_1632186634448.avif)
+![](../images/dfe00eb9_683d02fa8ef25be721c3bb29_1632186634448.avif)
 
 The link is natural. It fits in with the surrounding paragraphs. And it solves a problem: many business owners don’t have social proof on their website.

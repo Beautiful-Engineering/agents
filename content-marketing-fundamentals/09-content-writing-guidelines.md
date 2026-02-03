@@ -102,11 +102,11 @@ Specifically: **Images stand alone on a line. They don’t wrap around text.**
 
 ### Bad
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d02a073a0abb80687ee01_1632186422004.avif)
+![](../images/518b0396_683d02a073a0abb80687ee01_1632186422004.avif)
 
 ### Good
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d02a0f99222bf19e64864_1632186442630.avif)
+![](../images/23e6c0e9_683d02a0f99222bf19e64864_1632186442630.avif)
 
 Putting an image on its own line forces people to look at it exactly when you want them to, because they’ll have to scroll through the article to keep reading. Like what we’re doing in this reading.
 
@@ -134,7 +134,7 @@ Lists create visually appealing spacing. They also force writers to shorten thei
 
 Plus, bulleted lists are often what appear as featured snippets on results pages. Here’s an example:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d02a01185f9776546355a_1632186468078.avif)
+![](../images/520805c2_683d02a01185f9776546355a_1632186468078.avif)
 
 We Googled how to sleep better and faster. Google added this featured snippet at the top of the page, before any other organic result—namely because it knows readers will appreciate the brevity and clarity of the numbered list.
 
@@ -142,11 +142,11 @@ We Googled how to sleep better and faster. Google added this featured snippet at
 
 A table of contents with links to specific sections of your content can increase the time readers spend on your page—which benefits your SEO. Here’s an example of a table of contents that links to every H2 header on the page:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d02a0ac2fe38f7e60d675_1e2ed8c938bb0a9786018427ecfdf963647bc957-1202x718.gif)
+![](../images/82beb720_683d02a0ac2fe38f7e60d675_1e2ed8c938bb0a9786018427ecfdf963647bc957-1202x718.gif)
 
 This table of contents feature can also increase your chances of having a jump to section appear in search results.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d02a0e49a942dc2bf5b48_1632186545197.avif)
+![](../images/4e1820c1_683d02a0e49a942dc2bf5b48_1632186545197.avif)
 
 ## Embedding keywords
 
@@ -167,7 +167,7 @@ This exercise can be very time-consuming. [Clearscope](https://www.clearscope.io
 
 See below:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d02a08875d9729e3cc786_1632186567197.avif)
+![](../images/e578d769_683d02a08875d9729e3cc786_1632186567197.avif)
 
 In the image above, our keyword is *kefir* vs. *yogurt*.
 

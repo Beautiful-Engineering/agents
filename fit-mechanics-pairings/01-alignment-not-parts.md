@@ -2,7 +2,7 @@
 
 In the last lesson, we introduced the Foundational Five, our core framework for engineering growth into the foundation of our business. Now, we're going to show just how practical this framework is.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0851dc52adbed5367b19_1.avif)
+![](../images/6ad9db66_68da0851dc52adbed5367b19_1.avif)
 
 ### The Key Insight
 

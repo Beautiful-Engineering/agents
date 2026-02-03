@@ -16,7 +16,7 @@ Meta ads are organized into **ad sets**. Ad sets are different groups, or “set
 
 Here's what they look like in the Meta Ads Manager:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7ea405db81da25b8adc_Facebook-ad-sets-example.avif)
+![](../images/59386e83_6837e7ea405db81da25b8adc_Facebook-ad-sets-example.avif)
 
 ## Generating audiences
 
@@ -38,17 +38,17 @@ High-level, here are the main ways you can target on Facebook:
 - Open [Meta Ads Manager](https://business.facebook.com/adsmanager/manage) in a new tab. You might have to do some initial setup here.‌
 - Click the green "**Create**" button to start a new Campaign. Choose "**Sales**."
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7eac64b0c78ddb9d0d0_Screen_Shot_2023-04-26_at_2.03.04_PM.avif)
+![](../images/f50af634_6837e7eac64b0c78ddb9d0d0_Screen_Shot_2023-04-26_at_2.03.04_PM.avif)
 
         3. Scroll down and open the optional pane. Name the campaign “Audience Explorer Campaign”. You’re not going to spend any money on it. We're only using this to explore the interface.
 
          4. Name the ad set you’re making “Test”. Skip making an ad. Then click **Continue**.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7eb7328a79a66ef3e0e_Screen_Shot_2023-04-26_at_2.07.01_PM.avif)
+![](../images/c6225af9_6837e7eb7328a79a66ef3e0e_Screen_Shot_2023-04-26_at_2.07.01_PM.avif)
 
           5. Next, click into your Test ad set and scroll down to** Audience controls **targeting. Ignore everything else.Fill out the specific **Locations** you're targeting (for example, if you are an ecomm company in the US, just do the US).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7ebd33626f6112d029a_0b721f3a5e835b64fab37d22a75142930c5153af-993x565.avif)
+![](../images/c4da307e_6837e7ebd33626f6112d029a_0b721f3a5e835b64fab37d22a75142930c5153af-993x565.avif)
 
 - Fill out the specific **Locations** you're targeting (for example, if you are an ecomm company in the US, just do the US).
 - Expand show more options
@@ -66,7 +66,7 @@ High-level, here are the main ways you can target on Facebook:
 
 Let's say you sell super niche shirts for Java programmers who love cheesecake.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7ebf9343a8ffd090fa2_1741896003095.avif)
+![](../images/3d5a533b_6837e7ebf9343a8ffd090fa2_1741896003095.avif)
 
 Truly terrible—but we're not here to judge, we're here to sell.
 
@@ -76,17 +76,17 @@ HOW you configure the targeting can mean you either target Java Programmers OR c
 
 Here's an example of targeting one or the other. You can see it's an audience size of 16 to 18M people.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7eb405db81da25b8ae6_1741896082288.avif)
+![](../images/b9376acc_6837e7eb405db81da25b8ae6_1741896082288.avif)
 
 Java Programmers AND cheesecake lovers example
 
 Here's an example of targeting the venn diagram of **BOTH** together. You can see it's a way smaller audience:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7ebc5fc4460f6f528d3_1741896181870.avif)
+![](../images/25cb79a2_6837e7ebc5fc4460f6f528d3_1741896181870.avif)
 
 To do this audience overlap, click **Define further:**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7ead98b167250d38900_1741896205044.avif)
+![](../images/1a598c1f_6837e7ead98b167250d38900_1741896205044.avif)
 
 ### Interest-based audiences: strategy
 
@@ -98,7 +98,7 @@ Targeting a high-level interest category like Food may not be very practical bec
 
 Instead, you should more specifically target people interested in barbecue to increase conversions for your ads.‌
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7eb7328a79a66ef3e11_Facebook-barbecue-interests.avif)
+![](../images/ee50e32d_6837e7eb7328a79a66ef3e11_Facebook-barbecue-interests.avif)
 
 As another example, if you were advertising a web design tool, you could target people who like related niche products like Photoshop or Figma. These people will probably convert better than those who Meta lumps into the "Web Design" category of interests.‌ Anyone who likes niche design tools likely *knows more about web design* than someone who once shared a blog post about web design.
 
@@ -112,7 +112,7 @@ Instead, target products that owners would uniquely use: IAMs, Purina, Chewy.com
 
 Type what dog owners are uniquely interested in into the box.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7eb4496349db5d38605_ff44146445035de4556cab14fa50e7544a424bbc-759x233.avif)
+![](../images/257fc211_6837e7eb4496349db5d38605_ff44146445035de4556cab14fa50e7544a424bbc-759x233.avif)
 
 In general, shoot for a **Broad** audience as that will help the AI do its best work.
 
@@ -159,13 +159,13 @@ Examples include:
 - Users who frequently purchase goods online
 - Small business owners
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7eafc1086a56e8164a6_08bfa8c2f5af81d20457b1e1a229ca2e40360ea7-912x369.avif)
+![](../images/4a18e8b6_6837e7eafc1086a56e8164a6_08bfa8c2f5af81d20457b1e1a229ca2e40360ea7-912x369.avif)
 
 ## Behavior-based audiences: step-by-step example
 
 Browse through the different behaviors by clicking on the arrow next to Behaviors. You may be surprised by what you find.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837e7ebf0ef832b92201792_Facebook-behaviors-targeting.avif)
+![](../images/8d59dd3c_6837e7ebf0ef832b92201792_Facebook-behaviors-targeting.avif)
 
 When you see behaviors relevant to your target audience, add them to your list of ad sets.
 

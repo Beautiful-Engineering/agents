@@ -50,7 +50,7 @@ Here’s a basic tracking template example:
 
 This will look like this in Google Ads:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371b58b3f38b0904b0e7dd_1740789381233.avif)
+![](../images/aa3b9928_68371b58b3f38b0904b0e7dd_1740789381233.avif)
 
 Note:
 
@@ -61,7 +61,7 @@ Google automatically provides these ValueTrack parameters:
 - **{lpurl}**: The URL of your landing page (always include this to ensure ads link correctly; without it, ad links will break).
 - **{campaignid}**: The 10-digit ID of the campaign (e.g., 1543683531; viewable in Google Ads under the “Campaign ID” column in Attributes).
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371b59dfc0b8c86512d88b_1740789112055.avif)
+![](../images/723d3edc_68371b59dfc0b8c86512d88b_1740789112055.avif)
 
 - **{keyword}**: The keyword that triggered the ad.
 - **{creative}**: The ID of the ad (not user-friendly, but available for tracking).
@@ -81,7 +81,7 @@ In this format, **utm_campaign** combines the **campaign name** (**{_stcam}**) a
 
 This is what it will look like in Google Ads:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371b59a091ff14cf5961f7_1740789468934.avif)
+![](../images/cde7c562_68371b59a091ff14cf5961f7_1740789468934.avif)
 
 **Note on {creative}**: The **{creative}** parameter refers to the ad ID, which isn’t user-friendly (e.g., a numeric ID like 12345). While you could create another custom parameter (e.g., **{_stad}** for ad name), this requires manual setup for each ad and is often less useful or practical for startups. We typically recommend focusing on campaign and ad group names for simplicity, but you’re welcome to add ad-specific custom parameters if needed.
 

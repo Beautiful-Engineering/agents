@@ -32,11 +32,11 @@ Shopping is a bit like Performance Max where you have limited customization opti
 - Click on **Manage in Business Manager
 **
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837bafca5021b62a175ab66_1741212735449.avif)
+![](../images/659a8839_6837bafca5021b62a175ab66_1741212735449.avif)
 
 - Under Google Services click on **Add Service** then select **Google Ads**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/6837bafc597af8cd8e835449_1741212792809.avif)
+![](../images/ed84cefa_6837bafc597af8cd8e835449_1741212792809.avif)
 
 - Connect your account
 - Make sure it matches the account ID of your Google Ads account

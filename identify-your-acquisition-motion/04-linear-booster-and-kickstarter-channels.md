@@ -67,7 +67,7 @@ Kickstarters are **manual, unscalable hustles** that get the engine turning.
 - **Early-stage:** you need customers *now* for feedback, validation, and cash flow. Flywheels require time and resources to unlock.
 - **Later-stage:** even flywheels **saturate**; linear/assist channels help fill valleys, diversify reach, and lower blended CAC.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc340be9c294a284aa2fe8_time_vs._scalability.avif)
+![](../images/d3af5f22_68dc340be9c294a284aa2fe8_time_vs._scalability.avif)
 
 ### **Key takeaways**
 

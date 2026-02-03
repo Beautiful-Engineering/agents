@@ -14,7 +14,7 @@ Chances are, if you’re a startup, you’ll be using Seller Central. Setting up
 
 It should take about 24 hours for your Seller Central account to be approved.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba2d7c135a238f1522f_image7.avif)
+![](../images/5f98b8cc_68391ba2d7c135a238f1522f_image7.avif)
 
 ## Step 2: Optimize your product pages
 
@@ -31,7 +31,7 @@ Before you start running ads, make sure the product page you’ll be driving tra
 - Is honest. Your product reviewers will be the first to call you out for overpromising or being inaccurate.
 Reviews are important, but you might not have them yet—all the more reason to launch Amazon ads and drive conversions.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba2fc3907f054f6fe15_image36.avif)
+![](../images/e6ddea1a_68391ba2fc3907f054f6fe15_image36.avif)
 
 *Example of a good product page. It checks all the boxes: descriptive title; thorough, skimmable description with specific selling points; and attractive graphics.*
 
@@ -41,7 +41,7 @@ The emphasis with Amazon ads is on actual sales. Top-of-funnel metrics like clic
 
 That’s why **ACOS** is the key metric you’ll use for Amazon ads. It stands for “advertising cost of sales” and is how much you spend on advertising for every dollar of revenue you earn. Put another way, it’s your total ad spend divided by total ad sales.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba23698a2cb9f16f42b_image35.avif)
+![](../images/9db64f6f_68391ba23698a2cb9f16f42b_image35.avif)
 
 So if you spend $50 on Amazon ads and earn $250 from them, your ACOS is $50/$250, expressed as a percentage: 20%.
 
@@ -53,7 +53,7 @@ To calculate your target ACOS, first figure out what your **break-even ACOS** is
 
 It’s easy to calculate your break-even ACOS, because it’s the same thing as your product’s **gross margin**. It’s how much you earn on a product when factoring in all production costs, fees, etc. (but not any ad spend). Calculate it by subtracting all your costs from your price, then dividing the result by your price.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba5b1e1153fbb88e98b_image11.avif)
+![](../images/69510b4f_68391ba5b1e1153fbb88e98b_image11.avif)
 
 If you’re selling a desk organizer for $25 and it costs $12 to produce and sell, your profit margin is ($25-$12)/$25, or .52. Expressed as a percentage, it’s 52%.
 
@@ -71,7 +71,7 @@ You might be tempted to go low for higher profitability. If your startup doesn�
 
 On the other hand, a higher ACOS means greater visibility and the potential for more long-term revenue. Some sellers start with a high ACOS as they’re ramping up, then drop it as their conversion rate improves over time. Some will even exceed their break-even ACOS at first while they’re getting off the ground. That way, they get plenty of conversions and product reviews early, which will likely lead to more conversions and more reviews.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba26cfa6e2f84b69414_image30.avif)
+![](../images/b4c70909_68391ba26cfa6e2f84b69414_image30.avif)
 
 *Note that “low” and “high” ACOS are industry-dependent. This graphic shows general parameters.*
 Our partners at Ad Badger have worked with hundreds of companies on their Amazon PPC campaigns, and they’ve found that the **average ACOS for a sponsored product ad is around 30%**. That’s pretty middle-of-the-road, so it could be a good default target ACOS for you as you’re starting out.
@@ -92,11 +92,11 @@ Here are the steps to launch your auto campaign.
 
 - In your Seller Central account, go to Advertising > Campaign Manager. Click “Create Campaign.” Choose “Sponsored Products.” 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba2900aa33cc189041b_image27.avif)
+![](../images/f54ca5c1_68391ba2900aa33cc189041b_image27.avif)
 
        2. Name your campaign something that will make your reporting very clear. We like Ad Badger’s recommendation to follow this naming convention: **Targeting type - Product name - Target ACOS **(e.g., “Auto - Packing Tape - 40%”). You could also add “SP” for the ad type “sponsored product”: “Auto SP Packing Tape - 40%.”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba2e834ceab8b1c41b0_image46.avif)
+![](../images/ea4b2e06_68391ba2e834ceab8b1c41b0_image46.avif)
 
      3. Set a start date, and leave “no end date” in the end date field. The longer your automatic campaign runs, the stronger your keyword insights will be.
 
@@ -106,13 +106,13 @@ Here are the steps to launch your auto campaign.
 
      6. Under Campaign Bidding Strategy, select “Dynamic Bids - Down Only.” This is also about handing the reins over to the algorithm by allowing bids to be lowered when ads are less likely to convert.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba2fad4fcbbc4394621_image20.avif)
+![](../images/d565b4bb_68391ba2fad4fcbbc4394621_image20.avif)
 
        7. Label your ad group. Campaigns are made up of **ad groups**. Name it something that will be clear to you in reports. A typical approach is to name your ad group something similar to, or even the same as, your campaign name.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba2fadf8485d4ccb551_image40.avif)
+![](../images/27c6ba4c_68391ba2fadf8485d4ccb551_image40.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba2c76311c9fa543efd_image34.avif)
+![](../images/cc2c422e_68391ba2c76311c9fa543efd_image34.avif)
 
 *Campaigns are made up of ad groups, which are made up of keywords.*      8. Select the product you want to run ads for. You can choose to run your ad for multiple products, but we recommend focusing on one at first. This will give you the greatest clarity regarding which keywords are performing for which products, because there’s only one product! Later on, we’ll get into multi-product and other more complex campaign structures.
 
@@ -120,7 +120,7 @@ Here are the steps to launch your auto campaign.
 
       10. Negative phrase match: Are there any keywords you don’t want your ads to appear for? For instance, if you sell personal umbrellas, a negative keyword might be “beach umbrella.” We’ll go deeper into negative keywords in a bit, but for now, enter any obvious ones that come to mind.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba26b718e789278d057_image43.avif)
+![](../images/d75a972d_68391ba26b718e789278d057_image43.avif)
 
       11. Click Launch Campaign to go live. 🎊
 
@@ -132,13 +132,13 @@ Then go into your account → Advertising  → run a **Search Term Report**.
 
 Whereas ACOS is your key Amazon metric, the Search Term Report is your key report. It has essential metrics for every search term your ad shows up for, including clicks, impressions, CPC (cost per click), conversion rate—and, naturally, ACOS.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba2fc3907f054f6fe12_image31.avif)
+![](../images/656c6cd2_68391ba2fc3907f054f6fe12_image31.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba2c76311c9fa543f00_image24.avif)
+![](../images/e17c3b8a_68391ba2c76311c9fa543f00_image24.avif)
 
 Check the conversion rate column. **Conversion rate (CvR)** is total orders divided by total clicks, expressed as a percentage.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391ba2d79465735f5036b7_image41.avif)
+![](../images/f8a35ad8_68391ba2d79465735f5036b7_image41.avif)
 
 So If your ad is clicked on 150 times and generates 18 orders, its CvR is 18/150, expressed as a percentage: 12%.
 
@@ -232,7 +232,7 @@ Go ahead and create a new campaign in your Campaign Manager. Then move forward w
 - Choose “keyword targeting” as your targeting type.
 - Leave “top of search” and “product pages” at 0. (In most cases, top of search performs best—you can revisit this later to increase the bid percentage for your top of search.)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391bd8efad1d4a34237c66_image12.avif)
+![](../images/e2e6237f_68391bd8efad1d4a34237c66_image12.avif)
 
         9. Select “exact” as your match type. What you want at this stage is clarity about exactly which keywords perform well. Using phrase or broad match here would obscure your results, since you wouldn’t know which specific search terms are resulting in conversions.
 

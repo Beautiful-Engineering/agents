@@ -27,7 +27,7 @@ Features of Brand Registry include:
 - Proprietary text and image search
 Besides IP protection and brand and display ads, joining Amazon Brand Registry gives you access to A+ content—rich text and images on your product pages—brand analytics reports like the Repeat Purchase Behavior Report (useful for understanding and improving retention), and Amazon Stores. On that note...
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391e59fadf8485d4ce66af_image33.avif)
+![](../images/4968b57d_68391e59fadf8485d4ce66af_image33.avif)
 
 *A+ content on a product page*
 
@@ -37,7 +37,7 @@ An Amazon Store is a landing page for your brand, with a unique Amazon URL. You 
 
 Amazon Stores, like online stores on Shopify and other ecommerce hubs, have pre-built templates, so you don’t have to put significant resources toward design. If you move into display and brand ads, and if you have more than a handful of products, it’s good practice to set up a Store for brand discovery, storytelling, and loyalty.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391e59a6d345c5e14e281c_image28.avif)
+![](../images/c13ff0ac_68391e59a6d345c5e14e281c_image28.avif)
 
 ## Brand ads
 
@@ -45,14 +45,14 @@ Once you’ve enrolled in Brand Registry, you can get started with brand ads. Th
 
 As we mentioned earlier, sponsored brand video ads, on the other hand, can typically be the highest-converting non-branded ad format. They’re definitely worth trying. [Here’s Amazon’s guidance](https://advertising.amazon.com/resources/ad-specs/sponsored-brands-video) on formatting and specs.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391e596f1373b5feed8893_image17.avif)
+![](../images/86890636_68391e596f1373b5feed8893_image17.avif)
 
 *Sponsored brand video ad on a search results page*
 When launching brand ads, here are some things to bear in mind:
 
 - **Creative: **You’ll need to write your brief ad headline, and you can also choose which images to feature. For your headline, don’t make claims you can’t substantiate, like that your product is #1. Focus instead on your unique value props and the problems you’re solving.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391e59d7c135a238f34366_image16.avif)
+![](../images/fc79f7f3_68391e59d7c135a238f34366_image16.avif)
 
 *This brand ad has an actionable headline with a specific selling point.*
 
@@ -70,7 +70,7 @@ Some things to know about display ads:
 - **Audience targeting: **There are three remarketing audience types for display ads: views, searches, and purchases. For your first display ad campaign with audience targeting, start with **views remarketing**, which lets you target people who have viewed but not purchased your products in the last 30 days. Views remarketing has the largest audience. Then try **searches remarketing** to target people who have searched for keywords related to your product. **Purchases remarketing**, the third type, targets shoppers who have bought from you in the past. It has the smallest audience but can be a potent tool for customer retention.
 - **Product targeting:** For your first display ad campaign with product targeting, start with one ASIN (probably your best seller) and run a campaign targeting your competitors’ ASINs. Once you hit your target ACOS, you can expand out from there. All products in a given campaign will have the same bid.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391e592523723cd0a89491_Untitled_design.avif)
+![](../images/171d4ab6_68391e592523723cd0a89491_Untitled_design.avif)
 
 *At left, Crest is running a display ad on a competitor's product page. At right, they're running one on their own product page.*
 - **Metrics: **Metrics for sponsored display ads will look familiar to you: impressions, clicks, CTR, CPC, CvR, etc. The four display ad reports—Campaign, Targeting, Advertising Product, and Purchased Product—also offer insights like “14-day total sales,” the number of sales made within 14 days of a shopper’s initial engagement with an ad.

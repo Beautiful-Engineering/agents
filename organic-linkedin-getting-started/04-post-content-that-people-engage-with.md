@@ -16,7 +16,7 @@ As a result, LinkedIn posts routinely get more views than they would on other pl
 
 For example, Neal's LinkedIn post below was viewed by almost 550,000 people. He only had 7,000 followers at the time. That's a massive advantage over other social media platforms that limit impressions to a portion of users who follow you.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0cf0d6401b1bc91546_1636667405011.avif)
+![](../images/bc8747b3_683d4d0cf0d6401b1bc91546_1636667405011.avif)
 
 Neal O'Grady ([via LinkedIn](https://www.linkedin.com/in/nealogrady/))We'll walk through engineer posts to get reach like this.
 
@@ -54,13 +54,13 @@ There are two post *themes* that get traction on LinkedIn: industry-focused and 
 
 **Industry-focused posts** are insight-driven pieces of content that cement your position as a thought leader in your industry. This theme should be your priority.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0c31168fcf1f7c05e5_1636667402855.avif)
+![](../images/08a68653_683d4d0c31168fcf1f7c05e5_1636667402855.avif)
 
 Credit: Dave Gerhardt ([via LinkedIn](https://www.linkedin.com/in/davegerhardt/))Compare that to **human-focused posts**, which are posts that do not relate to your industry. The goal of human-focused posts is to connect with your audience on an emotional level. This is achieved through storytelling and vulnerability.
 
 We see top influencers use human-focused posts for about one-third of their total post volume.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0cf4c635af78e1cfed_1636667404491.avif)
+![](../images/09a8ff82_683d4d0cf4c635af78e1cfed_1636667404491.avif)
 
 Credit: Taylor Offer ([via LinkedIn](https://www.linkedin.com/in/tayloroffer/))The **combination** of these two post themes is what builds a high-affinity audience: your posts provide industry insight and a relatable human touch.
 
@@ -93,37 +93,37 @@ Hooks generally follow the format of asking a tantalizing question or implying s
 - Stating that the status quo is wrong
 - A self-evident description of a useful resource, e.g. "My favorite tools for creating landing pages are..."
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d18f4c635af78e1d62c_5f78b9662614b371512e9d08_https%25253A%25252F%25252Fs3-us-west-2.amazonaws.com%25252Fsecure.notion-static.com%25252Fd439b7a7-ada3-41ef-9bf9-08aa21535210%25252FScreen_Shot_2020-09-29_at_11.56.08_AM.avif)
+![](../images/ddcdc2d9_683d4d18f4c635af78e1d62c_5f78b9662614b371512e9d08_https_253A_252F_252Fs3-us-west-2.amazonaws.com_252Fsecure.notion-static.com_252Fd439b7a7-ada3-41ef-9bf9-08aa21535210_252FScreen_Shot_2020-09-29_at_11.56.08_AM.avif)
 
 Julian Shapiro ([via LinkedIn](https://www.linkedin.com/in/julian-shapiro/))
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0c580e0c5e8990539b_1636667403345.avif)
+![](../images/1c6730a6_683d4d0c580e0c5e8990539b_1636667403345.avif)
 
 Taylor Offer ([via LinkedIn](https://www.linkedin.com/in/tayloroffer/))
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0c25c68b4a956051d6_1636667409671.avif)
+![](../images/50d7f9d6_683d4d0c25c68b4a956051d6_1636667409671.avif)
 
 Julian Shapiro ([via LinkedIn](https://www.linkedin.com/in/julian-shapiro/))After the hook comes the context. This sounds obvious, but many LinkedIn posts fail to catch on because they lack the context that properly sets up the zinger.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0c25da3d3a96c8882d_1636667406520.avif)
+![](../images/2fa0f1ed_683d4d0c25da3d3a96c8882d_1636667406520.avif)
 
 Taylor Offer ([via LinkedIn](https://www.linkedin.com/in/tayloroffer/))
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0cf85cdd12c6e7149f_1636667408642.avif)
+![](../images/8284f9d7_683d4d0cf85cdd12c6e7149f_1636667408642.avif)
 
 Julian Shapiro ([via LinkedIn](https://www.linkedin.com/in/julian-shapiro/))Then finish the post with a zinger—an insight bomb.
 
 The best zingers are elegant statements that leave the reader with something to think about. This is what gets people to hit the like and share buttons.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0d919020daef465d0b_1636667407768.avif)
+![](../images/fbcf1d53_683d4d0d919020daef465d0b_1636667407768.avif)
 
 Dave Gerhardt ([via LinkedIn](https://www.linkedin.com/in/davegerhardt/))
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0ca4ca8cd615e93494_1636667407359.avif)
+![](../images/cc6fc327_683d4d0ca4ca8cd615e93494_1636667407359.avif)
 
 Julian Shapiro ([via LinkedIn](https://www.linkedin.com/in/julian-shapiro/))
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0ceea6acfd1f3d68a3_1636667406020.avif)
+![](../images/1b642a3c_683d4d0ceea6acfd1f3d68a3_1636667406020.avif)
 
 Taylor Offer ([via LinkedIn](https://www.linkedin.com/in/tayloroffer/))
 
@@ -138,15 +138,15 @@ It looks like this:
 - Asset
 Two examples include thematic image galleries (multiple images that show examples of a topic) and infographics/spreadsheets with useful data.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0cf0d6401b1bc91549_1636667412894.avif)
+![](../images/cb068aed_683d4d0cf0d6401b1bc91549_1636667412894.avif)
 
 Julian Shapiro ([via LinkedIn](https://www.linkedin.com/in/julian-shapiro/))
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0cde58eb415fa43575_1636667414174.avif)
+![](../images/0f70d663_683d4d0cde58eb415fa43575_1636667414174.avif)
 
 Dave Gerhardt ([via LinkedIn](https://www.linkedin.com/in/davegerhardt/))
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0c1910e0f1db8b2da8_1636667411555.avif)
+![](../images/018cef91_683d4d0c1910e0f1db8b2da8_1636667411555.avif)
 
 Brian Balfour ([via LinkedIn)](https://www.linkedin.com/in/bbalfour/)The image asset *is* the insight—it's what provides a dopamine hit for your audience.
 
@@ -169,11 +169,11 @@ So how do you write a good story post? Try:
 - Poke fun at an ironic way people do things
 - Stories about challenging yourself
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0c7d25fafc62bbdfaf_1636667409052.avif)
+![](../images/871fec9f_683d4d0c7d25fafc62bbdfaf_1636667409052.avif)
 
 Katie Mitchell ([via LinkedIn](https://www.linkedin.com/in/katherinesmitchell/))
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0ce6f030e50022d257_1636667408241.avif)
+![](../images/76195f9f_683d4d0ce6f030e50022d257_1636667408241.avif)
 
 Taylor Offer ([via LinkedIn](https://www.linkedin.com/in/tayloroffer/))
 
@@ -199,7 +199,7 @@ Here are a few ways to ask followers for comments:
 - “What hacks do you use for accomplishing X?”
 When people comment, respond to further encourage conversation. Also tag popular people in your network to chime in, answer in-depth, and ask even more questions. The more conversations you have in the comments, the more reach you can see.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0cfafb5d6886a98cfa_1636667403909.avif)
+![](../images/d8225677_683d4d0cfafb5d6886a98cfa_1636667403909.avif)
 
 Credit: LinkedIn
 
@@ -219,7 +219,7 @@ While it's helpful to drive people to your own site, if your post fails to get l
 
 So link as you wish—so long as your posts are still designed to get strong engagement on the platform.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0c751aa55d5d58d4bb_1636667405607.avif)
+![](../images/4d8bc796_683d4d0c751aa55d5d58d4bb_1636667405607.avif)
 
 Andrew Chen ([via LinkedIn](https://www.linkedin.com/in/andrewchen/))
 
@@ -239,6 +239,6 @@ The LinkedIn experts we interviewed recommend commenting on other influencers' p
 
 Try to comment on 2-3 posts per day. That way people see your insightful comments all over the place—plus those LinkedIn influencers will be more likely to comment back on *your* posts, which shows your content in their audiences' feeds and drives up your views.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d0c4f0ab37edc0a82df_1636667406958.avif)
+![](../images/7930139c_683d4d0c4f0ab37edc0a82df_1636667406958.avif)
 
 Taylor Offer ([via LinkedIn](https://www.linkedin.com/in/tayloroffer/))Commenting is also a way to test what to post: if one of your comments receives a lot of engagement, turn it into a full-fledged post of your own. Repurpose your work.

@@ -11,7 +11,7 @@
 
 This is a heatmap.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e48c18bc8eab3916ac76b_intro-heatmap-1.avif)
+![](../images/59a53ab6_683e48c18bc8eab3916ac76b_intro-heatmap-1.avif)
 
 Heatmaps are pictures of how people use your web pages. With them you can see where they click, how far down the page they scroll, and where they moved their mouse. It does this in a “hot” and “cold” representation, where hot colors (oranges and reds) show a high density of clicks/movements, and cold colors (blues and greens) show a low density of clicks/movements.
 

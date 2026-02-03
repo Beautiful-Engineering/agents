@@ -1,6 +1,6 @@
 # The power of catalyst combinations
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0c689bf32c1d3b28f0c1_image%20(98).avif)
+![](../images/550dd736_68da0c689bf32c1d3b28f0c1_image__98_.avif).avif)
 
 Now here's where things get really interesting. 
 

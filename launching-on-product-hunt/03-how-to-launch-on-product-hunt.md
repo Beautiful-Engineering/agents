@@ -144,20 +144,20 @@ The steps you need to complete before posting:
 - Sign up for a personal account—no branded or business accounts.
 - Don’t use emojis or descriptions in the title. Just use the name of your product. Product Hunt users will want to easily identify the name of your product. Help them remember it by keeping your title clean with just your product name.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f26580e0c5e8991946a_1636666179689.avif)
+![](../images/f624de10_683d4f26580e0c5e8991946a_1636666179689.avif)
 
 Make your product name the title. It's clean and easy to remember.
 - For the thumbnail, Product Hunt recommends 240x240 size. We suggest using an image that grabs attention, such as an animated GIF, but your standard logo will also work. Don't make GIFs too distracting, otherwise your logo will perform better.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f26b6595f25816bd417_gif-studio.gif)
+![](../images/2b348e1f_683d4f26b6595f25816bd417_gif-studio.gif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f26eea6acfd1f3e9298_gif-trace.gif)
+![](../images/164a56ac_683d4f26eea6acfd1f3e9298_gif-trace.gif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f26f30860405ae658cb_gif-remoteworkers.gif)
+![](../images/e1439fd0_683d4f26f30860405ae658cb_gif-remoteworkers.gif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f2619e4d5588704c94b_1636666180049.avif)
+![](../images/58de3b19_683d4f2619e4d5588704c94b_1636666180049.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f278426b36891b782c7_1636666180444.avif)
+![](../images/5488b20c_683d4f278426b36891b782c7_1636666180444.avif)
 
 ‍
 
@@ -168,11 +168,11 @@ We suggest adding an engaging video or animated GIF to your media gallery. The r
 - Video demonstrations showing the product's capabilities
 - A product walkthrough by the maker
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f26d9aa19eceac6a57e_1636666180994.avif)
+![](../images/a8b14cf1_683d4f26d9aa19eceac6a57e_1636666180994.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f2681cde557f85bd811_1636666186363.avif)
+![](../images/ccc65b66_683d4f2681cde557f85bd811_1636666186363.avif)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f26c71ab4af7d927fa8_1636666183377.avif)
+![](../images/1972844e_683d4f26c71ab4af7d927fa8_1636666183377.avif)
 
 ### 8. Write your Maker comment
 
@@ -182,17 +182,17 @@ This is your chance to add a human touch to your post and connect with the audie
 
 Highlight your key value proposition and the problem you solve. We’ve found that the more **helpful and humble**—and less promotional and fluffy—the maker's comment, the more comments the post is likely to receive.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f26380471c88003dd31_1636666181438.avif)
+![](../images/7b6f3021_683d4f26380471c88003dd31_1636666181438.avif)
 
 Dru calls out that he's nervous about launching on Product Hunt. It's relatable. People want to support because of the honesty.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f2634684e53527fd694_1636666181944.avif)
+![](../images/683c5cee_683d4f2634684e53527fd694_1636666181944.avif)
 
 This maker comment is helpful because it's broken down into three sections: problem, solution, and monetization. The problem explains the "why", the solution explains the "how", and the monetization section gives specifics about the business model.‍If you're looking to go above and beyond to capture PH engagement, consider creating a landing page specifically for them. You can include your page as the primary link and add a special offer for the community. Here are two of our favorite examples below:
 
 #### [Rosali Tea](https://www.rosalitea.com/?ref=producthunt)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4f26600e00fe2c0d2cfe_1636666195884.avif)
+![](../images/e65303f3_683d4f26600e00fe2c0d2cfe_1636666195884.avif)
 
 One last thing on posting: Sanity-check the appearance of your post before you go live. Make sure the content is inspiring enough that it would motivate you to click it yourself.
 

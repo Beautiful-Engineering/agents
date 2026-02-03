@@ -146,7 +146,7 @@ What draws people in is the For You Page.
 
 It's an endless scroll of short, entertaining video clips—a blitzkrieg of dopamine hits that users love. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394b026d1c57636334699d_1646186810219.avif)
+![](../images/18585e57_68394b026d1c57636334699d_1646186810219.avif)
 
  TikTok's algorithm does an exceptional job of curating relevant video content—It's why people open the app eight times a day for [over an hour](https://www.businessofapps.com/data/tik-tok-statistics/) total, on average. And the breadth of content is immense—ranging from educational tips and tutorials to viral memes, comedy sketches, and indeed, plenty of dance videos—all designed to grab your attention and not let go.
 

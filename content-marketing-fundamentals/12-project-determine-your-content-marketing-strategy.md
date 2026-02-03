@@ -16,6 +16,6 @@ We’ve broken down each in more detail in our [Content Marketing Scorecard](htt
 - If the statement does not apply, select "No".
 After answering all statements, look at the Results tab. Your responses will be summed in the **Your Score** column. Look at the adjacent SEO/virality/UGC table to find out which strategy best aligns with your answers.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d0373313d97c82719e2ec_Content-marketing-strategy-table.avif)
+![](../images/ca67aad4_683d0373313d97c82719e2ec_Content-marketing-strategy-table.avif)
 
 Your company may not perfectly align with a single strategy. In reality, many companies can find success with more than one strategy, not just exclusively SEO, virality, or UGC. Our scorecard is designed to help identify which strategy may have the most potential for success.

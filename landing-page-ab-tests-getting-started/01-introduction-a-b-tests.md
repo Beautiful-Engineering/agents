@@ -10,7 +10,7 @@
 
 No landing page is perfect. No matter how hard you worked on its first iteration. Here’s an example of a landing page we did for one of our clients:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e43e398dae5c297cbc61b_e091be38502b7e1ef66d659e93685ca84516cb5a-1236x577.avif)
+![](../images/58dae81c_683e43e398dae5c297cbc61b_e091be38502b7e1ef66d659e93685ca84516cb5a-1236x577.avif)
 
 It contains a lot of context, supporting copy, and our client’s products. Our client saw a jump in conversion rates with this landing page. But we knew there was room for improvement.
 
@@ -18,7 +18,7 @@ It contains a lot of context, supporting copy, and our client’s products. Our 
 
 We used analytics, heatmap data, and customer surveys to create an A/B variant of that page. The only content on the new variation was the products (and thus, the page was much shorter)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e43e3e6368fd806a18b8e_f8afd09c579ad247a40313cc8e2f8bf9f0172fbf-1270x550.avif)
+![](../images/c865bc57_683e43e3e6368fd806a18b8e_f8afd09c579ad247a40313cc8e2f8bf9f0172fbf-1270x550.avif)
 
 The result? Our A/B variation led to a 20% increase in conversions (and revenue) for our client.
 

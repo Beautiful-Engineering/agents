@@ -49,7 +49,7 @@ The goal is twofold:
 - Get email addresses you can send drip emails to.
 - Get them to trust your brand by seeing how valuable your resources are.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d9af4c635af78e227a0_1636667568298.avif)
+![](../images/5c709b3b_683d4d9af4c635af78e227a0_1636667568298.avif)
 
 This DM has worked well for us. It's human, it leads with value, and it's risk-free.Two examples of DM templates you can use:
 
@@ -75,15 +75,15 @@ In other words, first build trust that your content is good. Then tease them wit
 
 Build up from there.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d996560256237c108f9_1636667569405.avif)
+![](../images/59a336a3_683d4d996560256237c108f9_1636667569405.avif)
 
 Nikhil Joshi (via LinkedIn)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d99d785daa29b6aa965_1636667568984.avif)
+![](../images/2391b286_683d4d99d785daa29b6aa965_1636667568984.avif)
 
 Nikhil Joshi ([via LinkedIn](https://www.linkedin.com/posts/zenproamateur_revenueinsights-revenuebreakdown-activity-6692440516543557632-sxyb))LinkedIn also offers onsite newsletters where you can embed CTAs to capture emails:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4d9b57349fd973e86153_1636667568685.avif)
+![](../images/bcfc0897_683d4d9b57349fd973e86153_1636667568685.avif)
 
 Andrew Yu ([via LinkedIn](https://www.linkedin.com/pulse/actionable-ideas-11-goodharts-law-talent-stack-andrew-c-yu/?trackingId=zS9c%2FNqGTqeXK2PbsLKuTw%3D%3D))
 

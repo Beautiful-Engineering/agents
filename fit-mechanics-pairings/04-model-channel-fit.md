@@ -2,7 +2,7 @@
 
 Now we arrive at one of the most relevant and practical pairings for your purposes in the Growth Program: **Model-Channel Fit.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0937b9cebe7ec7a1d48a_4.avif)
+![](../images/c930cab3_68da0937b9cebe7ec7a1d48a_4.avif)
 
 Most of you are here to figure out how to predictably and scalably acquire customers. I.e. locking in the Channel portion of your Foundational Five. 
 

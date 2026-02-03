@@ -6,7 +6,7 @@ And there are a *ton *of definitions floating around. But here’s one we think 
 
 *Product–Market Fit is the degree of alignment between what your product offers and what a ****good market**** actually wants. The better the alignment, the easier growth becomes.*
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0869fc035a9a28acb3a2_2.avif)
+![](../images/6effaad9_68da0869fc035a9a28acb3a2_2.avif)
 
 ### **A Couple Important Call-Outs**
 

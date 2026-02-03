@@ -13,7 +13,7 @@ Assuming they hit the site with 50 points of Psych, every positive experience ad
 
 Here's an image Darius made to illustrate it:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682fd994386061c5e2f89d3f_Psych_Graph.avif)
+![](../images/10b2ee1a_682fd994386061c5e2f89d3f_Psych_Graph.avif)
 
 Obviously you want to build up their Psych high enough before you deplete it by asking them to do things like entering email, card info, address, add a profile image, etc.
 

@@ -2,7 +2,7 @@
 
 **If needed, to put this back into context of the page, see "FAQ" below.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683506aa08e3200b82786621_1744225409912.avif)
+![](../images/1e29c884_683506aa08e3200b82786621_1744225409912.avif)
 
 People don’t really read.
 
@@ -14,7 +14,7 @@ The FAQ section is a place to dump everything in a nice catch all.
 
 Generally, this is what it looks like:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683509ec3fd5947ee8a4b88b_1744228618852.avif)
+![](../images/bafadf64_683509ec3fd5947ee8a4b88b_1744228618852.avif)
 
 ## What to cover in an FAQ section:
 

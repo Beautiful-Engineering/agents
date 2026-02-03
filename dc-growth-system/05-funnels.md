@@ -2,7 +2,7 @@
 
 Up until now, we’ve been talking about growth at the system level. Now we’re zooming in on how we *measure* the performance of our engine.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68caeeb267ef60d728154ca7_Growth%20Syste%20m9.avif)
+![](../images/84b7d18f_68caeeb267ef60d728154ca7_Growth_Syste_m9.avif)
 
 **Funnels** give us a way to measure how people progress through the buying journey, from awareness through retention and monetization. They’re snapshots of how effectively we’re moving people from one stage to the next.**‍**
 

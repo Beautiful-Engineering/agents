@@ -4,7 +4,7 @@ Alright, welcome to the first part of your company path. In case you missed the 
 
 I’ll be guiding you through the first core parts of the Growth Program to help you build your growth engine. I'll be guiding you through the key strategic concepts to help you level up as a growth thinker and operator. And that all begins with our **growth system**:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68caebd4243ab3a02728e8bc_Growth%20System%201.avif)
+![](../images/803f5e64_68caebd4243ab3a02728e8bc_Growth_System_1.avif)
 
 This is a system that we have honed after a decade-plus of working with thousands of startups, from pre-launch, bootstrapped products to some of the fastest-growing companies in the world.
 
@@ -12,7 +12,7 @@ One of the things that we credit our success, and the success of the companies w
 
 That’s the system that *you're *about to learn.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dd684d834fae5c7ea73020_DC%20Growth%20System%20(9).avif)
+![](../images/dc_growth_system_9.avif)
 
 With our growth system, you will be able to go from feeling like growth is this nebulous, uncontrollable, anxiety-inducing component of your startup, to understanding every knob and dial that you can push and turn to engineer your growth on command. 
 
@@ -20,7 +20,7 @@ That said, let's get into it!
 
 ### So, why a system? 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68caec7943c652145d705ffa_Growth%20System%203.avif)
+![](../images/a1c51012_68caec7943c652145d705ffa_Growth_System_3.avif)
 
 At the highest level, this system will help you not just make decisions, but also build what typically takes startups years to do, in a matter of months. You will also produce the kind of growth that many operators and founders chase after for years, and sometimes never achieve. You'll be able to put yourself in the best possible position to produce those levels of results... in a matter of months.
 
@@ -28,7 +28,7 @@ It's going to take you away from pursuing random acts of marketing and sales, an
 
 #### So let's take a look at the Growth System
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dd6861a64e6df9be3d4919_DC%20Growth%20System%20(8).avif)
+![](../images/dc_growth_system_8.avif)
 
 As you can see, there are several components to it. We're going to begin at the highest level with what we call our **Foundational Five**. This is the foundation the rest of the system is built on.
 
@@ -58,7 +58,7 @@ In reality, strategy is far more straightforward. 
 
 So what does that look like within the Growth Program? Your strategy needs to answer six core questions:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68dc8107286cb04ed695ca06_Screenshot%202025-09-30%20at%209.16.35%E2%80%AFPM.avif)
+![](../images/49fe5297_68dc8107286cb04ed695ca06_Screenshot_2025-09-30_at_9.16.35_PM.avif)
 
 Each question maps directly to a layer of the Growth System, which means that by building your system, you are building your strategy.
 

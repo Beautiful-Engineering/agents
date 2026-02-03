@@ -2,7 +2,7 @@
 
 Welcome to our lesson on what growth actually means. You've just overviewed our growth system and have a view of what you're about to not only learn, but build and achieve through the rest of the program.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d20bad57b5264d3198d25a_68cb0e4a276700e2874da04d_1.avif)
+![](../images/8cfc4ba1_68d20bad57b5264d3198d25a_68cb0e4a276700e2874da04d_1.avif)
 
 However, before we can get into designing our growth engine and more broadly architecting our growth system as a whole, I want to take some time to explore and cover some really important concepts and misconceptions that will help you level up as a growth leader and operator, as well as give us a shared language and mental model throughout the program.
 
@@ -40,7 +40,7 @@ And I think that's a really powerful analogy because right there it helps to cle
 - Growth is not A/B testing.
 - Growth is not about chasing short-term “hacks.”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0e54ff9507e294e67608_3.avif)
+![](../images/5daaf776_68cb0e54ff9507e294e67608_3.avif)
 
 What it tells us is that growth is holistic. If growth is responsible for managing and owning how users flow through the entirety of our business, then we know that growth spans the entirety of our business functions, which is exactly what our Foundational Five framework in the previous lesson is meant to convey.
 

@@ -1,6 +1,6 @@
 # Case Study
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d4c21ba958d15098df4f9_1636667248733.avif)
+![](../images/c8e81796_683d4c21ba958d15098df4f9_1636667248733.avif)
 
 [Taylor Offer](https://www.linkedin.com/in/tayloroffer/) took advantage of LinkedIn's reach to build a following of over 50k people in 9 months. Now, he has over 100k followers.
 

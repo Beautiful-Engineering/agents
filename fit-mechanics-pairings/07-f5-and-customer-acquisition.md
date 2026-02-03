@@ -1,6 +1,6 @@
 # F5 and customer acquisition
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da096867394060cae443ff_7.avif)
+![](../images/0b051895_68da096867394060cae443ff_7.avif)
 
 We’ve just looked closely at some of the most critical Foundational Five pairings. Now let’s step back.
 

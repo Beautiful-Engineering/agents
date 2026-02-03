@@ -6,7 +6,7 @@ This is a crucial concept to understand: **growth isn't driven by channels or ta
 
 Actual growth happens when it's engineered into the foundation of your business.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68caecd8dd1c97d66569d1d3_Growth%20System%205.avif)
+![](../images/042d9744_68caecd8dd1c97d66569d1d3_Growth_System_5.avif)
 
 ## The Foundational Layer
 

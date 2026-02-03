@@ -12,7 +12,7 @@ By the end of this guide, you'll have a live Apple Search Ads campaign capturing
 
 Apple Search Ads are different from social media advertising. When someone searches "budget app" or "workout tracker" in the App Store, they're already looking for what you built. ASA lets you appear at the top of those search results with a small "Ad" tag.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d2cd0d7dca08eef5491a7c_image%20-%202025-09-24T003819.373.avif)
+![](../images/98069e68_68d2cd0d7dca08eef5491a7c_image_-_2025-09-24T003819.373.avif)
 
 **The opportunity:** High intent, low competition, immediate validation of whether people want your app when they're actively looking for solutions like yours.
 
@@ -88,7 +88,7 @@ ASA performance is tied directly to your app store page quality. Even perfect ta
 
 Treat your screenshots like ad creatives. Each one should tell a story about the value your app provides. This alone often moves the needle for conversions.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d2cd7ab30ed2ed16da7d8e_image%20-%202025-09-24T004004.824.avif)
+![](../images/1cea3000_68d2cd7ab30ed2ed16da7d8e_image_-_2025-09-24T004004.824.avif)
 
 **Screenshot Strategy:**
 

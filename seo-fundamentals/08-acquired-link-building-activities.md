@@ -12,7 +12,7 @@ The content that’s most likely to succeed in this strategy tends to be compreh
 
 You can learn about how to set up Google Ads in our [Search Ads](/lessons/introduction-google-ads) unit. Here’s an example of companies using this strategy to target the phrase “remote work statistics.”
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9acaa5306b96ef6c88_1636125456619.avif)
+![](../images/3e0afa17_683d2d9acaa5306b96ef6c88_1636125456619.avif)
 
 This isn’t a foolproof strategy, but something to test with a live ads campaign for 1-3 months. You shouldn’t expect to get backlinks immediately, as writers may go through a long editorial process before their content gets published. 
 
@@ -26,7 +26,7 @@ Here’s how to check whether your ad URL has any backlinks:
 - Click on the number under Backlinks.
 - In the Backlinks results page, filter for backlinks that include “gclid”. We’ve done this with Employment Hero, one of the websites that created an ad for “remote work statistics” in our earlier example.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9980a05ccf4361fd2b_1636125459622.avif)
+![](../images/fd2caaee_683d2d9980a05ccf4361fd2b_1636125459622.avif)
 
 Looking through the backlink results, it’s clear Employment Hero has used this strategy for several non-sales pages—and it’s worked! The fact that backlinks include the GCLID parameter indicate people are linking to the ad page. Still, this doesn’t paint the full picture of how many links your ads have gotten, because some writers will clean up the URL before linking to it in their content.
 
@@ -42,7 +42,7 @@ Without either, cold outreach often doesn’t have very good ROI. Personalized o
 
 The **skyscraper technique**, a strategy named by Brian Dean, relies heavily on creating excellent content, regardless of your connections with other sites. Using this technique, companies create better content than what already exists—for example, producing a more thorough and detailed guide than a leading competitor’s. Then they reach out to sites linking to the existing, inferior content to ask for a link.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d99e88b4ec07a2357a7_1636125452043.avif)
+![](../images/faee835f_683d2d99e88b4ec07a2357a7_1636125452043.avif)
 
 Image credit: [Backlinko](https://backlinko.com/skyscraper-technique)
 Though this strategy can work, there’s no guarantee. If the existing content they’ve linked to is still helpful, some of the sites you contact simply won’t be inclined to switch links. 
@@ -55,7 +55,7 @@ Example: If a website had a broken link to a now-deleted resource about project 
 
 Here’s what a broken link building email might look like.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9a7125a673fd3142f3_1636125457818.avif)
+![](../images/9c997f04_683d2d9a7125a673fd3142f3_1636125457818.avif)
 
 Image credit: [Backlinko](https://backlinko.com/hub/seo/broken-link-building)
 The difficulty with this strategy is identifying broken links about topics that your website also covers. We advise using Ahrefs: 
@@ -64,14 +64,14 @@ The difficulty with this strategy is identifying broken links about topics that 
 - Select the **Best by links** option under Pages in the sidebar.
 - At the top of the results, filter for “404 not found” in the HTTP code dropdown. Here you’ll see broken URLs on the website you’ve searched, plus the number of websites that link to this broken page (under Referring domains). 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9a61cd08b273310cc8_1636125456989.avif)
+![](../images/4f220cbd_683d2d9a61cd08b273310cc8_1636125456989.avif)
 
 Because these pages are broken, you won’t know what kind of content they offered—but the URL slug often gives a big clue. For example, in the screenshot above, the second result was most likely a blog post about sales copywriting techniques relying on human psychology. 
 
 - Look for URLs that cover topics you also have content about. So if you also have a guide about sales copywriting techniques on your site, it may make sense to target any websites that link to the broken post mentioned earlier. 
 - Click the number under the Dofollow column in the row of the broken link you want to target. This will show you a Backlinks report listing the pages that currently link to that URL (which actually leads users to a 404 error page) and do not have a nofollow tag.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9aed2afabadadb9e8a_1636125458753.avif)
+![](../images/af2c91e2_683d2d9aed2afabadadb9e8a_1636125458753.avif)
 
 These are the sites you could reach out to and suggest your content as a replacement for. Not all sites will be a good fit—you’ll have to look at each page and the context (also shown under the **Anchor and backlink** column) to see which make sense to contact. Avoid reaching out to sites in another language or that are clearly spammy (for example, they have a low DR and use keyword-rich anchor text). 
 
@@ -84,7 +84,7 @@ Note that according to Google’s guidelines, explicitly offering something in e
 
 For example, here’s an email pitch that not only gives valid reasons for why a link to their content would make sense, but also offers several goodies—regardless of whether the recipient does give a backlink.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d998270c7df6ef9b13b_1636125456156.avif)
+![](../images/8881dc3a_683d2d998270c7df6ef9b13b_1636125456156.avif)
 
 For this strategy, here’s how to find websites to reach out to.
 
@@ -92,7 +92,7 @@ For this strategy, here’s how to find websites to reach out to.
 - Choose one of the competitor results—one that your content is clearly superior to. You’re going to be suggesting that other websites link to your page instead of this competitor.
 - Enter its URL into Ahrefs’ Site Explorer. Click on the number under Backlinks.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9a498cc75e3043a36f_1636125454233.avif)
+![](../images/1615a134_683d2d9a498cc75e3043a36f_1636125454233.avif)
 
 - A list of pages that link to this URL will appear. Look at each page and the link context (shown under the Anchor and backlink column) to see which sites are worth reaching out to. 
 Whether you use the broken link building strategy or offer something more tangible in your outreach, you also need to write good outreach emails. Our [Cold Outreach module](/lessons/introduction-cold-outreach) teaches how to write more effective emails for the purpose of lead generation, but you can apply the same principles to outreach emails asking for a backlink. 
@@ -101,7 +101,7 @@ Whether you use the broken link building strategy or offer something more tangib
 
 Guest posts are blog posts written for another company’s website, often with a backlink to the author’s site. There may be a link in the author bio as well as a link in the guest post’s actual body.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9a498cc75e3043a36c_1636125458291.avif)
+![](../images/e4aa0294_683d2d9a498cc75e3043a36c_1636125458291.avif)
 
 Many SEO strategies focus on guest posting on reputable, high-authority websites related to their industry. These sites drive stronger link equity as well as relevant traffic.
 
@@ -121,7 +121,7 @@ To find relevant sites that accept guest posts, Google your industry, plus keywo
 - Startup “writing guidelines”
 Use quotation marks around the keywords you only want exact matches for. The phrases above are often used in the context of guest posting. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9a751aa55d5d445cc4_1636125454724.avif)
+![](../images/d4b5cb98_683d2d9a751aa55d5d445cc4_1636125454724.avif)
 
 Most sites have specific guest posting guidelines that detail what kind of content they’re looking for; not all may be a good match for your site. Read through these guidelines and also look up each site in Ahrefs to find out their DR. Prioritize guest posting on sites that have a higher DR, ideally at least 50. (Use the spreadsheet template from our Content Distribution project to track these guest posting sites.)
 
@@ -135,7 +135,7 @@ Over time, successful guest posting has a snowball effect for your own credibili
 
 Here’s an example of a successful pitch email.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9ad3d0c375fccea98b_1636125459168.avif)
+![](../images/60ae600d_683d2d9ad3d0c375fccea98b_1636125459168.avif)
 
 What makes this pitch effective?
 
@@ -155,7 +155,7 @@ Major publishers and outlets use [Help A Reporter Out (HARO)](https://www.helpar
 
 Signing up as a source will get you regular HARO emails with journalist queries like these:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d99e0c6a2093363d559_1636125455136.avif)
+![](../images/429f7929_683d2d99e0c6a2093363d559_1636125455136.avif)
 
 Queries relevant to your product make good opportunities for getting a backlink from an established website—but you need to write clear, thoughtful responses to increase your chances of being quoted. The goal isn’t to sell your product; it’s to get a brand mention and link from a high-authority site. 
 
@@ -163,7 +163,7 @@ The best way to use HARO:
 
 - Sign up for queries from industries that relate to yours. (Signing up for irrelevant industries will mean more emails and queries to filter through.)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d99ed2afabadadb9e85_1636125453151.avif)
+![](../images/a5515a1e_683d2d99ed2afabadadb9e85_1636125453151.avif)
 
 - Selectively choose queries that you’re qualified to answer or can offer a genuinely valuable perspective on. Don’t answer queries that are only loosely connected to your product. Journalists using HARO receive dozens of responses and tend to prefer quoting only the most relevant sources. 
 - Set up a [Google alert](https://www.google.com/alerts) for your name as well as your brand’s. Journalists don’t always share their published piece with the people they’ve quoted, so a Google alert brings any newly published content quoting you or your company to your attention.
@@ -173,7 +173,7 @@ The best way to use HARO:
 
 Here’s an example of a successful HARO response.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9ae88b4ec07a2357b0_1636125455689.avif)
+![](../images/a5ffa647_683d2d9ae88b4ec07a2357b0_1636125455689.avif)
 
 Not all HARO responses need to be so long, but effective responses are generally:
 
@@ -200,17 +200,17 @@ Because these communities understand the importance of link building, their memb
 - **Link partnerships:** People looking to build either one-time or ongoing link building relationships with marketers from other sites.
 Here’s an example of a post asking for link suggestions.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9a61cd08b273310cc0_1636125452413.avif)
+![](../images/8d7d5572_683d2d9a61cd08b273310cc0_1636125452413.avif)
 
 A request for link suggestions is an invitation to send over any links related to the requester’s topic. Write a quick blurb about why your link would be a great resource for their article to include; then send it through an email or Slack or Facebook message. 
 
 Alternatively, some people also collect quotes and links by setting up a Google form, like so:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9a8472c48f900f6e88_link-request-google-form.avif)
+![](../images/8f4961a3_683d2d9a8472c48f900f6e88_link-request-google-form.avif)
 
 Link partnerships are more involved—and they fall into an iffy category between white hat and black hat SEO. Think of them as an amplified form of guest posting. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d9a7125a673fd3142ed_1636125450675.avif)
+![](../images/fab42a14_683d2d9a7125a673fd3142ed_1636125450675.avif)
 
 When you enter a link partnership, both parties are expected to deliver links from other sites. One way to understand how this works:
 
@@ -226,7 +226,7 @@ But these partnerships require extra coordination—both you and your partner mu
 
 Marketers often use a shared spreadsheet and email to track each partner’s target links and successful guest posts. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d2d992f7cfd028b2b749b_1636125457398.avif)
+![](../images/9491c848_683d2d992f7cfd028b2b749b_1636125457398.avif)
 
 Whether you go for link suggestions or partnerships or both, here’s how we advise starting off in online communities:
 

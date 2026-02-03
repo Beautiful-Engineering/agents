@@ -6,7 +6,7 @@ First up, the closest companions to PPC: SEO and reviews.
 
 Amazon ads, organic search results, and reviews have a rising-tide-lifts-all-boats kind of relationship. When one does better, they all do. The better your ads perform, the better your organic SERP (search engine results page) rankings will become; the stronger your reviews, the higher you’ll rank. And so forth.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391fd6bc4e06a7ede34775_image6.avif)
+![](../images/e700a50e_68391fd6bc4e06a7ede34775_image6.avif)
 
 Here are some tips for improving your SERP rankings and reviews profile.
 
@@ -50,7 +50,7 @@ Tactically place high-converting keywords from your PPC campaigns on your produc
 
 Another element that will help with relevance is the search term field (Seller Central > Inventory > Edit Product > Keywords). Use up all 250 characters with a string of keywords that differ from those in your title. Your customers won’t see this string, so don’t worry about grammar or punctuation.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391fd69f1e4f899a45054b_image22.avif)
+![](../images/7ea133ed_68391fd69f1e4f899a45054b_image22.avif)
 
 **What not to do: repeat your keywords anywhere. **Keyword stuffing—the sketchy practice of repeating keywords in an attempt to rank for them—is as frowned upon on Amazon as it is in content marketing. It worsens the user experience, which results in lower conversions—and lower rankings, the opposite of what you want.
 
@@ -60,7 +60,7 @@ Once your product page is expertly keyword optimized, consider increasing your b
 
 There’s plenty more you can do with Amazon SEO, including using additional keyword tools like [Jungle Scout](https://www.junglescout.com/) or [MerchantWords](https://www.merchantwords.com/). Because our focus here is on PPC, and because the above points about SEO are the most essential, we’ll leave it at that and move on to reviews. But if you want to go deeper, [check out this PDF](https://2z96g32do0o43fdk6f25rx20-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/phase-1-seo-amazon.pdf) from My Amazon Guy.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391fd6773a844f7ee38966_image38.avif)
+![](../images/f3d9c673_68391fd6773a844f7ee38966_image38.avif)
 
 *FitVille’s product title gets pretty specific: “running sneakers for wide flat feet,” “comfortable support for plantar fasciitis.” Guess how it ranks organically for those two search terms?*
 
@@ -73,7 +73,7 @@ Here are four honest ways to have a healthy review profile on Amazon—emphasis 
 - Use Amazon’s Request a Review feature. From four to 30 days after an order is placed, you can click “Request a Review” on the order details page in your seller account. Your customer will get an email asking for feedback.
 - Insert an eye-catching card along with your mailed product. On it, ask for a review (not a five-star review). 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68391fd6a6d345c5e14f26b0_image44.avif)
+![](../images/5cac18d4_68391fd6a6d345c5e14f26b0_image44.avif)
 
 - Ask for reviews in your email marketing and on social media.
 - Respond to negative reviews. Acknowledging a critic’s concerns shows prospects that you care about your customers and their experiences with your product. Sellers in Amazon Brand Registry can contact customers directly in response to negative reviews.

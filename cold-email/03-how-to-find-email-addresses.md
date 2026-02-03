@@ -56,7 +56,7 @@ So go to Gmail, click “Compose” and paste all the email variants into the �
 
 A pop-up will show you if the email address is associated with a Google profile.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5bf253dd1c7d93c1ceb2_1632233577870.avif)
+![](../images/7a00df67_683d5bf253dd1c7d93c1ceb2_1632233577870.avif)
 
 That’s the email you want.
 

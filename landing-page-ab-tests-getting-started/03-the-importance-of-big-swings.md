@@ -8,7 +8,7 @@ When you make a landing page that's 80% shorter than your current landing page, 
 
 Changing the color of your CTA button is NOT a big swing.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e44721620a0fb3e186d77_Screenshot%202025-06-03%20at%208.40.15%E2%80%AFAM.avif)
+![](../images/0bfa7f5e_683e44721620a0fb3e186d77_Screenshot_2025-06-03_at_8.40.15_AM.avif)
 
 When you set up three Instagram ads — a screen recording video, an ad with only text in the image, and an image of someone tweeting about you — those are three big swings.
 
@@ -18,7 +18,7 @@ If you typically email users asking for a Yelp review, and then you A/B test [te
 
 (Maybe not one you should do. But a big swing nonetheless.)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e4450b029e44c782d8fc3_1c1897de593fbdca89ad1d9d9bf4e6396bbb42d9-500x500.avif)
+![](../images/394b2d8c_683e4450b029e44c782d8fc3_1c1897de593fbdca89ad1d9d9bf4e6396bbb42d9-500x500.avif)
 
 In other words: "Big swings" means testing things that are wildly different from each other. Then doubling down on what works.
 

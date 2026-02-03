@@ -54,7 +54,7 @@ Send an email to yourself in Gmail. Put yourself in the shoes of a prospect rece
 
 Look at the snippet you see in the inbox first.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5f4bc810bc0921799fbc_1632233924358.avif)
+![](../images/8819f919_683d5f4bc810bc0921799fbc_1632233924358.avif)
 
 Then open the actual email. At Demand Curve, we’ll actually boomerang the email to ourselves to be sent in a day, so it looks fresher when we actually read it.‌
 
@@ -92,7 +92,7 @@ Now, install [Yet Another Mail Merge](https://yet-another-mail-merge.com/login).
 
 Make a Google Sheet like below:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5f4b817e774ed8a5b322_1632233945609.avif)
+![](../images/9bc13579_683d5f4b817e774ed8a5b322_1632233945609.avif)
 
 Add only your **own email address**, and then add one that’s generated from [Mailinator](https://www.mailinator.com/). Don’t use real email addresses yet.
 

@@ -20,7 +20,7 @@ It IS when they:
 - **Achieve a desired outcome** they came for
 Like when I made my design in 5 minutes in Canva:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d16df9b21d7438379e4eb5_image%20(83).avif)
+![](../images/c431002b_68d16df9b21d7438379e4eb5_image__83_.avif).avif)
 
 ## Examples of Great Lightbulb Moments
 

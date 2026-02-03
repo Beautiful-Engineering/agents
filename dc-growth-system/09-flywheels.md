@@ -4,7 +4,7 @@ We’ve now walked through the foundation, the catalysts that give you an edge, 
 
 But there’s one last, very important concept to cover: **flywheels.**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68caedefea000f101ed973e5_Growth%20System%208.avif)
+![](../images/f111ceff_68caedefea000f101ed973e5_Growth_System_8.avif)
 
 A flywheel is a self-reinforcing system. Each cycle makes the next cycle easier and more powerful, which means results compound over time. 
 

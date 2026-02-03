@@ -19,7 +19,7 @@ Even our Foundational Five — they are all assumptions:
 - We’re assuming that the channel we’ve identified is the optimal way to acquire new customers.
 They are all assumptions that we are attempting to validate.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d212b485d1605524111d37_68cb0e68d5b0c68967741577_5.avif)
+![](../images/8b60efe7_68d212b485d1605524111d37_68cb0e68d5b0c68967741577_5.avif)
 
 ### Learning Fuels Discovery
 

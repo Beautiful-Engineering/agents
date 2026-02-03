@@ -14,7 +14,7 @@ Search by topic/category and keep narrowing down to find both direct and indirec
 
 Look at how your target audience handles the specific problem your product solves. (Get insight into this process from doing market and customer research.) Break this workflow into smaller tasks and different products that complete each task. Here’s an example of how that might look for someone writing an article. 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffad66890ecf5aac65028_1631571954661.avif)
+![](../images/de16c0b8_682ffad66890ecf5aac65028_1631571954661.avif)
 
 The products that appear most frequently or carry out the same tasks as yours are probably competitors. 
 
@@ -24,4 +24,4 @@ See what websites rank highly for your target keywords in Google’s search resu
 
 For example, if your company sells a productivity app that tracks time, searching “time tracking software” shows other companies doing the same thing, like Toggl and My Hours. The results also show roundup posts listing other potential competitors.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/682ffb015f61800abba3017a_1631572023634.avif)
+![](../images/d2d9f1b2_682ffb015f61800abba3017a_1631572023634.avif)

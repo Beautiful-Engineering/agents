@@ -2,7 +2,7 @@
 
 We just said that flywheels are the gold standard of growth catalysts. And particularly in tech, network effects are the gold standard of flywheels.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68da0af3490ab615f7f64644_image%20(91).avif)
+![](../images/9da46132_68da0af3490ab615f7f64644_image__91_.avif).avif)
 
 ### **Network Effects**
 

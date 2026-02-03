@@ -70,20 +70,20 @@ To do that, we'll make a copy of your experiment and temporarily set it to redir
 
 - First, click the 3 dots next to your experiment, and click "Make a copy".
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e459024c5f4ded631e49f_fe4b1a9b33f8ea39ec751b1e8ef3570608887cc8-1694x264.avif)
+![](../images/d9c2ebd8_683e459024c5f4ded631e49f_fe4b1a9b33f8ea39ec751b1e8ef3570608887cc8-1694x264.avif)
 
 - Let's rename the Copy Experiment. Click the three dots in the Draft box, and name it something like "Sanity Test."
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e459001b7487cbadb028b_98f27d954569d2be48e28da2dc34cd6dfea3859c-2254x202.avif)
+![](../images/0c983989_683e459001b7487cbadb028b_98f27d954569d2be48e28da2dc34cd6dfea3859c-2254x202.avif)
 
 - Click the three dots to the far right.
 - Next, under **Settings** > **Traffic allocation**, set it to 100%. Then under **Variants and targeting** > **Variants**, click on "**% WEIGHT**" next to the variants. Set 90% of your weight to your Variant, and 10% to the original: 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e459017f8edd11ebd1268_8372426d26cf4a3473705caf9565b95e3cece713-1208x962.avif)
+![](../images/076a5154_683e459017f8edd11ebd1268_8372426d26cf4a3473705caf9565b95e3cece713-1208x962.avif)
 
 - Set the experiment live, then open your site 4-5 times in a bunch of incognito windows. Most of them should redirect to the new page
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e45903701f316afe6a61b_122170a9cb25a42aaa4e8452e59b1f59dc8bbd82-970x322.avif)
+![](../images/4ede77ca_683e45903701f316afe6a61b_122170a9cb25a42aaa4e8452e59b1f59dc8bbd82-970x322.avif)
 
 As soon as you’ve proven that your test works, **turn off** the experiment. You can now go back to your real experiment.
 

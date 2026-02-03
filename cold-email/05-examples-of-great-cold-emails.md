@@ -10,7 +10,7 @@ A note on body copy: We’ve found that plain text emails convert better than em
 
 **Subject**: Love your work—think we can grow together
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5d5a08146498ef6f62e8_1632233714637.avif)
+![](../images/ecf43e24_683d5d5a08146498ef6f62e8_1632233714637.avif)
 
 Why it’s great:
 
@@ -25,7 +25,7 @@ Why it’s great:
 
 **Subject**: Morning Brew Podcast (1.5M Listeners)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5d5a24aef8faa00eccb2_1632233731494.avif)
+![](../images/fd344d17_683d5d5a24aef8faa00eccb2_1632233731494.avif)
 
 Why it’s great:
 
@@ -40,7 +40,7 @@ Why it’s great:
 
 **Subject**: [Company name] x Pre-seed
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5d5ee6f77695099187d9_1632233746868.avif)
+![](../images/5241bbdb_683d5d5ee6f77695099187d9_1632233746868.avif)
 
 Why it’s great:
 
@@ -56,7 +56,7 @@ Why it’s great:
 
 **Subject**: Reaching out from S20 - [Sender name]
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5d5a75eceab3e235844d_1632233761762.avif)
+![](../images/54701397_683d5d5a75eceab3e235844d_1632233761762.avif)
 
 Why it’s great:
 
@@ -73,7 +73,7 @@ Why it’s great:
 
 **Subject**: Cold Email As A Service 💌
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5d5aa79bade268ada0df_1632233776414.avif)
+![](../images/c55bfa36_683d5d5aa79bade268ada0df_1632233776414.avif)
 
 Why it’s great:
 
@@ -88,7 +88,7 @@ Why it’s great:
 
 **Subject**: [Name], still in love with [competitor]?
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5d5a054e5ecfc7306830_1632233792043.avif)
+![](../images/14b90500_683d5d5a054e5ecfc7306830_1632233792043.avif)
 
 Why it’s great:
 
@@ -104,7 +104,7 @@ Why it’s great:
 
 **Subject**: thought I’d reach out, [first name]
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5d5ae3915a737ad465b6_1632233806320.avif)
+![](../images/3d1a7e01_683d5d5ae3915a737ad465b6_1632233806320.avif)
 
 Credit: https://www.lemlist.com/lotw/felix-simWhy it’s great:
 
@@ -121,7 +121,7 @@ Credit: https://www.lemlist.com/lotw/felix-simWhy it’s great:
 
 > Important note: This is a follow up email. We’ll get into follow ups shortly, but the email body copy itself is worth examining at this point.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683d5d5aff26ceb77a8d017a_1632233821935.avif)
+![](../images/767ef44c_683d5d5aff26ceb77a8d017a_1632233821935.avif)
 
 Why it’s great:
 

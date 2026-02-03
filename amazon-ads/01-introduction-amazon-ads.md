@@ -31,7 +31,7 @@ Other benefits of Amazon as an acquisition channel:
 - **Better brand recognition.** You can use it to build brand awareness, increase your market share, and improve defensibility against competitors. If your knife set shows up when someone searches for “durable kitchen knives,” your name recognition will grow.
 - **Paid ads improve Amazon organic search rankings. **PPC traffic has a direct relationship with organic search rankings on Amazon, and many advertisers see a lift in organic ranking for keywords they bid aggressively on. There’s a loop effect to that: more PPC clicks → more sales → higher organic rankings → more sales → more product reviews → more sales  → higher organic rankings → more sales → higher ad conversion rate. That’s not the case for other search platforms like Google, where relationships between paid and organic rankings are indirect.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683870a5ad63d771db04af48_image29.avif)
+![](../images/58c4ef5a_683870a5ad63d771db04af48_image29.avif)
 
 Some key criteria to consider when choosing an acquisition channel are scale, targeting, effort, time to results, and intent. Amazon scores high across the board. In addition to being high intent, it has:
 

@@ -10,7 +10,7 @@ In-Feed ads are the dominant ad type on TikTok. These ads are auction-enabled an
 
 From a user perspective, two main elements distinguish an In-Feed ad from an organic TikTok.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394c285bc336317fc6b25d_Screenshot%202025-05-30%20at%202.11.48%E2%80%AFPM.avif)
+![](../images/911afd51_68394c285bc336317fc6b25d_Screenshot_2025-05-30_at_2.11.48_PM.avif)
 
 - **Sponsored tag**: Ads feature a 'Sponsored' tag in the bottom left-hand corner of the screen, above the music track.
 
@@ -40,7 +40,7 @@ Unlike regular boosted posts, when companies pay to amplify their organic conten
 - **Deploy Spark ads through an influencer's profile**: Create Spark ads using organic posts that TikTok Creators have authorized you to use in your advertising. The Spark ad is promoted from the creator's page and displayed with their handle, with no visible branding. 
 - With most forms of influencer marketing, companies pay influencers to create content and promote it to their audience. With Spark ads, you're still commissioning influencer content, but you, the advertiser, have complete control over the targeting and optimization settings.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394bf282f0dd9642dcbfaa_1646188268073.avif)
+![](../images/113bdf46_68394bf282f0dd9642dcbfaa_1646188268073.avif)
 
 ### Why use Spark ads over In-Feed ads?
 
@@ -82,7 +82,7 @@ TikTok has a few premium ad options, but they're significantly more expensive an
 
 TikTok has three different placement options. Depending on the countries you do business in, you have the option to place ads on TikTok, Pangle, and News App.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68394bf23fe03648692073ea_1646188523444.avif)
+![](../images/11eab15e_68394bf23fe03648692073ea_1646188523444.avif)
 
 Each placement option has different creative and format specifications. For instance, you can't conveniently deploy a TikTok ad creative across multiple placements without making significant adjustments. For that reason, and considering this module is about *TikTok ads*, specifically, we recommend sticking with TikTok as your sole placement. 
 

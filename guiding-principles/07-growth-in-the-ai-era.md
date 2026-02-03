@@ -6,7 +6,7 @@ To be clear, this is not actually a new edge—it's always been the edge. Howeve
 
 It's also never been easier to produce “noise.” The markets and channels have never been noisier.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68cb0eb21edb426cba5edb8b_10.avif)
+![](../images/df68fbb7_68cb0eb21edb426cba5edb8b_10.avif)
 
 So, **what does that mean for us**?
 

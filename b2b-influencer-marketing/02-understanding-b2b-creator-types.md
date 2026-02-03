@@ -4,7 +4,7 @@ Understanding different creator types helps you match the right collaborator wit
 
 ### **Storytellers: Masters of narrative**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d105b78c61d6c92ea1eb0c_image%20(60).avif)
+![](../images/074b8b47_68d105b78c61d6c92ea1eb0c_image__60_.avif).avif)
 
 **What they excel at:** Creating emotional connections, sharing personal transformation stories, making products feel relatable and aspirational.
 
@@ -32,7 +32,7 @@ Another example might be a running brand getting a fitness influencer to host a 
 
 ### **Educators: Teaching and demonstrating**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d105da21ac613f54e5208a_image%20(61).avif)
+![](../images/f61a0d47_68d105da21ac613f54e5208a_image__61_.avif).avif)
 
 **What they excel at:** Breaking down complex topics, providing step-by-step guidance, building authority through knowledge sharing.
 
@@ -58,7 +58,7 @@ Another example might be a running brand getting a fitness influencer to host a 
 
 ### **Tastemakers: Curating and recommending**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d105f7ad63059fdb9fcb04_image%20(62).avif)
+![](../images/c4d8809f_68d105f7ad63059fdb9fcb04_image__62_.avif).avif)
 
 **What they excel at:** Product discovery, trend identification, quality assessment, providing trusted recommendations to discerning audiences.
 
@@ -84,7 +84,7 @@ Another example might be a running brand getting a fitness influencer to host a 
 
 ### **Entertainers: Engaging and amusing**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d1060e25a0a70ca1ced3e8_image%20(63).avif)
+![](../images/a8e0dedc_68d1060e25a0a70ca1ced3e8_image__63_.avif).avif)
 
 **What they excel at:** Viral content creation, broad reach, making brands feel fun and accessible, reaching younger demographics through humor and entertainment.
 

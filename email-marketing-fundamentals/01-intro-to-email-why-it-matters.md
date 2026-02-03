@@ -10,7 +10,7 @@ These are just the emails that matter before you hit meaningful scale. We can wo
 
 Think of it like this: You wouldn't launch without a working checkout flow. Same logic applies to email. You need three things working:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68d1e628a6a64831d8b86c8d_image%20(92).avif)
+![](../images/db8814e5_68d1e628a6a64831d8b86c8d_image__92_.avif).avif)
 
 - **Transactional emails** that don't break (password resets, confirmations)
 - **Onboarding emails** that help users succeed with your product

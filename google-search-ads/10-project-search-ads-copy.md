@@ -29,7 +29,7 @@ To start, draft your copy directly in the Google Ads interface to preview it in 
 
 - In Google Ads, go to **All Campaigns** > **Ads & Assets** > **Ads**.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371be018c166a9d9c2de69_1741038373828.avif)
+![](../images/e724abc0_68371be018c166a9d9c2de69_1741038373828.avif)
 
 - Click the blue **+** > **+ Responsive Search Ad**.
 - Select your campaign and ad group.
@@ -44,7 +44,7 @@ To start, draft your copy directly in the Google Ads interface to preview it in 
 - Save the ad.
 It should look something like this:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68371be0c0a42efa73957a6b_1741038553197.avif)
+![](../images/bc984d2d_68371be0c0a42efa73957a6b_1741038553197.avif)
 
 ## Phase 1: Write Ads for High Intent Searches
 

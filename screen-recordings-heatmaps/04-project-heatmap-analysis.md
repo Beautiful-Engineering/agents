@@ -25,7 +25,7 @@ Once your account is created and the pixel is installed and verified, you’re a
 - Go to **Heatmaps**
 - Click **+ New Heatmap**
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e49ca98dae5c297cf574f_project-heatmap-analysis-1.avif)
+![](../images/66027c31_683e49ca98dae5c297cf574f_project-heatmap-analysis-1.avif)
 
 - ‍**Name: **Homepage #1
 
@@ -37,7 +37,7 @@ Once your account is created and the pixel is installed and verified, you’re a
 
 **          4. Number of Pageviews: **1,000 
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e49cac7604be706c4df27_project-heatmap-analysis-2.avif)
+![](../images/230eae84_683e49cac7604be706c4df27_project-heatmap-analysis-2.avif)
 
 - If you’re using a Plus or Business account, you’ll be able to choose 2,000 or 10,000 page views, otherwise you’re restricted to 1,000. **Choose the highest you can.**
 - **‍**The more results you have, the more statistically significant all of your results will be.
@@ -45,7 +45,7 @@ Once your account is created and the pixel is installed and verified, you’re a
 - Note that your page views will be split across the three device categories; desktop, tablet, and mobile, so this will cut down on the statistical significance even further.
     5. **Page Targeting:**Visit a specific page – Simple URL Match – https://[yourdomainhere.com]]
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e49ca892eb17d1aa8a66f_project-heatmap-analysis-3.avif)
+![](../images/272f2a88_683e49ca892eb17d1aa8a66f_project-heatmap-analysis-3.avif)
 
 - Example: https://www.demandcurve.com
 - This is where you choose which pages you want the heatmap to run on. There are a few ways to trigger it:
@@ -80,7 +80,7 @@ Here you’ll report on interesting statistics, add links to the heatmaps, and l
 
 Once you have enough views on your heatmap, you’re ready to start analyzing the results.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e49ca19112dfa8d633140_project-heatmap-analysis-4.avif)
+![](../images/a82523fa_683e49ca19112dfa8d633140_project-heatmap-analysis-4.avif)
 
 We’ll analyze each of these heatmaps starting from largest device to smallest, and looking at each heatmap in turn.
 
@@ -92,7 +92,7 @@ Start filling out the template by listing out the number of views and clicks per
 
 You’ll also want to export a JPG version of the heatmaps and link to them for easy access to anyone who reviews these docs.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e49cae6368fd806a51b7d_project-heatmap-analysis-5.avif)
+![](../images/0c772f6c_683e49cae6368fd806a51b7d_project-heatmap-analysis-5.avif)
 
 Don’t look at the total number of clicks as being a true indication of the “click” conversion rate for the page. Remember that someone can click numerous times at random on the page, and even on the same link. Use your analytics software to determine whether the page is getting enough CTA clicks.
 
@@ -125,12 +125,12 @@ This can be achieved in a few ways:
 - A call to action in the hero that scrolls them to a section further down the page
 - A hint of more content, such as the title of the next section:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e49ca79f39f130e42797c_project-heatmap-analysis-6.avif)
+![](../images/a0c17bd4_683e49ca79f39f130e42797c_project-heatmap-analysis-6.avif)
 
 - A small piece of text saying “scroll to learn more”
 - Or a blatant arrow that points downwards:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e49cac02710030b225908_project-heatmap-analysis-7.avif)
+![](../images/509ae833_683e49cac02710030b225908_project-heatmap-analysis-7.avif)
 
 Are the vast majority of people not seeing most of your landing page?If people are clicking call to actions in the first half of the page, this could mean that it’s sufficiently compelling and getting them to click through.
 
@@ -154,7 +154,7 @@ If a CTA isn’t being clicked at all, and the scroll depth heatmap shows that a
 
 Is something getting clicked that you wouldn’t expect to?An example is the Clean Carbs product in the hero for EquipFoods.com. It’s not a button, and is not intended to be clickable. Yet people click it.
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e48c18bc8eab3916ac76b_intro-heatmap-1.avif)
+![](../images/59a53ab6_683e48c18bc8eab3916ac76b_intro-heatmap-1.avif)
 
 Is there something on your page people are clicking that they shouldn’t? Can you either make it clickable or change it so it isn’t enticing to click?
 
@@ -186,7 +186,7 @@ If it doesn’t link to another site, this may mean people are interested in ver
 
 Are the pages that people are clicking to optimized for conversion?Every page linked to in the navigation or throughout the landing page body should have clear call to actions that take people further down funnel. You don’t have to do an intense sales pitch on every page if it doesn’t make sense contextually. At the very least you should include a section we call a “CTA section” that highlights to product and links to a sign up/product page, or asks them to sign up for a newsletter
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683e49cb6ec03ff742fda1b8_project-heatmap-analysis-9.avif)
+![](../images/9eb5cf7b_683e49cb6ec03ff742fda1b8_project-heatmap-analysis-9.avif)
 
 If a lot of people are clicking to a page that isn’t optimized for conversion, you’re likely losing a lot of people on that page. Go into your analytics platform and look at the “exit rate” for each page that people are clicking to see if any of them are higher than average. That page should either be unlinked, or be better optimized for conversion to help eliminate this leak in your funnel.
 

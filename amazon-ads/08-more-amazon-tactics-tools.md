@@ -10,7 +10,7 @@ The following aren’t necessary for you to kick-start Amazon as your primary ch
 
 **Who should do it: **Anyone with product margins that can afford a discount (plus a 60¢ fee every time a coupon is redeemed)
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/68392036f799c870c957cd23_image4.avif)
+![](../images/9e360d10_68392036f799c870c957cd23_image4.avif)
 
 Shoppers love discounts. You can set dollar or percentage discounts on your sponsored products for a likely jump in clicks and conversions. It’s easy to set up coupons—which you can do either individually or in bulk—in your seller account > Advertising > Coupons.
 
@@ -66,7 +66,7 @@ Amazon Attribution lets you connect your Amazon account with off-Amazon marketin
 
 Posts are better shown than described:
 
-![](https://cdn.prod.website-files.com/5ca4f46f1600f04b73b1ccfe/683920352fc96ff47776c1fe_image5.avif)
+![](../images/e6457375_683920352fc96ff47776c1fe_image5.avif)
 
 They’re social media–like posts on Amazon, complete with graphics and captions. When a user clicks on one, they’re taken to a product page. Posts can appear in a unique “feed” for your brand, on product detail pages, and in product- or category-based feeds. Like organic social media, they might become an advantageous tool for lifestyle brands aiming to build brand awareness and highlight brand personality.
 
