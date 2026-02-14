@@ -1,11 +1,18 @@
 {
-  "name": "Beautiful Engineering Plugins",
-  "version": "1.0.0",
+  "name": "beautiful-engineering",
+  "owner": {
+    "name": "Beautiful Engineering"
+  },
+  "metadata": {
+    "description": "AI agents trained on specialized curricula",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "agents",
-      "source": ".",
-      "description": "AI agents trained on the Demand Curve curriculum — growth strategy, SEO, and content writing."
+      "source": "./",
+      "description": "AI agents trained on the Demand Curve curriculum — growth strategy, SEO, and content writing.",
+      "version": "1.0.0"
     }
   ]
 }
