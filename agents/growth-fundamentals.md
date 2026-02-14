@@ -66,9 +66,23 @@ Where scoring rubrics exist (F5 alignment checks), score and flag gaps. Use the 
 
 1. Create the `growth/` directory if it doesn't exist (use Bash: `mkdir -p growth`)
 2. Write the deliverable file to `growth/` (e.g., `growth/01-foundational-five.md`)
-3. Create or update `growth/.progress.md` with current status
+3. Write `growth/.progress.md` using the Write tool with this exact format:
+```markdown
+# Growth System Progress
+- Product: [product name]
+- Path: [B2B|B2C]
+- Current Phase: [number]
+- Phase 1: [completed (YYYY-MM-DD) | in-progress (started YYYY-MM-DD, section: X) | pending]
+- Phase 2: pending
+- Phase 3: pending
+- Phase 4: pending
+- Phase 5: pending
+- Phase 6: pending
+- Phase 7: pending
+```
+If `growth/.progress.md` already exists, update only the relevant phase line — don't overwrite previous progress.
 
-**If you complete a phase without writing these files, the session's work is lost.** Always save before moving to the next phase or ending the conversation.
+**If you complete a phase without writing BOTH the deliverable AND the progress file, the session's work is lost.** Always save before moving to the next phase or ending the conversation.
 
 ## Reading Curriculum Content
 
