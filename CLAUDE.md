@@ -4,32 +4,69 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Repository Is
 
-This is a complete export of the Demand Curve growth curriculum — 404 lessons across 53 courses, with 982 locally-stored images. It is static markdown content, not an application. There are no build steps, tests, or dependencies.
+This is a Claude Code plugin that bundles AI agents, skills, and curriculum content. It includes:
+
+- **3 agents**: Growth Consultant, SEO Expert, Blog Writer — all trained on the Demand Curve curriculum
+- **22 skill files**: Distilled frameworks, checklists, templates, and scoring rubrics
+- **Curriculum content**: 404 lessons across 53 courses with 982 locally-stored images (the knowledge base the agents draw from)
+
+There are no build steps, tests, or runtime dependencies. Everything is static markdown.
 
 ## Repository Structure
 
 ```
-demand-curve/
-├── INDEX.md              # Master index — start here
-└── content/
-    ├── images/           # 982 local .avif/.png images
-    └── <course-slug>/    # 53 course directories
-        ├── 01-lesson.md
-        ├── 02-lesson.md
-        └── ...
+agents/                         # (repo root)
+├── .claude-plugin/
+│   └── plugin.json             # Plugin manifest for distribution
+├── agents/
+│   ├── demand-curve-growth.md  # Growth strategy consultant (Socratic, 7 phases)
+│   ├── seo-expert.md           # SEO auditor (Baseline + Ongoing modes)
+│   └── blog-writer.md          # Blog writer (New Post + Refresh modes)
+├── skills/
+│   ├── demand-curve-growth/    # 10 skill files (F5, catalysts, story system, etc.)
+│   ├── seo-expert/             # 6 skill files (technical, on-page, keywords, etc.)
+│   └── blog-writer/            # 6 skill files (brief, craft, copy, SEO, distribution)
+├── content/
+│   └── demand-curve/           # Demand Curve growth curriculum
+│       ├── INDEX.md            # Master curriculum index
+│       ├── images/             # 982 local .avif/.png images
+│       └── <course-slug>/      # 53 course directories
+│           ├── 01-lesson.md
+│           └── ...
+└── CLAUDE.md                   # This file
 ```
 
-## INDEX.md
+## Plugin Installation
 
-The single entry point that organizes all content. It contains:
+```bash
+# Add the marketplace
+/plugin marketplace add Beautiful-Engineering/agents
 
-- **Quick nav** at the top linking to the 3 learning paths
-- **3 learning paths** (Core Growth, B2C Tech, B2B Tech), each broken into sections (Parts, Execution Layers, Hubs)
-- Every course and lesson is hyperlinked with relative paths to `./content/`
+# Install the plugin
+/plugin install agents@Beautiful-Engineering
+```
 
-Many courses appear in multiple paths since the paths share a common strategic foundation but diverge at the execution layer (e.g., B2C gets "Organic Instagram" while B2B gets "B2B Influencer Marketing").
+This makes all 3 agents and their skills available in any Claude Code session.
 
-## Content Format
+## Agents Overview
+
+| Agent | What It Does | Modes |
+|-------|-------------|-------|
+| **Growth Consultant** | Socratic walkthrough of the Demand Curve growth curriculum to build a complete growth strategy | 7 phases: F5 → Catalysts → Story System → Engine → Acquisition → Monetization → Execution |
+| **SEO Expert** | Technical SEO audits, keyword research, on-page optimization, link building | Baseline Audit (4 phases) or Ongoing Optimization (periodic health checks) |
+| **Blog Writer** | Research, write, optimize, and distribute blog posts | New Post (5 phases) or Refresh existing content (3 phases) |
+
+All agents integrate with each other's deliverables (e.g., the Blog Writer reads the SEO keyword data and Growth Story System for brand voice).
+
+## Curriculum Content
+
+The `content/` directory is the top-level container for curriculum content. Each subdirectory holds a different curriculum:
+
+- `content/demand-curve/` — The Demand Curve growth curriculum (404 lessons, 53 courses). See `content/demand-curve/INDEX.md` for the full course index organized by learning path (Core Growth, B2C Tech, B2B Tech).
+
+Future curricula for other agents can be added as sibling directories (e.g., `content/some-other-curriculum/`).
+
+### Content Format
 
 Each lesson `.md` file follows this pattern:
 - `# Title` as the first line
@@ -39,7 +76,7 @@ Each lesson `.md` file follows this pattern:
 
 Lessons are numbered with zero-padded prefixes (`01-`, `02-`, ...) reflecting their order within the course syllabus.
 
-## Curriculum Architecture
+### Curriculum Architecture
 
 The curriculum follows a layered system:
 
