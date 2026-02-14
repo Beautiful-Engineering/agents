@@ -28,7 +28,7 @@ agents/
 ├── .claude-plugin/plugin.json        # Plugin manifest
 ├── agents/                           # 3 agent definitions
 ├── skills/                           # 22 distilled skill files
-│   ├── demand-curve-growth/          # Foundational Five, catalysts, story system, etc.
+│   ├── growth-fundamentals/          # Foundational Five, catalysts, story system, etc.
 │   ├── seo-expert/                   # Technical SEO, on-page, keywords, off-page, ongoing
 │   └── blog-writer/                  # Content briefs, writing craft, copywriting, SEO, distribution
 └── content/

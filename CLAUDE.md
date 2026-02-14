@@ -19,11 +19,11 @@ agents/                         # (repo root)
 ├── .claude-plugin/
 │   └── plugin.json             # Plugin manifest for distribution
 ├── agents/
-│   ├── demand-curve-growth.md  # Growth strategy consultant (Socratic, 7 phases)
+│   ├── growth-fundamentals.md  # Growth strategy consultant (Socratic, 7 phases)
 │   ├── seo-expert.md           # SEO auditor (Baseline + Ongoing modes)
 │   └── blog-writer.md          # Blog writer (New Post + Refresh modes)
 ├── skills/
-│   ├── demand-curve-growth/    # 10 skill files (F5, catalysts, story system, etc.)
+│   ├── growth-fundamentals/    # 10 skill files (F5, catalysts, story system, etc.)
 │   ├── seo-expert/             # 6 skill files (technical, on-page, keywords, etc.)
 │   └── blog-writer/            # 6 skill files (brief, craft, copy, SEO, distribution)
 ├── content/

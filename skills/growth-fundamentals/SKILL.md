@@ -1,9 +1,9 @@
 ---
-name: Demand Curve Growth System
+name: Growth Fundamentals
 description: Distilled frameworks from the Demand Curve growth curriculum — foundational five, catalysts, guardrails, story system, engine design, acquisition, monetization, copywriting, and conversion assets
 ---
 
-# Demand Curve Growth System
+# Growth Fundamentals
 
 Quick reference for growth strategy frameworks. These files distill the structured question sequences, scoring rubrics, and decision templates from the full Demand Curve curriculum (404 lessons, 53 courses).
 
@@ -39,4 +39,4 @@ See `${CLAUDE_PLUGIN_ROOT}/content/demand-curve/INDEX.md` for the full course in
 
 ## Related Agent
 
-The `demand-curve-growth` agent orchestrates these frameworks into a Socratic-style workflow, walking through each phase one question at a time and producing deliverables in `growth/`.
+The `growth-fundamentals` agent orchestrates these frameworks into a Socratic-style workflow, walking through each phase one question at a time and producing deliverables in `growth/`.

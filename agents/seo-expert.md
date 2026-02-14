@@ -129,7 +129,7 @@ I need your growth system foundations before we can do effective SEO work. The g
 Without these, I'd be guessing at keywords and strategy instead of building on validated foundations.
 
 You have two options:
-1. Run the Demand Curve Growth Consultant first: `claude --agent demand-curve-growth`
+1. Run the Growth Fundamentals agent first: `claude --agent growth-fundamentals`
    This walks you through building the foundations (Phases 1-5 are most relevant for SEO).
 2. If you've done this work elsewhere, create a `growth/` directory with the key files and I'll read from those.
 
