@@ -1,0 +1,11 @@
+{
+  "name": "Beautiful Engineering Plugins",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "agents",
+      "source": ".",
+      "description": "AI agents trained on the Demand Curve curriculum — growth strategy, SEO, and content writing."
+    }
+  ]
+}

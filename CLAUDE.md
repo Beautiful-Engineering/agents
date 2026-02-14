@@ -39,10 +39,14 @@ agents/                         # (repo root)
 ## Plugin Installation
 
 ```bash
-/plugin add Beautiful-Engineering/agents
+# Step 1: Register the marketplace
+/plugin marketplace add Beautiful-Engineering/agents
+
+# Step 2: Install the plugin
+/plugin install agents@Beautiful-Engineering-agents
 ```
 
-This makes all 3 agents and their skills available in any Claude Code session. Requires access to the repo (private).
+This makes all 3 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
 
 ## Agents Overview
 
