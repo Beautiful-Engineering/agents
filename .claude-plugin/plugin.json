@@ -8,7 +8,5 @@
   },
   "homepage": "https://github.com/Beautiful-Engineering/agents",
   "repository": "https://github.com/Beautiful-Engineering/agents",
-  "license": "MIT",
-  "agents": ["./agents/"],
-  "skills": ["./skills/"]
+  "license": "MIT"
 }
