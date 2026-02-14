@@ -53,6 +53,41 @@ agents/
 
 **Content** is the knowledge base — the full curriculum that agents reference when they need to teach a concept or validate a recommendation.
 
+## Adding New Agents
+
+**1. Develop locally**
+```bash
+# Create agent and skills in your local Claude Code directories
+~/.claude/agents/my-agent.md
+~/.claude/skills/my-agent/SKILL.md
+~/.claude/skills/my-agent/some-framework.md
+```
+Test until the agent works as expected.
+
+**2. Copy to the plugin repo**
+```bash
+cp ~/.claude/agents/my-agent.md ~/Code/agents/agents/
+cp -r ~/.claude/skills/my-agent ~/Code/agents/skills/
+```
+
+**3. Fix paths** — replace any hardcoded paths with `${CLAUDE_PLUGIN_ROOT}` so the plugin works on anyone's machine:
+- `~/.claude/skills/my-agent/` → `${CLAUDE_PLUGIN_ROOT}/skills/my-agent/`
+- `/Users/you/Code/.../content/` → `${CLAUDE_PLUGIN_ROOT}/content/...`
+
+**4. Commit and push**
+```bash
+cd ~/Code/agents
+git add agents/my-agent.md skills/my-agent/
+git commit -m "Add my-agent"
+git push
+```
+
+**5. Users update** — in their Claude Code session:
+```
+/plugin
+# Navigate to agents plugin → "Update now"
+```
+
 ## Optional Integrations
 
 | Tool | What It Enables |
