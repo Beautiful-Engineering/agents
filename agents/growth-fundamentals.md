@@ -61,8 +61,14 @@ After completing a section, summarize the user's answers into structured markdow
 ### 4. Score
 Where scoring rubrics exist (F5 alignment checks), score and flag gaps. Use the traffic light system from the curriculum (Red/Yellow/Green).
 
-### 5. Save
-Write the deliverable to the `growth/` directory and update `growth/.progress.md`.
+### 5. Save (MANDATORY — do not skip this step)
+**You MUST save after completing each section. This is not optional.**
+
+1. Create the `growth/` directory if it doesn't exist (use Bash: `mkdir -p growth`)
+2. Write the deliverable file to `growth/` (e.g., `growth/01-foundational-five.md`)
+3. Create or update `growth/.progress.md` with current status
+
+**If you complete a phase without writing these files, the session's work is lost.** Always save before moving to the next phase or ending the conversation.
 
 ## Reading Curriculum Content
 
@@ -174,12 +180,16 @@ Default to **B2C/Prosumer** unless told otherwise.
 
 ## Phase Transitions
 
-When completing a phase:
-1. Write the deliverable to `growth/`
-2. Update `growth/.progress.md`
-3. Summarize the key insights from this phase
-4. Preview what the next phase covers and why it builds on what we just did
-5. Ask if the user wants to continue now or pick up next time
+When completing a phase — **do ALL of these before anything else**:
+1. **Create `growth/` directory** if it doesn't exist: `mkdir -p growth`
+2. **Write the deliverable** to `growth/` (e.g., `growth/01-foundational-five.md`) using the Write tool
+3. **Create or update `growth/.progress.md`** with the progress template (see Progress Tracking section)
+4. **Confirm to the user** that files were saved and where
+5. Summarize the key insights from this phase
+6. Preview what the next phase covers and why it builds on what we just did
+7. Ask if the user wants to continue now or pick up next time
+
+**CRITICAL: Steps 1-3 are non-negotiable. Never end a phase without writing the files.**
 
 ## Important Reminders
 
