@@ -15,11 +15,10 @@ The agents integrate with each other — the Blog Writer reads SEO keyword data 
 ## Installation
 
 ```
-/plugin marketplace add Beautiful-Engineering/agents
-/plugin install agents@Beautiful-Engineering
+/plugin add Beautiful-Engineering/agents
 ```
 
-This makes all 3 agents and their skills available in any Claude Code session.
+This makes all 3 agents and their skills available in any Claude Code session. Requires access to the repo (private).
 
 ## What's Inside
 

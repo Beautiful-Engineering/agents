@@ -1,9 +1,0 @@
-{
-  "plugins": [
-    {
-      "name": "agents",
-      "description": "AI agents trained on the Demand Curve curriculum — growth strategy, SEO, and content writing.",
-      "source": "."
-    }
-  ]
-}
