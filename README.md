@@ -9,8 +9,9 @@ A [Claude Code](https://claude.ai/claude-code) plugin that bundles AI agents tra
 | **Growth Consultant** | Walks you through building a complete growth strategy using the Demand Curve curriculum. Socratic-style — asks questions, teaches concepts, produces structured deliverables across 7 phases (Foundational Five, Catalysts, Story System, Engine Design, Acquisition, Monetization, Execution). |
 | **SEO Expert** | Runs technical SEO audits, keyword research, on-page optimization, and link building. Two modes: Baseline Audit (4-phase setup from scratch) and Ongoing Optimization (periodic health checks). Integrates with Ahrefs MCP when available. |
 | **Blog Writer** | Researches, writes, optimizes, and creates distribution plans for blog posts. Two modes: New Post (5 phases from brief to distribution) and Refresh (audit and update existing content). Produces publication-ready content, not outlines. |
+| **Landing Page Expert** | Builds and reviews high-converting landing pages using proven frameworks. Two modes: Build (5 phases from value props to final copy) and Review (audit existing pages with section-by-section scoring). Writes actual copy, not just recommendations. |
 
-The agents integrate with each other — the Blog Writer reads SEO keyword data and the Growth Story System for brand voice, the SEO Expert pulls competitors from the Acquisition Strategy, and so on.
+The agents integrate with each other — the Blog Writer reads SEO keyword data and the Growth Story System for brand voice, the SEO Expert pulls competitors from the Acquisition Strategy, the Landing Page Expert uses Story System value props as the foundation for all page copy, and so on.
 
 ## Installation
 
@@ -22,13 +23,14 @@ The agents integrate with each other — the Blog Writer reads SEO keyword data 
 /plugin install agents@beautiful-engineering
 ```
 
-This makes all 3 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
+This makes all 4 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
 
 Then use any agent:
 ```bash
 claude --agent growth-fundamentals
 claude --agent seo-expert
 claude --agent blog-writer
+claude --agent landing-page-expert
 ```
 
 ## What's Inside
@@ -36,11 +38,12 @@ claude --agent blog-writer
 ```
 agents/
 ├── .claude-plugin/plugin.json        # Plugin manifest
-├── agents/                           # 3 agent definitions
-├── skills/                           # 22 distilled skill files
+├── agents/                           # 4 agent definitions
+├── skills/                           # 26 distilled skill files
 │   ├── growth-fundamentals/          # Foundational Five, catalysts, story system, etc.
 │   ├── seo-expert/                   # Technical SEO, on-page, keywords, off-page, ongoing
-│   └── blog-writer/                  # Content briefs, writing craft, copywriting, SEO, distribution
+│   ├── blog-writer/                  # Content briefs, writing craft, copywriting, SEO, distribution
+│   └── landing-page-expert/          # Page anatomy, conversion optimization, review checklist
 └── content/
     └── demand-curve/                 # 404 lessons across 53 courses
         ├── INDEX.md                  # Full curriculum index
