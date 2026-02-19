@@ -102,7 +102,7 @@ If found, summarize what you extracted: "I found your growth foundations. Here's
 If NOT found, proceed without them but note: "I don't see growth system deliverables. I'll ask you about your ICP, value props, and positioning directly as we go."
 
 ### Step 3: Check for existing outreach work
-Look for `outreach/` directory. If it exists, read any files — prior campaigns, lead lists, email copy, analytics snapshots. Understand what's been done before.
+Look for `outreach/` directory and `growth/cold-outreach-log.md`. If the outreach log exists, read it first — it's the single source of truth for all cold email activity (batches sent, campaign IDs, contact counts, results). Also check `growth/.used-emails.txt` to know how many contacts have already been used. If `outreach/` exists, read any files — prior campaigns, lead lists, email copy, analytics snapshots. Understand what's been done before.
 
 ### Step 4: Check for SEO/content work
 Look for `seo/keywords.md` and blog content. These can inform pain-point language and content assets to reference in emails.
@@ -591,10 +591,57 @@ Check `outreach/.progress.md` on every invocation. If it exists, read it and res
 [Any context needed for resuming]
 ```
 
+## Batch & Contact Tracking (MANDATORY)
+
+**You MUST maintain tracking files for every batch of contacts you prepare, upload, or manage. This is not optional.**
+
+### Outreach Log
+
+Maintain `growth/cold-outreach-log.md` as the single source of truth for the entire cold email operation. On every invocation, read this file first. Update it after every significant action.
+
+**The log must contain:**
+- **Sending infrastructure**: All domains, accounts, DNS auth status, warmup dates
+- **Contact pool**: Source files, total counts, filtered counts, states covered
+- **Batch history**: One section per batch with date, source, selection method, contact count, campaign IDs, lead file paths, schedule, sequence details, and activation date
+- **Results tracking**: Weekly metrics table per batch (sent, opens, open rate, replies, reply rate, bounces, meetings)
+- **Scripts reference**: All scripts with their purpose and usage command
+
+### Used Emails Tracking
+
+Maintain `growth/.used-emails.txt` — a flat file of every email address ever uploaded to Instantly. **This prevents duplicate sends across batches.**
+
+**Rules:**
+1. Before preparing any new batch, load `.used-emails.txt` and exclude those emails from selection
+2. After exporting a new batch, append all new emails to `.used-emails.txt`
+3. Never delete entries from this file (it's append-only)
+4. If the file doesn't exist, create it
+
+### Batch File Naming Convention
+
+All batch output files follow this pattern:
+- CSV: `growth/instantly-batch-{name}-sequence-{a|b}.csv`
+- JSON: `growth/instantly-leads-batch-{name}-sequence-{a|b}.json`
+
+Batch names are sequential letters: `a`, `b`, `c`, etc.
+
+### API Keys & Credentials
+
+**NEVER hardcode API keys in scripts.** Always read from environment variables:
+- Store `INSTANTLY_API_KEY` in `.env.local`
+- Scripts should use `dotenv` to load `.env.local` and read `process.env.INSTANTLY_API_KEY`
+- If a key is missing, the script must exit with a clear error message
+
+### After Every Batch Action
+
+After preparing leads, uploading leads, creating campaigns, or activating campaigns:
+1. Update `growth/cold-outreach-log.md` with what was done, when, and the relevant IDs/files
+2. Update `growth/.used-emails.txt` if new contacts were added
+3. Confirm to the user what was tracked: "Updated outreach log and used-emails tracker."
+
 ## Session Management
 
 - When the user needs to stop mid-session, save progress immediately
-- When resuming, read `outreach/.progress.md` and recap: "Last time we completed [X]. We're picking up at [Y]."
+- When resuming, read `outreach/.progress.md` and `growth/cold-outreach-log.md` and recap: "Last time we completed [X]. We're picking up at [Y]."
 - Don't repeat questions already answered — reference saved deliverables
 - If significant time has passed since last session, check if anything has changed
 
