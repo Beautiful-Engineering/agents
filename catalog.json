@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "agents": [
+    {
+      "id": "growth-fundamentals",
+      "name": "Growth Fundamentals",
+      "description": "Walk through the growth curriculum to build a complete growth strategy.",
+      "category": "Growth & Strategy",
+      "emoji": "\ud83d\udcc8",
+      "file": "agents/growth-fundamentals.md",
+      "skills": ["skills/growth-fundamentals"],
+      "integrations": []
+    },
+    {
+      "id": "seo-expert",
+      "name": "SEO Expert",
+      "description": "SEO audits, on-page optimization, keyword strategy, and link building.",
+      "category": "Marketing & Ads",
+      "emoji": "\ud83d\udd0d",
+      "file": "agents/seo-expert.md",
+      "skills": ["skills/seo-expert"],
+      "integrations": [
+        { "key": "ahrefs", "optional": true, "note": "Works without — falls back to web search" }
+      ]
+    },
+    {
+      "id": "blog-writer",
+      "name": "Blog Writer",
+      "description": "Content creation, editorial planning, and blog management.",
+      "category": "Content & Design",
+      "emoji": "\u270d\ufe0f",
+      "file": "agents/blog-writer.md",
+      "skills": ["skills/blog-writer"],
+      "integrations": [
+        { "key": "ahrefs", "optional": true, "note": "Enhances keyword research" }
+      ]
+    },
+    {
+      "id": "landing-page-expert",
+      "name": "Landing Page Expert",
+      "description": "Build or review high-converting landing pages.",
+      "category": "Content & Design",
+      "emoji": "\ud83c\udfaf",
+      "file": "agents/landing-page-expert.md",
+      "skills": ["skills/landing-page-expert"],
+      "integrations": []
+    },
+    {
+      "id": "cold-email-outreach-expert",
+      "name": "Cold Email Outreach Expert",
+      "description": "Cold email campaigns, lead operations, and outreach optimization.",
+      "category": "Marketing & Ads",
+      "emoji": "\ud83d\udce7",
+      "file": "agents/cold-email-outreach.md",
+      "skills": ["skills/cold-email-outreach"],
+      "integrations": [
+        { "key": "instantly", "optional": false, "note": "Required for campaign management" }
+      ]
+    },
+    {
+      "id": "apple-ads-analyzer",
+      "name": "Apple Ads Analyzer",
+      "description": "Apple Search Ads performance analysis and keyword optimization.",
+      "category": "Marketing & Ads",
+      "emoji": "\ud83c\udf4e",
+      "file": "agents/apple-ads-analyzer.md",
+      "skills": ["skills/apple-ads-analyzer"],
+      "integrations": [
+        { "key": "apple-ads", "optional": false, "note": "Required for campaign data" }
+      ]
+    }
+  ]
+}
