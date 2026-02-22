@@ -62,18 +62,67 @@ Look for `apple-ads/config.md` in the current working directory.
 
 **If found**: Read it. Extract orgId, campaign names/IDs, CPI target, CAC target, currency. Confirm: "Found config. Running for [App Name]. CPI target: $X, CAC target: $Y."
 
-**If NOT found**: Guide the user through setup:
-```
-I need to create apple-ads/config.md for this project. A few quick questions:
+**If NOT found**: Guide the user through setup using AskUserQuestion to collect:
 
-1. What's the app name?
-2. What's your Apple Search Ads Org ID? (Found in the ASA dashboard under Settings → Org)
-3. What's your CAC target? (What can you afford to pay per paying user?)
-4. What currency? (USD, EUR, GBP, etc.)
-5. List your campaigns with their Apple Campaign IDs and types (Brand / Generic / Competitor / Discovery):
-   Example: Runo - Brand | 123456 | Brand
+1. App name
+2. Apple Search Ads Org ID (found in ASA dashboard under Settings → Org)
+3. CAC target (cost per paying user)
+4. Max CPI (typically CAC ÷ 3)
+5. Currency (USD, EUR, GBP, etc.)
+6. Campaign names/IDs and types (Brand/Generic/Competitor/Discovery)
+7. **Performance Benchmarks** (use AskUserQuestion for each):
+   - **Impressions (weekly)**: Thresholds for Generic and Brand/Competitor campaigns (Excellent/Good/Poor)
+   - **TTR (Tap-Through Rate)**: Separate thresholds for Generic, Brand, and Competitor campaigns
+   - **CR (Conversion Rate)**: Thresholds for all campaigns (Excellent/Good/Poor)
+   - **CPI (Cost Per Install)**: Thresholds (Excellent/Good/Poor)
+
+After collecting answers, write `apple-ads/config.md` with this structure:
+```markdown
+# Apple Search Ads Config — [App Name]
+
+## Targets
+- **CAC target**: $X.XX (cost per paying user)
+- **Max CPI**: $X.XX (CAC ÷ 3)
+- **Currency**: USD
+
+## Metrics & Benchmarks
+
+### Impressions (weekly)
+| Rating | Generic | Brand/Competitor |
+|--------|---------|------------------|
+| 🟢 Excellent | X+ | X+ |
+| 🟡 Good | X-X | X-X |
+| 🔴 Poor | <X | <X |
+
+### Tap-Through Rate (TTR)
+| Rating | Generic | Brand | Competitor |
+|--------|---------|-------|------------|
+| 🟢 Excellent | X%+ | X%+ | X%+ |
+| 🟡 Good | X-X% | X-X% | X-X% |
+| 🔴 Poor | <X% | <X% | <X% |
+
+### Conversion Rate (CR) - Taps → Installs
+| Rating | All Campaigns |
+|--------|---------------|
+| 🟢 Excellent | X%+ |
+| 🟡 Good | X-X% |
+| 🔴 Poor | <X% |
+
+### Cost Per Install (CPI)
+| Rating | Target |
+|--------|--------|
+| 🟢 Excellent | <$X.XX |
+| 🟡 Good | $X.XX-X.XX |
+| 🔴 Poor | >$X.XX |
+
+## Campaigns
+[Campaign list from user input]
+
+## Analysis Instructions
+[Standard analysis instructions]
 ```
-After collecting answers, write `apple-ads/config.md` using the template from `skills/apple-ads-analyzer/api-integration.md`. Show the user the created file.
+
+Show the user the created file.
 
 ### Step 4: Check env vars (BLOCKING)
 Run: `bash -c 'echo "CLIENT_ID=${APPLE_ADS_CLIENT_ID:+set} TEAM_ID=${APPLE_ADS_TEAM_ID:+set} KEY_ID=${APPLE_ADS_KEY_ID:+set} KEY_PATH=${APPLE_ADS_KEY_PATH:+set}"'`
@@ -97,10 +146,31 @@ After setting variables, restart your terminal session and re-invoke this agent.
 **STOP. Do not proceed until all env vars are confirmed.**
 
 ### Step 5: Check and create tracking files
-- `apple-ads/weekly-log.csv` — if missing, create with headers (see `skills/apple-ads-analyzer/analysis-framework.md` for exact headers)
+
+**CRITICAL**: Check for and create three CSV tracking files:
+
+**1. Change Tracker CSV** (`apple-ads/change-tracker.csv`)
+- **Purpose**: Logs all modifications made to campaigns (bid changes, negative keywords, new keywords, etc.)
+- **Format**: `Date,Campaign,Action,Keyword/Item,Old Value,New Value,Notes`
+- **When to update**: IMMEDIATELY after making any API changes
+
+**2. Weekly Performance CSV** (`apple-ads/weekly-performance.csv`)
+- **Purpose**: Tracks weekly campaign performance with color-coded metrics
+- **Format**: `Week,Campaign,Keyword,Spend,Impressions,Taps,Installs,Revenue,Paying Users,TTR,CR,CPI,True CAC,LTV,ROI,Profitable?`
+- **Color coding**: Add emoji indicators (🟢🟡🔴) to metrics based on benchmarks from config.md
+  - For Impressions: Add emoji after number (e.g., "5593 🟢")
+  - For TTR, CR, CPI: Add emoji after percentage/dollar (e.g., "8.35% 🟢", "$1.50 🟡")
+  - For Profitable?: Use ✅ YES, ⚠️ MARGINAL, 🔴 NO, or ⏳ NO DATA
+- **Campaign-level only**: Store only campaign-level totals (ALL campaign), not individual keywords
+
+**3. Weekly Log CSV** (`apple-ads/weekly-log.csv`) — legacy format, maintain for backward compatibility
+- Create with headers from `skills/apple-ads-analyzer/analysis-framework.md`
+
+**Other tracking files**:
 - `apple-ads/.progress.md` — if missing, create it
 - `apple-ads/raw/` directory — create if missing (for debug JSON dumps)
 
+If any CSV files are missing, create them with the exact headers above.
 ### Step 6: Confirm readiness
 ```
 Setup complete. Ready to run weekly analysis for [App Name].
@@ -259,15 +329,35 @@ Ask: "Does this look right? Any adjustments to the action list before I log this
 
 ## Phase 4: Log to CSV
 
-After user confirms, append to `apple-ads/weekly-log.csv`.
+After user confirms, update **all three tracking files**:
 
+### 1. Update weekly-performance.csv (PRIMARY)
+Add one row per campaign with **color-coded metrics**:
+```csv
+Week,Campaign,Keyword,Spend,Impressions,Taps,Installs,Revenue,Paying Users,TTR,CR,CPI,True CAC,LTV,ROI,Profitable?
+Feb 7-19,Brand,ALL (campaign),$58.54,565 🟢,138,93,$152,22,24.4% 🟢,67.4% 🟢,$0.63 🟢,$2.66,$6.91,260% 🟢,✅ YES
+```
+
+**Color coding rules** (read benchmarks from config.md):
+- Apply 🟢🟡🔴 based on project-specific thresholds
+- Only store campaign-level totals (not individual keywords)
+
+### 2. Update change-tracker.csv
+Log ALL changes made during this session:
+```csv
+Date,Campaign,Action,Keyword/Item,Old Value,New Value,Notes
+2024-02-15,Generic,Bid Increase,running metronome,$4.40,$8.00,Low volume despite excellent CPI
+2024-02-15,Generic,Added Negatives (Bulk),Music instruments (18 terms),—,BROAD,Block musician traffic
+```
+
+### 3. Update weekly-log.csv (legacy, backward compatibility)
 **One row per campaign** plus a TOTAL row:
 ```
 Date,Week,Campaign,Spend,Impressions,Taps,Installs,TTR,CR,CPI,Revenue,ROAS,Rev_per_Install,Rating,Actions,Notes
 2024-01-15,2024-W03,Brand,$125.40,45200,1356,203,3.00%,14.97%,$0.62,$890,710%,$4.38,🟢,"Raised bid on 'running cadence'",""
 ```
 
-Also update `apple-ads/.progress.md`:
+### 4. Update .progress.md
 ```markdown
 # Apple Ads Progress
 
@@ -349,7 +439,10 @@ Skill files live at: `${CLAUDE_PLUGIN_ROOT}/skills/apple-ads-analyzer/`
 ## Important Reminders
 
 - **Never store credentials in project files.** All secrets via env vars only.
+- **Always log changes to change-tracker.csv immediately** after executing API calls (bid adjustments, keyword additions, negative keywords, etc.)
 - Every recommendation must cite the specific metric that triggered it.
 - When citing curriculum rules, name the principle: "Per Demand Curve's scaling rule: a keyword with good CPI but under 30% impression share should get a 50% bid increase."
 - The action list must be **copy-paste ready** — specific keyword names, bid amounts, campaign names.
 - Do not recommend changes you can't back up with data from this session's API pull.
+- **Color-code all metrics** in weekly-performance.csv based on benchmarks from config.md (🟢🟡🔴)
+- Read config.md at start of each session to get project-specific benchmarks (don't use hardcoded defaults)
