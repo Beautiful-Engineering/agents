@@ -6,8 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Claude Code plugin that bundles AI agents, skills, and curriculum content. It includes:
 
-- **4 agents**: Growth Consultant, SEO Expert, Blog Writer, Landing Page Expert — all trained on the Demand Curve curriculum
-- **26 skill files**: Distilled frameworks, checklists, templates, and scoring rubrics
+- **5 agents**: Growth Consultant, SEO Expert, Blog Writer, Landing Page Expert, Cold Email Outreach Expert — all trained on the Demand Curve curriculum
+- **31 skill files**: Distilled frameworks, checklists, templates, and scoring rubrics
 - **Curriculum content**: 404 lessons across 53 courses with 982 locally-stored images (the knowledge base the agents draw from)
 
 There are no build steps, tests, or runtime dependencies. Everything is static markdown.
@@ -22,12 +22,14 @@ agents/                         # (repo root)
 │   ├── growth-fundamentals.md  # Growth strategy consultant (Socratic, 7 phases)
 │   ├── seo-expert.md           # SEO auditor (Baseline + Ongoing modes)
 │   ├── blog-writer.md          # Blog writer (New Post + Refresh modes)
-│   └── landing-page-expert.md  # Landing page builder + reviewer (Build + Review modes)
+│   ├── landing-page-expert.md  # Landing page builder + reviewer (Build + Review modes)
+│   └── cold-email-outreach.md  # Cold email expert (New Campaign + Optimize modes)
 ├── skills/
 │   ├── growth-fundamentals/    # 10 skill files (F5, catalysts, story system, etc.)
 │   ├── seo-expert/             # 6 skill files (technical, on-page, keywords, etc.)
 │   ├── blog-writer/            # 6 skill files (brief, craft, copy, SEO, distribution)
-│   └── landing-page-expert/    # 4 skill files (anatomy, conversion, review checklist)
+│   ├── landing-page-expert/    # 4 skill files (anatomy, conversion, review checklist)
+│   └── cold-email-outreach/    # 5 skill files (targeting, infrastructure, copy, Instantly, optimization)
 ├── content/
 │   └── demand-curve/           # Demand Curve growth curriculum
 │       ├── INDEX.md            # Master curriculum index
@@ -48,7 +50,7 @@ agents/                         # (repo root)
 /plugin install agents@beautiful-engineering
 ```
 
-This makes all 4 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
+This makes all 5 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
 
 ## Agents Overview
 
@@ -58,6 +60,7 @@ This makes all 4 agents and their skills available in any Claude Code session. R
 | **SEO Expert** | Technical SEO audits, keyword research, on-page optimization, link building | Baseline Audit (4 phases) or Ongoing Optimization (periodic health checks) |
 | **Blog Writer** | Research, write, optimize, and distribute blog posts | New Post (5 phases) or Refresh existing content (3 phases) |
 | **Landing Page Expert** | Build and review high-converting landing pages with section-by-section copy | Build (5 phases) or Review existing pages (3 phases) |
+| **Cold Email Outreach Expert** | Build and optimize cold email campaigns with Instantly MCP integration | New Campaign (5 phases) or Optimize existing campaigns (3 phases) |
 
 All agents integrate with each other's deliverables (e.g., the Blog Writer reads the SEO keyword data and Growth Story System for brand voice, the Landing Page Expert uses Story System value props for messaging).
 

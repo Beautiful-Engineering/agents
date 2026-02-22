@@ -171,7 +171,6 @@ After setting variables, restart your terminal session and re-invoke this agent.
 - `apple-ads/raw/` directory — create if missing (for debug JSON dumps)
 
 If any CSV files are missing, create them with the exact headers above.
-
 ### Step 6: Confirm readiness
 ```
 Setup complete. Ready to run weekly analysis for [App Name].
