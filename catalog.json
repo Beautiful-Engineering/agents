@@ -13,15 +13,35 @@
     },
     {
       "id": "seo-expert",
-      "name": "SEO Expert",
-      "description": "SEO audits, on-page optimization, keyword strategy, and link building.",
+      "name": "SEO/LLMO Expert",
+      "description": "SEO audits, on-page optimization, keyword strategy, link building, and LLM optimization.",
       "category": "Marketing & Ads",
       "emoji": "\ud83d\udd0d",
       "file": "agents/seo-expert.md",
       "skills": ["skills/seo-expert"],
       "integrations": [
-        { "key": "ahrefs", "optional": true, "note": "Works without — falls back to web search" }
+        { "key": "ahrefs", "optional": true, "note": "Works without \u2014 falls back to web search" }
       ]
+    },
+    {
+      "id": "aso-expert",
+      "name": "ASO Expert",
+      "description": "App Store Optimization \u2014 keyword research, listing optimization, and conversion rate improvement.",
+      "category": "Marketing & Ads",
+      "emoji": "\ud83d\udcf1",
+      "file": "agents/aso-expert.md",
+      "skills": [],
+      "integrations": []
+    },
+    {
+      "id": "growth-consultant",
+      "name": "Growth Consultant",
+      "description": "Strategic growth advisory \u2014 funnel analysis, channel prioritization, and experiment design.",
+      "category": "Growth & Strategy",
+      "emoji": "\ud83d\ude80",
+      "file": "agents/growth-consultant.md",
+      "skills": [],
+      "integrations": []
     },
     {
       "id": "blog-writer",
@@ -36,6 +56,16 @@
       ]
     },
     {
+      "id": "ux-ui-expert",
+      "name": "UX/UI Expert",
+      "description": "Interface audits, design system guidance, usability reviews, and conversion-focused design.",
+      "category": "Content & Design",
+      "emoji": "\ud83c\udfa8",
+      "file": "agents/ux-ui-expert.md",
+      "skills": [],
+      "integrations": []
+    },
+    {
       "id": "landing-page-expert",
       "name": "Landing Page Expert",
       "description": "Build or review high-converting landing pages.",
@@ -43,6 +73,92 @@
       "emoji": "\ud83c\udfaf",
       "file": "agents/landing-page-expert.md",
       "skills": ["skills/landing-page-expert"],
+      "integrations": []
+    },
+    {
+      "id": "email-marketing-expert",
+      "name": "Email Marketing Expert",
+      "description": "Drip campaigns, newsletters, lifecycle emails, deliverability, and A/B testing.",
+      "category": "Marketing & Ads",
+      "emoji": "\ud83d\udce8",
+      "file": "agents/email-marketing-expert.md",
+      "skills": [],
+      "integrations": []
+    },
+    {
+      "id": "market-research",
+      "name": "Market Research",
+      "description": "Competitive analysis, market sizing, customer research, and trend identification.",
+      "category": "Growth & Strategy",
+      "emoji": "\ud83d\udcca",
+      "file": "agents/market-research.md",
+      "skills": [],
+      "integrations": []
+    },
+    {
+      "id": "data-analytics",
+      "name": "Data Analytics",
+      "description": "Dashboards, metrics frameworks, cohort analysis, and data-driven decision-making.",
+      "category": "Growth & Strategy",
+      "emoji": "\ud83d\udcc9",
+      "file": "agents/data-analytics.md",
+      "skills": [],
+      "integrations": [
+        { "key": "posthog", "optional": true, "note": "Enhanced with PostHog analytics data" }
+      ]
+    },
+    {
+      "id": "brand-expert",
+      "name": "Brand Expert",
+      "description": "Brand strategy, positioning, messaging frameworks, and visual identity guidance.",
+      "category": "Content & Design",
+      "emoji": "\u2728",
+      "file": "agents/brand-expert.md",
+      "skills": [],
+      "integrations": []
+    },
+    {
+      "id": "google-ads-expert",
+      "name": "Google Ads Expert",
+      "description": "Google Ads campaign management \u2014 Search, Performance Max, and Shopping. New campaign setup and ongoing optimization with API-connected performance analysis.",
+      "category": "Marketing & Ads",
+      "emoji": "\ud83c\udf10",
+      "file": "agents/google-ads-expert.md",
+      "skills": ["skills/google-ads-expert"],
+      "integrations": [
+        { "key": "google-ads-api", "optional": true, "note": "Required for Optimize mode data pull" }
+      ]
+    },
+    {
+      "id": "apple-ads-analyzer",
+      "name": "Apple Search Expert",
+      "description": "Apple Search Ads performance analysis, keyword optimization, and bid management.",
+      "category": "Marketing & Ads",
+      "emoji": "\ud83c\udf4e",
+      "file": "agents/apple-ads-analyzer.md",
+      "skills": ["skills/apple-ads-analyzer"],
+      "integrations": [
+        { "key": "apple-ads", "optional": false, "note": "Required for campaign data" }
+      ]
+    },
+    {
+      "id": "meta-ads-expert",
+      "name": "Meta Ads Expert",
+      "description": "Facebook and Instagram ad campaigns, audience targeting, creative testing, and ROAS optimization.",
+      "category": "Marketing & Ads",
+      "emoji": "\ud83d\udcf2",
+      "file": "agents/meta-ads-expert.md",
+      "skills": [],
+      "integrations": []
+    },
+    {
+      "id": "tiktok-marketing-expert",
+      "name": "TikTok Marketing Expert",
+      "description": "TikTok content strategy, ad campaigns, creator partnerships, and trend analysis.",
+      "category": "Marketing & Ads",
+      "emoji": "\ud83c\udfb5",
+      "file": "agents/tiktok-marketing-expert.md",
+      "skills": [],
       "integrations": []
     },
     {
@@ -58,16 +174,24 @@
       ]
     },
     {
-      "id": "apple-ads-analyzer",
-      "name": "Apple Ads Analyzer",
-      "description": "Apple Search Ads performance analysis and keyword optimization.",
-      "category": "Marketing & Ads",
-      "emoji": "\ud83c\udf4e",
-      "file": "agents/apple-ads-analyzer.md",
-      "skills": ["skills/apple-ads-analyzer"],
-      "integrations": [
-        { "key": "apple-ads", "optional": false, "note": "Required for campaign data" }
-      ]
+      "id": "copywriter",
+      "name": "Copywriter",
+      "description": "Ad copy, headlines, CTAs, product descriptions, and persuasive writing across channels.",
+      "category": "Content & Design",
+      "emoji": "\ud83d\udcdd",
+      "file": "agents/copywriter.md",
+      "skills": [],
+      "integrations": []
+    },
+    {
+      "id": "pricing-expert",
+      "name": "Pricing Expert",
+      "description": "Pricing strategy, packaging, competitive pricing analysis, and monetization optimization.",
+      "category": "Growth & Strategy",
+      "emoji": "\ud83d\udcb0",
+      "file": "agents/pricing-expert.md",
+      "skills": [],
+      "integrations": []
     }
   ]
 }
