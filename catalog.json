@@ -154,12 +154,14 @@
     {
       "id": "tiktok-marketing-expert",
       "name": "TikTok Marketing Expert",
-      "description": "TikTok content strategy, ad campaigns, creator partnerships, and trend analysis.",
+      "description": "TikTok carousel content production — AI post generation, Remotion rendering, and PostBridge scheduling. Brand-agnostic.",
       "category": "Marketing & Ads",
       "emoji": "\ud83c\udfb5",
       "file": "agents/tiktok-marketing-expert.md",
-      "skills": [],
-      "integrations": []
+      "skills": ["skills/tiktok-marketing-expert"],
+      "integrations": [
+        { "key": "postbridge", "optional": true, "note": "Required for posting/scheduling to TikTok" }
+      ]
     },
     {
       "id": "cold-email-outreach-expert",
