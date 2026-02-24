@@ -129,7 +129,7 @@ const rendererMap = {
 ## Step 5: Create Theme in Database
 
 ```bash
-npx tsx src/cli/index.ts theme create "<Theme Name>" <type> -c themes/<name>.json
+carousel theme create "<Theme Name>" <type> -c themes/<name>.json
 ```
 
 The `<type>` must match the key used in the `rendererMap`.
@@ -137,12 +137,12 @@ The `<type>` must match the key used in the `rendererMap`.
 ## Step 6: Assign to Account
 
 ```bash
-npx tsx src/cli/index.ts theme assign <account-id> <theme-id>
+carousel theme assign <account-id> <theme-id>
 ```
 
 ## Step 7: Test
 
 1. Generate a test post
-2. Sync and preview: `node scripts/generate-compositions.js && npm run start`
-3. Render: `node scripts/render-posts.js --post=<post-id>`
+2. Sync: `carousel sync`
+3. Render: `carousel render --post=<post-id>`
 4. Check output in `output/<username>/post-<id>/`

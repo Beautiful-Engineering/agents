@@ -6,13 +6,14 @@ Full walkthrough for setting up a new TikTok account in the carousel-generator s
 
 ## Prerequisites
 
-- `db/carousel.db` exists (run `npm run db:seed` if not)
-- Working directory: carousel-generator root
+- `carousel.db` exists in the project directory (run `carousel db:seed` if not)
+- Working directory: your project directory (where `carousel.db` and `brand.json` live)
+- `carousel` CLI installed (`npm link` from the tool directory, one-time setup)
 
 ## Step 1: Create the Account
 
 ```bash
-npx tsx src/cli/index.ts account create <username> <email>
+carousel account create <username> <email>
 ```
 
 Note the account ID from the output.
@@ -23,7 +24,7 @@ Note the account ID from the output.
 
 List available themes:
 ```bash
-npx tsx src/cli/index.ts theme list -v
+carousel theme list -v
 ```
 
 ### Option B: Create a new theme
@@ -35,24 +36,24 @@ See `new-theme-creation.md` for the full process. Quick version:
 3. Register in `src/components/ThemeRenderer.tsx`
 4. Create in DB:
 ```bash
-npx tsx src/cli/index.ts theme create "<Theme Name>" <type> -c themes/<name>.json
+carousel theme create "<Theme Name>" <type> -c themes/<name>.json
 ```
 
 ## Step 3: Assign Theme to Account
 
 ```bash
-npx tsx src/cli/index.ts theme assign <account-id> <theme-id>
+carousel theme assign <account-id> <theme-id>
 ```
 
 Verify:
 ```bash
-npx tsx src/cli/index.ts theme show-account <account-id>
+carousel theme show-account <account-id>
 ```
 
 ## Step 4: Create a Format Template
 
 ```bash
-npx tsx src/cli/index.ts format create <account-id> "<format-name>"
+carousel format create <account-id> "<format-name>"
 ```
 
 This creates a default 5-slide format:
@@ -69,33 +70,30 @@ Note the format ID from the output.
 If not already done, scan images into the library:
 
 ```bash
-npx tsx src/cli/index.ts image scan public/images
+carousel image scan public/images
 ```
 
 ## Step 6: Generate First Post
 
 ```bash
-npx tsx src/cli/index.ts post generate <account-id> <format-id> "<topic>" --no-check-duplicates
+carousel post generate <account-id> <format-id> "<topic>" --no-check-duplicates
 ```
 
 ## Step 7: Preview and Render
 
 ```bash
 # Sync compositions
-node scripts/generate-compositions.js
-
-# Preview in browser (optional)
-npm run start
+carousel sync
 
 # Render to JPEG
-node scripts/render-posts.js --account=<account-id>
+carousel render --account=<account-id>
 ```
 
 ## Step 8: Verify
 
 ```bash
-npx tsx src/cli/index.ts account show <account-id>
-npx tsx src/cli/index.ts post list <account-id>
+carousel account show <account-id>
+carousel post list <account-id>
 ```
 
 Check rendered files in `output/<username>/post-<id>/`.
@@ -110,5 +108,5 @@ Check rendered files in `output/<username>/post-<id>/`.
 4. [ ] Images scanned (`image scan`)
 5. [ ] Brand config created (`brand.json`)
 6. [ ] First post generated (`post generate`)
-7. [ ] Compositions synced (`node scripts/generate-compositions.js`)
-8. [ ] Post rendered (`node scripts/render-posts.js`)
+7. [ ] Compositions synced (`carousel sync`)
+8. [ ] Post rendered (`carousel render`)

@@ -210,14 +210,14 @@ The `type` key must match what's used in `theme create` CLI command.
 
 ```bash
 # Create theme in DB from JSON config
-npx tsx src/cli/index.ts theme create "<name>" <type> -c themes/<name>.json
+carousel theme create "<name>" <type> -c themes/<name>.json
 
 # List all themes
-npx tsx src/cli/index.ts theme list -v
+carousel theme list -v
 
 # Assign theme to account
-npx tsx src/cli/index.ts theme assign <account-id> <theme-id>
+carousel theme assign <account-id> <theme-id>
 
 # Show account's theme
-npx tsx src/cli/index.ts theme show-account <account-id>
+carousel theme show-account <account-id>
 ```

@@ -1,12 +1,12 @@
 # CLI Reference
 
-Complete command reference for the carousel-generator CLI. All commands run from the carousel-generator directory via:
+Complete command reference for the carousel CLI. All commands run from your **project directory** (where `carousel.db` and `brand.json` live) via:
 
 ```bash
-npx tsx src/cli/index.ts <command> <subcommand> [args] [options]
+carousel <command> <subcommand> [args] [options]
 ```
 
-**Important**: Use `npx tsx src/cli/index.ts` (NOT `npm run cli`) for reliable non-interactive execution with proper argument passing.
+**Prerequisites**: One-time setup: `cd <tiktok-tools>/carousel && npm install && npm link`. Then `carousel` is available globally.
 
 ---
 
@@ -19,7 +19,7 @@ Create a new account.
 - `-p, --platform <platform>` — Platform name (default: `tiktok`)
 
 ```bash
-npx tsx src/cli/index.ts account create myaccount hello@example.com
+carousel account create myaccount hello@example.com
 ```
 
 ### `account list`
@@ -72,7 +72,7 @@ Generate a post using OpenAI. **This is the primary content creation command.**
 - `--no-check-duplicates` — **ALWAYS USE THIS** to skip interactive duplicate prompt
 
 ```bash
-npx tsx src/cli/index.ts post generate 1 1 "your topic here" --no-check-duplicates
+carousel post generate 1 1 "your topic here" --no-check-duplicates
 ```
 
 ### `post list <account-id>`
@@ -156,29 +156,25 @@ Show which theme is assigned to an account, including full config.
 
 ---
 
-## Scripts (not CLI)
+## Utility Commands
 
-These are standalone scripts run directly with `node`:
+### Seed Database
+Initialize `carousel.db` in the current project directory.
+```bash
+carousel db:seed
+```
 
 ### Sync Compositions
-Reads all posts from DB and generates `src/generated-compositions.json` for Remotion.
+Reads all posts from DB and generates compositions JSON for Remotion.
 ```bash
-node scripts/generate-compositions.js
+carousel sync
 ```
 
 ### Render Posts
-Renders carousel slides to JPEG files.
+Renders carousel slides to JPEG files. Output goes to `output/<username>/post-<id>/`.
 ```bash
-node scripts/render-posts.js                      # All draft posts
-node scripts/render-posts.js --account=1           # All drafts for account 1
-node scripts/render-posts.js --post=42             # Specific post
-node scripts/render-posts.js --status=rendered     # Re-render rendered posts
-```
-
-Output goes to `output/<username>/post-<id>/slide-N.jpg` plus `caption.txt`.
-
-### Remotion Studio
-Preview compositions in browser.
-```bash
-npm run start    # Runs sync + remotion studio
+carousel render                      # All draft posts
+carousel render --account=1          # All drafts for account 1
+carousel render --post=42            # Specific post
+carousel render --status=rendered    # Re-render rendered posts
 ```

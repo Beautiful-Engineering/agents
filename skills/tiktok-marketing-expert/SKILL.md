@@ -31,21 +31,28 @@ Use these references when:
 
 ## Key File Locations
 
+The carousel system splits files between the **tool directory** (shared code) and the **project directory** (per-brand data).
+
+### Tool directory (installed once, shared)
+
 | What | Path |
 |------|------|
-| CLI entry point | `carousel-generator/src/cli/index.ts` |
-| Database | `carousel-generator/db/carousel.db` |
-| Theme configs (JSON) | `carousel-generator/themes/*.json` |
-| Renderers (TSX) | `carousel-generator/src/components/renderers/*.tsx` |
-| Theme router | `carousel-generator/src/components/ThemeRenderer.tsx` |
-| Type definitions | `carousel-generator/src/types/theme.ts` |
-| Compositions sync | `carousel-generator/scripts/generate-compositions.js` |
-| Render script | `carousel-generator/scripts/render-posts.js` |
-| Brand config | `carousel-generator/brand.json` |
-| Background images | `carousel-generator/public/images/` |
-| Rendered output | `carousel-generator/output/<username>/post-<id>/` |
-| Environment vars | `carousel-generator/.env` (needs `OPENAI_API_KEY`) |
+| CLI entry point | `<tool>/src/cli/index.ts` |
+| Theme configs (JSON) | `<tool>/themes/*.json` |
+| Renderers (TSX) | `<tool>/src/components/renderers/*.tsx` |
+| Theme router | `<tool>/src/components/ThemeRenderer.tsx` |
+| Type definitions | `<tool>/src/types/theme.ts` |
+| DB schema | `<tool>/db/schema.sql` |
+
+### Project directory (per-brand, cwd)
+
+| What | Path |
+|------|------|
+| Database | `carousel.db` |
+| Brand config | `brand.json` |
+| Environment vars | `.env` (needs `OPENAI_API_KEY`) |
+| Rendered output | `output/<username>/post-<id>/` |
 
 ## Working Directory
 
-**All CLI and script commands must run from `carousel-generator/`.** The carousel-generator may be located at `carousel-generator/` or `carousel/` depending on the project setup. Check which exists.
+**All `carousel` commands run from the project directory** — the directory containing `carousel.db`, `brand.json`, and `.env`. The `carousel` CLI is installed globally via `npm link` from the tool directory (one-time setup).

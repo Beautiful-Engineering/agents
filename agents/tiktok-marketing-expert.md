@@ -54,29 +54,23 @@ Look for a `growth/` folder in the current working directory. Read these if they
 
 If NOT found, tell the user: "I don't see growth system deliverables. I'll ask you about your brand voice and audience directly, or you can run the Growth Fundamentals agent first."
 
-### Step 3: Locate carousel-generator
-Look for the carousel-generator directory. Check these paths in order:
-1. `carousel-generator/` in current directory
-2. `carousel/` in current directory
-3. Ask the user where it is
-
-If not found, provide setup instructions:
+### Step 3: Check carousel CLI is installed
+Verify the `carousel` command is available by running `carousel --help`. If not found, provide one-time setup instructions:
 ```
 git clone https://github.com/Beautiful-Engineering/tiktok-tools.git
 cd tiktok-tools/carousel
 npm install
-npm run db:seed
-cp .env.example .env  # Add your OPENAI_API_KEY
+npm link   # makes "carousel" available globally
 ```
 
-### Step 4: Check environment
-Verify the carousel-generator is ready:
-- `db/carousel.db` exists (if not: `npm run db:seed`)
+### Step 4: Check project environment
+Verify the current project directory is ready:
+- `carousel.db` exists (if not: `carousel db:seed`)
 - `.env` has `OPENAI_API_KEY` (required for AI generation)
 - `.env` has `POSTBRIDGE_API_KEY` (optional, required for posting/scheduling)
 
 ### Step 5: Check/create brand.json
-Look for `brand.json` in the carousel-generator root. If it doesn't exist:
+Look for `brand.json` in the current project directory. If it doesn't exist:
 - If growth deliverables were found, auto-generate `brand.json` from the story system (name, voice, topics, CTA, hashtags)
 - If no growth deliverables, ask the user for brand info and create `brand.json`
 
@@ -112,20 +106,20 @@ Set up a new TikTok account from scratch.
 Read skill file: `${CLAUDE_PLUGIN_ROOT}/skills/tiktok-marketing-expert/new-account-setup.md`
 
 Steps:
-1. Create account: `npx tsx src/cli/index.ts account create <username> <email>`
-2. List existing themes: `npx tsx src/cli/index.ts theme list`
-3. Assign theme to account: `npx tsx src/cli/index.ts theme assign <account-id> <theme-id>`
-4. Create format template: `npx tsx src/cli/index.ts format create <account-id> "<format-name>"`
-5. Scan background images: `npx tsx src/cli/index.ts image scan public/images`
-6. Verify: `npx tsx src/cli/index.ts account show <account-id>`
+1. Create account: `carousel account create <username> <email>`
+2. List existing themes: `carousel theme list`
+3. Assign theme to account: `carousel theme assign <account-id> <theme-id>`
+4. Create format template: `carousel format create <account-id> "<format-name>"`
+5. Scan background images: `carousel image scan public/images`
+6. Verify: `carousel account show <account-id>`
 
 ### 2. Single Post
 Generate one post for a specific topic.
 
 Steps:
 1. Identify account ID and format ID
-2. Generate: `npx tsx src/cli/index.ts post generate <account-id> <format-id> "<topic>" --no-check-duplicates`
-3. Show result: `npx tsx src/cli/index.ts post show <post-id>`
+2. Generate: `carousel post generate <account-id> <format-id> "<topic>" --no-check-duplicates`
+3. Show result: `carousel post show <post-id>`
 4. Optionally assign a background image
 
 ### 3. Batch Production
@@ -139,7 +133,7 @@ Steps:
 3. Get user approval on topics
 4. Generate posts in a loop with `--no-check-duplicates` flag
 5. Assign background images to each post's hook slide
-6. Sync compositions: `node scripts/generate-compositions.js`
+6. Sync compositions: `carousel sync`
 
 **IMPORTANT**: Always use `--no-check-duplicates` flag when generating to avoid interactive prompts that hang.
 
@@ -147,14 +141,14 @@ Steps:
 Sync compositions and render posts to JPEG files.
 
 Steps:
-1. Sync: `node scripts/generate-compositions.js`
-2. Render by account: `node scripts/render-posts.js --account=<id>`
-3. Or render specific post: `node scripts/render-posts.js --post=<id>`
+1. Sync: `carousel sync`
+2. Render by account: `carousel render --account=<id>`
+3. Or render specific post: `carousel render --post=<id>`
 4. Output goes to `output/<username>/post-<id>/`
 
 **Re-render gotcha**: To re-render a post that's already been rendered, reset its status first:
 ```bash
-npx tsx src/cli/index.ts post set-status <post-id> draft
+carousel post set-status <post-id> draft
 ```
 
 ### 5. Post & Schedule
@@ -169,7 +163,7 @@ Steps:
 4. Build caption from DB (post caption + hashtags)
 5. Create post via `POST /v1/posts` with media IDs, caption, and social account ID
 6. For scheduled posts, include `scheduled_at` (ISO 8601)
-7. After posting, mark as published: `npx tsx src/cli/index.ts post publish <post-id>`
+7. After posting, mark as published: `carousel post publish <post-id>`
 
 **IMPORTANT**: Always set `is_aigc: true` AND `title` in `platform_configurations.tiktok`. Always confirm schedule with user.
 
@@ -184,27 +178,30 @@ Steps:
 3. Create the renderer TSX file in `src/components/renderers/`
 4. Create the theme JSON config in `themes/`
 5. Register the renderer in `src/components/ThemeRenderer.tsx`
-6. Create theme in DB: `npx tsx src/cli/index.ts theme create "<name>" <type> -c themes/<name>.json`
-7. Assign to account: `npx tsx src/cli/index.ts theme assign <account-id> <theme-id>`
+6. Create theme in DB: `carousel theme create "<name>" <type> -c themes/<name>.json`
+7. Assign to account: `carousel theme assign <account-id> <theme-id>`
 
 ## CLI Reference
 
 Read `${CLAUDE_PLUGIN_ROOT}/skills/tiktok-marketing-expert/cli-reference.md` for the full command reference.
 
-Quick reference — 5 command groups via `npx tsx src/cli/index.ts`:
+Quick reference — 5 command groups + utility commands via `carousel`:
 - `account` — create, list, show, set-status, delete
 - `format` — create, list, show, delete
 - `post` — create, generate, list, show, set-status, publish, delete, check-duplicates
 - `image` — scan, list, show, add, delete
 - `theme` — create, list, show, update, delete, assign, show-account
+- `db:seed` — initialize carousel.db in the current directory
+- `sync` — generate Remotion compositions from DB
+- `render` — render posts to JPEG (supports `--account=<id>`, `--post=<id>`)
 
 ## Key Gotchas
 
-1. **Working directory**: ALWAYS `cd` to the carousel-generator directory before running CLI commands
+1. **Working directory**: ALWAYS run `carousel` commands from the **project directory** (where `carousel.db` and `brand.json` live), NOT the tool directory
 2. **Non-interactive mode**: ALWAYS use `--no-check-duplicates` flag on `post generate` to avoid hanging on interactive prompts
-3. **CLI invocation**: Use `npx tsx src/cli/index.ts` (NOT `npm run cli` which may not pass args correctly)
+3. **CLI invocation**: Use the `carousel` command (installed via `npm link` from the tool directory)
 4. **Re-rendering**: Posts with status `rendered` won't re-render. Reset to `draft` first, then re-sync and re-render.
-5. **Sync before render**: ALWAYS run `node scripts/generate-compositions.js` before rendering
+5. **Sync before render**: ALWAYS run `carousel sync` before rendering
 6. **Theme assignment**: Accounts without a theme will have their posts skipped during sync/render
 7. **Background images**: The hook slide uses `backgroundImage` from the image library. After AI generates a post, you may need to manually update the image path in slide_data.
 8. **PostBridge media expiry**: Uploaded media auto-deletes after 24 hours if not attached to a post. Upload close to posting time.

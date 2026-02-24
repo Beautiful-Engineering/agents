@@ -17,10 +17,10 @@ Find which background images are available and which are already used.
 
 ```bash
 # List all images in library
-npx tsx src/cli/index.ts image list
+carousel image list
 
 # List existing posts for the account to see which images are used
-npx tsx src/cli/index.ts post list <account-id>
+carousel post list <account-id>
 ```
 
 To find unused images programmatically, query the database directly:
@@ -28,7 +28,7 @@ To find unused images programmatically, query the database directly:
 ```bash
 node -e "
 const Database = require('better-sqlite3');
-const db = new Database('db/carousel.db');
+const db = new Database('carousel.db');
 
 // Get all images used by this account's posts (hook slide backgroundImage)
 const posts = db.prepare('SELECT slide_data FROM posts WHERE account_id = ?').all(ACCOUNT_ID);
@@ -60,7 +60,7 @@ Loop through topics, one per unused image. Always use `--no-check-duplicates`.
 
 ```bash
 # For each topic:
-npx tsx src/cli/index.ts post generate <account-id> <format-id> "<topic>" --no-check-duplicates
+carousel post generate <account-id> <format-id> "<topic>" --no-check-duplicates
 ```
 
 Capture the post ID from the output (`ID: <number>`).
@@ -74,7 +74,7 @@ After generating, assign a unique background image to each post's hook slide (sl
 ```bash
 node -e "
 const Database = require('better-sqlite3');
-const db = new Database('db/carousel.db');
+const db = new Database('carousel.db');
 
 const postId = POST_ID;
 const imagePath = '/images/IMAGE_FILENAME';
@@ -93,23 +93,23 @@ db.close();
 Generate the Remotion compositions JSON from the database:
 
 ```bash
-node scripts/generate-compositions.js
+carousel sync
 ```
 
-This creates `src/generated-compositions.json` which Remotion reads.
+This generates the Remotion compositions JSON from the database.
 
 ## Step 6: Render
 
 Render all draft posts for the account:
 
 ```bash
-node scripts/render-posts.js --account=<account-id>
+carousel render --account=<account-id>
 ```
 
 Or render a specific post:
 
 ```bash
-node scripts/render-posts.js --post=<post-id>
+carousel render --post=<post-id>
 ```
 
 Output: `output/<username>/post-<id>/slide-1.jpg` through `slide-5.jpg` plus `caption.txt`.
@@ -119,7 +119,7 @@ Successfully rendered posts are automatically marked as `rendered`.
 ## Step 7: Verify
 
 ```bash
-npx tsx src/cli/index.ts post list <account-id> -s rendered
+carousel post list <account-id> -s rendered
 ```
 
 Check the output directory for the rendered files.
@@ -131,16 +131,16 @@ Check the output directory for the rendered files.
 1. Query DB for existing posts to find used images
 2. Filter `allImages` to get `unusedImages`
 3. Loop: for each unused image + topic pair:
-   a. Run `npx tsx src/cli/index.ts post generate` to create post
+   a. Run `carousel post generate` to create post
    b. Extract post ID from stdout
    c. Update slide_data in DB to assign the image
-4. After all generated: run `node scripts/generate-compositions.js`
-5. Then: `node scripts/render-posts.js --account=<id>`
+4. After all generated: run `carousel sync`
+5. Then: `carousel render --account=<id>`
 
 ## Gotchas
 
 - **Always use `--no-check-duplicates`** — Without it, the CLI shows an interactive prompt that hangs when run non-interactively
 - **Image paths must match exactly** — Use the path as stored in the images table (e.g., `/images/filename.jpg`)
-- **Re-rendering requires status reset** — If a post was already rendered, reset to draft first: `npx tsx src/cli/index.ts post set-status <id> draft`
-- **Sync before render** — Always run `generate-compositions.js` before rendering to pick up new/changed posts
+- **Re-rendering requires status reset** — If a post was already rendered, reset to draft first: `carousel post set-status <id> draft`
+- **Sync before render** — Always run `carousel sync` before rendering to pick up new/changed posts
 - **Rate limits** — Add 1-2 second delays between OpenAI API calls in batch loops
