@@ -6,9 +6,11 @@
       "name": "Growth Fundamentals",
       "description": "Walk through the growth curriculum to build a complete growth strategy.",
       "category": "Growth & Strategy",
-      "emoji": "\ud83d\udcc8",
+      "emoji": "📈",
       "file": "agents/growth-fundamentals.md",
-      "skills": ["skills/growth-fundamentals"],
+      "skills": [
+        "skills/growth-fundamentals"
+      ],
       "integrations": []
     },
     {
@@ -16,117 +18,65 @@
       "name": "SEO/LLMO Expert",
       "description": "SEO audits, on-page optimization, keyword strategy, link building, and LLM optimization.",
       "category": "Marketing & Ads",
-      "emoji": "\ud83d\udd0d",
+      "emoji": "🔍",
       "file": "agents/seo-expert.md",
-      "skills": ["skills/seo-expert"],
+      "skills": [
+        "skills/seo-expert"
+      ],
       "integrations": [
-        { "key": "ahrefs", "optional": true, "note": "Works without \u2014 falls back to web search" }
+        {
+          "key": "ahrefs",
+          "optional": true,
+          "note": "Works without — falls back to web search"
+        }
       ]
-    },
-    {
-      "id": "aso-expert",
-      "name": "ASO Expert",
-      "description": "App Store Optimization \u2014 keyword research, listing optimization, and conversion rate improvement.",
-      "category": "Marketing & Ads",
-      "emoji": "\ud83d\udcf1",
-      "file": "agents/aso-expert.md",
-      "skills": [],
-      "integrations": []
-    },
-    {
-      "id": "growth-consultant",
-      "name": "Growth Consultant",
-      "description": "Strategic growth advisory \u2014 funnel analysis, channel prioritization, and experiment design.",
-      "category": "Growth & Strategy",
-      "emoji": "\ud83d\ude80",
-      "file": "agents/growth-consultant.md",
-      "skills": [],
-      "integrations": []
     },
     {
       "id": "blog-writer",
       "name": "Blog Writer",
       "description": "Content creation, editorial planning, and blog management.",
       "category": "Content & Design",
-      "emoji": "\u270d\ufe0f",
+      "emoji": "✍️",
       "file": "agents/blog-writer.md",
-      "skills": ["skills/blog-writer"],
+      "skills": [
+        "skills/blog-writer"
+      ],
       "integrations": [
-        { "key": "ahrefs", "optional": true, "note": "Enhances keyword research" }
+        {
+          "key": "ahrefs",
+          "optional": true,
+          "note": "Enhances keyword research"
+        }
       ]
-    },
-    {
-      "id": "ux-ui-expert",
-      "name": "UX/UI Expert",
-      "description": "Interface audits, design system guidance, usability reviews, and conversion-focused design.",
-      "category": "Content & Design",
-      "emoji": "\ud83c\udfa8",
-      "file": "agents/ux-ui-expert.md",
-      "skills": [],
-      "integrations": []
     },
     {
       "id": "landing-page-expert",
       "name": "Landing Page Expert",
       "description": "Build or review high-converting landing pages.",
       "category": "Content & Design",
-      "emoji": "\ud83c\udfaf",
+      "emoji": "🎯",
       "file": "agents/landing-page-expert.md",
-      "skills": ["skills/landing-page-expert"],
-      "integrations": []
-    },
-    {
-      "id": "email-marketing-expert",
-      "name": "Email Marketing Expert",
-      "description": "Drip campaigns, newsletters, lifecycle emails, deliverability, and A/B testing.",
-      "category": "Marketing & Ads",
-      "emoji": "\ud83d\udce8",
-      "file": "agents/email-marketing-expert.md",
-      "skills": [],
-      "integrations": []
-    },
-    {
-      "id": "market-research",
-      "name": "Market Research",
-      "description": "Competitive analysis, market sizing, customer research, and trend identification.",
-      "category": "Growth & Strategy",
-      "emoji": "\ud83d\udcca",
-      "file": "agents/market-research.md",
-      "skills": [],
-      "integrations": []
-    },
-    {
-      "id": "data-analytics",
-      "name": "Data Analytics",
-      "description": "Dashboards, metrics frameworks, cohort analysis, and data-driven decision-making.",
-      "category": "Growth & Strategy",
-      "emoji": "\ud83d\udcc9",
-      "file": "agents/data-analytics.md",
-      "skills": [],
-      "integrations": [
-        { "key": "posthog", "optional": true, "note": "Enhanced with PostHog analytics data" }
-      ]
-    },
-    {
-      "id": "brand-expert",
-      "name": "Brand Expert",
-      "description": "Brand strategy, positioning, messaging frameworks, and visual identity guidance.",
-      "category": "Content & Design",
-      "emoji": "\u2728",
-      "file": "agents/brand-expert.md",
-      "skills": [],
+      "skills": [
+        "skills/landing-page-expert"
+      ],
       "integrations": []
     },
     {
       "id": "google-ads-expert",
       "name": "Google Ads Expert",
-      "description": "Google Ads campaign management \u2014 Search, Performance Max, and Shopping. New campaign setup and ongoing optimization with API-connected performance analysis.",
+      "description": "Google Ads campaign management — Search, Performance Max, and Shopping. New campaign setup and ongoing optimization with API-connected performance analysis.",
       "category": "Marketing & Ads",
-      "emoji": "\ud83c\udf10",
+      "emoji": "🌐",
       "file": "agents/google-ads-expert.md",
-      "skills": ["skills/google-ads-expert"],
+      "skills": [
+        "skills/google-ads-expert"
+      ],
       "integrations": [
-        { "key": "google-ads-api", "optional": true, "note": "Required for Optimize mode data pull" }
+        {
+          "key": "google-ads-api",
+          "optional": true,
+          "note": "Required for Optimize mode data pull"
+        }
       ]
     },
     {
@@ -134,33 +84,35 @@
       "name": "Apple Search Expert",
       "description": "Apple Search Ads performance analysis, keyword optimization, and bid management.",
       "category": "Marketing & Ads",
-      "emoji": "\ud83c\udf4e",
+      "emoji": "🍎",
       "file": "agents/apple-ads-analyzer.md",
-      "skills": ["skills/apple-ads-analyzer"],
+      "skills": [
+        "skills/apple-ads-analyzer"
+      ],
       "integrations": [
-        { "key": "apple-ads", "optional": false, "note": "Required for campaign data" }
+        {
+          "key": "apple-ads",
+          "optional": false,
+          "note": "Required for campaign data"
+        }
       ]
-    },
-    {
-      "id": "meta-ads-expert",
-      "name": "Meta Ads Expert",
-      "description": "Facebook and Instagram ad campaigns, audience targeting, creative testing, and ROAS optimization.",
-      "category": "Marketing & Ads",
-      "emoji": "\ud83d\udcf2",
-      "file": "agents/meta-ads-expert.md",
-      "skills": [],
-      "integrations": []
     },
     {
       "id": "tiktok-marketing-expert",
       "name": "TikTok Marketing Expert",
       "description": "TikTok carousel content production — AI post generation, Remotion rendering, and PostBridge scheduling. Brand-agnostic.",
       "category": "Marketing & Ads",
-      "emoji": "\ud83c\udfb5",
+      "emoji": "🎵",
       "file": "agents/tiktok-marketing-expert.md",
-      "skills": ["skills/tiktok-marketing-expert"],
+      "skills": [
+        "skills/tiktok-marketing-expert"
+      ],
       "integrations": [
-        { "key": "postbridge", "optional": true, "note": "Required for posting/scheduling to TikTok" }
+        {
+          "key": "postbridge",
+          "optional": true,
+          "note": "Required for posting/scheduling to TikTok"
+        }
       ]
     },
     {
@@ -168,29 +120,25 @@
       "name": "Cold Email Outreach Expert",
       "description": "Cold email campaigns, lead operations, and outreach optimization.",
       "category": "Marketing & Ads",
-      "emoji": "\ud83d\udce7",
+      "emoji": "📧",
       "file": "agents/cold-email-outreach.md",
-      "skills": ["skills/cold-email-outreach"],
+      "skills": [
+        "skills/cold-email-outreach"
+      ],
       "integrations": [
-        { "key": "instantly", "optional": false, "note": "Required for campaign management" }
+        {
+          "key": "instantly",
+          "optional": false,
+          "note": "Required for campaign management"
+        }
       ]
-    },
-    {
-      "id": "copywriter",
-      "name": "Copywriter",
-      "description": "Ad copy, headlines, CTAs, product descriptions, and persuasive writing across channels.",
-      "category": "Content & Design",
-      "emoji": "\ud83d\udcdd",
-      "file": "agents/copywriter.md",
-      "skills": [],
-      "integrations": []
     },
     {
       "id": "pricing-expert",
       "name": "Pricing Expert",
       "description": "Pricing strategy, packaging, competitive pricing analysis, and monetization optimization.",
       "category": "Growth & Strategy",
-      "emoji": "\ud83d\udcb0",
+      "emoji": "💰",
       "file": "agents/pricing-expert.md",
       "skills": [],
       "integrations": []
