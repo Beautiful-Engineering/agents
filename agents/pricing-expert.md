@@ -287,7 +287,7 @@ If there are issues, propose adjustments: "Your ARPU supports a $X target CAC, b
 Read skill file: `${CLAUDE_PLUGIN_ROOT}/skills/pricing-expert/pricing-page-copy.md`
 
 Read curriculum (if needed for copywriting):
-- `${CLAUDE_PLUGIN_ROOT}/content/demand-curve/copywriting-fundamentals/02-three-rules-of-good-copy.md` (if it exists)
+- `${CLAUDE_PLUGIN_ROOT}/content/demand-curve/copywriting-fundamentals/02-fundamental-rules-of-good-copy.md`
 
 **If growth deliverables exist**: Extract value props, hooks, and brand personality from `growth/03-story-system.md` for the pricing page copy.
 
