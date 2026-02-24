@@ -62,8 +62,8 @@ Look for the carousel-generator directory. Check these paths in order:
 
 If not found, provide setup instructions:
 ```
-git clone <repo-url> carousel-generator
-cd carousel-generator
+git clone https://github.com/Beautiful-Engineering/tiktok-tools.git
+cd tiktok-tools/carousel
 npm install
 npm run db:seed
 cp .env.example .env  # Add your OPENAI_API_KEY
