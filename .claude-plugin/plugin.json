@@ -1,7 +1,7 @@
 {
   "name": "agents",
-  "version": "1.4.0",
-  "description": "A collection of AI agents trained on specialized curricula — growth strategy, SEO, content writing, and more.",
+  "version": "1.5.0",
+  "description": "A collection of AI agents trained on specialized curricula — growth strategy, SEO, content writing, pricing, and more.",
   "author": {
     "name": "Beautiful Engineering",
     "url": "https://github.com/Beautiful-Engineering"

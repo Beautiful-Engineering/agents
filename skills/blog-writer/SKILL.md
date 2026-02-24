@@ -31,7 +31,7 @@ When available, the blog writer reads from these growth deliverables:
 | Deliverable | What to Extract |
 |------------|----------------|
 | `growth/03-story-system.md` | Brand voice, personas, value props, hooks — drives tone and messaging |
-| `growth/05-acquisition-strategy.md` | Competitors — informs competitive angle and gap research |
+| `growth/06-acquisition-strategy.md` | Competitors — informs competitive angle and gap research |
 | `growth/01-foundational-five.md` | Market segment, core problem — ensures content relevance |
 | `seo/keywords.md` | Target keywords, clusters, volumes, priorities — drives topic and keyword selection |
 | `seo/03-content-strategy.md` | Content calendar, topic priorities — picks the next topic to write |

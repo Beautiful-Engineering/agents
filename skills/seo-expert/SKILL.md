@@ -65,7 +65,7 @@ The complete SEO curriculum lives at: `${CLAUDE_PLUGIN_ROOT}/content/demand-curv
 When growth system deliverables exist (`growth/*.md`), the SEO agent pulls context:
 - **Foundational Five** (`growth/01-foundational-five.md`) → market segment, target audience
 - **Story System** (`growth/03-story-system.md`) → value props as seed keywords, hooks for title tags
-- **Acquisition Strategy** (`growth/05-acquisition-strategy.md`) → competitors, channel priorities
+- **Acquisition Strategy** (`growth/06-acquisition-strategy.md`) → competitors, channel priorities
 
 ## Related Agent
 

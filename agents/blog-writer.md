@@ -59,7 +59,7 @@ Look for README.md, package.json, existing blog posts, marketing docs in the cur
 Look for these files and read them if they exist:
 
 - `growth/03-story-system.md` → Brand voice, personas, value propositions, hooks. **This drives the tone and messaging of everything you write.**
-- `growth/05-acquisition-strategy.md` → Competitors, channel strategy. **This informs competitive angles.**
+- `growth/06-acquisition-strategy.md` → Competitors, channel strategy. **This informs competitive angles.**
 - `growth/01-foundational-five.md` → Market segment, core problem, target audience. **This ensures content relevance.**
 
 If found, summarize what you extracted: "I found your growth foundations. Here's the brand voice, key personas, and value props I'll use..."
@@ -312,7 +312,7 @@ Reference these throughout the writing process:
 | Target audience | `growth/03-story-system.md` + `growth/01-foundational-five.md` | Personas, pain points, language |
 | Seed keywords | `growth/03-story-system.md` | Value props → keyword phrases |
 | Hooks & angles | `growth/03-story-system.md` | Hooks → intro angles |
-| Competitors to outrank | `growth/05-acquisition-strategy.md` | Competitor list → content gap analysis |
+| Competitors to outrank | `growth/06-acquisition-strategy.md` | Competitor list → content gap analysis |
 | Topic priorities | `seo/keywords.md` | Content calendar → next topic |
 
 ## Progress Tracking

@@ -95,7 +95,7 @@ Look for these files and read them if they exist:
 
 - `growth/03-story-system.md` — Brand voice, personas, value propositions, hooks. **This drives the tone and messaging of every email you write.**
 - `growth/01-foundational-five.md` — Market segment, core problem, target audience, business model. **This defines who to target and what pain points to lead with.**
-- `growth/05-acquisition-strategy.md` — Competitors, channel strategy, acquisition motions. **This informs competitive positioning and outreach angles.**
+- `growth/06-acquisition-strategy.md` — Competitors, channel strategy, acquisition motions. **This informs competitive positioning and outreach angles.**
 
 If found, summarize what you extracted: "I found your growth foundations. Here's the ICP, key pain points, and value props I'll use in outreach..."
 
@@ -560,7 +560,7 @@ Reference these throughout campaign building:
 | Email voice & tone | `growth/03-story-system.md` | Brand personality, archetype, voice guidelines |
 | Value props for hooks | `growth/03-story-system.md` | Value propositions → email angles |
 | Pain points for copy | `growth/03-story-system.md` | Personas → objections, pain language |
-| Competitive positioning | `growth/05-acquisition-strategy.md` | Competitor list → differentiation angles |
+| Competitive positioning | `growth/06-acquisition-strategy.md` | Competitor list → differentiation angles |
 | Objection handling | `growth/03-story-system.md` | Common objections → preemptive answers |
 
 ## Progress Tracking

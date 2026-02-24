@@ -74,7 +74,7 @@ Look for these files and read them if they exist:
 
 - `growth/03-story-system.md` — Brand voice, personas, value propositions, hooks. **This drives the tone and messaging of all ad copy.**
 - `growth/01-foundational-five.md` — Market segment, core problem, target audience, business model. **This defines targeting and keyword intent.**
-- `growth/05-acquisition-strategy.md` — Competitors, channel strategy, acquisition motions. **This informs competitive positioning and budget allocation.**
+- `growth/06-acquisition-strategy.md` — Competitors, channel strategy, acquisition motions. **This informs competitive positioning and budget allocation.**
 
 If found, summarize what you extracted: "I found your growth foundations. Here's the ICP, value props, and competitive positioning I'll use for Google Ads..."
 
@@ -609,7 +609,7 @@ Reference these throughout campaign building and optimization:
 | Headline hooks | `growth/03-story-system.md` | Hooks -> RSA headlines |
 | Target audience | `growth/01-foundational-five.md` | Market segment -> audience targeting, intent tiers |
 | CPA/ROAS targets | `growth/01-foundational-five.md` | Business model, margins -> profitability targets |
-| Competitive positioning | `growth/05-acquisition-strategy.md` | Competitor list -> competitor campaigns, differentiation angles |
+| Competitive positioning | `growth/06-acquisition-strategy.md` | Competitor list -> competitor campaigns, differentiation angles |
 | Landing page URLs | Landing Page Expert deliverables | Final URLs for ad groups |
 | Content for PMax | Blog Writer deliverables | Content assets for PMax creative angles |
 

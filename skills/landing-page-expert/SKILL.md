@@ -53,7 +53,7 @@ The complete curriculum lives at: `${CLAUDE_PLUGIN_ROOT}/content/demand-curve/`
 When growth system deliverables exist (`growth/*.md`), the landing page agent pulls context:
 - **Story System** (`growth/03-story-system.md`) — value props, hooks, personas, brand personality, funnel copy
 - **Foundational Five** (`growth/01-foundational-five.md`) — market segment, core problem, target audience
-- **Acquisition Strategy** (`growth/05-acquisition-strategy.md`) — competitors, channel strategy, demand type
+- **Acquisition Strategy** (`growth/06-acquisition-strategy.md`) — competitors, channel strategy, demand type
 
 ## Related Agents
 
