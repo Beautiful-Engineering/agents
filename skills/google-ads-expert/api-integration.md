@@ -1,357 +1,564 @@
 # Google Ads API Integration
 
-Authentication patterns, endpoint references, GAQL query templates, and response field mappings for the Google Ads Expert agent.
+MCP server setup for reads, REST API mutate templates for writes, response field mappings, and error handling for the Google Ads Expert agent.
 
 ---
 
-## Required Environment Variables
+## Section A: MCP Server Setup (Reads)
 
+All data reads go through the [Google Ads MCP server](https://github.com/googleads/google-ads-mcp). The MCP server handles authentication, query execution, and pagination — no Python scripts needed.
+
+### Prerequisites
+
+1. **pipx** installed (`brew install pipx` or `pip install pipx`)
+2. **Google Cloud Project** with Google Ads API enabled (console.cloud.google.com)
+3. **Developer Token** from Google Ads > Tools > API Center
+4. **Credentials** via one of two auth methods below
+
+### Auth Method 1: Application Default Credentials (Recommended)
+
+Uses `gcloud` CLI for auth. Simplest setup — same credentials power both MCP reads and REST API writes.
+
+```bash
+# 1. Install gcloud CLI (if not installed)
+brew install google-cloud-sdk
+
+# 2. Login and set application default credentials
+gcloud auth application-default login --scopes="https://www.googleapis.com/auth/adwords"
+
+# 3. Set your project
+gcloud config set project YOUR_PROJECT_ID
 ```
-GOOGLE_ADS_DEVELOPER_TOKEN   — Developer token from Google Ads API Center
-GOOGLE_ADS_CLIENT_ID         — OAuth 2.0 client ID (from Google Cloud Console)
-GOOGLE_ADS_CLIENT_SECRET     — OAuth 2.0 client secret
-GOOGLE_ADS_REFRESH_TOKEN     — OAuth 2.0 refresh token (from consent flow)
-GOOGLE_ADS_CUSTOMER_ID       — Google Ads customer ID (no dashes, e.g., 1234567890)
-GOOGLE_ADS_LOGIN_CUSTOMER_ID — (Optional) Manager account ID if using MCC
+
+### Auth Method 2: Service Account / google-ads.yaml
+
+For automated environments or CI. Create a `google-ads.yaml` file:
+
+```yaml
+developer_token: YOUR_DEVELOPER_TOKEN
+client_id: YOUR_CLIENT_ID
+client_secret: YOUR_CLIENT_SECRET
+refresh_token: YOUR_REFRESH_TOKEN
+login_customer_id: YOUR_MCC_ID  # optional, only if using Manager account
 ```
+
+Place it in one of: `$HOME/google-ads.yaml`, current directory, or set `GOOGLE_ADS_YAML` env var.
+
+### Claude Code MCP Configuration
+
+Add to your Claude Code MCP settings (`.mcp.json` or project settings):
+
+```json
+{
+  "mcpServers": {
+    "google_ads": {
+      "command": "pipx",
+      "args": ["run", "--spec", "git+https://github.com/googleads/google-ads-mcp.git", "google-ads-mcp"],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "/path/to/credentials.json",
+        "GOOGLE_PROJECT_ID": "YOUR_PROJECT_ID",
+        "GOOGLE_ADS_DEVELOPER_TOKEN": "YOUR_DEVELOPER_TOKEN"
+      }
+    }
+  }
+}
+```
+
+If using ADC (Method 1), you can omit `GOOGLE_APPLICATION_CREDENTIALS` — gcloud handles it automatically. Keep `GOOGLE_PROJECT_ID` and `GOOGLE_ADS_DEVELOPER_TOKEN`.
+
+### Verify MCP Connectivity
+
+Call `mcp__google_ads__list_accessible_customers` to verify the MCP server is running and auth is working. If it returns customer IDs, you're good. If it fails, check:
+1. Is pipx installed? (`pipx --version`)
+2. Are env vars set? (developer token, project ID)
+3. Is ADC configured? (`gcloud auth application-default print-access-token`)
 
 **Never ask the user to paste secrets into chat. Never write credentials to any project file.**
 
 ---
 
-## Setup Checklist
+## Section B: MCP Read Templates (6 Reports)
 
-1. **Google Cloud Project**: Create at console.cloud.google.com
-2. **Enable Google Ads API**: APIs & Services > Enable "Google Ads API"
-3. **OAuth Credentials**: Create OAuth 2.0 client ID (Desktop app type)
-4. **Developer Token**: Apply at Google Ads > Tools > API Center. Starts as test token (limited to own account), production requires review.
-5. **Refresh Token**: Run the OAuth consent flow once to generate a long-lived refresh token
-6. **Customer ID**: Found in Google Ads dashboard top-right (remove dashes)
+All reads use the `mcp__google_ads__search` tool. Each template shows the exact parameters to pass.
 
-### OAuth Consent Flow (One-Time Setup)
+Date range default: last 14 days (longer than Apple Ads due to broad match + Smart Bidding learning periods).
 
-```python
-#!/usr/bin/env python3
-"""One-time OAuth consent flow to get a refresh token."""
+### Report 1: Campaign Performance
 
-import os
-from google_auth_oauthlib.flow import InstalledAppFlow
-
-SCOPES = ["https://www.googleapis.com/auth/adwords"]
-
-def get_refresh_token():
-    client_config = {
-        "installed": {
-            "client_id": os.environ["GOOGLE_ADS_CLIENT_ID"],
-            "client_secret": os.environ["GOOGLE_ADS_CLIENT_SECRET"],
-            "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-            "token_uri": "https://oauth2.googleapis.com/token",
-        }
-    }
-    flow = InstalledAppFlow.from_client_config(client_config, scopes=SCOPES)
-    flow.run_local_server(port=8080)
-    print(f"Refresh token: {flow.credentials.refresh_token}")
-    print("Save this as GOOGLE_ADS_REFRESH_TOKEN environment variable.")
-
-if __name__ == "__main__":
-    get_refresh_token()
 ```
-
----
-
-## Step 1: Authenticate (OAuth 2.0 Refresh Token Flow)
-
-```python
-#!/usr/bin/env python3
-"""Get a fresh access token from a refresh token."""
-
-import os
-import requests
-
-def get_access_token():
-    resp = requests.post(
-        "https://oauth2.googleapis.com/token",
-        data={
-            "grant_type": "refresh_token",
-            "client_id": os.environ["GOOGLE_ADS_CLIENT_ID"],
-            "client_secret": os.environ["GOOGLE_ADS_CLIENT_SECRET"],
-            "refresh_token": os.environ["GOOGLE_ADS_REFRESH_TOKEN"],
-        },
-    )
-    resp.raise_for_status()
-    return resp.json()["access_token"]
-
-if __name__ == "__main__":
-    token = get_access_token()
-    print(token)
-```
-
----
-
-## Step 2: API Base URL and Headers
-
-Google Ads REST API v18:
-
-```python
-API_VERSION = "v18"
-BASE_URL = f"https://googleads.googleapis.com/{API_VERSION}"
-
-def get_headers(access_token, developer_token, login_customer_id=None):
-    headers = {
-        "Authorization": f"Bearer {access_token}",
-        "developer-token": developer_token,
-        "Content-Type": "application/json",
-    }
-    if login_customer_id:
-        headers["login-customer-id"] = login_customer_id
-    return headers
-```
-
----
-
-## Step 3: GAQL (Google Ads Query Language)
-
-All data is pulled via GAQL queries sent to the `googleads:searchStream` endpoint.
-
-```python
-def execute_gaql(access_token, customer_id, query, developer_token, login_customer_id=None):
-    url = f"{BASE_URL}/customers/{customer_id}/googleAds:searchStream"
-    headers = get_headers(access_token, developer_token, login_customer_id)
-    body = {"query": query}
-    resp = requests.post(url, json=body, headers=headers)
-    resp.raise_for_status()
-    results = resp.json()
-    # searchStream returns a list of result batches
-    rows = []
-    for batch in results:
-        rows.extend(batch.get("results", []))
-    return rows
-```
-
----
-
-## Step 4: Date Range Helper
-
-Google Ads uses 14-day windows by default (longer than Apple Ads due to broad match + Smart Bidding learning periods).
-
-```python
-from datetime import date, timedelta
-
-def last_14_days():
-    today = date.today()
-    end   = today - timedelta(days=1)      # yesterday
-    start = today - timedelta(days=14)     # 14 days ago
-    return str(start), str(end)            # "YYYY-MM-DD", "YYYY-MM-DD"
-
-def format_date_range(start, end):
-    """Format for GAQL WHERE clause."""
-    return f"segments.date BETWEEN '{start}' AND '{end}'"
-```
-
----
-
-## Step 5: Campaign Performance Report
-
-```python
-CAMPAIGN_QUERY = """
+Tool: mcp__google_ads__search
+Parameters:
+  customer_id: "1234567890"
+  query: >
     SELECT
-        campaign.id,
-        campaign.name,
-        campaign.status,
-        campaign.advertising_channel_type,
-        campaign.bidding_strategy_type,
-        campaign.campaign_budget,
-        metrics.impressions,
-        metrics.clicks,
-        metrics.conversions,
-        metrics.conversions_value,
-        metrics.cost_micros,
-        metrics.ctr,
-        metrics.average_cpc,
-        metrics.cost_per_conversion,
-        metrics.search_impression_share,
-        metrics.search_budget_lost_impression_share,
-        metrics.search_rank_lost_impression_share
+      campaign.id,
+      campaign.name,
+      campaign.status,
+      campaign.advertising_channel_type,
+      campaign.bidding_strategy_type,
+      campaign.campaign_budget,
+      metrics.impressions,
+      metrics.clicks,
+      metrics.conversions,
+      metrics.conversions_value,
+      metrics.cost_micros,
+      metrics.ctr,
+      metrics.average_cpc,
+      metrics.cost_per_conversion,
+      metrics.search_impression_share,
+      metrics.search_budget_lost_impression_share,
+      metrics.search_rank_lost_impression_share
     FROM campaign
-    WHERE {date_range}
-        AND campaign.status != 'REMOVED'
+    WHERE segments.date BETWEEN 'YYYY-MM-DD' AND 'YYYY-MM-DD'
+      AND campaign.status != 'REMOVED'
     ORDER BY metrics.cost_micros DESC
-"""
 ```
 
-**Key response fields:**
+### Report 2: Ad Group Performance
 
-| Field | Meaning |
-|-------|---------|
-| `metrics.cost_micros` | Spend in micros (divide by 1,000,000 for currency) |
-| `metrics.impressions` | Total impressions |
-| `metrics.clicks` | Total clicks |
-| `metrics.conversions` | Total conversions (may be fractional due to attribution) |
-| `metrics.conversions_value` | Total conversion value (revenue) |
-| `metrics.ctr` | Click-through rate (decimal, e.g., 0.035 = 3.5%) |
-| `metrics.average_cpc` | Average CPC in micros |
-| `metrics.cost_per_conversion` | CPA in micros |
-| `metrics.search_impression_share` | Impression share (decimal) |
-| `campaign.advertising_channel_type` | SEARCH, PERFORMANCE_MAX, SHOPPING, DISPLAY |
-| `campaign.bidding_strategy_type` | MANUAL_CPC, TARGET_CPA, TARGET_ROAS, MAXIMIZE_CONVERSIONS, etc. |
-
----
-
-## Step 6: Ad Group Performance Report
-
-```python
-AD_GROUP_QUERY = """
+```
+Tool: mcp__google_ads__search
+Parameters:
+  customer_id: "1234567890"
+  query: >
     SELECT
-        campaign.id,
-        campaign.name,
-        ad_group.id,
-        ad_group.name,
-        ad_group.status,
-        ad_group.type,
-        metrics.impressions,
-        metrics.clicks,
-        metrics.conversions,
-        metrics.conversions_value,
-        metrics.cost_micros,
-        metrics.ctr,
-        metrics.cost_per_conversion
+      campaign.id,
+      campaign.name,
+      ad_group.id,
+      ad_group.name,
+      ad_group.status,
+      ad_group.type,
+      metrics.impressions,
+      metrics.clicks,
+      metrics.conversions,
+      metrics.conversions_value,
+      metrics.cost_micros,
+      metrics.ctr,
+      metrics.cost_per_conversion
     FROM ad_group
-    WHERE {date_range}
-        AND ad_group.status != 'REMOVED'
+    WHERE segments.date BETWEEN 'YYYY-MM-DD' AND 'YYYY-MM-DD'
+      AND ad_group.status != 'REMOVED'
     ORDER BY metrics.cost_micros DESC
-"""
 ```
 
----
+### Report 3: Keyword Performance
 
-## Step 7: Keyword Performance Report
-
-```python
-KEYWORD_QUERY = """
+```
+Tool: mcp__google_ads__search
+Parameters:
+  customer_id: "1234567890"
+  query: >
     SELECT
-        campaign.id,
-        campaign.name,
-        ad_group.id,
-        ad_group.name,
-        ad_group_criterion.keyword.text,
-        ad_group_criterion.keyword.match_type,
-        ad_group_criterion.quality_info.quality_score,
-        ad_group_criterion.quality_info.creative_quality_score,
-        ad_group_criterion.quality_info.post_click_quality_score,
-        ad_group_criterion.quality_info.search_predicted_ctr,
-        ad_group_criterion.status,
-        metrics.impressions,
-        metrics.clicks,
-        metrics.conversions,
-        metrics.conversions_value,
-        metrics.cost_micros,
-        metrics.ctr,
-        metrics.average_cpc,
-        metrics.cost_per_conversion,
-        metrics.search_impression_share
+      campaign.id,
+      campaign.name,
+      ad_group.id,
+      ad_group.name,
+      ad_group_criterion.keyword.text,
+      ad_group_criterion.keyword.match_type,
+      ad_group_criterion.quality_info.quality_score,
+      ad_group_criterion.quality_info.creative_quality_score,
+      ad_group_criterion.quality_info.post_click_quality_score,
+      ad_group_criterion.quality_info.search_predicted_ctr,
+      ad_group_criterion.status,
+      metrics.impressions,
+      metrics.clicks,
+      metrics.conversions,
+      metrics.conversions_value,
+      metrics.cost_micros,
+      metrics.ctr,
+      metrics.average_cpc,
+      metrics.cost_per_conversion,
+      metrics.search_impression_share
     FROM keyword_view
-    WHERE {date_range}
-        AND ad_group_criterion.status != 'REMOVED'
+    WHERE segments.date BETWEEN 'YYYY-MM-DD' AND 'YYYY-MM-DD'
+      AND ad_group_criterion.status != 'REMOVED'
     ORDER BY metrics.cost_micros DESC
-"""
 ```
 
-**Additional keyword fields:**
+### Report 4: Search Terms
 
-| Field | Meaning |
-|-------|---------|
-| `ad_group_criterion.keyword.text` | Keyword text |
-| `ad_group_criterion.keyword.match_type` | EXACT, PHRASE, BROAD |
-| `ad_group_criterion.quality_info.quality_score` | 1-10 Quality Score |
-| `ad_group_criterion.quality_info.creative_quality_score` | BELOW_AVERAGE, AVERAGE, ABOVE_AVERAGE |
-| `ad_group_criterion.quality_info.post_click_quality_score` | Landing page experience rating |
-| `ad_group_criterion.quality_info.search_predicted_ctr` | Expected CTR rating |
-
----
-
-## Step 8: Search Terms Report
-
-```python
-SEARCH_TERMS_QUERY = """
+```
+Tool: mcp__google_ads__search
+Parameters:
+  customer_id: "1234567890"
+  query: >
     SELECT
-        campaign.id,
-        campaign.name,
-        ad_group.id,
-        search_term_view.search_term,
-        search_term_view.status,
-        metrics.impressions,
-        metrics.clicks,
-        metrics.conversions,
-        metrics.conversions_value,
-        metrics.cost_micros,
-        metrics.ctr,
-        metrics.cost_per_conversion
+      campaign.id,
+      campaign.name,
+      ad_group.id,
+      search_term_view.search_term,
+      search_term_view.status,
+      metrics.impressions,
+      metrics.clicks,
+      metrics.conversions,
+      metrics.conversions_value,
+      metrics.cost_micros,
+      metrics.ctr,
+      metrics.cost_per_conversion
     FROM search_term_view
-    WHERE {date_range}
+    WHERE segments.date BETWEEN 'YYYY-MM-DD' AND 'YYYY-MM-DD'
     ORDER BY metrics.cost_micros DESC
-"""
 ```
 
-**Search term fields:**
+### Report 5: Ad Performance (RSA)
 
-| Field | Meaning |
-|-------|---------|
-| `search_term_view.search_term` | Actual query the user typed |
-| `search_term_view.status` | ADDED, EXCLUDED, NONE (whether it's already a keyword or negative) |
-
----
-
-## Step 9: Ad Performance Report (RSA)
-
-```python
-AD_PERFORMANCE_QUERY = """
+```
+Tool: mcp__google_ads__search
+Parameters:
+  customer_id: "1234567890"
+  query: >
     SELECT
-        campaign.id,
-        campaign.name,
-        ad_group.id,
-        ad_group_ad.ad.id,
-        ad_group_ad.ad.type,
-        ad_group_ad.ad.responsive_search_ad.headlines,
-        ad_group_ad.ad.responsive_search_ad.descriptions,
-        ad_group_ad.ad_strength,
-        metrics.impressions,
-        metrics.clicks,
-        metrics.conversions,
-        metrics.cost_micros,
-        metrics.ctr,
-        metrics.cost_per_conversion
+      campaign.id,
+      campaign.name,
+      ad_group.id,
+      ad_group_ad.ad.id,
+      ad_group_ad.ad.type,
+      ad_group_ad.ad.responsive_search_ad.headlines,
+      ad_group_ad.ad.responsive_search_ad.descriptions,
+      ad_group_ad.ad_strength,
+      metrics.impressions,
+      metrics.clicks,
+      metrics.conversions,
+      metrics.cost_micros,
+      metrics.ctr,
+      metrics.cost_per_conversion
     FROM ad_group_ad
-    WHERE {date_range}
-        AND ad_group_ad.status != 'REMOVED'
+    WHERE segments.date BETWEEN 'YYYY-MM-DD' AND 'YYYY-MM-DD'
+      AND ad_group_ad.status != 'REMOVED'
     ORDER BY metrics.impressions DESC
-"""
 ```
 
----
+### Report 6: Asset Performance (PMax)
 
-## Step 10: Asset Performance Report (PMax)
-
-```python
-ASSET_PERFORMANCE_QUERY = """
+```
+Tool: mcp__google_ads__search
+Parameters:
+  customer_id: "1234567890"
+  query: >
     SELECT
-        campaign.id,
-        campaign.name,
-        asset.id,
-        asset.name,
-        asset.type,
-        asset.text_asset.text,
-        asset_group_asset.performance_label,
-        asset_group_asset.status
+      campaign.id,
+      campaign.name,
+      asset.id,
+      asset.name,
+      asset.type,
+      asset.text_asset.text,
+      asset_group_asset.performance_label,
+      asset_group_asset.status
     FROM asset_group_asset
     WHERE campaign.advertising_channel_type = 'PERFORMANCE_MAX'
-"""
 ```
-
-**Performance labels:** `BEST`, `GOOD`, `LOW`, `LEARNING`, `PENDING`
 
 ---
 
-## Config File Template
+## Section C: Mutate Operations (Writes via REST API)
+
+Writes use the Google Ads REST API directly via `curl`. Auth reuses the same ADC credentials as the MCP server — no separate setup needed.
+
+**API version:** v18
+**Base URL:** `https://googleads.googleapis.com/v18`
+
+### C1: Get Access Token
+
+Reuses the same ADC that powers the MCP server:
+
+```bash
+ACCESS_TOKEN=$(gcloud auth application-default print-access-token)
+```
+
+All mutate commands below assume `$ACCESS_TOKEN`, `$DEVELOPER_TOKEN`, and `$CUSTOMER_ID` are set. Optionally set `$LOGIN_CUSTOMER_ID` if using a Manager (MCC) account.
+
+### C2: Pause a Keyword
+
+Pauses a keyword by updating its AdGroupCriterion status to PAUSED.
+
+```bash
+curl -s -X POST \
+  "https://googleads.googleapis.com/v18/customers/${CUSTOMER_ID}/googleAds:mutate" \
+  -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+  -H "developer-token: ${DEVELOPER_TOKEN}" \
+  -H "Content-Type: application/json" \
+  ${LOGIN_CUSTOMER_ID:+-H "login-customer-id: ${LOGIN_CUSTOMER_ID}"} \
+  -d '{
+    "mutateOperations": [{
+      "adGroupCriterionOperation": {
+        "update": {
+          "resourceName": "customers/'${CUSTOMER_ID}'/adGroupCriteria/'${AD_GROUP_ID}'~'${CRITERION_ID}'",
+          "status": "PAUSED"
+        },
+        "updateMask": "status"
+      }
+    }]
+  }'
+```
+
+**Required variables:** `$AD_GROUP_ID`, `$CRITERION_ID` (from keyword report data).
+
+### C3: Add Keyword (Exact Match)
+
+Creates a new keyword in an ad group with exact match type.
+
+```bash
+curl -s -X POST \
+  "https://googleads.googleapis.com/v18/customers/${CUSTOMER_ID}/googleAds:mutate" \
+  -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+  -H "developer-token: ${DEVELOPER_TOKEN}" \
+  -H "Content-Type: application/json" \
+  ${LOGIN_CUSTOMER_ID:+-H "login-customer-id: ${LOGIN_CUSTOMER_ID}"} \
+  -d '{
+    "mutateOperations": [{
+      "adGroupCriterionOperation": {
+        "create": {
+          "adGroup": "customers/'${CUSTOMER_ID}'/adGroups/'${AD_GROUP_ID}'",
+          "status": "ENABLED",
+          "keyword": {
+            "text": "'"${KEYWORD_TEXT}"'",
+            "matchType": "EXACT"
+          }
+        }
+      }
+    }]
+  }'
+```
+
+**Required variables:** `$AD_GROUP_ID`, `$KEYWORD_TEXT`.
+
+### C4: Add Negative Keyword
+
+#### Campaign-level negative (blocks across all ad groups in the campaign):
+
+```bash
+curl -s -X POST \
+  "https://googleads.googleapis.com/v18/customers/${CUSTOMER_ID}/googleAds:mutate" \
+  -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+  -H "developer-token: ${DEVELOPER_TOKEN}" \
+  -H "Content-Type: application/json" \
+  ${LOGIN_CUSTOMER_ID:+-H "login-customer-id: ${LOGIN_CUSTOMER_ID}"} \
+  -d '{
+    "mutateOperations": [{
+      "campaignCriterionOperation": {
+        "create": {
+          "campaign": "customers/'${CUSTOMER_ID}'/campaigns/'${CAMPAIGN_ID}'",
+          "negative": true,
+          "keyword": {
+            "text": "'"${NEGATIVE_KEYWORD}"'",
+            "matchType": "EXACT"
+          }
+        }
+      }
+    }]
+  }'
+```
+
+#### Ad-group-level negative:
+
+```bash
+curl -s -X POST \
+  "https://googleads.googleapis.com/v18/customers/${CUSTOMER_ID}/googleAds:mutate" \
+  -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+  -H "developer-token: ${DEVELOPER_TOKEN}" \
+  -H "Content-Type: application/json" \
+  ${LOGIN_CUSTOMER_ID:+-H "login-customer-id: ${LOGIN_CUSTOMER_ID}"} \
+  -d '{
+    "mutateOperations": [{
+      "adGroupCriterionOperation": {
+        "create": {
+          "adGroup": "customers/'${CUSTOMER_ID}'/adGroups/'${AD_GROUP_ID}'",
+          "negative": true,
+          "keyword": {
+            "text": "'"${NEGATIVE_KEYWORD}"'",
+            "matchType": "EXACT"
+          }
+        }
+      }
+    }]
+  }'
+```
+
+**Required variables:** `$CAMPAIGN_ID` or `$AD_GROUP_ID`, `$NEGATIVE_KEYWORD`.
+
+### C5: Update Bid (Ad Group CPC)
+
+Updates the CPC bid at the ad group level. Bid amount is in micros (multiply dollars by 1,000,000).
+
+```bash
+curl -s -X POST \
+  "https://googleads.googleapis.com/v18/customers/${CUSTOMER_ID}/googleAds:mutate" \
+  -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+  -H "developer-token: ${DEVELOPER_TOKEN}" \
+  -H "Content-Type: application/json" \
+  ${LOGIN_CUSTOMER_ID:+-H "login-customer-id: ${LOGIN_CUSTOMER_ID}"} \
+  -d '{
+    "mutateOperations": [{
+      "adGroupOperation": {
+        "update": {
+          "resourceName": "customers/'${CUSTOMER_ID}'/adGroups/'${AD_GROUP_ID}'",
+          "cpcBidMicros": "'${BID_MICROS}'"
+        },
+        "updateMask": "cpcBidMicros"
+      }
+    }]
+  }'
+```
+
+**Required variables:** `$AD_GROUP_ID`, `$BID_MICROS` (e.g., 2500000 = $2.50).
+
+### C6: Update Budget
+
+Updates a campaign budget. Budget amount is in micros.
+
+```bash
+curl -s -X POST \
+  "https://googleads.googleapis.com/v18/customers/${CUSTOMER_ID}/googleAds:mutate" \
+  -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+  -H "developer-token: ${DEVELOPER_TOKEN}" \
+  -H "Content-Type: application/json" \
+  ${LOGIN_CUSTOMER_ID:+-H "login-customer-id: ${LOGIN_CUSTOMER_ID}"} \
+  -d '{
+    "mutateOperations": [{
+      "campaignBudgetOperation": {
+        "update": {
+          "resourceName": "customers/'${CUSTOMER_ID}'/campaignBudgets/'${BUDGET_ID}'",
+          "amountMicros": "'${BUDGET_MICROS}'"
+        },
+        "updateMask": "amountMicros"
+      }
+    }]
+  }'
+```
+
+**Required variables:** `$BUDGET_ID` (from campaign report's `campaign.campaign_budget` field), `$BUDGET_MICROS` (e.g., 50000000 = $50/day).
+
+### C7: Pause or Enable a Campaign
+
+```bash
+curl -s -X POST \
+  "https://googleads.googleapis.com/v18/customers/${CUSTOMER_ID}/googleAds:mutate" \
+  -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+  -H "developer-token: ${DEVELOPER_TOKEN}" \
+  -H "Content-Type: application/json" \
+  ${LOGIN_CUSTOMER_ID:+-H "login-customer-id: ${LOGIN_CUSTOMER_ID}"} \
+  -d '{
+    "mutateOperations": [{
+      "campaignOperation": {
+        "update": {
+          "resourceName": "customers/'${CUSTOMER_ID}'/campaigns/'${CAMPAIGN_ID}'",
+          "status": "PAUSED"
+        },
+        "updateMask": "status"
+      }
+    }]
+  }'
+```
+
+Change `"PAUSED"` to `"ENABLED"` to re-enable. **Required variables:** `$CAMPAIGN_ID`.
+
+---
+
+## Section D: Response Field Mappings
+
+### Micros Conversion
+
+All monetary fields (`cost_micros`, `average_cpc`, `cost_per_conversion`, `cpcBidMicros`, `amountMicros`) are in micros. Divide by 1,000,000 for currency.
+
+```
+$150.50 = 150500000 micros
+$2.50   = 2500000 micros
+```
+
+### Campaign Status Enums
+
+| API Value | Meaning |
+|-----------|---------|
+| `ENABLED` | Active and running |
+| `PAUSED` | Paused by user |
+| `REMOVED` | Deleted (filter out in queries) |
+
+### Campaign Channel Types
+
+| API Value | Meaning |
+|-----------|---------|
+| `SEARCH` | Search campaigns |
+| `PERFORMANCE_MAX` | PMax campaigns |
+| `SHOPPING` | Shopping campaigns |
+| `DISPLAY` | Display campaigns |
+
+### Bidding Strategy Types
+
+| API Value | Meaning |
+|-----------|---------|
+| `MANUAL_CPC` | Manual CPC bidding |
+| `TARGET_CPA` | Target CPA (automated) |
+| `TARGET_ROAS` | Target ROAS (automated) |
+| `MAXIMIZE_CONVERSIONS` | Maximize conversions (automated) |
+| `MAXIMIZE_CONVERSION_VALUE` | Maximize conversion value (automated) |
+
+### Quality Score Components
+
+| Field | Values |
+|-------|--------|
+| `quality_info.quality_score` | 1-10 integer |
+| `quality_info.creative_quality_score` | `BELOW_AVERAGE`, `AVERAGE`, `ABOVE_AVERAGE` |
+| `quality_info.post_click_quality_score` | `BELOW_AVERAGE`, `AVERAGE`, `ABOVE_AVERAGE` |
+| `quality_info.search_predicted_ctr` | `BELOW_AVERAGE`, `AVERAGE`, `ABOVE_AVERAGE` |
+
+### Keyword Match Types
+
+| API Value | Meaning |
+|-----------|---------|
+| `EXACT` | Exact match `[keyword]` |
+| `PHRASE` | Phrase match `"keyword"` |
+| `BROAD` | Broad match `keyword` |
+
+### Search Term Status
+
+| API Value | Meaning |
+|-----------|---------|
+| `ADDED` | Already a keyword |
+| `EXCLUDED` | Already a negative |
+| `NONE` | Neither — candidate for addition or exclusion |
+
+### Asset Performance Labels (PMax)
+
+`BEST`, `GOOD`, `LOW`, `LEARNING`, `PENDING`
+
+### CTR Values
+
+CTR is returned as a decimal (e.g., `0.035` = 3.5%). Multiply by 100 for display.
+
+---
+
+## Section E: Error Handling
+
+### MCP Server Errors
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| Tool not found | MCP server not configured | Add `google_ads` server to MCP config (see Section A) |
+| Connection refused | MCP server failed to start | Check `pipx --version`; verify git access to MCP repo |
+| `UNAUTHENTICATED` | ADC expired or not configured | Run `gcloud auth application-default login --scopes="https://www.googleapis.com/auth/adwords"` |
+| `PERMISSION_DENIED` | Developer token issue or wrong customer ID | Verify developer token is approved and customer ID is correct |
+| Empty results | Wrong customer ID or no data in date range | Verify customer ID (no dashes); try broader date range |
+
+### REST API Mutate Errors
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `401 UNAUTHENTICATED` | Expired access token | Re-run `gcloud auth application-default print-access-token` |
+| `403 PERMISSION_DENIED` | Developer token or customer ID issue | Verify developer token approval level; check customer ID |
+| `400 INVALID_ARGUMENT` | Bad resource name or invalid field value | Check resource name format: `customers/{id}/adGroupCriteria/{adGroupId}~{criterionId}` |
+| `400 MUTATE_ERROR` | Business rule violation (e.g., duplicate keyword) | Read error detail for specific cause; adjust operation |
+| `429 RESOURCE_EXHAUSTED` | Rate limit hit | Wait 60s; reduce batch size |
+| `404 NOT_FOUND` | Resource doesn't exist | Verify IDs from latest read data |
+
+### General Troubleshooting
+
+1. **MCP works but mutate fails**: The MCP server uses its own auth flow. For mutate calls, verify `gcloud auth application-default print-access-token` returns a valid token with the `adwords` scope.
+2. **Wrong customer ID format**: Always use plain digits, no dashes (e.g., `1234567890` not `123-456-7890`).
+3. **MCC accounts**: Set `$LOGIN_CUSTOMER_ID` to the Manager account ID when operating on child accounts.
+
+---
+
+## Section F: Config File Template
 
 Write this to `google-ads/config.md` during orientation setup:
 
@@ -389,35 +596,6 @@ Write this to `google-ads/config.md` during orientation setup:
 - Min CTR (Brand):
 - Min CTR (Generic):
 - Min Quality Score:
-```
-
----
-
-## Error Handling Reference
-
-| Error | Cause | Fix |
-|-------|-------|-----|
-| `401 UNAUTHENTICATED` | Expired access token | Re-run auth to get fresh access token from refresh token |
-| `403 PERMISSION_DENIED` | Developer token issue or wrong customer ID | Verify developer token is approved and customer ID is correct |
-| `429 RESOURCE_EXHAUSTED` | Rate limit hit | Wait 60s; implement exponential backoff |
-| `400 INVALID_ARGUMENT` | Bad GAQL syntax or invalid date range | Check query syntax and date format (YYYY-MM-DD) |
-| `404 NOT_FOUND` | Customer ID doesn't exist | Verify customer ID (no dashes) |
-| Refresh token expired | User revoked access or token rotated | Re-run OAuth consent flow |
-
----
-
-## Required Python Packages
-
-```
-google-auth>=2.0.0
-google-auth-oauthlib>=1.0.0
-requests>=2.31.0
-```
-
-Install check:
-```bash
-python3 -c "import google.auth, requests; print('Dependencies OK')" 2>/dev/null || \
-  pip3 install google-auth google-auth-oauthlib requests
 ```
 
 ---

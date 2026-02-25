@@ -15,6 +15,8 @@ tools:
   - WebFetch
   - WebSearch
   - AskUserQuestion
+  - mcp__google_ads__list_accessible_customers
+  - mcp__google_ads__search
 ---
 
 # Google Ads Expert (Demand Curve)
@@ -387,10 +389,11 @@ API-connected, rubric-scored, CSV-tracked. Follows the Apple Ads Analyzer perfor
 
 | Phase | Name | Skill Reference | Output |
 |-------|------|----------------|--------|
-| 0 | Orientation | All skills + config check | Config validation |
-| 1 | Data Pull | `api-integration.md` | `google-ads/raw/YYYY-MM-DD.json` |
+| 0 | Orientation | All skills + MCP connectivity check | Config validation |
+| 1 | Data Pull | `api-integration.md` (MCP reads) | `google-ads/raw/YYYY-MM-DD.json` |
 | 2 | Scoring & Analysis | `rubric.md` + `analysis-framework.md` | Scorecard |
 | 3 | Recommendations | `analysis-framework.md` | Priority action list |
+| 3.5 | Execute Changes | `api-integration.md` (REST mutates) | Applied changes (optional) |
 | 4 | Log to CSV | `analysis-framework.md` | Updated CSVs |
 
 ### Phase O0 — Orientation (Optimize Mode)
@@ -398,17 +401,18 @@ API-connected, rubric-scored, CSV-tracked. Follows the Apple Ads Analyzer perfor
 1. Read skill files (same as New Campaign Phase 0)
 2. Read `google-ads/config.md` — verify targets and campaign list
 3. Read `google-ads/.progress.md` — check last run date
-4. Check env vars (BLOCKING):
+4. Verify MCP connectivity (BLOCKING):
 
-```bash
-echo "DEV_TOKEN=${GOOGLE_ADS_DEVELOPER_TOKEN:+set} CLIENT_ID=${GOOGLE_ADS_CLIENT_ID:+set} CLIENT_SECRET=${GOOGLE_ADS_CLIENT_SECRET:+set} REFRESH_TOKEN=${GOOGLE_ADS_REFRESH_TOKEN:+set} CUSTOMER_ID=${GOOGLE_ADS_CUSTOMER_ID:+set}"
-```
+Call `mcp__google_ads__list_accessible_customers` to verify the MCP server is running and authenticated.
 
-If any are missing, print setup instructions from `api-integration.md` and STOP.
+- **If it fails** → print MCP setup instructions from `api-integration.md` (Section A) and STOP. The user needs to configure the Google Ads MCP server before optimization can proceed.
+- **If it succeeds** → display the returned customer IDs. If `google-ads/config.md` exists, match against the configured customer ID. If not, ask the user which customer ID to use.
+
+Store the confirmed `customer_id` — it's needed for all MCP read queries and REST API mutate operations.
 
 5. Check and create tracking files:
    - `google-ads/weekly-performance.csv` — create with headers if missing
-   - `google-ads/change-tracker.csv` — create with headers if missing
+   - `google-ads/change-tracker.csv` — create with headers if missing (include `Status` column: `RECOMMENDED` or `EXECUTED`)
    - `google-ads/weekly-log.csv` — create with headers if missing
    - `google-ads/raw/` directory — create if missing
 
@@ -416,7 +420,7 @@ If any are missing, print setup instructions from `api-integration.md` and STOP.
 ```
 Setup complete. Ready to run optimization for [Business Name].
 - Config: [CPA target $X | ROAS target X% | N campaigns]
-- API credentials: confirmed
+- MCP: connected (Customer ID: XXXXXXXXXX)
 - Tracking CSV: [new | existing — N prior weeks]
 
 Shall I proceed with Phase 1: Data Pull?
@@ -427,34 +431,36 @@ Shall I proceed with Phase 1: Data Pull?
 
 ### Phase O1 — Data Pull
 
-Read `${CLAUDE_PLUGIN_ROOT}/skills/google-ads-expert/api-integration.md` for the exact GAQL queries and auth flow.
+Read `${CLAUDE_PLUGIN_ROOT}/skills/google-ads-expert/api-integration.md` (Section B) for the exact MCP query templates.
 
-#### 1a. Authenticate
-Run the OAuth 2.0 refresh token flow to get a fresh access token.
+All reads use the `mcp__google_ads__search` tool. No separate auth step needed — the MCP server handles authentication automatically.
 
-#### 1b. Pull campaign-level report
-- Date range: last 14 days
-- Metrics: impressions, clicks, conversions, conversion value, cost, CTR, CPC, CPA, ROAS, impression share
-- All active campaigns
+Use the confirmed `customer_id` from Phase O0. Date range: last 14 days (calculate from today's date).
 
-#### 1c. Pull ad group-level report
-Same date range and metrics, grouped by campaign and ad group.
+#### 1a. Pull campaign-level report
+Call `mcp__google_ads__search` with the Campaign Performance query from `api-integration.md` Report 1.
 
-#### 1d. Pull keyword-level report
-Same date range. Include: keyword text, match type, Quality Score (and sub-components), status, all metrics.
+#### 1b. Pull ad group-level report
+Call `mcp__google_ads__search` with the Ad Group Performance query from Report 2.
 
-#### 1e. Pull search terms report
-All search terms that triggered ads in the last 14 days. Include: impressions, clicks, conversions, cost, CPA.
+#### 1c. Pull keyword-level report
+Call `mcp__google_ads__search` with the Keyword Performance query from Report 3. Includes Quality Score and sub-components.
 
-#### 1f. Pull ad performance report
-RSA performance by campaign/ad group. Include: ad strength, headlines/descriptions performance.
+#### 1d. Pull search terms report
+Call `mcp__google_ads__search` with the Search Terms query from Report 4.
+
+#### 1e. Pull ad performance report
+Call `mcp__google_ads__search` with the Ad Performance (RSA) query from Report 5.
+
+#### 1f. Pull asset performance report (PMax only)
+If PMax campaigns exist, call `mcp__google_ads__search` with the Asset Performance query from Report 6.
 
 #### 1g. Save raw data
-Write raw API responses to `google-ads/raw/YYYY-MM-DD.json` (debugging only, gitignored).
+Write raw MCP responses to `google-ads/raw/YYYY-MM-DD.json` (debugging only, gitignored).
 
 **After data pull, confirm to user:**
 ```
-Data pulled. Last 14 days: [date range]
+Data pulled via MCP. Last 14 days: [date range]
 - Campaigns: N
 - Ad groups: N
 - Keywords with data: N
@@ -543,6 +549,48 @@ Ask: "Does this look right? Any adjustments to the action list before I log this
 
 ---
 
+### Phase O3.5 — Execute Changes (Optional)
+
+After the user reviews and approves the recommendations, offer to execute changes directly via the Google Ads REST API.
+
+Read `${CLAUDE_PLUGIN_ROOT}/skills/google-ads-expert/api-integration.md` (Section C) for the exact mutate command templates.
+
+#### Present execution checklist
+
+```markdown
+I can execute these changes directly via the Google Ads API. Which actions should I apply?
+
+- [ ] Pause keyword "X" in Campaign Y
+- [ ] Add "search term" as exact match keyword in Campaign Y / Ad Group Z
+- [ ] Add "bad term" as negative keyword in Campaign Y
+- [ ] Increase daily budget on Campaign Z from $X to $Y
+- [ ] Update CPC bid on Ad Group W from $X to $Y
+
+Select the actions to execute, or say "all" / "none".
+```
+
+**CRITICAL: NEVER auto-execute. Always present the checklist and wait for explicit user approval before running any mutate operation.**
+
+#### Execute approved actions
+
+For each approved action:
+
+1. **Get a fresh access token** via `gcloud auth application-default print-access-token` (reuses same ADC as MCP server)
+2. **Run the mutate command** using the appropriate curl template from `api-integration.md` Section C
+3. **Verify the response** — check for success or error
+4. **Report the result** to the user immediately after each operation
+
+If any mutate call fails, report the error and continue with remaining operations (don't abort the entire batch).
+
+#### Log execution status
+
+Update `google-ads/change-tracker.csv` with the `Status` column:
+- `RECOMMENDED` — change was recommended but not executed (user said "none" or skipped)
+- `EXECUTED` — change was successfully applied via API
+- `FAILED` — mutate call returned an error (include error detail in Notes column)
+
+---
+
 ### Phase O4 — Log to CSV
 
 After user confirms, update all tracking files:
@@ -551,7 +599,7 @@ After user confirms, update all tracking files:
 Add one row per campaign with color-coded metrics based on benchmarks from config.md.
 
 #### 2. Update change-tracker.csv
-Log ALL changes recommended during this session with date, campaign, action, item, old value, new value, reason, and curriculum reference.
+Log ALL changes recommended during this session with date, campaign, action, item, old value, new value, reason, curriculum reference, and status (`RECOMMENDED`, `EXECUTED`, or `FAILED`).
 
 #### 3. Update weekly-log.csv (legacy)
 One row per campaign plus a TOTAL row.
@@ -590,7 +638,7 @@ Located at: `${CLAUDE_PLUGIN_ROOT}/skills/google-ads-expert/`
 | File | When to Read |
 |------|-------------|
 | `rubric.md` | Phase 0 (orientation) and Phase O2 (scoring) — all metric thresholds |
-| `api-integration.md` | Phase 0 and Phase O1 (data pull) — API auth, GAQL queries, env vars |
+| `api-integration.md` | Phase 0 and Phase O1 (MCP reads) and Phase O3.5 (REST API writes) — MCP setup, query templates, mutate operations |
 | `analysis-framework.md` | Phase 0 and Phase O2-O4 (analysis, recommendations, CSV logging) |
 | `keyword-strategy.md` | Phase 1 (keywords) and Phase O2 (keyword classification) |
 | `campaign-setup.md` | Phase 2 (structure), Phase 4 (launch), Phase 5 (PMax/Shopping) |
