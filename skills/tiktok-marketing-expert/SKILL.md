@@ -1,28 +1,30 @@
 ---
-name: TikTok Carousel Production System
-description: Reference data for the carousel-generator content pipeline — CLI commands, themes, batch patterns, account setup, and theme creation
+name: TikTok Marketing Expert
+description: Reference data for the TikTok marketing toolkit — warmup bot for account training and carousel-generator for content production
 ---
 
-# TikTok Carousel Production System
+# TikTok Marketing Expert
 
-Quick reference for the carousel-generator content pipeline. These files document the CLI, themes, workflows, and patterns for producing TikTok carousel content.
+Two tools for TikTok growth: (1) **Warmup Bot** — AI-powered account training via Claude Vision, and (2) **Carousel Generator** — content production pipeline with AI generation, Remotion rendering, and PostBridge scheduling.
 
 ## When to Use
 
 Use these references when:
+- Warming up a new TikTok account (training the algorithm)
 - Running CLI commands for the carousel-generator
-- Setting up a new TikTok account
+- Setting up a new TikTok account in the carousel system
 - Batch generating posts with AI
 - Creating new visual themes or renderers
 - Rendering and exporting carousel images
 - Posting and scheduling via PostBridge API
-- Troubleshooting rendering or generation issues
+- Troubleshooting rendering, generation, or warmup issues
 
 ## File Reference
 
 | File | What It Covers |
 |------|----------------|
-| `cli-reference.md` | Complete CLI command reference — all 5 groups (account, format, post, image, theme), every subcommand, flags, and examples |
+| `warmup-bot.md` | Warmup bot setup, CLI reference, engagement presets, platform setup (Android/iOS), and session examples |
+| `cli-reference.md` | Complete carousel CLI command reference — all 5 groups (account, format, post, image, theme), every subcommand, flags, and examples |
 | `themes.md` | Theme catalog — pinterest, card, editorial descriptions, JSON configs, renderer behavior |
 | `batch-production.md` | Step-by-step batch production pattern — image inventory, topic generation, generation loop, image assignment, sync, render |
 | `new-account-setup.md` | Full walkthrough: create account, create/assign theme, create format, first post |
