@@ -119,16 +119,18 @@ Read skill file: `${CLAUDE_PLUGIN_ROOT}/skills/tiktok-marketing-expert/warmup-bo
 
 Steps:
 1. **Check setup**: Verify `tiktok-tools/warmup/.venv` exists and `ANTHROPIC_API_KEY` is in `.env`
-2. **Check device**: Verify a phone is connected (Android: `adb devices` | iOS: `./setup_device.sh`)
-3. **Choose topic**: Ask the user what niche/topic to warm up for. If `brand.json` or growth deliverables exist, suggest topics from there.
-4. **Choose engagement level**: Ask the user for engagement rate (`low`, `medium`, `high`) and session duration
-5. **Run the bot**: Execute from the warmup directory with the venv activated:
+2. **Device setup**: Ask which platform (Android or iOS). Walk the user through the full device setup steps from the skill file — this includes enabling Developer Options/USB Debugging (Android) or Developer Mode/Voice Control (iOS), installing ADB or running tunneld, and verifying the connection. Don't skip steps even if the user seems experienced.
+3. **Verify connection**: Run `adb devices` (Android) or check tunneld is running (iOS) to confirm the device is ready
+4. **Choose topic**: Ask the user what niche/topic to warm up for. If `brand.json` or growth deliverables exist, suggest topics from there.
+5. **Choose engagement level**: Ask the user for engagement rate (`low`, `medium`, `high`) and session duration
+6. **Run the bot**: Execute from the warmup directory with the venv activated:
    ```bash
    cd tiktok-tools/warmup && source .venv/bin/activate && python -m src.main --platform <platform> --topic "<topic>" --duration <minutes> --engagement-rate <level>
    ```
-6. **Monitor**: Tell the user to watch `tail -f bot.log` in a separate terminal for real-time logs
+7. **Monitor**: Tell the user to watch `tail -f bot.log` in a separate terminal for real-time logs
 
 **IMPORTANT**: The user must have TikTok open on the For You Page before starting the bot. Remind them of this.
+**IMPORTANT (iOS)**: Voice Control must be ON in Settings → Accessibility → Voice Control for the entire session. The bot speaks commands that Voice Control executes as taps/swipes.
 
 ### 2. Account Setup
 Set up a new TikTok account in the carousel system.

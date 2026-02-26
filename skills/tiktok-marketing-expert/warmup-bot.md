@@ -38,16 +38,66 @@ ANTHROPIC_API_KEY=sk-ant-...
 
 ### Device setup
 
+Walk the user through the relevant platform setup below. These are one-time steps.
+
 #### Android
-1. Enable USB Debugging on the phone (Settings → Developer Options → USB Debugging)
-2. Connect phone via USB
-3. Verify: `adb devices` should show the device
+
+**On the Mac:**
+1. Install ADB (Android Debug Bridge):
+   ```bash
+   brew install android-platform-tools
+   ```
+2. Verify it's installed: `adb version`
+
+**On the phone:**
+1. **Enable Developer Options**: Go to Settings → About Phone → tap "Build Number" 7 times. A toast will say "You are now a developer."
+2. **Enable USB Debugging**: Go to Settings → Developer Options → toggle on "USB Debugging"
+3. **Connect the phone** via USB cable to the Mac
+4. **Trust the Mac**: A prompt will appear on the phone asking "Allow USB debugging?" — tap "Allow" (check "Always allow from this computer" for convenience)
+
+**Verify:**
+```bash
+adb devices
+# Should show something like:
+# XXXXXXXXX    device
+```
+
+If it shows `unauthorized`, unlock the phone and accept the USB debugging prompt.
 
 #### iOS
-1. Enable Developer Mode (Settings → Privacy & Security → Developer Mode)
-2. Connect phone via USB, trust the Mac
-3. Run the setup script: `./setup_device.sh`
-4. Enable Voice Control (Settings → Accessibility → Voice Control)
+
+**On the iPhone:**
+1. **Enable Developer Mode**: Go to Settings → Privacy & Security → Developer Mode → toggle ON. The phone will restart.
+2. **Trust the Mac**: Connect the iPhone via USB. Tap "Trust" on the "Trust This Computer?" prompt on the iPhone.
+3. **Enable Voice Control**: Go to Settings → Accessibility → Voice Control → toggle ON. This is how the bot types and taps on iOS — it speaks commands that Voice Control executes.
+
+**On the Mac:**
+1. The warmup bot uses `pymobiledevice3` (installed with `pip install -e .`). iOS 17+ requires a running tunnel daemon for USB communication:
+   ```bash
+   sudo python3 -m pymobiledevice3 remote tunneld
+   ```
+   Keep this running in a separate terminal for the entire session.
+
+2. Mount the Developer Disk Image (needed for screenshots):
+   ```bash
+   # From the warmup directory:
+   ./setup_device.sh
+   ```
+   This script auto-mounts the DDI and verifies screenshot capability.
+
+**Verify:**
+```bash
+# Check the tunnel sees the device
+python3 -m pymobiledevice3 usbmux list
+
+# Test a screenshot
+pymobiledevice3 developer screenshot /tmp/test.png && open /tmp/test.png
+```
+
+**iOS gotchas:**
+- Voice Control must stay ON during the entire warmup session — the bot speaks commands like "swipe up", "tap like video" that Voice Control translates to actions
+- If Voice Control stops responding, toggle it off/on in Settings → Accessibility → Voice Control
+- The `tunneld` process must stay running — if it dies, the bot loses connection
 
 ## CLI Reference
 
