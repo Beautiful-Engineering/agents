@@ -1,15 +1,18 @@
 ---
 name: TikTok Marketing Expert
-description: Reference data for the TikTok marketing toolkit — warmup bot for account training and carousel-generator for content production
+description: Reference data for the TikTok marketing toolkit — organic growth playbook, content strategy, warmup bot for account training, and carousel-generator for content production
 ---
 
 # TikTok Marketing Expert
 
-Two tools for TikTok growth: (1) **Warmup Bot** — AI-powered account training via Claude Vision, and (2) **Carousel Generator** — content production pipeline with AI generation, Remotion rendering, and PostBridge scheduling.
+Full-stack TikTok growth system: (1) **Organic Growth Playbook** — 6-phase strategic roadmap from account creation to scaled multi-account operation, (2) **Content Strategy** — hook formulas, CTA types, proven formats, and performance tracking, (3) **Warmup Bot** — AI-powered account training via Claude Vision, and (4) **Carousel Generator** — content production pipeline with AI generation, Remotion rendering, and PostBridge scheduling.
 
 ## When to Use
 
 Use these references when:
+- Coaching a user through organic growth strategy (what phase they're in, what to do next)
+- Building content strategy (hooks, CTAs, formats, performance tracking)
+- Deciding when to scale, add accounts, or start automating
 - Warming up a new TikTok account (training the algorithm)
 - Running CLI commands for the carousel-generator
 - Setting up a new TikTok account in the carousel system
@@ -23,6 +26,9 @@ Use these references when:
 
 | File | What It Covers |
 |------|----------------|
+| `organic-growth-playbook.md` | 6-phase organic growth roadmap — account creation, community building, content-market fit, trend riding, conversion optimization, scaling. Includes coaching mode with common stuck scenarios |
+| `content-strategy.md` | Hook formulas (the winning `[person] + [conflict] → showed them [app] → reaction` pattern), 4 CTA types, proven formats (couples doodle, AI slideshows, UGC discovery, before/after), image gen tips, text overlay rules, performance tracking |
+| `scaling-strategy.md` | Scaling prerequisites, the scaling math (1→2→4 accounts), 3-phase timeline, automation thresholds (when to use PostBridge/carousel CLI), cross-platform expansion order |
 | `warmup-bot.md` | Warmup bot setup, CLI reference, engagement presets, platform setup (Android/iOS), and session examples |
 | `cli-reference.md` | Complete carousel CLI command reference — all 5 groups (account, format, post, image, theme), every subcommand, flags, and examples |
 | `themes.md` | Theme catalog — pinterest, card, editorial descriptions, JSON configs, renderer behavior |
