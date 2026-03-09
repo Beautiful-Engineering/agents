@@ -36,6 +36,7 @@ Use these references when:
 | `new-account-setup.md` | Full walkthrough: create account, create/assign theme, create format, first post |
 | `new-theme-creation.md` | How to create a new renderer + theme JSON + register + DB setup. Includes instructions for invoking `frontend-design` and `remotion-best-practices` skills |
 | `posting-scheduling.md` | PostBridge API integration — uploading media, publishing instantly, scheduling posts, monitoring results, TikTok carousel notes |
+| `analytics.md` | PostBridge analytics integration — syncing TikTok data, fetching engagement metrics (views, likes, comments, shares), cross-referencing with carousel DB, engagement benchmarks |
 
 ## Key File Locations
 
