@@ -160,10 +160,39 @@ db.close();
 
 ## Scheduling Strategy
 
-- 1-2 posts per day maximum for TikTok
-- Best times vary, but common slots: 7-9 AM, 12-1 PM, 5-7 PM (target audience timezone)
+- 3 posts per day per account at 7 AM, 2 PM, 5 PM EST (12:00, 19:00, 22:00 UTC)
 - Use ISO 8601 format for `scheduled_at`
 - Always confirm schedule with the user before creating scheduled posts
+
+## Bulk Scheduling Script
+
+For scheduling many posts at once, use `scripts/schedule-all.js`:
+
+```bash
+cd /Users/felipeabello/Code/runo/growth/carousel-generator
+
+# Dry run (shows what would be scheduled)
+node scripts/schedule-all.js --dry-run
+
+# Schedule all rendered posts across all accounts
+node scripts/schedule-all.js --concurrency=1
+
+# Schedule for a specific account
+node scripts/schedule-all.js --concurrency=1 --account=<id>
+```
+
+Features:
+- **Resumable** — skips already-published posts, offsets schedule dates accordingly
+- **Parallel slide uploads** — uploads all 5 slides concurrently within each post
+- **Retry with backoff** — handles 429/500 errors with exponential backoff
+- **Shared backoff** — when one request hits rate limit, all workers pause
+
+## PostBridge API Limits
+
+- **Max concurrency: 1 post at a time** — higher concurrency causes 500/401 errors
+- **No batch/bulk API** — each post requires 6 API calls (5 media uploads + 1 post create)
+- **Throughput: ~0.15-0.2 posts/sec** — limited by PostBridge server, not client
+- **Media auto-deletes after 24h** if not attached to a post
 
 ## Gotchas
 
@@ -172,3 +201,4 @@ db.close();
 - **Upload URLs are short-lived** — upload immediately after creating the URL
 - **File size needed upfront** — you must know the JPEG file size before requesting the upload URL
 - **`is_aigc: true`** — Always set this since carousels are AI-generated content
+- **Keep concurrency at 1** — PostBridge cannot handle concurrent post creation reliably
