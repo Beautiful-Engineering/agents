@@ -164,11 +164,15 @@ Steps:
 1. Inventory available images vs already-used images
 2. Propose topics to the user — draw from `brand.json` topics or growth story system
 3. Get user approval on topics
-4. Generate posts in a loop with `--no-check-duplicates` flag
+4. **Use `batch-generate` to generate all posts in parallel** (NOT one-at-a-time in a loop):
+   ```
+   carousel post batch-generate <account-id> <format-id> "topic 1" "topic 2" "topic 3" ... -c 50
+   ```
+   This runs 50 concurrent OpenAI API calls with automatic retry on rate limits. Pass ALL topics as separate quoted arguments in a single command.
 5. Assign background images to each post's hook slide
 6. Sync compositions: `carousel sync`
 
-**IMPORTANT**: Always use `--no-check-duplicates` flag when generating to avoid interactive prompts that hang.
+**IMPORTANT**: NEVER generate posts one at a time in a loop. Always use `batch-generate` for multiple posts — it is ~50x faster. It handles rate limits automatically with exponential backoff.
 
 ### 5. Render & Export
 Sync compositions and render posts to JPEG files.
@@ -258,7 +262,7 @@ Read `${CLAUDE_PLUGIN_ROOT}/skills/tiktok-marketing-expert/cli-reference.md` for
 Quick reference — 5 command groups + utility commands via `carousel`:
 - `account` — create, list, show, set-status, delete
 - `format` — create, list, show, delete
-- `post` — create, generate, list, show, set-status, publish, delete, check-duplicates
+- `post` — create, generate, **batch-generate**, list, show, set-status, publish, delete, check-duplicates
 - `image` — scan, list, show, add, delete
 - `theme` — create, list, show, update, delete, assign, show-account
 - `db:seed` — initialize carousel.db in the current directory
@@ -269,6 +273,7 @@ Quick reference — 5 command groups + utility commands via `carousel`:
 
 1. **Working directory**: ALWAYS run `carousel` commands from the **project directory** (where `carousel.db` and `brand.json` live), NOT the tool directory
 2. **Non-interactive mode**: ALWAYS use `--no-check-duplicates` flag on `post generate` to avoid hanging on interactive prompts
+3. **Batch generation**: NEVER loop `post generate` for multiple posts. Use `post batch-generate` instead — it runs 50 parallel API calls with automatic rate limit retry
 3. **CLI invocation**: Use the `carousel` command (installed via `npm link` from the tool directory)
 4. **Re-rendering**: Posts with status `rendered` won't re-render. Reset to `draft` first, then re-sync and re-render.
 5. **Sync before render**: ALWAYS run `carousel sync` before rendering
