@@ -17,18 +17,18 @@ Find which background images are available and which are already used.
 
 ```bash
 # List all images in library
-carousel image list
+cd /Users/felipeabello/Code/runo/growth/carousel-generator && npx tsx src/cli/index.ts image list
 
 # List existing posts for the account to see which images are used
-carousel post list <account-id>
+cd /Users/felipeabello/Code/runo/growth/carousel-generator && npx tsx src/cli/index.ts post list <account-id>
 ```
 
 To find unused images programmatically, query the database directly:
 
 ```bash
-node -e "
+cd /Users/felipeabello/Code/runo/growth/carousel-generator && node -e "
 const Database = require('better-sqlite3');
-const db = new Database('carousel.db');
+const db = new Database('db/carousel.db');
 
 // Get all images used by this account's posts (hook slide backgroundImage)
 const posts = db.prepare('SELECT slide_data FROM posts WHERE account_id = ?').all(ACCOUNT_ID);
@@ -50,7 +50,14 @@ db.close();
 
 ## Step 2: Topic Generation
 
-Propose topics to the user based on their brand and niche. Draw topics from the `brand.json` topics array or the growth system's story system.
+Propose topics to the user. Good running/cadence topics include:
+- Form & technique (cadence, foot strike, overstriding, vertical oscillation)
+- Science & physiology (180 SPM myth, running economy, VO2 max)
+- Training tips (easy runs, recovery, drills, warmup)
+- Gear & shoes (minimalist shoes, shoe rotation)
+- Mental game (maintaining form when tired, race-day focus)
+- Common mistakes (shin splints, knee pain, overtraining)
+- Beginner content (how to start, finding natural cadence)
 
 **IMPORTANT**: Present topics to the user and get approval before generating. Topics cost API credits.
 
@@ -59,8 +66,10 @@ Propose topics to the user based on their brand and niche. Draw topics from the 
 Loop through topics, one per unused image. Always use `--no-check-duplicates`.
 
 ```bash
+cd /Users/felipeabello/Code/runo/growth/carousel-generator
+
 # For each topic:
-carousel post generate <account-id> <format-id> "<topic>" --no-check-duplicates
+npx tsx src/cli/index.ts post generate <account-id> <format-id> "<topic>" --no-check-duplicates
 ```
 
 Capture the post ID from the output (`ID: <number>`).
@@ -72,9 +81,9 @@ Capture the post ID from the output (`ID: <number>`).
 After generating, assign a unique background image to each post's hook slide (slide 1).
 
 ```bash
-node -e "
+cd /Users/felipeabello/Code/runo/growth/carousel-generator && node -e "
 const Database = require('better-sqlite3');
-const db = new Database('carousel.db');
+const db = new Database('db/carousel.db');
 
 const postId = POST_ID;
 const imagePath = '/images/IMAGE_FILENAME';
@@ -93,23 +102,23 @@ db.close();
 Generate the Remotion compositions JSON from the database:
 
 ```bash
-carousel sync
+cd /Users/felipeabello/Code/runo/growth/carousel-generator && node scripts/generate-compositions.js
 ```
 
-This generates the Remotion compositions JSON from the database.
+This creates `src/generated-compositions.json` which Remotion reads.
 
 ## Step 6: Render
 
 Render all draft posts for the account:
 
 ```bash
-carousel render --account=<account-id>
+cd /Users/felipeabello/Code/runo/growth/carousel-generator && node scripts/render-posts.js --account=<account-id>
 ```
 
 Or render a specific post:
 
 ```bash
-carousel render --post=<post-id>
+cd /Users/felipeabello/Code/runo/growth/carousel-generator && node scripts/render-posts.js --post=<post-id>
 ```
 
 Output: `output/<username>/post-<id>/slide-1.jpg` through `slide-5.jpg` plus `caption.txt`.
@@ -119,7 +128,7 @@ Successfully rendered posts are automatically marked as `rendered`.
 ## Step 7: Verify
 
 ```bash
-carousel post list <account-id> -s rendered
+cd /Users/felipeabello/Code/runo/growth/carousel-generator && npx tsx src/cli/index.ts post list <account-id> -s rendered
 ```
 
 Check the output directory for the rendered files.
@@ -128,19 +137,21 @@ Check the output directory for the rendered files.
 
 ## Complete Batch Script Pattern
 
+For reference, here's the pattern used in `scripts/batch-formfirst.js`:
+
 1. Query DB for existing posts to find used images
 2. Filter `allImages` to get `unusedImages`
 3. Loop: for each unused image + topic pair:
-   a. Run `carousel post generate` to create post
+   a. Run `npx tsx src/cli/index.ts post generate` to create post
    b. Extract post ID from stdout
    c. Update slide_data in DB to assign the image
-4. After all generated: run `carousel sync`
-5. Then: `carousel render --account=<id>`
+4. After all generated: run `node scripts/generate-compositions.js`
+5. Then: `node scripts/render-posts.js --account=<id>`
 
 ## Gotchas
 
 - **Always use `--no-check-duplicates`** — Without it, the CLI shows an interactive prompt that hangs when run non-interactively
-- **Image paths must match exactly** — Use the path as stored in the images table (e.g., `/images/filename.jpg`)
-- **Re-rendering requires status reset** — If a post was already rendered, reset to draft first: `carousel post set-status <id> draft`
-- **Sync before render** — Always run `carousel sync` before rendering to pick up new/changed posts
+- **Image paths must match exactly** — Use the path as stored in the images table (e.g., `/images/autumn-runner.jpg` or `/pinterest-board/filename.jpg`)
+- **Re-rendering requires status reset** — If a post was already rendered, reset to draft first: `npx tsx src/cli/index.ts post set-status <id> draft`
+- **Sync before render** — Always run `generate-compositions.js` before rendering to pick up new/changed posts
 - **Rate limits** — Add 1-2 second delays between OpenAI API calls in batch loops
