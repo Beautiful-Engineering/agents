@@ -101,7 +101,7 @@ node scripts/schedule-all.js --concurrency=1
 node scripts/schedule-all.js --concurrency=1 --account=<account-id>
 ```
 
-**PostBridge concurrency limits**: Their API can handle ~1 post at a time. Each post requires 5 parallel image uploads + 1 post creation = 6 API calls. Concurrency > 1 causes 500/401 errors. The script has retry logic with exponential backoff and is fully resumable.
+**PostBridge concurrency limits**: Their API can handle ~1 post at a time. Each post requires 5 parallel image uploads + 1 post creation = 6 API calls. Concurrency > 1 causes 500/401 errors. The script has retry logic with exponential backoff, network error retry (fetch failed/ECONNRESET), jittered schedule times (±30 min to avoid bot detection), and is fully resumable.
 
 ## Step 7: Verify
 

@@ -161,6 +161,7 @@ db.close();
 ## Scheduling Strategy
 
 - 3 posts per day per account at 7 AM, 2 PM, 5 PM EST (12:00, 19:00, 22:00 UTC)
+- **Random jitter ±30 minutes** on each scheduled time to avoid bot-like exact scheduling patterns
 - Use ISO 8601 format for `scheduled_at`
 - Always confirm schedule with the user before creating scheduled posts
 
@@ -185,7 +186,9 @@ Features:
 - **Resumable** — skips already-published posts, offsets schedule dates accordingly
 - **Parallel slide uploads** — uploads all 5 slides concurrently within each post
 - **Retry with backoff** — handles 429/500 errors with exponential backoff
+- **Network error retry** — catches "fetch failed", ECONNRESET, and network drops with 10s/20s/40s backoff
 - **Shared backoff** — when one request hits rate limit, all workers pause
+- **Jittered times** — ±30 min random offset on each time slot to avoid bot detection
 
 ## PostBridge API Limits
 
@@ -202,3 +205,5 @@ Features:
 - **File size needed upfront** — you must know the JPEG file size before requesting the upload URL
 - **`is_aigc: true`** — Always set this since carousels are AI-generated content
 - **Keep concurrency at 1** — PostBridge cannot handle concurrent post creation reliably
+- **Use jittered times** — Always add random ±30min offset to schedule times to avoid bot detection by TikTok
+- **Network errors are common** — PostBridge server drops connections under sustained load; the scheduler retries automatically
