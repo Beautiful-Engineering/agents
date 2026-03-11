@@ -35,8 +35,8 @@ Use these references when:
 | `batch-production.md` | Step-by-step batch production pattern — image inventory, topic generation, generation loop, image assignment, sync, render |
 | `new-account-setup.md` | Full walkthrough: create account, create/assign theme, create format, first post |
 | `new-theme-creation.md` | How to create a new renderer + theme JSON + register + DB setup. Includes instructions for invoking `frontend-design` and `remotion-best-practices` skills |
-| `posting-scheduling.md` | PostBridge API integration — uploading media, publishing instantly, scheduling posts, monitoring results, TikTok carousel notes |
-| `analytics.md` | PostBridge analytics integration — syncing TikTok data, fetching engagement metrics (views, likes, comments, shares), cross-referencing with carousel DB, engagement benchmarks |
+| `posting-scheduling.md` | PostBridge integration — MCP tools for interactive posting/management, REST API for media uploads, batch scheduling script, TikTok carousel notes |
+| `analytics.md` | PostBridge analytics via MCP — syncing TikTok data, fetching engagement metrics (views, likes, comments, shares), cross-referencing with carousel DB, engagement benchmarks |
 
 ## Key File Locations
 

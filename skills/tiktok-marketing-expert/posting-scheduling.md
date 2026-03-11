@@ -1,6 +1,6 @@
-# Posting & Scheduling via PostBridge API
+# Posting & Scheduling via PostBridge
 
-How to publish and schedule rendered carousel posts to TikTok using the PostBridge API.
+How to publish and schedule rendered carousel posts to TikTok using PostBridge.
 
 ---
 
@@ -8,37 +8,39 @@ How to publish and schedule rendered carousel posts to TikTok using the PostBrid
 
 PostBridge is a social media publishing API that handles multi-platform posting. We use it to publish rendered carousel images to TikTok accounts. The API supports instant posting and scheduled publishing.
 
-**Base URL**: `https://api.post-bridge.com/v1`
-**Auth**: Bearer token in `Authorization` header. API key from PostBridge account.
-**Key stored in**: `.env` as `POSTBRIDGE_API_KEY`
+**Two interfaces available:**
+- **PostBridge MCP** (preferred for interactive use) — tools available in any Claude Code session via `mcp__post-bridge__*`
+- **REST API** (for batch scripts) — used by `scripts/schedule-all.js` for bulk scheduling
+
+**Key stored in**: `.env` as `POSTBRIDGE_API_KEY` (for batch scripts). MCP auth is configured globally in `~/.claude/settings.json`.
 
 ## Prerequisites
 
 - Post is rendered (status: `rendered`) with JPEG files in `output/<username>/post-<id>/`
-- PostBridge API key is set in `.env`
 - TikTok account is connected in PostBridge dashboard (one-time setup)
-- Know the PostBridge social account ID for the TikTok account
+- For MCP: PostBridge MCP server is configured in `~/.claude/settings.json`
+- For batch scripts: `POSTBRIDGE_API_KEY` is set in `.env`
 
-## Complete Publishing Workflow
+## Interactive Publishing (MCP Tools)
+
+Use MCP tools for single posts, checking status, and managing scheduled posts.
 
 ### Step 1: Get Social Account IDs
 
-Retrieve connected TikTok accounts from PostBridge:
-
-```bash
-curl -s -X GET "https://api.post-bridge.com/v1/social-accounts?platform[]=tiktok" \
-  -H "Authorization: Bearer $POSTBRIDGE_API_KEY" | jq .
+```
+mcp__post-bridge__list_social_accounts
 ```
 
-Response includes `id`, `platform`, and `username` for each connected account. Save the `id` — you'll need it for posting.
+Returns `id`, `platform`, and `username` for each connected account. Save the `id`.
 
-### Step 2: Upload Media (Each Slide Image)
+### Step 2: Upload Media (Local Files)
 
-For each slide JPEG, create an upload URL and upload the file.
-
-**2a. Create upload URL:**
+The MCP's `create_post` supports `media_urls` (public URLs) but NOT local file uploads. For local carousel images, upload via the REST API first:
 
 ```bash
+# For each slide JPEG:
+
+# 2a. Create upload URL
 curl -s -X POST "https://api.post-bridge.com/v1/media/create-upload-url" \
   -H "Authorization: Bearer $POSTBRIDGE_API_KEY" \
   -H "Content-Type: application/json" \
@@ -46,51 +48,60 @@ curl -s -X POST "https://api.post-bridge.com/v1/media/create-upload-url" \
     "name": "slide-1.jpg",
     "mime_type": "image/jpeg",
     "size_bytes": SIZE_IN_BYTES
-  }' | jq .
-```
+  }'
 
-**2b. Upload file to signed URL:**
-
-```bash
+# 2b. Upload file to signed URL
 curl -s -X PUT "UPLOAD_URL_FROM_RESPONSE" \
   -H "Content-Type: image/jpeg" \
   --data-binary @output/username/post-ID/slide-1.jpg
 ```
 
-**2c. Repeat for all slides** (typically 5 slides per carousel).
-
-Collect all `media_id` values — you'll pass them as an array when creating the post.
+Collect all `media_id` values. Repeat for all 5 slides.
 
 ### Step 3: Create Post
 
-**Instant post** (publishes immediately):
-
-```bash
-curl -s -X POST "https://api.post-bridge.com/v1/posts" \
-  -H "Authorization: Bearer $POSTBRIDGE_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "caption": "CAPTION_TEXT_WITH_HASHTAGS",
-    "social_accounts": [SOCIAL_ACCOUNT_ID],
-    "media": ["media_id_1", "media_id_2", "media_id_3", "media_id_4", "media_id_5"],
-    "platform_configurations": {
-      "tiktok": {
-        "title": "POST_TITLE_FROM_DB",
-        "is_aigc": true
-      }
-    }
-  }' | jq .
 ```
-
-**Scheduled post** (publishes at a future time):
-
-Add `"scheduled_at": "2026-03-15T14:00:00.000Z"` to the body.
+mcp__post-bridge__create_post
+  caption: "CAPTION_TEXT_WITH_HASHTAGS"
+  social_accounts: [SOCIAL_ACCOUNT_ID]
+  media_urls: ["media_id_1", "media_id_2", ...]  # if using uploaded media IDs
+  scheduled_at: "2026-03-15T14:00:00.000Z"       # omit for immediate posting
+  platform_configurations: {
+    "tiktok": {
+      "title": "POST_TITLE_FROM_DB",
+      "is_aigc": true
+    }
+  }
+```
 
 ### Step 4: Monitor Results
 
-```bash
-curl -s -X GET "https://api.post-bridge.com/v1/post-results?post_id[]=POST_ID" \
-  -H "Authorization: Bearer $POSTBRIDGE_API_KEY" | jq .
+```
+mcp__post-bridge__list_post_results
+  post_id: [POST_ID]
+```
+
+### Managing Scheduled Posts
+
+```
+# List scheduled posts
+mcp__post-bridge__list_posts
+  platform: ["tiktok"]
+  status: ["scheduled"]
+
+# Get single post details
+mcp__post-bridge__get_post
+  id: POST_ID
+
+# Update a scheduled post (ALWAYS include scheduled_at)
+mcp__post-bridge__update_post
+  id: POST_ID
+  caption: "Updated caption"
+  scheduled_at: "2026-03-15T14:00:00.000Z"
+
+# Delete/cancel a post
+mcp__post-bridge__delete_post
+  id: POST_ID
 ```
 
 ---
@@ -112,44 +123,6 @@ db.close();
 
 ---
 
-## API Reference
-
-### Endpoints Used
-
-| Method | Endpoint | Purpose |
-|--------|----------|---------|
-| GET | `/v1/social-accounts?platform[]=tiktok` | List connected TikTok accounts |
-| POST | `/v1/media/create-upload-url` | Get signed upload URL for a slide image |
-| PUT | `{upload_url}` | Upload the actual image file |
-| POST | `/v1/posts` | Create and publish/schedule the post |
-| GET | `/v1/posts?platform[]=tiktok&status[]=scheduled` | List scheduled posts |
-| GET | `/v1/post-results?post_id[]=ID` | Check publish result |
-| PATCH | `/v1/posts/{id}` | Update a scheduled post |
-| DELETE | `/v1/posts/{id}` | Cancel/delete a post |
-
-### Create Post Body Schema
-
-```typescript
-{
-  caption: string;
-  social_accounts: number[];
-  media?: string[];
-  media_urls?: string[];
-  scheduled_at?: string;       // ISO 8601. null = post immediately
-  is_draft?: boolean;
-  platform_configurations?: {
-    tiktok?: {
-      caption?: string;
-      media?: string[];
-      title?: string;          // Post title (always set this)
-      is_aigc?: boolean;       // AI-generated content label (always true)
-    }
-  };
-}
-```
-
----
-
 ## TikTok Carousel Notes
 
 - TikTok carousels are created by passing **multiple image media IDs** in the `media` array
@@ -167,10 +140,10 @@ db.close();
 
 ## Bulk Scheduling Script
 
-For scheduling many posts at once, use `scripts/schedule-all.js`:
+For scheduling many posts at once, use `scripts/schedule-all.js` (NOT the MCP — it's not designed for batch ops):
 
 ```bash
-cd /Users/felipeabello/Code/runo/growth/carousel-generator
+cd /path/to/project
 
 # Dry run (shows what would be scheduled)
 node scripts/schedule-all.js --dry-run
@@ -199,7 +172,7 @@ Features:
 
 ## Gotchas
 
-- **Always include `scheduled_at`** when PATCHing a scheduled post — omitting it triggers immediate processing
+- **Always include `scheduled_at`** when updating a scheduled post — omitting it triggers immediate processing
 - **Media auto-deletes** after 24 hours if unattached, so upload close to posting time
 - **Upload URLs are short-lived** — upload immediately after creating the URL
 - **File size needed upfront** — you must know the JPEG file size before requesting the upload URL

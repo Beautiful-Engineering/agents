@@ -1,20 +1,18 @@
-# Performance Analytics via PostBridge API
+# Performance Analytics via PostBridge
 
-How to track and analyze TikTok post performance using PostBridge's analytics endpoints.
+How to track and analyze TikTok post performance using PostBridge's analytics.
 
 ---
 
 ## Overview
 
-PostBridge exposes analytics endpoints that pull engagement data (views, likes, comments, shares, watch time) from TikTok. Use these to measure post performance, identify top performers, and inform content strategy — all without leaving the agent workflow.
+PostBridge exposes analytics that pull engagement data (views, likes, comments, shares, watch time) from TikTok. Use these to measure post performance, identify top performers, and inform content strategy — all without leaving the agent workflow.
 
-**Base URL**: `https://api.post-bridge.com/v1`
-**Auth**: Bearer token in `Authorization` header. API key from PostBridge account.
-**Key stored in**: `.env` as `POSTBRIDGE_API_KEY`
+**Primary interface: PostBridge MCP** — use `mcp__post-bridge__*` tools for all analytics operations.
 
 ## Prerequisites
 
-- PostBridge API key is set in `.env`
+- PostBridge MCP server is configured in `~/.claude/settings.json`
 - TikTok account is connected in PostBridge dashboard
 - Posts have been published via PostBridge (so post-results exist to link analytics back to)
 
@@ -24,13 +22,9 @@ PostBridge exposes analytics endpoints that pull engagement data (views, likes, 
 
 Trigger a fresh data pull from TikTok before reading analytics. This ensures you have the latest numbers.
 
-```bash
-curl -s -X POST "https://api.post-bridge.com/v1/analytics/sync" \
-  -H "Authorization: Bearer $POSTBRIDGE_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "platform": "tiktok"
-  }' | jq .
+```
+mcp__post-bridge__sync_analytics
+  platform: "tiktok"
 ```
 
 The sync runs asynchronously. It usually completes within a few seconds for accounts with < 100 posts. Wait a moment before fetching.
@@ -39,42 +33,32 @@ The sync runs asynchronously. It usually completes within a few seconds for acco
 
 Retrieve analytics for all TikTok posts within a timeframe:
 
-```bash
-curl -s -X GET "https://api.post-bridge.com/v1/analytics?platform[]=tiktok&timeframe=30d" \
-  -H "Authorization: Bearer $POSTBRIDGE_API_KEY" | jq .
+```
+mcp__post-bridge__list_analytics
+  platform: ["tiktok"]
+  timeframe: "30d"
 ```
 
 **Timeframe options**: `7d`, `30d`, `90d`, `all`
 
-**Filter by specific posts** (using post-result IDs):
+### Step 3: Get Post Results
 
-```bash
-curl -s -X GET "https://api.post-bridge.com/v1/analytics?post_result_id[]=123&post_result_id[]=456" \
-  -H "Authorization: Bearer $POSTBRIDGE_API_KEY" | jq .
+Link analytics back to specific PostBridge posts:
+
+```
+mcp__post-bridge__list_post_results
+  post_id: [POST_ID]
 ```
 
-### Step 3: Get Single Record Detail
-
-For a deep dive on one post:
-
-```bash
-curl -s -X GET "https://api.post-bridge.com/v1/analytics/ANALYTICS_ID" \
-  -H "Authorization: Bearer $POSTBRIDGE_API_KEY" | jq .
-```
+Each post-result has a `post_result_id` that appears in analytics records.
 
 ### Step 4: Cross-Reference with Carousel DB
 
 Link PostBridge analytics back to local carousel posts:
 
-1. Fetch post-results for your published posts: `GET /v1/post-results?post_id[]=POST_ID`
+1. Fetch post-results using `list_post_results`
 2. Each post-result has a `post_result_id` that appears in analytics records
 3. Match analytics records to carousel DB posts via the PostBridge post ID chain: carousel post → PostBridge post → post-result → analytics
-
-```bash
-# Get post-results to find the link between PostBridge posts and analytics
-curl -s -X GET "https://api.post-bridge.com/v1/post-results?post_id[]=POST_ID" \
-  -H "Authorization: Bearer $POSTBRIDGE_API_KEY" | jq .
-```
 
 ### Step 5: Calculate Engagement Rate
 
@@ -88,25 +72,7 @@ For TikTok carousels, benchmark engagement rates:
 
 ---
 
-## API Reference
-
-### Endpoints
-
-| Method | Endpoint | Purpose |
-|--------|----------|---------|
-| POST | `/v1/analytics/sync` | Trigger fresh data sync from TikTok |
-| GET | `/v1/analytics` | List analytics with filters |
-| GET | `/v1/analytics/{id}` | Single analytics record detail |
-
-### Query Parameters for `GET /v1/analytics`
-
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| `platform[]` | string | Filter by platform (e.g., `tiktok`) |
-| `timeframe` | string | Time window: `7d`, `30d`, `90d`, `all` |
-| `post_result_id[]` | number | Filter by specific post-result IDs |
-
-### Analytics Record Schema
+## Analytics Record Schema
 
 ```typescript
 {
@@ -127,20 +93,12 @@ For TikTok carousels, benchmark engagement rates:
 }
 ```
 
-### Sync Request Body
-
-```typescript
-{
-  platform: string;  // "tiktok"
-}
-```
-
 ---
 
 ## Gotchas
 
-- **Sync before read**: Always call `/v1/analytics/sync` before fetching analytics, otherwise you may get stale data
-- **Sync is async**: The sync endpoint returns immediately but data may take a few seconds to update. Add a short delay before fetching.
+- **Sync before read**: Always call `sync_analytics` before fetching analytics, otherwise you may get stale data
+- **Sync is async**: The sync returns immediately but data may take a few seconds to update. Add a short delay before fetching.
 - **Match confidence**: PostBridge matches TikTok posts to PostBridge records heuristically. A `match_confidence` below 0.8 means the match may be wrong — verify by comparing `video_description` to your caption.
 - **Rate limits**: Don't sync more than once per minute. TikTok's API has its own rate limits that PostBridge respects.
 - **New posts**: Analytics for freshly published posts may not appear until TikTok's API updates (can take 1-2 hours after publishing).

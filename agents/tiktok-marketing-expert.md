@@ -80,7 +80,8 @@ The warmup bot also needs `ANTHROPIC_API_KEY` in `tiktok-tools/warmup/.env`.
 Verify the current project directory is ready:
 - `carousel.db` exists (if not: `carousel db:seed`)
 - `.env` has `OPENAI_API_KEY` (required for AI generation)
-- `.env` has `POSTBRIDGE_API_KEY` (optional, required for posting/scheduling)
+- `.env` has `POSTBRIDGE_API_KEY` (optional, required for batch scheduling script)
+- PostBridge MCP is available (check for `mcp__post-bridge__*` tools — configured globally in `~/.claude/settings.json`)
 
 ### Step 5: Check/create brand.json
 Look for `brand.json` in the current project directory. If it doesn't exist:
@@ -189,18 +190,22 @@ carousel post set-status <post-id> draft
 ```
 
 ### 6. Post & Schedule
-Publish rendered carousels to TikTok via PostBridge API.
+Publish rendered carousels to TikTok via PostBridge.
 
 Read skill file: `${CLAUDE_PLUGIN_ROOT}/skills/tiktok-marketing-expert/posting-scheduling.md`
 
+**For single posts (interactive):** Use PostBridge MCP tools.
+
 Steps:
-1. Verify `POSTBRIDGE_API_KEY` is set
-2. Get PostBridge social account ID: `GET /v1/social-accounts?platform[]=tiktok`
-3. For each slide image, upload via the media flow (create-upload-url → PUT file → collect media_id)
-4. Build caption from DB (post caption + hashtags)
-5. Create post via `POST /v1/posts` with media IDs, caption, and social account ID
-6. For scheduled posts, include `scheduled_at` (ISO 8601)
-7. After posting, mark as published: `carousel post publish <post-id>`
+1. Get social account ID: `mcp__post-bridge__list_social_accounts`
+2. For each slide image, upload via the REST API media flow (create-upload-url → PUT file → collect media_id) — MCP doesn't support local file uploads
+3. Build caption from DB (post caption + hashtags)
+4. Create post via `mcp__post-bridge__create_post` with media IDs, caption, and social account ID
+5. For scheduled posts, include `scheduled_at` (ISO 8601)
+6. After posting, mark as published: `carousel post publish <post-id>`
+7. Check results: `mcp__post-bridge__list_post_results`
+
+**For bulk scheduling:** Use `scripts/schedule-all.js` (handles concurrency, retries, and DB state).
 
 **IMPORTANT**: Always set `is_aigc: true` AND `title` in `platform_configurations.tiktok`. Always confirm schedule with user.
 
@@ -244,9 +249,9 @@ Review post performance using PostBridge analytics to identify what's working an
 Read skill file: `${CLAUDE_PLUGIN_ROOT}/skills/tiktok-marketing-expert/analytics.md`
 
 Steps:
-1. **Sync analytics**: Trigger a fresh data pull from TikTok via `POST /v1/analytics/sync` (platform=tiktok). Wait a few seconds for the sync to complete.
-2. **Fetch analytics**: Retrieve engagement data via `GET /v1/analytics?platform[]=tiktok&timeframe=30d` (adjust timeframe as needed — 7d, 30d, 90d, or all).
-3. **Cross-reference with carousel DB**: Match analytics records to local carousel posts via post-results. Use `carousel post list` and `GET /v1/post-results` to build the mapping.
+1. **Sync analytics**: `mcp__post-bridge__sync_analytics` (platform=tiktok). Wait a few seconds for the sync to complete.
+2. **Fetch analytics**: `mcp__post-bridge__list_analytics` (platform=tiktok, timeframe=30d). Adjust timeframe as needed — 7d, 30d, 90d, or all.
+3. **Cross-reference with carousel DB**: Match analytics records to local carousel posts via `mcp__post-bridge__list_post_results` and `carousel post list`.
 4. **Present summary table**: Show the user a table with columns: post title, date published, views, likes, comments, shares, engagement rate (%). Sort by date descending.
 5. **Identify patterns**: Call out top and bottom performers. Look for patterns — which hooks, topics, or formats drive higher engagement? Note any trends over time.
 6. **Suggest next steps**: Based on the data, recommend actionable changes — topics to double down on, hooks to retire, posting times to adjust, formats to test.
