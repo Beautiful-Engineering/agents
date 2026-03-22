@@ -6,8 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Claude Code plugin that bundles AI agents, skills, and curriculum content. It includes:
 
-- **9 agents**: Growth Consultant, SEO Expert, Blog Writer, Landing Page Expert, Cold Email Outreach Expert, Google Ads Expert, TikTok Marketing Expert, Pricing Expert, Copywriting Expert — trained on the Demand Curve and Copy That curricula
-- **57 skill files**: Distilled frameworks, checklists, templates, and scoring rubrics
+- **11 agents**: Growth Consultant, SEO Expert, Blog Writer, Landing Page Expert, Cold Email Outreach Expert, Google Ads Expert, Apple Ads Analyzer, ASO & Keyword Expert, TikTok Marketing Expert, Pricing Expert, Copywriting Expert — trained on the Demand Curve and Copy That curricula
+- **61 skill files**: Distilled frameworks, checklists, templates, and scoring rubrics
 - **Curriculum content**: 404 lessons across 53 courses with 982 locally-stored images (the knowledge base the agents draw from)
 
 There are no build steps, tests, or runtime dependencies. Everything is static markdown.
@@ -25,6 +25,8 @@ agents/                         # (repo root)
 │   ├── landing-page-expert.md  # Landing page builder + reviewer (Build + Review modes)
 │   ├── cold-email-outreach.md  # Cold email expert (New Campaign + Optimize modes)
 │   ├── google-ads-expert.md   # Google Ads expert (New Campaign + Optimize modes)
+│   ├── apple-ads-analyzer.md  # Apple Search Ads performance analyzer (5 phases)
+│   ├── aso-keyword-expert.md  # ASO & keyword research expert (Build + Audit modes)
 │   ├── tiktok-marketing-expert.md # TikTok carousel production (6 modes)
 │   ├── pricing-expert.md      # Pricing strategist (Build + Audit modes)
 │   └── copywriting-expert.md  # Copywriting expert (Write + Review modes)
@@ -35,6 +37,8 @@ agents/                         # (repo root)
 │   ├── landing-page-expert/    # 4 skill files (anatomy, conversion, review checklist)
 │   ├── cold-email-outreach/    # 5 skill files (targeting, infrastructure, copy, Instantly, optimization)
 │   ├── google-ads-expert/      # 7 skill files (rubric, API, analysis, keywords, campaigns, ad copy, index)
+│   ├── apple-ads-analyzer/     # 4 skill files (rubric, API, analysis, index)
+│   ├── aso-keyword-expert/     # 5 skill files (listing optimization, keyword research, competitor analysis, audit rubric, index)
 │   ├── tiktok-marketing-expert/ # 7 skill files (CLI, themes, batch, account setup, theme creation, posting)
 │   ├── pricing-expert/         # 7 skill files (value metric, structures, research, tiers, economics, page copy, audit)
 │   └── copywriting-expert/    # 5 skill files (persuasion frameworks, writing mechanics, copy types, swipe file, scoring rubric)
@@ -58,7 +62,7 @@ agents/                         # (repo root)
 /plugin install agents@beautiful-engineering
 ```
 
-This makes all 9 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
+This makes all 11 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
 
 ## Agents Overview
 
@@ -70,6 +74,8 @@ This makes all 9 agents and their skills available in any Claude Code session. R
 | **Landing Page Expert** | Build and review high-converting landing pages with section-by-section copy | Build (5 phases) or Review existing pages (3 phases) |
 | **Cold Email Outreach Expert** | Build and optimize cold email campaigns with Instantly MCP integration | New Campaign (5 phases) or Optimize existing campaigns (3 phases) |
 | **Google Ads Expert** | Build and optimize Google Ads campaigns (Search, PMax, Shopping) with API-connected analysis | New Campaign (6 phases) or Optimize existing campaigns (5 phases) |
+| **Apple Ads Analyzer** | Apple Search Ads performance analysis: API data pull, rubric scoring, bid/keyword recommendations, CSV tracking | 5 phases: Orientation → Data Pull → Scoring → Recommendations → CSV Logging |
+| **ASO & Keyword Expert** | App Store Optimization and keyword research: listing optimization, keyword sourcing/categorization, competitor analysis | Build (5 phases) or Audit existing listing (4 phases) |
 | **TikTok Marketing Expert** | TikTok carousel content production: AI generation, Remotion rendering, PostBridge scheduling | Account Setup, Single Post, Batch Production, Render & Export, Post & Schedule, Theme Design |
 | **Pricing Expert** | Design and audit monetization/pricing strategies with economic validation | Build (7 phases) or Audit existing pricing (5 phases) |
 | **Copywriting Expert** | Write and review persuasive copy — sales pages, email sequences, founder letters, ads, advertorials | Write (6 phases) or Review existing copy (4 phases) |
