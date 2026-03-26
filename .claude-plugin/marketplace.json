@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "agents",
-      "source": ".",
+      "source": "./",
       "description": "11 AI agents trained on the Demand Curve and Copy That curricula — growth strategy, SEO, blog writing, landing pages, cold email, Google Ads, Apple Ads, ASO, TikTok, pricing, and copywriting."
     }
   ]
