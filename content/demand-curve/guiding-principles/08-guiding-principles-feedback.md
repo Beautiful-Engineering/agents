@@ -1,2 +1,0 @@
-# Guiding Principles Feedback
-

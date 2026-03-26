@@ -1,2 +1,0 @@
-# Cold Outreach Feedback
-

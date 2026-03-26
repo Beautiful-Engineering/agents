@@ -1,2 +1,0 @@
-# Sales Strategy Fundamentals Feedback
-

@@ -1,2 +1,0 @@
-# Copywriting Fundamentals Feedback
-

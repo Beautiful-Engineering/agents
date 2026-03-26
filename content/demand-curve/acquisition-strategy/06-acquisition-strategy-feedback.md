@@ -1,2 +1,0 @@
-# Acquisition Strategy Feedback
-

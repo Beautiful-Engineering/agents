@@ -1,2 +1,0 @@
-# Competitor Research Fundamentals Feedback
-
