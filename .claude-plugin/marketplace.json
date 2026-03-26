@@ -1,18 +1,17 @@
 {
   "name": "beautiful-engineering",
   "owner": {
-    "name": "Beautiful Engineering"
+    "name": "Beautiful Engineering",
+    "url": "https://github.com/Beautiful-Engineering"
   },
   "metadata": {
-    "description": "AI agents trained on specialized curricula",
-    "version": "1.1.0"
+    "description": "AI agents trained on specialized growth and marketing curricula"
   },
   "plugins": [
     {
       "name": "agents",
-      "source": "./",
-      "description": "AI agents trained on the Demand Curve curriculum — growth strategy, SEO, and content writing.",
-      "version": "1.1.0"
+      "source": ".",
+      "description": "11 AI agents trained on the Demand Curve and Copy That curricula — growth strategy, SEO, blog writing, landing pages, cold email, Google Ads, Apple Ads, ASO, TikTok, pricing, and copywriting."
     }
   ]
 }
