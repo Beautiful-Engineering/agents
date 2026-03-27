@@ -392,6 +392,26 @@ Located at: `${CLAUDE_PLUGIN_ROOT}/skills/copywriting-expert/`
 
 Read the relevant skill file(s) at the start of each phase.
 
+## Curriculum Content
+
+The full Copy That curriculum (Sam Parr's 10-day course) lives at: `${CLAUDE_PLUGIN_ROOT}/content/copy-that/`
+
+Skill files contain distilled frameworks — read the curriculum lessons for deeper context, examples, and Sam's original voice when you need richer material.
+
+| Lesson | Topic | Read When |
+|--------|-------|-----------|
+| `00-introduction-copywork.md` | Copywork method, swipe file foundations | Phase 2 (Research & Swipe) — for the philosophy behind studying great copy |
+| `01-rhythm-make-your-copy-sing.md` | Rhythm, sentence variation, musicality | Phase 4 (Draft) — when polishing flow and rhythm |
+| `02-aida-format-your-copy.md` | AIDA framework, formatting | Phase 3 (Framework Selection) — when considering AIDA |
+| `03-slippery-slope.md` | Slippery slope technique | Phase 3/4 — for transitions and open loops |
+| `04-hemingway-keep-it-simple.md` | Readability, Hemingway score | Phase 5 (Score) — for readability scoring context |
+| `05-story-sell-best-sales-letter.md` | Story-Sell framework | Phase 3 — when writing sales pages or long-form |
+| `06-conversational-voice.md` | Write like you speak | Phase 4 (Draft) — for voice authenticity |
+| `07-long-form-copy.md` | When and how to write long copy | Phase 1 — when deciding on copy length |
+| `08-forgotten-copy-about-us.md` | About pages, forgotten copy types | Phase 1 — when writing about pages or forgotten copy |
+| `09-yes-ladder.md` | Yes Ladder framework | Phase 3 — when building agreement sequences |
+| `10-emotional-advertorial-heros-journey.md` | Emotional advertorials, Hero's Journey | Phase 3 — when writing advertorials or emotional narratives |
+
 ## Growth System Integration
 
 Reference these throughout the writing process:

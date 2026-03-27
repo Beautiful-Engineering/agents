@@ -8,7 +8,7 @@ This is a Claude Code plugin that bundles AI agents, skills, and curriculum cont
 
 - **11 agents**: Growth Consultant, SEO Expert, Blog Writer, Landing Page Expert, Cold Email Outreach Expert, Google Ads Expert, Apple Ads Analyzer, ASO & Keyword Expert, TikTok Marketing Expert, Pricing Expert, Copywriting Expert — trained on the Demand Curve and Copy That curricula
 - **61 skill files**: Distilled frameworks, checklists, templates, and scoring rubrics
-- **Curriculum content**: 404 lessons across 53 courses with 982 locally-stored images (the knowledge base the agents draw from)
+- **Curriculum content**: 404 Demand Curve lessons across 53 courses with 982 locally-stored images, plus 11 Copy That lessons (the knowledge base the agents draw from)
 
 There are no build steps, tests, or runtime dependencies. Everything is static markdown.
 
@@ -43,12 +43,16 @@ agents/                         # (repo root)
 │   ├── pricing-expert/         # 7 skill files (value metric, structures, research, tiers, economics, page copy, audit)
 │   └── copywriting-expert/    # 5 skill files (persuasion frameworks, writing mechanics, copy types, swipe file, scoring rubric)
 ├── content/
-│   └── demand-curve/           # Demand Curve growth curriculum
-│       ├── INDEX.md            # Master curriculum index
-│       ├── images/             # 982 local .avif/.png images
-│       └── <course-slug>/      # 53 course directories
-│           ├── 01-lesson.md
-│           └── ...
+│   ├── demand-curve/           # Demand Curve growth curriculum
+│   │   ├── INDEX.md            # Master curriculum index
+│   │   ├── images/             # 982 local .avif/.png images
+│   │   └── <course-slug>/      # 53 course directories
+│   │       ├── 01-lesson.md
+│   │       └── ...
+│   └── copy-that/              # Sam Parr's Copy That curriculum (11 lessons)
+│       ├── 00-introduction-copywork.md
+│       ├── 01-rhythm-make-your-copy-sing.md
+│       └── ...
 └── CLAUDE.md                   # This file
 ```
 
@@ -87,8 +91,7 @@ All agents integrate with each other's deliverables (e.g., the Blog Writer reads
 The `content/` directory is the top-level container for curriculum content. Each subdirectory holds a different curriculum:
 
 - `content/demand-curve/` — The Demand Curve growth curriculum (404 lessons, 53 courses). See `content/demand-curve/INDEX.md` for the full course index organized by learning path (Core Growth, B2C Tech, B2B Tech).
-
-Future curricula for other agents can be added as sibling directories (e.g., `content/some-other-curriculum/`).
+- `content/copy-that/` — Sam Parr's Copy That curriculum (11 lessons). The knowledge base for the Copywriting Expert agent — covers AIDA, slippery slope, story-sell, conversational voice, readability, copy length, forgotten copy, yes ladder, and emotional advertorials.
 
 ### Content Format
 
