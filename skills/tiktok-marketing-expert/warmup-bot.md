@@ -220,6 +220,35 @@ Project-local script: `./switch-account.sh <serial> <handle>`
 - Verify post-switch via `detect-account.sh`; exit with a different distinct code (e.g. `7`) on mismatch.
 - After a successful switch, update the `accounts.phone_serial` column in the project DB so the new binding is recorded.
 
+## The `uiautomator dump` stale-file trap
+
+`adb shell uiautomator dump <path>` has two failure modes that will silently burn you if you trust the naive path:
+
+1. **Exit code lies**. When the dump fails with `ERROR: could not get idle state` (triggered by an animating FYP video or a blinking comment-input cursor), uiautomator writes that to stderr but **exits with return code 0**. Any script that checks `$?` or Python code that checks `returncode != 0` will think the dump succeeded.
+
+2. **Stale file fallback**. The previous successful dump's XML is still sitting at `/sdcard/p.xml` (or wherever you wrote it). A naive follow-up `adb pull` or `adb shell cat` returns that old XML, and you end up parsing a snapshot from a *different screen state* than the one currently visible. This is exactly how the warmup bot's `write_comment` flow was silently failing to send typed comments: `_find_send_button` was looking at a pre-comments dump that had no EditText, so it never found the send button — but the log still said "Comment posted."
+
+The reliable pattern:
+
+```bash
+# 1. Delete the remote file first — no stale fallback possible.
+adb -s "$SERIAL" shell rm -f /sdcard/p.xml
+
+# 2. Run the dump and capture stdout (not exit code).
+out=$(adb -s "$SERIAL" shell uiautomator dump /sdcard/p.xml 2>&1)
+
+# 3. Verify uiautomator ACTUALLY wrote the file. The success message is
+#    "UI hierchary dumped to: ..." (yes, "hierchary" is misspelled in the
+#    upstream tool — do not "fix" the grep).
+if echo "$out" | grep -q "UI hierchary dumped to"; then
+  adb -s "$SERIAL" pull /sdcard/p.xml /tmp/p.xml
+fi
+```
+
+**Retry strategy on "could not get idle state"**: tap the center of the screen to pause any animating video (TikTok's tap-to-pause behavior on the FYP — the comment panel's blinking cursor still animates, but less aggressively), wait ~0.5s, and retry up to 3 times. Use `wm size` to compute the center dynamically — don't hardcode.
+
+This gotcha applies to both your project-local shell scripts AND the warmup bot's internal Python. If you're patching the warmup bot, the fix goes in `src/input/adb.py::_dump_ui()`.
+
 ## Launching warmups as true background processes
 
 The warmup bot runs for 25+ minutes, so it has to survive the calling shell/agent exiting. **Do not spawn the warmup from within a sub-agent** — when the sub-agent terminates, its child processes get killed and you end up with 30-second "completed" sessions.
@@ -245,6 +274,54 @@ Key points:
 - One log file per session (not the shared `bot.log`) so parallel phones don't collide.
 - After launch, verify with `ps aux | grep src.main` that both processes are actually running before moving on.
 
+## Never KEYCODE_BACK on the FYP
+
+**The single most dangerous input you can send to TikTok Android is `KEYCODE_BACK` while the FYP is focused.** TikTok's FYP uses the "Tap again to exit" pattern: one back-press shows an exit toast, a second one quits the app entirely. A warmup bot that quits TikTok is a dead warmup bot — the orchestrator sees the process hang on a dead screen, uiautomator dumps return an Android home screen XML, and the bot enters an unrecoverable "stuck in modal" loop.
+
+Routes where BACK has historically killed TikTok mid-session:
+
+- **Fallback in `dismiss_modal`**: a promo popup like "Free Gifts" has an unlabeled close X (ImageView with no `content-desc="Close"`). If the naive `_tap_element("^Close$")` path falls back to `input keyevent KEYCODE_BACK`, you quit TikTok.
+- **Fallback in `go_back`**: any action that presses BACK as a fallback when it can't find a Close element has the same risk. It's only safe to use BACK from a state where BACK is guaranteed to have an app-local destination (a profile page deep-link, an open comments panel). Never from the FYP itself.
+- **State-machine overrides** (see next section): a platform-specific override can silently rewire `dismiss_modal` → `go_back`, turning a safe path into an unsafe one without anyone noticing.
+
+**Rules:**
+
+1. Never put `input keyevent KEYCODE_BACK` inside a modal-dismissal code path. Ever.
+2. If your close-button search fails, **do nothing** and let the next AI-analysis iteration re-plan. A stuck bot loop is infinitely better than a quit bot.
+3. Build a heuristic close-button finder as a fallback to label-based search: look for a small, roughly-square, clickable `ImageView`/`ImageButton`/`Button` in the top 60% of the screen, prefer the rightmost candidate (close X is conventionally top-right of popups). Filter by area (~0.05%–1.25% of screen) and aspect ratio (reject elongated shapes).
+4. When dismissing bottom-sheet overlays that are *known* to sit on top of the FYP — the comments panel, the share sheet — BACK is actually safer than tapping, because those panels reliably dismiss on BACK without leaving the app. Keep the overlay-specific BACK paths, but scope them to *bottom-sheet overlays only*, never to generic "modal" state.
+
+## The Android state-machine override trap
+
+The warmup bot has a state machine that maps each detected screen state to a recovery action, with platform-specific overrides:
+
+```python
+RECOVERY_ACTIONS = {
+    "modal": "dismiss_modal",    # default: call the heuristic close-finder
+    ...
+}
+
+ANDROID_OVERRIDES = {
+    "comments": "go_back",
+    "share_sheet": "go_back",
+    # "modal": "go_back",  <-- do NOT add this
+}
+```
+
+**The trap**: if you add `"modal": "go_back"` to `ANDROID_OVERRIDES` thinking "BACK is more reliable on Android," you've just silently bypassed the entire `_action_dismiss_modal` code path including its heuristic close-button finder. The state machine routes around it, straight into `_action_go_back` → KEYCODE_BACK → quit TikTok.
+
+This is particularly insidious because:
+
+- The `dismiss_modal` action handler still *exists* and looks safe when you read it.
+- You can't reproduce the bug by calling `dismiss_modal` manually — it only fires via the state machine on real modal events.
+- When it fires, the failure looks like "the modal dismiss heuristic must have a bug" — when in fact the heuristic was never invoked.
+
+**Rules:**
+
+1. Keep `ANDROID_OVERRIDES` scoped to bottom-sheet overlays where BACK is *guaranteed* safe (comments, share sheet). Everything else uses the default.
+2. When you add or modify a platform override, grep for the action name to confirm what handler actually gets called. `dismiss_modal` and `go_back` look similar in logs but have completely different blast radii.
+3. When debugging an "it quits TikTok on modal" issue, trace backwards from the action actually executed (in the `Action: <name>` log line) to the state-machine recovery decision — don't trust that the handler you patched is the one being called.
+
 ## Key gotchas
 
 1. **Working directory**: Run from `tiktok-tools/warmup/` (where `.env` lives)
@@ -257,3 +334,6 @@ Key points:
 8. **Verify logged-in account on multi-phone setups**: Never trust phone↔account assumptions. Run `detect-account.sh <serial>` (see "Detecting the logged-in account" above) before every warmup session and fail loudly if the handle doesn't match the expected account. Phone-pinning in the DB drifts; the actual logged-in TikTok session is the only source of truth.
 9. **Switch accounts programmatically, not manually**: When rotating accounts between warmup sessions on the same phone, use `switch-account.sh <serial> <handle>` (see "Switching accounts" above) — do not ask the operator to log out/in by hand. The account must already be in the multi-account login list; fresh logins are out of scope for this flow.
 10. **Never launch warmup from a sub-agent**: Sub-agent child processes are killed when the sub-agent exits, giving you broken 30-second sessions marked `running` forever. Spawn warmups with `nohup ... &; disown` from the top-level session (see "Launching warmups as true background processes" above).
+11. **Never trust `uiautomator dump`'s exit code**: It returns 0 even when it fails with "could not get idle state." Always delete the remote file first and grep stdout for `"UI hierchary dumped to"` instead (see "The `uiautomator dump` stale-file trap" above). Applies to both your shell scripts and the warmup bot's Python `_dump_ui()`.
+12. **Never `KEYCODE_BACK` in a modal-dismissal path**: On the FYP, BACK quits TikTok via the "Tap again to exit" flow, killing the warmup session. If you can't find a close X, do nothing and let the next AI iteration retry — a stuck loop is infinitely better than a quit bot. BACK is only safe inside explicitly bottom-sheet overlays (comments, share sheet), never for generic "modal" state (see "Never KEYCODE_BACK on the FYP" above).
+13. **Don't add `"modal": "go_back"` to `ANDROID_OVERRIDES`**: This silently bypasses `_action_dismiss_modal` and its heuristic close-button finder, routing modal-dismissal straight to `_action_go_back` → KEYCODE_BACK → TikTok quits. When debugging "modal kills session" bugs, trace the actual `Action:` log line back to the state-machine decision, not the handler you think is being called (see "The Android state-machine override trap" above).
