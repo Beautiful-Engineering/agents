@@ -157,6 +157,37 @@ python -m src.main --platform ios --topic "tech startups" --duration 30
 tail -f bot.log
 ```
 
+## Detecting the logged-in account (Android)
+
+On multi-phone setups it's easy to accidentally warm up the wrong account because phone↔account assignments drift. **Always verify which account is actually logged in before launching a warmup session** — don't trust the operator's "yes it's the right account" answer.
+
+There's no way to read TikTok's app data directly on a non-rooted device (`run-as` fails because `com.zhiliaoapp.musically` is not debuggable, and `/data/data/com.zhiliaoapp.musically/` returns Permission denied). The reliable method is UI scraping via UIAutomator:
+
+1. **Confirm TikTok is the foreground app**:
+   ```bash
+   adb -s <serial> shell dumpsys window | grep mCurrentFocus
+   ```
+   Should contain `com.zhiliaoapp.musically`. If not, fail loudly — don't try to launch TikTok.
+
+2. **Tap the Profile bottom-tab**. Don't hardcode coordinates (they vary by screen size). Instead, dump the current UI and parse the bounds of the node whose `content-desc="Profile"`:
+   ```bash
+   adb -s <serial> shell uiautomator dump /sdcard/p.xml
+   adb -s <serial> pull /sdcard/p.xml /tmp/p.xml
+   # Parse bounds="[x1,y1][x2,y2]" → tap centerpoint
+   adb -s <serial> shell input tap <cx> <cy>
+   ```
+
+3. **Sleep ~2s, then re-dump the UI** and grep for `text="@..."`. TikTok displays the handle prefixed with `@` near the top of the profile screen:
+   ```bash
+   grep -oE 'text="@[A-Za-z0-9._]+"' /tmp/p.xml | head -1
+   ```
+
+4. **Onboarding overlay gotcha**: TikTok occasionally shows a full-screen *"Your avatar, your style — Get started"* overlay over the Profile tab. Symptom: the dump is suspiciously small (~9KB) and contains no `@handle`. To handle it: query `wm size` for screen dimensions, scan ImageView nodes whose `y1` is in the top 15% of the screen, tap the rightmost one (the close button), then re-dump.
+
+5. **Cross-reference against your account database**. Once you have the handle, look it up in your project's accounts table to (a) confirm it matches the expected account for this warmup session and (b) resolve the local `account_id` so the new `warmup_sessions` row gets associated correctly without operator input.
+
+Wrap this into a `detect-account.sh <serial>` script in your project (prints handle to stdout, distinct exit codes for foreground/dump/handle failures) and call it at the top of any launch-warmup script.
+
 ## Key gotchas
 
 1. **Working directory**: Run from `tiktok-tools/warmup/` (where `.env` lives)
@@ -166,3 +197,4 @@ tail -f bot.log
 5. **Android ADB**: `uiautomator dump` freezes TikTok's UI briefly — the bot handles this with caching and timing
 6. **iOS Voice Control**: Must be enabled in Accessibility settings for iOS input to work
 7. **Multiple devices**: Use `--device SERIAL` when multiple Android phones are connected
+8. **Verify logged-in account on multi-phone setups**: Never trust phone↔account assumptions. Run `detect-account.sh <serial>` (see "Detecting the logged-in account" above) before every warmup session and fail loudly if the handle doesn't match the expected account. Phone-pinning in the DB drifts; the actual logged-in TikTok session is the only source of truth.
