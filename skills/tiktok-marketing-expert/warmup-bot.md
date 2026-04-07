@@ -188,13 +188,72 @@ There's no way to read TikTok's app data directly on a non-rooted device (`run-a
 
 Wrap this into a `detect-account.sh <serial>` script in your project (prints handle to stdout, distinct exit codes for foreground/dump/handle failures) and call it at the top of any launch-warmup script.
 
+## Switching accounts (Android)
+
+Since you have full ADB control, **never ask the user to manually swap accounts between warmup sessions** — drive the TikTok account-switcher via ADB. This only works for accounts that are already in the multi-account login list (i.e., previously logged in on that device). If an account isn't in the list, it requires a fresh login which this flow does not handle.
+
+TikTok Android (`com.zhiliaoapp.musically`) account-switcher flow:
+
+1. **Navigate to Profile**: Tap the `Profile` bottom-tab (same technique as `detect-account.sh` — parse bounds from UIAutomator dump, don't hardcode coordinates).
+
+2. **Tap the header username button**. Dump the UI, find the node with `resource-id="com.zhiliaoapp.musically:id/rfm"`, parse its bounds, tap the centerpoint.
+   ```bash
+   adb -s <serial> shell input tap <cx> <cy>
+   ```
+   **Critical gotcha**: Do NOT tap the larger `@username` line below the header button — that's `resource-id="com.zhiliaoapp.musically:id/rhk"` and on at least some builds it's a no-op or goes to edit-profile instead of opening the switcher. Always use `id/rfm`.
+
+3. **Wait ~1.5s for the bottom sheet**, then dump the UI. The "Switch account" bottom sheet is identifiable by `content-desc="Bottom sheet"`. Each logged-in account appears as a row with:
+   - `resource-id="com.zhiliaoapp.musically:id/kqe"`
+   - `content-desc="<handle>"` (the bare handle — **without** the `@` prefix)
+
+4. **Tap the row** whose `content-desc` matches your target handle. Parse its bounds, tap the centerpoint.
+
+5. **Wait ~6s** for TikTok to switch accounts and reload. The switch is not instant — the feed has to re-initialize.
+
+6. **Verify with `detect-account.sh`**. If the verified handle doesn't match the target, fail — don't retry blindly, because a mismatch usually means a UI layout change broke the tap coordinates.
+
+### Recommended: wrap it in `switch-account.sh`
+
+Project-local script: `./switch-account.sh <serial> <handle>`
+- Idempotent: if `detect-account.sh` already returns the target, exit 0 with no action.
+- If the target isn't in the bottom-sheet account list, exit with a distinct code (e.g. `6`) and log the available handles — this signals "needs manual login first", which a caller can surface to the operator without retrying.
+- Verify post-switch via `detect-account.sh`; exit with a different distinct code (e.g. `7`) on mismatch.
+- After a successful switch, update the `accounts.phone_serial` column in the project DB so the new binding is recorded.
+
+## Launching warmups as true background processes
+
+The warmup bot runs for 25+ minutes, so it has to survive the calling shell/agent exiting. **Do not spawn the warmup from within a sub-agent** — when the sub-agent terminates, its child processes get killed and you end up with 30-second "completed" sessions.
+
+Launch it with `nohup` + `disown` so the process detaches from the shell:
+
+```bash
+cd /path/to/tiktok-tools/warmup
+nohup .venv/bin/python -m src.main \
+  --platform android \
+  --device <serial> \
+  --topic "<topic>" \
+  --duration 25 \
+  --engagement-rate medium \
+  > /path/to/logs/warmup-<handle>-session<id>.log 2>&1 &
+disown
+```
+
+Key points:
+- Redirect BOTH stdout and stderr to a per-session log file (`> file 2>&1`) — otherwise the Rich Live display's output gets lost and you can't debug.
+- `disown` removes the process from the shell's job table so it survives parent exit.
+- Use `.venv/bin/python` directly instead of `source .venv/bin/activate && python` — more reliable in non-interactive shells.
+- One log file per session (not the shared `bot.log`) so parallel phones don't collide.
+- After launch, verify with `ps aux | grep src.main` that both processes are actually running before moving on.
+
 ## Key gotchas
 
 1. **Working directory**: Run from `tiktok-tools/warmup/` (where `.env` lives)
-2. **Venv**: Must activate the venv before running (`source .venv/bin/activate`)
+2. **Venv**: Must activate the venv before running (`source .venv/bin/activate`) — or call `.venv/bin/python` directly
 3. **TikTok must be open**: Open TikTok on the For You Page before starting the bot
 4. **Logs**: The Rich Live display swallows terminal output. Use `tail -f bot.log` in a separate terminal for debug logs
 5. **Android ADB**: `uiautomator dump` freezes TikTok's UI briefly — the bot handles this with caching and timing
 6. **iOS Voice Control**: Must be enabled in Accessibility settings for iOS input to work
 7. **Multiple devices**: Use `--device SERIAL` when multiple Android phones are connected
 8. **Verify logged-in account on multi-phone setups**: Never trust phone↔account assumptions. Run `detect-account.sh <serial>` (see "Detecting the logged-in account" above) before every warmup session and fail loudly if the handle doesn't match the expected account. Phone-pinning in the DB drifts; the actual logged-in TikTok session is the only source of truth.
+9. **Switch accounts programmatically, not manually**: When rotating accounts between warmup sessions on the same phone, use `switch-account.sh <serial> <handle>` (see "Switching accounts" above) — do not ask the operator to log out/in by hand. The account must already be in the multi-account login list; fresh logins are out of scope for this flow.
+10. **Never launch warmup from a sub-agent**: Sub-agent child processes are killed when the sub-agent exits, giving you broken 30-second sessions marked `running` forever. Spawn warmups with `nohup ... &; disown` from the top-level session (see "Launching warmups as true background processes" above).
