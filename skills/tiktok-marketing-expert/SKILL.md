@@ -29,7 +29,7 @@ Use these references when:
 | `organic-growth-playbook.md` | 6-phase organic growth roadmap — account creation, community building, content-market fit, trend riding, conversion optimization, scaling. Includes coaching mode with common stuck scenarios |
 | `content-strategy.md` | Hook formulas (the winning `[person] + [conflict] → showed them [app] → reaction` pattern), 4 CTA types, proven formats (couples doodle, AI slideshows, UGC discovery, before/after), image gen tips, text overlay rules, performance tracking |
 | `scaling-strategy.md` | Scaling prerequisites, the scaling math (1→2→4 accounts), 3-phase timeline, automation thresholds (when to use PostBridge/carousel CLI), cross-platform expansion order |
-| `warmup-bot.md` | Warmup bot setup, CLI reference, engagement presets, platform setup (Android/iOS), and session examples |
+| `warmup-bot.md` | Warmup bot setup, CLI reference, engagement presets, platform setup (Android/iOS), session examples, AND `--mode search-seed` cold-start flow for brand-new accounts (runs curated search queries instead of FYP grinding) |
 | `cli-reference.md` | Complete carousel CLI command reference — all 5 groups (account, format, post, image, theme), every subcommand, flags, and examples |
 | `themes.md` | Theme catalog — pinterest, card, editorial descriptions, JSON configs, renderer behavior |
 | `batch-production.md` | Step-by-step batch production pattern — image inventory, topic generation, generation loop, image assignment, sync, render |

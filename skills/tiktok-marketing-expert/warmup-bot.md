@@ -2,6 +2,11 @@
 
 AI-powered TikTok account warmup using Claude Vision. Browses TikTok on a connected phone, watches videos, likes, comments, follows, and saves — training the algorithm to surface content in your niche.
 
+The bot has two modes:
+
+- **`--mode warmup`** (default) — Classic FYP-grinding loop. Sits on the For You Page, analyzes each video, and engages with topic-relevant content. Best for accounts that already have a signal and just need to sharpen it.
+- **`--mode search-seed`** — Cold-start loop for brand-new accounts. Runs a curated list of search queries (picked by `--topic` from a preset), watches a handful of videos per query, and engages with the top ones. See "The cold-start problem" below.
+
 ---
 
 ## Architecture
@@ -118,8 +123,9 @@ python -m src.main [OPTIONS]
 
 | Flag | Default | Description |
 |------|---------|-------------|
-| `--platform [ios\|android]` | `ios` | Device platform |
-| `--duration INTEGER` | `30` | Session duration in minutes |
+| `--mode [warmup\|search-seed]` | `warmup` | Loop to run. `search-seed` cold-starts a fresh account by running curated search queries instead of FYP grinding (see "The cold-start problem" below) |
+| `--platform [ios\|android]` | `ios` | Device platform. **`search-seed` requires `android`** — iOS Voice Control lacks the raw input primitives the search nav needs |
+| `--duration INTEGER` | `30` | Session duration in minutes (warmup mode only) |
 | `--engagement-rate [low\|medium\|high]` | `medium` | Controls like/save/follow/comment frequency |
 | `--max-follows INTEGER` | `5` | Max profiles to follow per session |
 | `--device TEXT` | (auto) | ADB device serial (for multiple Android devices) |
@@ -127,8 +133,11 @@ python -m src.main [OPTIONS]
 | `--voice TEXT` | `Samantha` | macOS voice for TTS (iOS only) |
 | `--dry-run` | off | AI analysis only, no actions executed |
 | `--save-screenshots` | off | Save screenshots to disk |
-| `--force-comment` | off | Force a comment on the first relevant video |
+| `--force-comment` | off | Force a comment on the first relevant video (warmup mode only) |
 | `--log-level TEXT` | `info` | Logging level |
+| `--videos-per-query INTEGER` | `8` | (`search-seed` only) Videos to watch per query before moving on |
+| `--likes-per-query INTEGER` | `4` | (`search-seed` only) Soft cap on likes attributed to each query |
+| `--follows-per-query INTEGER` | `1` | (`search-seed` only) Soft cap on follows attributed to each query |
 
 ### Engagement presets
 
@@ -137,6 +146,74 @@ python -m src.main [OPTIONS]
 | `low` | 10% | 5% | 3 | every 12-18 videos | every 15-20 videos |
 | `medium` | 25% | 10% | 5 | every 8-12 videos | every 10-15 videos |
 | `high` | 40% | 20% | 8 | every 5-8 videos | every 7-10 videos |
+
+## The cold-start problem
+
+A brand-new TikTok account has no signal. Its For You Page is pure random cold-start content — the algorithm hasn't seen any engagement yet, so it doesn't know what to serve. If you run the classic `--mode warmup` loop on this account, the bot dutifully analyzes each video, finds most of them irrelevant (relevance < 30), swipes past them, and the few engagements it does make are diluted across whatever random topics happen to appear. After 30 minutes you've spent API budget and taught the algorithm almost nothing, because the denominator of "videos shown" was never in your niche to begin with.
+
+**`--mode search-seed` solves this.** Instead of waiting for the algorithm to surface relevant content, you drive directed attention through TikTok's search. Every video the bot sees came from a query YOU chose, so every like/follow is a strong topical signal with no noise. This is the first thing you should run on any fresh account before any other warmup.
+
+### How it works
+
+The search-seed runner iterates over a curated query list for the topic. For each query, it:
+
+1. Navigates from the FYP to the Search icon (top-right of the FYP — not a bottom-nav tab)
+2. Types the query into the focused search input and submits via KEYCODE_ENTER
+3. Switches to the **Videos** tab on the results screen (critical — see "Always switch to Videos tab" below)
+4. Taps the first video thumbnail to enter the fullscreen swipeable feed
+5. Runs the normal capture/analyze/act loop for `--videos-per-query` videos, enforcing soft budgets (`--likes-per-query`, `--follows-per-query`)
+6. Returns to the FYP via the Home bottom-nav tab (**never** KEYCODE_BACK — see "Never KEYCODE_BACK on the FYP")
+7. Moves to the next query
+
+After all queries are exhausted the session ends.
+
+### Query presets
+
+Query presets live in `warmup/src/search_seed/queries.py`. Each topic maps to an ordered list of 8-15 natural-language queries. The order matters — broad queries establish the macro-niche, narrower queries refine it. Do NOT randomize.
+
+| Topic | Notes |
+|-------|-------|
+| `pregnancy` | Primary shipping preset. 12 queries covering trimesters, food/skincare safety, symptoms, hospital bag, registry |
+| `fitness` | Example preset |
+| `cooking` | Example preset |
+
+**Adding a new topic**: append to `QUERY_PRESETS` in `queries.py` with an ordered list of natural-language search phrases. No other code changes needed. Real user phrases beat hashtags — TikTok's search grades them higher.
+
+### Choosing per-query budgets
+
+The defaults (`--videos-per-query 8`, `--likes-per-query 4`, `--follows-per-query 1`) are the sweet spot for a typical cold-start. Rationale:
+
+- **8 videos per query** is enough to get past the 1-2 "featured/top" slots (which are often off-topic for broad queries) and reach the algorithmic long-tail, without over-engaging on any single query.
+- **4 likes per query** is a 50% like rate relative to videos watched — aggressive enough to build signal fast, not so aggressive that it looks bot-like.
+- **1 follow per query** keeps total follows across a ~12-query session at ~12, under TikTok's "new account following spike" rate-limit threshold.
+
+Budgets are **soft caps, not hard gates** — if you hit the like budget early, the bot keeps watching to `--videos-per-query` but stops counting new engagements against the budget. This prevents "like every video in one query, none in the next" lopsidedness without forcing the bot to swipe past obviously-great content.
+
+### Example sessions
+
+```bash
+# Fresh pregnancy account — cold start with defaults
+.venv/bin/python -m src.main --mode search-seed --platform android --topic pregnancy
+
+# Same but dry-run first to verify ADB connection and nav flow
+.venv/bin/python -m src.main --mode search-seed --platform android --topic pregnancy --videos-per-query 2 --dry-run
+
+# Aggressive cold start — more videos per query, more follows
+.venv/bin/python -m src.main --mode search-seed --platform android --topic pregnancy \
+  --videos-per-query 10 --likes-per-query 5 --follows-per-query 2
+```
+
+**After search-seed completes**, switch to classic warmup mode for ongoing maintenance:
+
+```bash
+.venv/bin/python -m src.main --platform android --topic "pregnancy" --duration 20
+```
+
+The FYP should now be almost entirely pregnancy content thanks to the seed signal, so warmup mode's like/save/follow ratios will compound on a signal you already built instead of trying to build one from scratch.
+
+### Always switch to Videos tab before tapping the first thumbnail
+
+On the default "Top" search results tab, the first card is frequently a featured user, a hashtag page, or a sponsored result — tapping it drops out of the fullscreen swipeable feed, landing on a profile or a hashtag page and stalling the per-query loop on recovery nav. The **Videos** tab is the only results tab where tapping the first thumbnail reliably enters the fullscreen feed. The bot's navigator does this switch automatically before every `tap_first_video`; if you're scripting search nav outside the bot, replicate the behavior.
 
 ## Example sessions
 
@@ -337,3 +414,4 @@ This is particularly insidious because:
 11. **Never trust `uiautomator dump`'s exit code**: It returns 0 even when it fails with "could not get idle state." Always delete the remote file first and grep stdout for `"UI hierchary dumped to"` instead (see "The `uiautomator dump` stale-file trap" above). Applies to both your shell scripts and the warmup bot's Python `_dump_ui()`.
 12. **Never `KEYCODE_BACK` in a modal-dismissal path**: On the FYP, BACK quits TikTok via the "Tap again to exit" flow, killing the warmup session. If you can't find a close X, do nothing and let the next AI iteration retry — a stuck loop is infinitely better than a quit bot. BACK is only safe inside explicitly bottom-sheet overlays (comments, share sheet), never for generic "modal" state (see "Never KEYCODE_BACK on the FYP" above).
 13. **Don't add `"modal": "go_back"` to `ANDROID_OVERRIDES`**: This silently bypasses `_action_dismiss_modal` and its heuristic close-button finder, routing modal-dismissal straight to `_action_go_back` → KEYCODE_BACK → TikTok quits. When debugging "modal kills session" bugs, trace the actual `Action:` log line back to the state-machine decision, not the handler you think is being called (see "The Android state-machine override trap" above).
+14. **On brand-new accounts, always start with `--mode search-seed` before classic warmup**: A fresh account's FYP is pure random content, so the warmup bot's engagement signals get diluted against irrelevant videos and you burn API budget for almost no directional signal. `search-seed` drives curated search queries instead (`--topic pregnancy` picks the preset), watches 8 videos per query, and engages with the best ones — every like is a clean topical signal because YOU chose the query. Only after search-seed has built a baseline should you switch to classic warmup mode for ongoing maintenance. Requires `--platform android` — iOS Voice Control lacks the raw text/tap primitives the nav flow needs. See "The cold-start problem" above.

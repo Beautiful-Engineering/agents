@@ -123,16 +123,24 @@ Steps:
 1. **Check setup**: Verify `tiktok-tools/warmup/.venv` exists and `ANTHROPIC_API_KEY` is in `.env`
 2. **Device setup**: Ask which platform (Android or iOS). Walk the user through the full device setup steps from the skill file — this includes enabling Developer Options/USB Debugging (Android) or Developer Mode/Voice Control (iOS), installing ADB or running tunneld, and verifying the connection. Don't skip steps even if the user seems experienced.
 3. **Verify connection**: Run `adb devices` (Android) or check tunneld is running (iOS) to confirm the device is ready
-4. **Choose topic**: Ask the user what niche/topic to warm up for. If `brand.json` or growth deliverables exist, suggest topics from there.
-5. **Choose engagement level**: Ask the user for engagement rate (`low`, `medium`, `high`) and session duration
-6. **Run the bot**: Execute from the warmup directory with the venv activated:
+4. **Choose mode**: Ask the user whether the account is brand-new (cold-start, FYP still random) or established (FYP already somewhat on-topic).
+   - **Brand-new** → use `--mode search-seed`. This runs curated search queries and engages with their top videos, giving the algorithm a clean directed signal instead of diluting engagements across random cold-start content. Requires `--platform android` — iOS Voice Control can't drive the search nav flow. See "The cold-start problem" in `warmup-bot.md`.
+   - **Established** → use the classic `--mode warmup` loop (default).
+5. **Choose topic**: Ask the user what niche/topic to warm up for. If `brand.json` or growth deliverables exist, suggest topics from there. For `search-seed`, the `--topic` value must match a preset in `warmup/src/search_seed/queries.py` (currently `pregnancy`, `fitness`, `cooking`) — tell the user to run `list_topics()` or check that file for available topics. If the requested topic doesn't have a preset, offer to add one by appending to `QUERY_PRESETS`.
+6. **Choose engagement level**: Ask the user for engagement rate (`low`, `medium`, `high`). For classic warmup, also ask for session duration. For `search-seed`, the per-query budgets (`--videos-per-query`, `--likes-per-query`, `--follows-per-query`) default to 8/4/1 and are usually fine — only override if the user explicitly wants a more aggressive cold start.
+7. **Run the bot**: Execute from the warmup directory with the venv activated:
    ```bash
+   # Classic warmup (established account)
    cd tiktok-tools/warmup && source .venv/bin/activate && python -m src.main --platform <platform> --topic "<topic>" --duration <minutes> --engagement-rate <level>
-   ```
-7. **Monitor**: Tell the user to watch `tail -f bot.log` in a separate terminal for real-time logs
 
-**IMPORTANT**: The user must have TikTok open on the For You Page before starting the bot. Remind them of this.
-**IMPORTANT (iOS)**: Voice Control must be ON in Settings → Accessibility → Voice Control for the entire session. The bot speaks commands that Voice Control executes as taps/swipes.
+   # Search-seed cold start (brand-new account)
+   cd tiktok-tools/warmup && source .venv/bin/activate && python -m src.main --mode search-seed --platform android --topic <topic-preset>
+   ```
+8. **Monitor**: Tell the user to watch `tail -f bot.log` in a separate terminal for real-time logs
+9. **(Cold-start accounts)**: After `search-seed` completes, suggest running a classic `--mode warmup` session as a follow-up — the FYP should now be largely on-topic, so the warmup loop's engagement signals will compound on the seed instead of starting from zero.
+
+**IMPORTANT**: The user must have TikTok open on the For You Page before starting the bot — for BOTH modes. Search-seed also starts from the FYP; the navigator handles the transition to the search screen.
+**IMPORTANT (iOS)**: Voice Control must be ON in Settings → Accessibility → Voice Control for the entire session. The bot speaks commands that Voice Control executes as taps/swipes. iOS does NOT support `search-seed` mode — use Android.
 
 ### 2. Account Setup
 Set up a new TikTok account in the carousel system.
