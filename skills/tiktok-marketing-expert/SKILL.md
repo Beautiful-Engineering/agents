@@ -1,11 +1,11 @@
 ---
 name: TikTok Marketing Expert
-description: Reference data for the TikTok marketing toolkit — organic growth playbook, content strategy, warmup bot for account training, and carousel-generator for content production
+description: Reference data for the TikTok marketing toolkit — organic growth playbook, content strategy, warmup bot for account training, carousel-generator for image carousels, and video-generator for AI-generated product scanning videos
 ---
 
 # TikTok Marketing Expert
 
-Full-stack TikTok growth system: (1) **Organic Growth Playbook** — 6-phase strategic roadmap from account creation to scaled multi-account operation, (2) **Content Strategy** — hook formulas, CTA types, proven formats, and performance tracking, (3) **Warmup Bot** — AI-powered account training via Claude Vision, and (4) **Carousel Generator** — content production pipeline with AI generation, Remotion rendering, and PostBridge scheduling.
+Full-stack TikTok growth system: (1) **Organic Growth Playbook** — 6-phase strategic roadmap from account creation to scaled multi-account operation, (2) **Content Strategy** — hook formulas, CTA types, proven formats, and performance tracking, (3) **Warmup Bot** — AI-powered account training via Claude Vision, (4) **Carousel Generator** — image carousel production pipeline with AI generation, Remotion rendering, and PostBridge scheduling, and (5) **Video Generator** — AI-generated pregnancy product scanning videos with Replicate Seedance 2.0, Remotion compositing, automated product discovery via Open Food Facts, and PostBridge publishing.
 
 ## When to Use
 
@@ -20,23 +20,38 @@ Use these references when:
 - Creating new visual themes or renderers
 - Rendering and exporting carousel images
 - Posting and scheduling via PostBridge API
+- Generating AI videos for product scanning content
+- Finding products by category for video content
 - Troubleshooting rendering, generation, or warmup issues
 
 ## File Reference
 
+### Strategy & Growth
 | File | What It Covers |
 |------|----------------|
-| `organic-growth-playbook.md` | 6-phase organic growth roadmap — account creation, community building, content-market fit, trend riding, conversion optimization, scaling. Includes coaching mode with common stuck scenarios |
-| `content-strategy.md` | Hook formulas (the winning `[person] + [conflict] → showed them [app] → reaction` pattern), 4 CTA types, proven formats (couples doodle, AI slideshows, UGC discovery, before/after), image gen tips, text overlay rules, performance tracking |
-| `scaling-strategy.md` | Scaling prerequisites, the scaling math (1→2→4 accounts), 3-phase timeline, automation thresholds (when to use PostBridge/carousel CLI), cross-platform expansion order |
-| `warmup-bot.md` | Warmup bot setup, CLI reference, engagement presets, platform setup (Android/iOS), session examples, AND `--mode search-seed` cold-start flow for brand-new accounts (runs curated search queries instead of FYP grinding) |
-| `cli-reference.md` | Complete carousel CLI command reference — all 5 groups (account, format, post, image, theme), every subcommand, flags, and examples |
-| `themes.md` | Theme catalog — pinterest, card, editorial descriptions, JSON configs, renderer behavior |
-| `batch-production.md` | Step-by-step batch production pattern — image inventory, topic generation, generation loop, image assignment, sync, render |
-| `new-account-setup.md` | Full walkthrough: create account, create/assign theme, create format, first post |
-| `new-theme-creation.md` | How to create a new renderer + theme JSON + register + DB setup. Includes instructions for invoking `frontend-design` and `remotion-best-practices` skills |
-| `posting-scheduling.md` | PostBridge integration — MCP tools for interactive posting/management, REST API for media uploads, batch scheduling script, TikTok carousel notes |
-| `analytics.md` | PostBridge analytics via MCP — syncing TikTok data, fetching engagement metrics (views, likes, comments, shares), cross-referencing with carousel DB, engagement benchmarks |
+| `organic-growth-playbook.md` | 6-phase organic growth roadmap — account creation, community building, content-market fit, trend riding, conversion optimization, scaling |
+| `content-strategy.md` | Hook formulas, 4 CTA types, proven formats, image gen tips, text overlay rules, performance tracking |
+| `scaling-strategy.md` | Scaling prerequisites, the scaling math, automation thresholds, cross-platform expansion |
+| `warmup-bot.md` | Warmup bot setup, CLI reference, engagement presets, search-seed cold-start flow |
+| `analytics.md` | PostBridge analytics — syncing TikTok data, engagement metrics, benchmarks |
+| `posting-scheduling.md` | PostBridge integration — media uploads, batch scheduling, TikTok notes |
+
+### Carousel Generator (Image Posts)
+| File | What It Covers |
+|------|----------------|
+| `cli-reference.md` | Carousel CLI command reference — account, format, post, image, theme commands |
+| `themes.md` | Theme catalog — pinterest, card, editorial descriptions, JSON configs |
+| `batch-production.md` | Carousel batch production pattern — image inventory, topic generation, render |
+| `new-account-setup.md` | Carousel account setup: create account, assign theme, create format, first post |
+| `new-theme-creation.md` | How to create a new carousel renderer + theme JSON |
+
+### Video Generator (AI Product Scanning Videos)
+| File | What It Covers |
+|------|----------------|
+| `video-cli-reference.md` | Video CLI command reference — `video auto`, `video batch`, product commands, all flags |
+| `video-batch-production.md` | Video batch production pattern — theme × account matrix, cost estimates, content variety |
+| `video-themes-hooks.md` | Hook themes (snacks, drinks, breakfast, dairy, sauces, skincare), OFF category mappings, settings, hook templates |
+| `video-accounts-characters.md` | 10 Oli accounts, AI character prompts for Seedance 2.0, account ↔ theme recommendations |
 
 ## Key File Locations
 
