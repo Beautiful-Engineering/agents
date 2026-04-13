@@ -92,9 +92,36 @@ npx tsx src/cli/index.ts video show <id>
 - **Rotate themes**: Don't repeat the same theme on the same account consecutively
 - **Leverage account angles**: `whattoavoid.bump` should lean negative, `safefoodmama` can be more educational
 
+## PostBridge Publishing
+
+After rendering, upload to PostBridge for TikTok publishing:
+
+```bash
+# PostBridge social account IDs for Oli TikTok accounts:
+#   56183 — @oli.fragments
+#   56184 — @whattoavoid.bump
+#   56182 — @pregnancymyths
+#   56181 — @oli.scans
+```
+
+The upload flow is: create upload URL → PUT video file → create post with media_id. See `posting-scheduling.md` for the full API reference. Always set `is_aigc: true` in TikTok platform config.
+
+## Product Variety
+
+The system automatically avoids product repetition:
+- **Random pagination**: Searches random pages (1-10) of Open Food Facts results instead of always page 1
+- **Category shuffling**: Randomizes which category to search first within a theme
+- **Used-product exclusion**: Products already used in previous videos are automatically excluded from search results
+
+This means each `video auto` run will find different products even for the same theme.
+
 ## Gotchas
 
 - **Product availability**: Open Food Facts may not have enough products with caution/avoid in some categories. If `video auto` can't find enough, try a different theme or switch to positive tone.
 - **Replicate rate limits**: Running too many `video auto` commands in parallel may hit rate limits. Run sequentially or with short gaps between accounts.
-- **Duplicate products**: The same popular product (e.g., Red Bull) may appear across different theme searches. The system de-duplicates in the DB but the same product could end up in videos for different accounts.
+- **Hook-product mismatch**: The system validates that hook tone matches product safety results. A negative hook ("aren't safe") requires at least one caution/avoid product. If validation fails, the CLI will error with details.
+- **Hook must match products**: Don't use "snacks" hooks with drinks. The `video auto` command handles this automatically by pairing themes with appropriate categories and settings.
 - **Hook variety**: The hook templates are finite. For high-volume production, consider writing custom hooks with `video batch --hook "..."` for variety.
+- **Video generation time**: Each Replicate Seedance 2.0 prediction takes ~2-3 minutes. With 4 predictions per video (1 hook + 3 flips), expect ~3 min total since they run in parallel.
+- **Render time**: Remotion rendering takes ~2 min per video on local CPU.
+- **PostBridge processing**: After upload, PostBridge takes 1-5 min to process the video before publishing to TikTok.
