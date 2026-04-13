@@ -261,7 +261,9 @@ There's no way to read TikTok's app data directly on a non-rooted device (`run-a
 
 4. **Onboarding overlay gotcha**: TikTok occasionally shows a full-screen *"Your avatar, your style — Get started"* overlay over the Profile tab. Symptom: the dump is suspiciously small (~9KB) and contains no `@handle`. To handle it: query `wm size` for screen dimensions, scan ImageView nodes whose `y1` is in the top 15% of the screen, tap the rightmost one (the close button), then re-dump.
 
-5. **Cross-reference against your account database**. Once you have the handle, look it up in your project's accounts table to (a) confirm it matches the expected account for this warmup session and (b) resolve the local `account_id` so the new `warmup_sessions` row gets associated correctly without operator input.
+5. **BSD awk compatibility**: macOS ships BSD awk, which does NOT support `match($0, /regex/, capture_array)` — a gawk-specific extension. If `detect-account.sh` uses `match()` with a third argument for capture groups, it will silently fail on macOS. Replace with a `sed | awk` pipeline: use `sed -nE` to extract coordinate fields and pipe to plain `awk` for arithmetic. Always test scripts on macOS's default awk, not gawk.
+
+6. **Cross-reference against your account database**. Once you have the handle, look it up in your project's accounts table to (a) confirm it matches the expected account for this warmup session and (b) resolve the local `account_id` so the new `warmup_sessions` row gets associated correctly without operator input.
 
 Wrap this into a `detect-account.sh <serial>` script in your project (prints handle to stdout, distinct exit codes for foreground/dump/handle failures) and call it at the top of any launch-warmup script.
 
@@ -399,6 +401,39 @@ This is particularly insidious because:
 2. When you add or modify a platform override, grep for the action name to confirm what handler actually gets called. `dismiss_modal` and `go_back` look similar in logs but have completely different blast radii.
 3. When debugging an "it quits TikTok on modal" issue, trace backwards from the action actually executed (in the `Action: <name>` log line) to the state-machine recovery decision — don't trust that the handler you patched is the one being called.
 
+## Self-healing overlay dismissal
+
+TikTok regularly shows unexpected popups, modals, update prompts, and onboarding overlays that block the bottom navigation bar. When this happens, `switch-account.sh` and `detect-account.sh` can't find the Profile or Home tab and fail. Rather than failing immediately, these scripts now call `dismiss-overlays.sh` as a self-healing step before giving up.
+
+### `dismiss-overlays.sh <serial>`
+
+Project-local script that detects and clears overlays using 6 escalating strategies (least disruptive first):
+
+1. **Tap known dismiss buttons by text** — cycles through common button labels: "Not now", "Maybe later", "Skip", "Close", "Got it", "OK", "Cancel", "No thanks", "Dismiss", "Save", "Not interested", "Done", "Later", "Allow", "Continue", "Remind me later"
+2. **Tap known dismiss buttons by content-desc** — "Close", "Dismiss", "Back", "Navigate up", "Cancel"
+3. **Heuristic close-X finder** — finds small, roughly-square, clickable `ImageView`/`ImageButton` nodes in the top 60% of the screen, prefers the rightmost candidate (close X is conventionally top-right). Filters by area (0.05%–1.25% of screen) and aspect ratio (≤ 3.0).
+4. **KEYCODE_BACK** — only used when the bottom nav is hidden (confirming we're NOT on the bare FYP where BACK would quit TikTok). Tries up to 2 presses for nested pages.
+5. **Tap center of screen** — dismisses tap-to-dismiss tooltips and coach marks.
+6. **Swipe down** — dismisses bottom sheets.
+
+**Final fallback**: if TikTok is no longer the foreground app after all strategies, relaunches TikTok via `am start`.
+
+After each strategy, re-dumps the UI and checks if the bottom nav (Home + Profile tabs) is now visible. Exits `0` as soon as the nav appears. Exit `2` if all strategies fail.
+
+### Integration with other scripts
+
+- **`switch-account.sh`**: calls `dismiss-overlays.sh` at two points — when Profile tab isn't found (before step 1), and when the header username `rfm` node isn't found on the profile page (before step 2).
+- **`detect-account.sh`**: calls `dismiss-overlays.sh` when Profile tab isn't found.
+- **Warmup orchestrator**: calls `dismiss-overlays.sh` proactively inside `navigate_to_fyp()` before any navigation attempt, and as a recovery step when switch fails before retrying the round.
+
+### Adding new dismiss targets
+
+When a new overlay pattern appears that the current strategies don't handle:
+1. Take a `uiautomator dump` while the overlay is visible
+2. Identify the dismiss button's `text`, `content-desc`, or `class`/position
+3. Add the text to the `DISMISS_TEXTS` array (Strategy 1) or `DISMISS_DESCS` array (Strategy 2) in `dismiss-overlays.sh`
+4. If it's a pattern without labeled buttons, extend the heuristic finder logic
+
 ## Key gotchas
 
 1. **Working directory**: Run from `tiktok-tools/warmup/` (where `.env` lives)
@@ -414,4 +449,5 @@ This is particularly insidious because:
 11. **Never trust `uiautomator dump`'s exit code**: It returns 0 even when it fails with "could not get idle state." Always delete the remote file first and grep stdout for `"UI hierchary dumped to"` instead (see "The `uiautomator dump` stale-file trap" above). Applies to both your shell scripts and the warmup bot's Python `_dump_ui()`.
 12. **Never `KEYCODE_BACK` in a modal-dismissal path**: On the FYP, BACK quits TikTok via the "Tap again to exit" flow, killing the warmup session. If you can't find a close X, do nothing and let the next AI iteration retry — a stuck loop is infinitely better than a quit bot. BACK is only safe inside explicitly bottom-sheet overlays (comments, share sheet), never for generic "modal" state (see "Never KEYCODE_BACK on the FYP" above).
 13. **Don't add `"modal": "go_back"` to `ANDROID_OVERRIDES`**: This silently bypasses `_action_dismiss_modal` and its heuristic close-button finder, routing modal-dismissal straight to `_action_go_back` → KEYCODE_BACK → TikTok quits. When debugging "modal kills session" bugs, trace the actual `Action:` log line back to the state-machine decision, not the handler you think is being called (see "The Android state-machine override trap" above).
-14. **On brand-new accounts, always start with `--mode search-seed` before classic warmup**: A fresh account's FYP is pure random content, so the warmup bot's engagement signals get diluted against irrelevant videos and you burn API budget for almost no directional signal. `search-seed` drives curated search queries instead (`--topic pregnancy` picks the preset), watches 8 videos per query, and engages with the best ones — every like is a clean topical signal because YOU chose the query. Only after search-seed has built a baseline should you switch to classic warmup mode for ongoing maintenance. Requires `--platform android` — iOS Voice Control lacks the raw text/tap primitives the nav flow needs. See "The cold-start problem" above.
+14. **Self-heal before failing**: When `switch-account.sh` or `detect-account.sh` can't find the Profile tab or header username, they now call `dismiss-overlays.sh` automatically before failing. Orchestrator scripts should also call `dismiss-overlays.sh` proactively in `navigate_to_fyp()` and as a recovery step when a round fails — this handles the common case where TikTok shows a popup after a warmup session ends that blocks the next account switch.
+15. **On brand-new accounts, always start with `--mode search-seed` before classic warmup**: A fresh account's FYP is pure random content, so the warmup bot's engagement signals get diluted against irrelevant videos and you burn API budget for almost no directional signal. `search-seed` drives curated search queries instead (`--topic pregnancy` picks the preset), watches 8 videos per query, and engages with the best ones — every like is a clean topical signal because YOU chose the query. Only after search-seed has built a baseline should you switch to classic warmup mode for ongoing maintenance. Requires `--platform android` — iOS Voice Control lacks the raw text/tap primitives the nav flow needs. See "The cold-start problem" above.
