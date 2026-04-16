@@ -275,11 +275,15 @@ TikTok Android (`com.zhiliaoapp.musically`) account-switcher flow:
 
 1. **Navigate to Profile**: Tap the `Profile` bottom-tab (same technique as `detect-account.sh` — parse bounds from UIAutomator dump, don't hardcode coordinates).
 
-2. **Tap the header username button**. Dump the UI, find the node with `resource-id="com.zhiliaoapp.musically:id/rfm"`, parse its bounds, tap the centerpoint.
+2. **Tap the header username button**. Dump the UI, find the node whose `resource-id` is either `com.zhiliaoapp.musically:id/rfm` (older builds) or `com.zhiliaoapp.musically:id/oen` (2026-04+ builds — TikTok renamed it). Parse its bounds, tap the centerpoint.
    ```bash
    adb -s <serial> shell input tap <cx> <cy>
    ```
-   **Critical gotcha**: Do NOT tap the larger `@username` line below the header button — that's `resource-id="com.zhiliaoapp.musically:id/rhk"` and on at least some builds it's a no-op or goes to edit-profile instead of opening the switcher. Always use `id/rfm`.
+   **Critical gotcha 1 — resource-id rename**: Match both `rfm|oen` in your regex. Pinning to `rfm` alone will silently fail the day TikTok renames it again; using an alternation gives forward-compat without operator intervention.
+
+   **Critical gotcha 2 — self-closing vs open tags**: On older builds `rfm` was a `Button` with no children (dump ends with `/>` self-closing). On newer builds `oen` is a `LinearLayout` that *wraps* the username TextView, so its opening tag ends with plain `>` and has nested `<node>` children. A regex like `<node[^>]*resource-id="...id/(rfm|oen)"[^>]*/>` will match the old form but miss the new one. Use `[^>]*>` (not `[^>]*/>`) so it matches either shape.
+
+   **Critical gotcha 3 — the `rhk` trap**: Do NOT tap the larger `@username` line below the header button — that's `resource-id="com.zhiliaoapp.musically:id/rhk"` and on at least some builds it's a no-op or goes to edit-profile instead of opening the switcher. Always use `id/rfm` or `id/oen`, never `rhk`.
 
 3. **Wait ~1.5s for the bottom sheet**, then dump the UI. The "Switch account" bottom sheet is identifiable by `content-desc="Bottom sheet"`. Each logged-in account appears as a row with:
    - `resource-id="com.zhiliaoapp.musically:id/kqe"`
@@ -422,7 +426,7 @@ After each strategy, re-dumps the UI and checks if the bottom nav (Home + Profil
 
 ### Integration with other scripts
 
-- **`switch-account.sh`**: calls `dismiss-overlays.sh` at two points — when Profile tab isn't found (before step 1), and when the header username `rfm` node isn't found on the profile page (before step 2).
+- **`switch-account.sh`**: calls `dismiss-overlays.sh` at two points — when Profile tab isn't found (before step 1), and when the header username (`rfm` or `oen`) node isn't found on the profile page (before step 2).
 - **`detect-account.sh`**: calls `dismiss-overlays.sh` when Profile tab isn't found.
 - **Warmup orchestrator**: calls `dismiss-overlays.sh` proactively inside `navigate_to_fyp()` before any navigation attempt, and as a recovery step when switch fails before retrying the round.
 
