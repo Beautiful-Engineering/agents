@@ -275,19 +275,24 @@ TikTok Android (`com.zhiliaoapp.musically`) account-switcher flow:
 
 1. **Navigate to Profile**: Tap the `Profile` bottom-tab (same technique as `detect-account.sh` — parse bounds from UIAutomator dump, don't hardcode coordinates).
 
-2. **Tap the header username button**. Dump the UI, find the node whose `resource-id` is either `com.zhiliaoapp.musically:id/rfm` (older builds) or `com.zhiliaoapp.musically:id/oen` (2026-04+ builds — TikTok renamed it). Parse its bounds, tap the centerpoint.
+2. **Tap the header username button**. Dump the UI, find the node whose `resource-id` matches the build's clickable username button:
+   - Pre-2026-04: `com.zhiliaoapp.musically:id/rfm` (Button, self-closing tag)
+   - 2026-04 early: `com.zhiliaoapp.musically:id/oen` (LinearLayout wrapping TextView, open tag with children)
+   - 2026-04 late (verified 2026-04-24): `com.zhiliaoapp.musically:id/rf6` (Button with `text="<username>"` — no `@` prefix). On this build `rfm` still exists but is now a non-clickable LinearLayout container spanning the upper half of the profile screen — tapping its center hits `rh4` (the @username line below) which is the new `rhk`-trap equivalent and does NOT open the switcher.
+
+   Parse the matched node's bounds and tap the centerpoint.
    ```bash
    adb -s <serial> shell input tap <cx> <cy>
    ```
-   **Critical gotcha 1 — resource-id rename**: Match both `rfm|oen` in your regex. Pinning to `rfm` alone will silently fail the day TikTok renames it again; using an alternation gives forward-compat without operator intervention.
+   **Critical gotcha 1 — match `rf6` first**: When alternation-matching `rf6|rfm|oen`, **prefer `rf6`** since on the current build `rfm` is a non-clickable container and matching it first will tap dead space. Match in priority order or filter `rfm`/`oen` matches by `clickable="true"`.
 
-   **Critical gotcha 2 — self-closing vs open tags**: On older builds `rfm` was a `Button` with no children (dump ends with `/>` self-closing). On newer builds `oen` is a `LinearLayout` that *wraps* the username TextView, so its opening tag ends with plain `>` and has nested `<node>` children. A regex like `<node[^>]*resource-id="...id/(rfm|oen)"[^>]*/>` will match the old form but miss the new one. Use `[^>]*>` (not `[^>]*/>`) so it matches either shape.
+   **Critical gotcha 2 — self-closing vs open tags**: On older builds `rfm` was a `Button` with no children (dump ends with `/>` self-closing). On 2026-04 early `oen` is a `LinearLayout` that *wraps* the username TextView, so its opening tag ends with plain `>` and has nested `<node>` children. On 2026-04 late `rf6` is a `Button` again. A regex pinned to `[^>]*/>` will silently miss the open-tag form. Use `[^>]*>` so it matches either shape, OR use `[^>]*` followed by `/?>` to accept both.
 
-   **Critical gotcha 3 — the `rhk` trap**: Do NOT tap the larger `@username` line below the header button — that's `resource-id="com.zhiliaoapp.musically:id/rhk"` and on at least some builds it's a no-op or goes to edit-profile instead of opening the switcher. Always use `id/rfm` or `id/oen`, never `rhk`.
+   **Critical gotcha 3 — the `rhk`/`rh4` trap**: Do NOT tap the larger `@username` line below the header button — that's `resource-id="com.zhiliaoapp.musically:id/rhk"` (older) or `id/rh4` (2026-04 late) and either no-ops or goes to edit-profile instead of opening the switcher. Always use the actual header button (`rf6`/`oen`/`rfm`), never `rhk`/`rh4`.
 
 3. **Wait ~1.5s for the bottom sheet**, then dump the UI. The "Switch account" bottom sheet is identifiable by `content-desc="Bottom sheet"`. Each logged-in account appears as a row with:
-   - `resource-id="com.zhiliaoapp.musically:id/kqe"`
-   - `content-desc="<handle>"` (the bare handle — **without** the `@` prefix)
+   - `resource-id="com.zhiliaoapp.musically:id/kqe"` (pre-2026-04-24) **or `com.zhiliaoapp.musically:id/kpe`** (2026-04-24+ — yet another silent rename, alongside `rfm→rf6`). Match `(kqe|kpe)` for cross-build safety.
+   - `content-desc="<handle>"` (the bare handle — **without** the `@` prefix). Some accounts render with a numeric `user<id>` content-desc instead of the handle (typically when TikTok hasn't synced the handle on that device yet); maintain a project-local alias map (e.g. `oli.fragments → user5026110800762`) and fall back to it when the primary handle lookup misses.
 
 4. **Tap the row** whose `content-desc` matches your target handle. Parse its bounds, tap the centerpoint.
 
