@@ -6,8 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Claude Code plugin that bundles AI agents, skills, and curriculum content. It includes:
 
-- **11 agents**: Growth Consultant, SEO Expert, Blog Writer, Landing Page Expert, Cold Email Outreach Expert, Google Ads Expert, Apple Ads Analyzer, ASO & Keyword Expert, TikTok Marketing Expert, Pricing Expert, Copywriting Expert — trained on the Demand Curve and Copy That curricula
-- **61 skill files**: Distilled frameworks, checklists, templates, and scoring rubrics
+- **12 agents**: Growth Consultant, SEO Expert, Blog Writer, Landing Page Expert, Cold Email Outreach Expert, Google Ads Expert, Apple Ads Analyzer, ASO & Keyword Expert, TikTok Marketing Expert, Pricing Expert, Copywriting Expert, Funnel Analyst — trained on the Demand Curve and Copy That curricula (Funnel Analyst is a PostHog-driven analytics agent)
+- **65 skill files**: Distilled frameworks, checklists, templates, and scoring rubrics
 - **Curriculum content**: 404 Demand Curve lessons across 53 courses with 982 locally-stored images, plus 11 Copy That lessons (the knowledge base the agents draw from)
 
 There are no build steps, tests, or runtime dependencies. Everything is static markdown.
@@ -29,7 +29,8 @@ agents/                         # (repo root)
 │   ├── aso-keyword-expert.md  # ASO & keyword research expert (Build + Audit modes)
 │   ├── tiktok-marketing-expert.md # TikTok carousel production (6 modes)
 │   ├── pricing-expert.md      # Pricing strategist (Build + Audit modes)
-│   └── copywriting-expert.md  # Copywriting expert (Write + Review modes)
+│   ├── copywriting-expert.md  # Copywriting expert (Write + Review modes)
+│   └── funnel-analyst.md      # Product-funnel analyst on PostHog (5 phases, brand-agnostic)
 ├── skills/
 │   ├── growth-fundamentals/    # 10 skill files (F5, catalysts, story system, etc.)
 │   ├── seo-expert/             # 6 skill files (technical, on-page, keywords, etc.)
@@ -41,7 +42,8 @@ agents/                         # (repo root)
 │   ├── aso-keyword-expert/     # 5 skill files (listing optimization, keyword research, competitor analysis, audit rubric, index)
 │   ├── tiktok-marketing-expert/ # 7 skill files (CLI, themes, batch, account setup, theme creation, posting)
 │   ├── pricing-expert/         # 7 skill files (value metric, structures, research, tiers, economics, page copy, audit)
-│   └── copywriting-expert/    # 5 skill files (persuasion frameworks, writing mechanics, copy types, swipe file, scoring rubric)
+│   ├── copywriting-expert/    # 5 skill files (persuasion frameworks, writing mechanics, copy types, swipe file, scoring rubric)
+│   └── funnel-analyst/        # 4 skill files (rubric, query recipes, analysis framework, index)
 ├── content/
 │   ├── demand-curve/           # Demand Curve growth curriculum
 │   │   ├── INDEX.md            # Master curriculum index
@@ -66,7 +68,7 @@ agents/                         # (repo root)
 /plugin install agents@beautiful-engineering
 ```
 
-This makes all 11 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
+This makes all 12 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
 
 ## Agents Overview
 
@@ -83,6 +85,7 @@ This makes all 11 agents and their skills available in any Claude Code session. 
 | **TikTok Marketing Expert** | TikTok carousel content production: AI generation, Remotion rendering, PostBridge scheduling | Account Setup, Single Post, Batch Production, Render & Export, Post & Schedule, Theme Design |
 | **Pricing Expert** | Design and audit monetization/pricing strategies with economic validation | Build (7 phases) or Audit existing pricing (5 phases) |
 | **Copywriting Expert** | Write and review persuasive copy — sales pages, email sequences, founder letters, ads, advertorials | Write (6 phases) or Review existing copy (4 phases) |
+| **Funnel Analyst** | Weekly product-funnel analysis on PostHog — acquisition sources, onboarding/activation, install→trial→paid, paywall & churn. Brand-agnostic; reads per-project `funnel/config.md` | 5 phases: Orient → Pull → Score → Recommend → Log |
 
 All agents integrate with each other's deliverables (e.g., the Blog Writer reads the SEO keyword data and Growth Story System for brand voice, the Landing Page Expert uses Story System value props for messaging).
 

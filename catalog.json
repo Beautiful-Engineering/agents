@@ -142,6 +142,24 @@
       "file": "agents/pricing-expert.md",
       "skills": [],
       "integrations": []
+    },
+    {
+      "id": "funnel-analyst",
+      "name": "Funnel Analyst",
+      "description": "Weekly product-funnel analysis on PostHog — acquisition sources, onboarding/activation, install→trial→paid, and paywall & churn. Brand-agnostic; reads per-project funnel/config.md.",
+      "category": "Growth & Strategy",
+      "emoji": "📊",
+      "file": "agents/funnel-analyst.md",
+      "skills": [
+        "skills/funnel-analyst"
+      ],
+      "integrations": [
+        {
+          "key": "posthog",
+          "optional": false,
+          "note": "Required — all funnel data comes from the PostHog MCP"
+        }
+      ]
     }
   ]
 }

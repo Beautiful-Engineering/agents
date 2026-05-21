@@ -17,6 +17,7 @@ A [Claude Code](https://claude.ai/claude-code) plugin that bundles AI agents tra
 | **TikTok Marketing Expert** | TikTok organic growth and content production — AI-powered carousel generation, Remotion rendering, PostBridge scheduling, and performance analytics. Six modes: Account Setup, Single Post, Batch Production, Render & Export, Post & Schedule, Theme Design. |
 | **Pricing Expert** | Designs and audits monetization/pricing strategies with economic validation. Two modes: Build (7 phases from value metric to pricing page copy) and Audit (5-phase review with experiment design). |
 | **Copywriting Expert** | Writes and reviews persuasive copy trained on Sam Parr's Copy That curriculum — sales pages, email sequences, founder letters, ads, advertorials, product descriptions. Two modes: Write (6 phases) and Review (4-phase audit with scoring rubric). |
+| **Funnel Analyst** | Weekly product-funnel analysis on top of PostHog — acquisition sources, onboarding/activation funnel, install→trial→paid conversion, and paywall & churn. Pulls last-7-days (with week-over-week deltas), scores against per-project targets, and logs to a tracking CSV. Brand-agnostic: reads events and targets from a per-project `funnel/config.md` and runs guided setup with schema discovery when it's missing. |
 
 The agents integrate with each other — the Blog Writer reads SEO keyword data and the Growth Story System for brand voice, the ASO & Keyword Expert produces keyword lists that feed into the Apple Ads Analyzer, the Landing Page Expert uses Story System value props for messaging, the Pricing Expert validates against growth guardrails, and so on.
 
@@ -30,7 +31,7 @@ The agents integrate with each other — the Blog Writer reads SEO keyword data 
 /plugin install agents@beautiful-engineering
 ```
 
-This makes all 11 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
+This makes all 12 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
 
 Then use any agent:
 ```bash
@@ -45,6 +46,7 @@ claude --agent aso-keyword-expert
 claude --agent tiktok-marketing-expert
 claude --agent pricing-expert
 claude --agent copywriting-expert
+claude --agent funnel-analyst
 ```
 
 ## What's Inside
@@ -52,8 +54,8 @@ claude --agent copywriting-expert
 ```
 agents/
 ├── .claude-plugin/plugin.json        # Plugin manifest
-├── agents/                           # 11 agent definitions
-├── skills/                           # 61 distilled skill files
+├── agents/                           # 12 agent definitions
+├── skills/                           # 65 distilled skill files
 │   ├── growth-fundamentals/          # Foundational Five, catalysts, story system, etc.
 │   ├── seo-expert/                   # Technical SEO, on-page, keywords, off-page, ongoing
 │   ├── blog-writer/                  # Content briefs, writing craft, copywriting, SEO, distribution
@@ -64,7 +66,8 @@ agents/
 │   ├── aso-keyword-expert/           # Listing optimization, keyword research, competitor analysis, audit rubric
 │   ├── tiktok-marketing-expert/      # CLI, themes, batch, account setup, theme creation, posting
 │   ├── pricing-expert/               # Value metric, structures, research, tiers, economics, page copy, audit
-│   └── copywriting-expert/           # Persuasion frameworks, writing mechanics, copy types, swipe file, scoring
+│   ├── copywriting-expert/           # Persuasion frameworks, writing mechanics, copy types, swipe file, scoring
+│   └── funnel-analyst/               # Rubric, PostHog query recipes, analysis framework
 └── content/
     └── demand-curve/                 # 404 lessons across 53 courses
         ├── INDEX.md                  # Full curriculum index
