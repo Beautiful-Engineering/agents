@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "agents": [
+    {
+      "id": "growth-fundamentals",
+      "name": "Growth Fundamentals",
+      "description": "Walk through the growth curriculum to build a complete growth strategy.",
+      "category": "Growth & Strategy",
+      "emoji": "📈",
+      "file": "agents/growth-fundamentals.md",
+      "skills": [
+        "skills/growth-fundamentals"
+      ],
+      "integrations": []
+    },
+    {
+      "id": "seo-expert",
+      "name": "SEO/LLMO Expert",
+      "description": "SEO audits, on-page optimization, keyword strategy, link building, and LLM optimization.",
+      "category": "Marketing & Ads",
+      "emoji": "🔍",
+      "file": "agents/seo-expert.md",
+      "skills": [
+        "skills/seo-expert"
+      ],
+      "integrations": [
+        {
+          "key": "ahrefs",
+          "optional": true,
+          "note": "Works without — falls back to web search"
+        }
+      ]
+    },
+    {
+      "id": "blog-writer",
+      "name": "Blog Writer",
+      "description": "Content creation, editorial planning, and blog management.",
+      "category": "Content & Design",
+      "emoji": "✍️",
+      "file": "agents/blog-writer.md",
+      "skills": [
+        "skills/blog-writer"
+      ],
+      "integrations": [
+        {
+          "key": "ahrefs",
+          "optional": true,
+          "note": "Enhances keyword research"
+        }
+      ]
+    },
+    {
+      "id": "landing-page-expert",
+      "name": "Landing Page Expert",
+      "description": "Build or review high-converting landing pages.",
+      "category": "Content & Design",
+      "emoji": "🎯",
+      "file": "agents/landing-page-expert.md",
+      "skills": [
+        "skills/landing-page-expert"
+      ],
+      "integrations": []
+    },
+    {
+      "id": "google-ads-expert",
+      "name": "Google Ads Expert",
+      "description": "Google Ads campaign management — Search, Performance Max, and Shopping. New campaign setup and ongoing optimization with API-connected performance analysis.",
+      "category": "Marketing & Ads",
+      "emoji": "🌐",
+      "file": "agents/google-ads-expert.md",
+      "skills": [
+        "skills/google-ads-expert"
+      ],
+      "integrations": [
+        {
+          "key": "google-ads-api",
+          "optional": true,
+          "note": "Required for Optimize mode data pull"
+        }
+      ]
+    },
+    {
+      "id": "apple-ads-analyzer",
+      "name": "Apple Search Expert",
+      "description": "Apple Search Ads performance analysis, keyword optimization, and bid management.",
+      "category": "Marketing & Ads",
+      "emoji": "🍎",
+      "file": "agents/apple-ads-analyzer.md",
+      "skills": [
+        "skills/apple-ads-analyzer"
+      ],
+      "integrations": [
+        {
+          "key": "apple-ads",
+          "optional": false,
+          "note": "Required for campaign data"
+        }
+      ]
+    },
+    {
+      "id": "tiktok-marketing-expert",
+      "name": "TikTok Marketing Expert",
+      "description": "TikTok carousel content production — AI post generation, Remotion rendering, and PostBridge scheduling. Brand-agnostic.",
+      "category": "Marketing & Ads",
+      "emoji": "🎵",
+      "file": "agents/tiktok-marketing-expert.md",
+      "skills": [
+        "skills/tiktok-marketing-expert"
+      ],
+      "integrations": [
+        {
+          "key": "postbridge",
+          "optional": true,
+          "note": "Required for posting/scheduling to TikTok"
+        }
+      ]
+    },
+    {
+      "id": "cold-email-outreach-expert",
+      "name": "Cold Email Outreach Expert",
+      "description": "Cold email campaigns, lead operations, and outreach optimization.",
+      "category": "Marketing & Ads",
+      "emoji": "📧",
+      "file": "agents/cold-email-outreach.md",
+      "skills": [
+        "skills/cold-email-outreach"
+      ],
+      "integrations": [
+        {
+          "key": "instantly",
+          "optional": false,
+          "note": "Required for campaign management"
+        }
+      ]
+    },
+    {
+      "id": "pricing-expert",
+      "name": "Pricing Expert",
+      "description": "Pricing strategy, packaging, competitive pricing analysis, and monetization optimization.",
+      "category": "Growth & Strategy",
+      "emoji": "💰",
+      "file": "agents/pricing-expert.md",
+      "skills": [],
+      "integrations": []
+    }
+  ]
+}

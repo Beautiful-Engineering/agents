@@ -104,7 +104,7 @@ Look for README.md, package.json, landing pages, marketing docs in the current w
 
 - `growth/01-foundational-five.md` → market segment, target audience, core problem, product definition
 - `growth/03-story-system.md` → value props (these become your seed keywords), hooks, messaging angles
-- `growth/05-acquisition-strategy.md` → channel strategy, competitors, demand type
+- `growth/06-acquisition-strategy.md` → channel strategy, competitors, demand type
 
 **If `growth/` directory exists and has these files:**
 Read them and extract:
@@ -286,7 +286,7 @@ Read the skill file `${CLAUDE_PLUGIN_ROOT}/skills/seo-expert/keyword-strategy.md
 #### Section 3.4: Keyword expansion
 - Teach: Explain matching terms (close variants) vs. related terms (broader ideas) and competitor keyword mining.
 - **MUST call `mcp__ahrefs__doc`** to pull matching/related terms for the top 5-10 seeds from Section 3.3.
-- **MUST call `mcp__ahrefs__doc`** for each competitor domain (from `growth/05-acquisition-strategy.md`) to pull their organic keywords.
+- **MUST call `mcp__ahrefs__doc`** for each competitor domain (from `growth/06-acquisition-strategy.md`) to pull their organic keywords.
 - Present the expanded list to the user.
 - Ask the user: "Which of these expanded keywords are relevant to your business? Flag any that don't fit."
 - **STOP. Wait for user response before continuing.**
@@ -394,7 +394,7 @@ The growth deliverables aren't just read once — reference them throughout:
 | Seed keywords | `growth/03-story-system.md` | Value props → keyword phrases |
 | Title tag copy | `growth/03-story-system.md` | Hooks → compelling title angles |
 | Meta descriptions | `growth/03-story-system.md` | Value props → benefit statements |
-| Competitor analysis | `growth/05-acquisition-strategy.md` | Competitor list → Ahrefs URLs |
+| Competitor analysis | `growth/06-acquisition-strategy.md` | Competitor list → Ahrefs URLs |
 | Content topics | `growth/01-foundational-five.md` | Core problem + market → content themes |
 | Target audience | `growth/01-foundational-five.md` | Segment → keyword intent targeting |
 | Internal linking | `growth/03-story-system.md` | Funnel stages → link hierarchy |

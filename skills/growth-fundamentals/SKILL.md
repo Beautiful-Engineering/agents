@@ -25,10 +25,11 @@ Use these frameworks when:
 | 2b | `guardrails.md` | 3 goal types, 5 constraint categories, unit economics (ARPU → Target CAC) |
 | 3 | `story-system.md` | Core story, personas, value props, hooks, funnel copy |
 | 4 | `engine-design.md` | 3 growth motions (acquisition/monetization/retention), flywheel patterns |
-| 5 | `acquisition-strategy.md` | Bullseye framework, demand capture/generation, channel sequencing |
-| 6 | `monetization-pricing.md` | 5 pricing questions, research methods, packaging & tiers |
-| 7a | `copywriting-frameworks.md` | PAS, BAB, AIDA, hook types, headline formulas |
-| 7b | `conversion-assets.md` | Landing pages, emails, ad creatives, onboarding frameworks |
+| 5 | `competitor-research.md` | Competitor identification (4 methods), grading (quality/rigor/relevance), growth insight collection |
+| 6 | `acquisition-strategy.md` | Bullseye framework, demand capture/generation, channel sequencing |
+| 7 | `monetization-pricing.md` | 5 pricing questions, research methods, packaging & tiers |
+| 8a | `copywriting-frameworks.md` | PAS, BAB, AIDA, hook types, headline formulas |
+| 8b | `conversion-assets.md` | Landing pages, emails, ad creatives, onboarding frameworks |
 
 ## Full Curriculum Source
 

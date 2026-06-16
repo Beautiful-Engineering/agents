@@ -75,7 +75,7 @@ Present results as a table to the user before proceeding.
 **Call `mcp__ahrefs__doc`** with top seed keywords to pull related terms — larger list, less curated.
 
 ### Competitor URL mining
-**Call `mcp__ahrefs__doc`** for each competitor domain (from `growth/05-acquisition-strategy.md`):
+**Call `mcp__ahrefs__doc`** for each competitor domain (from `growth/06-acquisition-strategy.md`):
 1. Pull their organic keywords
 2. Filter by volume 50-5000 and KD <80
 3. Identify keywords they rank for that the user doesn't
@@ -129,7 +129,7 @@ One piece of content can address all keywords in a cluster.
 **MUST use Ahrefs MCP for this section. Do not skip.**
 
 ### Process
-1. Get top 3 competitors from `growth/05-acquisition-strategy.md`
+1. Get top 3 competitors from `growth/06-acquisition-strategy.md`
 2. **Call `mcp__ahrefs__doc`** for each competitor domain to pull their organic keywords
 3. Compare against user's current keyword rankings (also from `mcp__ahrefs__doc`)
 4. Identify keywords competitors rank for that the user doesn't

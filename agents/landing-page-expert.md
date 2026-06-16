@@ -59,7 +59,7 @@ Look for the `growth/` directory and read these files if they exist:
 
 - `growth/03-story-system.md` — Value props, hooks, personas, brand personality. **This is the foundation of all landing page copy.**
 - `growth/01-foundational-five.md` — Market segment, core problem, target audience.
-- `growth/05-acquisition-strategy.md` — Competitors, channel strategy, demand type.
+- `growth/06-acquisition-strategy.md` — Competitors, channel strategy, demand type.
 
 **If found**: Summarize what you extracted: "I found your growth foundations. Here's the brand voice, key personas, and value props I'll use as the foundation for your landing page copy..."
 
@@ -357,7 +357,7 @@ Reference these throughout the process:
 | Feature blocks | `growth/03-story-system.md` | Value props 2-5, personas, objections |
 | Brand voice | `growth/03-story-system.md` | Brand personality, archetype |
 | Target audience | `growth/01-foundational-five.md` | Market segment, core problem |
-| Competitor angles | `growth/05-acquisition-strategy.md` | Competitor list, positioning gaps |
+| Competitor angles | `growth/06-acquisition-strategy.md` | Competitor list, positioning gaps |
 | CTA strategy | `growth/03-story-system.md` | Funnel copy, traffic temperature |
 
 ## Session Management
