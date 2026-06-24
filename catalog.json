@@ -116,6 +116,24 @@
       ]
     },
     {
+      "id": "instagram-marketing-expert",
+      "name": "Instagram Marketing Expert",
+      "description": "Instagram organic growth and content production — account warmup via Claude Vision (Reels/Explore engagement), AI carousel generation, Remotion rendering, PostBridge scheduling, and analytics. Brand-agnostic.",
+      "category": "Marketing & Ads",
+      "emoji": "📸",
+      "file": "agents/instagram-marketing-expert.md",
+      "skills": [
+        "skills/instagram-marketing-expert"
+      ],
+      "integrations": [
+        {
+          "key": "postbridge",
+          "optional": true,
+          "note": "Required for posting/scheduling to Instagram"
+        }
+      ]
+    },
+    {
       "id": "cold-email-outreach-expert",
       "name": "Cold Email Outreach Expert",
       "description": "Cold email campaigns, lead operations, and outreach optimization.",

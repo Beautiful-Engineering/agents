@@ -15,6 +15,7 @@ A [Claude Code](https://claude.ai/claude-code) plugin that bundles AI agents tra
 | **Apple Ads Analyzer** | Apple Search Ads performance analysis — connects to the ASA API, scores campaigns/keywords against a rubric, generates prioritized recommendations (bid changes, keyword additions, negatives, pauses), and tracks performance week-over-week in CSV files. |
 | **ASO & Keyword Expert** | App Store Optimization and keyword research — optimizes App Store listings (title, subtitle, keywords field, screenshots, reviews) and builds categorized keyword lists for Apple Search Ads. Two modes: Build (5 phases from scratch) and Audit (4-phase scoring against a 10-dimension rubric). |
 | **TikTok Marketing Expert** | TikTok organic growth and content production — AI-powered carousel generation, Remotion rendering, PostBridge scheduling, and performance analytics. Six modes: Account Setup, Single Post, Batch Production, Render & Export, Post & Schedule, Theme Design. |
+| **Instagram Marketing Expert** | Instagram organic growth — account warmup via Claude Vision (browses Reels/Explore on a connected phone and engages with niche content) plus a full posting pipeline (AI carousel generation, Remotion rendering, PostBridge scheduling, analytics). Seven modes: Warmup Bot, Account Setup, Single Post, Batch Production, Render & Export, Post & Schedule, Performance Review. |
 | **Pricing Expert** | Designs and audits monetization/pricing strategies with economic validation. Two modes: Build (7 phases from value metric to pricing page copy) and Audit (5-phase review with experiment design). |
 | **Copywriting Expert** | Writes and reviews persuasive copy trained on Sam Parr's Copy That curriculum — sales pages, email sequences, founder letters, ads, advertorials, product descriptions. Two modes: Write (6 phases) and Review (4-phase audit with scoring rubric). |
 
@@ -30,7 +31,7 @@ The agents integrate with each other — the Blog Writer reads SEO keyword data 
 /plugin install agents@beautiful-engineering
 ```
 
-This makes all 11 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
+This makes all 12 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
 
 Then use any agent:
 ```bash
@@ -43,6 +44,7 @@ claude --agent google-ads-expert
 claude --agent apple-ads-analyzer
 claude --agent aso-keyword-expert
 claude --agent tiktok-marketing-expert
+claude --agent instagram-marketing-expert
 claude --agent pricing-expert
 claude --agent copywriting-expert
 ```
@@ -52,8 +54,8 @@ claude --agent copywriting-expert
 ```
 agents/
 ├── .claude-plugin/plugin.json        # Plugin manifest
-├── agents/                           # 11 agent definitions
-├── skills/                           # 61 distilled skill files
+├── agents/                           # 12 agent definitions
+├── skills/                           # 66 distilled skill files
 │   ├── growth-fundamentals/          # Foundational Five, catalysts, story system, etc.
 │   ├── seo-expert/                   # Technical SEO, on-page, keywords, off-page, ongoing
 │   ├── blog-writer/                  # Content briefs, writing craft, copywriting, SEO, distribution
@@ -63,6 +65,7 @@ agents/
 │   ├── apple-ads-analyzer/           # Rubric, API integration, analysis framework
 │   ├── aso-keyword-expert/           # Listing optimization, keyword research, competitor analysis, audit rubric
 │   ├── tiktok-marketing-expert/      # CLI, themes, batch, account setup, theme creation, posting
+│   ├── instagram-marketing-expert/   # Warmup bot, content production, posting, analytics
 │   ├── pricing-expert/               # Value metric, structures, research, tiers, economics, page copy, audit
 │   └── copywriting-expert/           # Persuasion frameworks, writing mechanics, copy types, swipe file, scoring
 └── content/
