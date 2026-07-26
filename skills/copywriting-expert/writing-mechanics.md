@@ -66,12 +66,7 @@ Target grade 4-8 readability. If Ernest Hemingway, Stephen King, and Scott Adams
 
 ### Readability Quick Check
 
-Before declaring any draft done:
-1. Paste into a readability scorer (Hemingway Editor, readable.com)
-2. Target: Grade 4-8
-3. Passive voice: < 5% of sentences
-4. Average sentence length: 12-18 words
-5. Adverb count: < 1 per 100 words
+Draft to the numeric thresholds the scoring pass will enforce — they live in one place, `copy-scoring-rubric.md` Dimension 1 (Readability). Hitting them while drafting saves a revision cycle.
 
 ---
 
@@ -174,9 +169,7 @@ Run this on every draft before presenting to the user:
 - [ ] White space between sections
 
 ### Language
-- [ ] Grade 4-8 readability
-- [ ] Passive voice < 5%
-- [ ] Average sentence length 12-18 words
+- [ ] Meets the Dimension 1 thresholds in `copy-scoring-rubric.md` (grade level, passive voice, sentence length, adverbs)
 - [ ] No jargon without explanation
 - [ ] Contractions used naturally
 - [ ] Active verbs throughout

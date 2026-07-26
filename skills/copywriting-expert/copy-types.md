@@ -1,6 +1,6 @@
 # Copy Types
 
-The copy types this agent handles, how they differ from each other, and how they differ from the Blog Writer and Landing Page Expert.
+The copy types this skill handles, how they differ from each other, and how they differ from the Blog Writer and Landing Page Expert.
 
 ---
 

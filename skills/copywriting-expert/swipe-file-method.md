@@ -1,6 +1,6 @@
 # Swipe File Method
 
-The copywork method — learning to write great copy by studying great copy. This is the unique mechanic that differentiates this agent: before writing, it researches and analyzes the best examples of the target copy type.
+The copywork method — learning to write great copy by studying great copy. Before writing, analyze the best examples of the target copy type (when to research vs. use the canonical set below is decided in SKILL.md, phase 2).
 
 Source: Sam Parr's Copy That curriculum — Day 0 (Copywork introduction), reinforced throughout all 10 days
 
@@ -24,23 +24,6 @@ This isn't plagiarism — it's pattern recognition. A jazz musician learns stand
 - **Transitions**: How they keep readers moving forward
 - **Voice**: How they sound human and confident
 - **Persuasion**: How they create desire without being pushy
-
----
-
-## How the Agent Uses Swipe (Phase 2)
-
-During the Write workflow, Phase 2 (Research & Swipe) works like this:
-
-1. **Identify the copy type** from Phase 1 (sales page, email sequence, etc.)
-2. **Search for best-in-class examples** using WebSearch/WebFetch:
-   - Search for award-winning examples of this copy type
-   - Look for examples from companies in the same industry/category
-   - Find examples recommended by copywriting experts
-3. **Analyze 2-3 examples** using the Swipe Analysis Template below
-4. **Extract patterns** that apply to the current project
-5. **Save analysis** to `copy/swipe-notes.md` for reference during drafting
-
-The goal is NOT to copy these examples. The goal is to understand what makes them work, then apply those principles to the user's specific product, audience, and voice.
 
 ---
 
