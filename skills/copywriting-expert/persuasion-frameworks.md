@@ -94,11 +94,7 @@ Connect paragraphs with bridges that pull the reader forward:
 
 ### The Exit Ramp Test
 
-Read your copy paragraph by paragraph. After each one, ask: "Could the reader stop here and feel satisfied?" If yes, you have an exit ramp. Fix it by:
-1. Opening a new loop before closing the previous one
-2. Adding a transition bridge
-3. Teasing what's coming next
-4. Ending with a question or incomplete thought
+After drafting, run the Exit Ramp Audit in `copy-scoring-rubric.md` (Dimension 2) — it's the same walk the scoring pass will do, so running it while drafting saves a revision cycle.
 
 ### Best For
 - Long-form sales pages
@@ -199,6 +195,24 @@ From the Hint Water advertorial and Day 10's analysis of editorial-style ads.
 - Case studies
 - About pages
 - Email sequences (the "journey" unfolds over multiple emails)
+
+---
+
+## 6. PAS — Problem, Agitate, Solution
+
+The short-form workhorse. Name the problem, twist the knife, present the release. Use it when the piece has no room for AIDA's desire build.
+
+| Stage | Job |
+|-------|-----|
+| **Problem** | Name the exact pain in the reader's own words. Specific beats broad — "your agent stalls at checkout," not "payments are hard." |
+| **Agitate** | Make the cost of the unsolved problem felt: what it blocks, risks, or bleeds. 1-3 sentences — agitation past the point of recognition reads as manipulation. |
+| **Solution** | Present the product as the release valve, then one CTA. |
+
+### Best For
+- Product descriptions
+- Short-form ads
+- Single emails with one job
+- Any piece under ~200 words where AIDA's desire stage can't breathe
 
 ---
 

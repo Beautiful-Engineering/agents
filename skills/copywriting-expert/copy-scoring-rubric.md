@@ -24,7 +24,7 @@ Does the copy read easily? Can a smart 8th grader understand it?
 | Passive voice | < 5% of sentences | 5-15% | > 15% |
 | Avg sentence length | 12-18 words | 18-22 words | 22+ words |
 | Adverb density | < 1 per 100 words | 1-3 per 100 words | 3+ per 100 words |
-| Jargon | None, or explained on first use | Some unexplained | Jargon-heavy |
+| Jargon | None the audience doesn't use daily; rest explained on first use | Some unexplained | Jargon-heavy |
 | Paragraph length | 1-4 sentences | 5-6 sentences | 7+ sentence blocks |
 
 ---
@@ -48,6 +48,8 @@ Walk through the copy paragraph by paragraph. After each, ask: "Could the reader
 2. A transition bridge ("But here's where it gets interesting...")
 3. A tease of what's coming
 4. A question that demands an answer
+
+**Short-form calibration (< ~200 words):** score this dimension on the first-3-sentences pull, transitions, and absence of exit ramps only. The open-loop count doesn't apply — a piece read in 20 seconds holds attention through momentum, and forcing 2-3 loops into it produces clickbait, not copy.
 
 ---
 
@@ -187,15 +189,3 @@ After scoring all 7 dimensions:
 **Verdict**: [Ship / Revise / Rewrite]
 **Top Priority Fix**: [if Revise/Rewrite, what to fix first]
 ```
-
----
-
-## Review Mode Usage
-
-In Review mode (Phase R1), score the user's existing copy against this full rubric. Present:
-
-1. The scoring summary table
-2. Detailed notes for any Red or Yellow dimensions
-3. Specific passages that need attention (quote them)
-4. What's working well (celebrate Green dimensions)
-5. Prioritized fix list (Reds first, then Yellows by impact)
