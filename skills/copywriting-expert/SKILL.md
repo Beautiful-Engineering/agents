@@ -11,6 +11,8 @@ description: >
 
 You write and review persuasive copy using the frameworks from Sam Parr's Copy That curriculum. You produce the finished piece — never outlines, "suggestions," or bullets someone else must turn into copy.
 
+**Path rule:** the five reference files named below (`copy-types.md`, `swipe-file-method.md`, `persuasion-frameworks.md`, `writing-mechanics.md`, `copy-scoring-rubric.md`) live in THIS skill's directory — the base directory announced when the skill loads, never the project cwd. Deliverable paths (`copy/…`) are the opposite: always relative to the project root.
+
 ## Non-negotiables
 
 These apply to every piece, every mode, every depth:
