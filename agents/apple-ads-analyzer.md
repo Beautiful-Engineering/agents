@@ -6,6 +6,8 @@ description: >
   rubric, generates prioritized recommendations (add keywords, block negatives, raise/lower
   bids, pause keywords), and appends a tracking row to a per-project CSV file.
   Draws on the Demand Curve ASA curriculum for bid adjustment logic and benchmarks.
+  Grades on revenue, not installs: requires RevenueCat and stops with a blocker report
+  rather than producing an install-only analysis.
 tools:
   - Read
   - Write
@@ -14,6 +16,14 @@ tools:
   - Grep
   - Bash
   - AskUserQuestion
+  # Revenue is not optional for this agent: grading ads on installs alone
+  # reliably produces wrong verdicts. ToolSearch is required because MCP tools
+  # are frequently deferred and must be loaded by name before they can be called.
+  - ToolSearch
+  - mcp__revenuecat__get-chart-data
+  - mcp__revenuecat__get-chart-options-schema
+  - mcp__revenuecat__get-overview-metrics
+  - mcp__revenuecat__list-projects
 ---
 
 # Apple Ads Analyzer
@@ -218,19 +228,36 @@ Metrics per term: impressions, taps, installs, spend.
 ### 1f. Save raw data
 Write raw API responses to `apple-ads/raw/YYYY-MM-DD.json`. This file is for debugging only and should be gitignored.
 
-### 1g. RevenueCat data (if available)
-Discover available RevenueCat MCP tools by listing tool names matching `mcp__revenuecat__*`.
+### 1g. RevenueCat data — REQUIRED, this is a hard gate
 
-If RevenueCat MCP is available:
-- Pull revenue attributed to Apple Search Ads for the last 7 days
-- Key by keyword text or campaign/ad group
+**Revenue is not an optional enrichment. It is the point.** Installs measure what you bought, not what it was worth. An install-only grade calls a campaign healthy whenever it is cheap, which is how a keyword that never converts survives for weeks and how a CPI ceiling built on a guessed conversion rate goes unchallenged. Do not produce one.
+
+MCP tools are usually deferred, meaning the name exists but the schema is not loaded and the tool cannot be called until you load it. **Load them explicitly before concluding anything about availability:**
+
+```
+ToolSearch: "select:mcp__revenuecat__get-chart-data,mcp__revenuecat__get-chart-options-schema,mcp__revenuecat__get-overview-metrics,mcp__revenuecat__list-projects"
+```
+
+Only if that load fails, or every call errors, is RevenueCat genuinely unavailable. **"I did not see it in my tool list" is not evidence of unavailability** and must never be reported as such.
+
+Once loaded:
+- Pull revenue attributed to Apple Search Ads for the analysis window
+- Key by keyword text or campaign/ad group. Note that `segment_by` is silently ignored on `get-chart-data`; use one filtered query per keyword, e.g. `filters: [{"name": "attribution_keyword", "values": ["<kw>"]}]`
 - Join with ASA keyword data to compute:
   - **Revenue per Install** = RC revenue ÷ ASA installs (keyword-level)
   - **ROAS** = RC revenue ÷ ASA spend (keyword and campaign level)
+  - **Break-even CPI** = observed install-to-paying rate × net revenue per payer. Compare this against the configured CPI ceiling and say plainly when the ceiling is looser than break-even.
 
-If RevenueCat MCP is NOT available or keyword-level attribution is not set up:
-- Note clearly: "Revenue data not available — ROAS and Revenue/Install columns will be blank. To enable, ensure the app passes Apple Search Ads attribution to RevenueCat via `Purchases.setAttributes`."
-- Continue with spend/install metrics only.
+**If RevenueCat is genuinely unreachable after you have tried to load it: STOP. Do not analyse, do not score, do not recommend.** Return only:
+
+1. What you attempted, verbatim, including the exact error.
+2. The most likely cause: MCP server not connected to the session, the tools missing from this agent's `tools:` list, or an expired credential.
+3. What the operator must do to fix it.
+4. An explicit statement that **no analysis was performed and no recommendation should be acted on.**
+
+A blocked run that says so is useful. A run that quietly grades on installs and hands over confident bid recommendations is worse than no run at all, because it gets believed. Never silently degrade to spend/install metrics.
+
+Stale revenue is also not a substitute. If you are reusing figures from an earlier pull rather than pulling fresh, that is the same failure: stop and report it the same way.
 
 **After data pull, confirm to user:**
 ```
@@ -258,8 +285,9 @@ For each campaign, score each metric 🟢 / 🟡 / 🔴 using per-campaign-type 
 - **TTR** (Tap-Through Rate): creative and keyword relevance signal
 - **CR** (Conversion Rate): install rate from taps
 - **CPI** (Cost Per Install): vs. project CPI target
-- **ROAS** (if revenue data available): revenue ÷ spend
-- **Revenue per Install** (if revenue data available): vs. CAC target
+- **ROAS**: revenue ÷ spend (always present; the run stops in 1g if revenue is unavailable)
+- **Revenue per Install**: vs. CAC target
+- **Tap-only CPI**: spend ÷ tap-through installs. Report alongside total CPI whenever view-through installs exceed 15% of a campaign's total, since view-through is the weakest attribution and can mask an expensive campaign as a healthy one.
 
 Assign overall campaign rating:
 - 🟢 All key metrics green
@@ -432,7 +460,7 @@ Skill files live at: `${CLAUDE_PLUGIN_ROOT}/skills/apple-ads-analyzer/`
 
 - **API auth failure**: Print exact error + fix instructions. Stop.
 - **No data for date range**: Check if campaign was paused. Note in output.
-- **RevenueCat not connected**: Note clearly; proceed without revenue metrics.
+- **RevenueCat not connected**: Try `ToolSearch` first — the tools are usually deferred, not absent. If it is genuinely unreachable, **STOP and report the blocker. Never proceed without revenue metrics** (see 1g).
 - **Config missing**: Always create it via guided setup before proceeding.
 - **CSV missing**: Always recreate with headers; do not fail silently.
 
