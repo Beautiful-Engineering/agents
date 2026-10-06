@@ -259,6 +259,36 @@ A blocked run that says so is useful. A run that quietly grades on installs and 
 
 Stale revenue is also not a substitute. If you are reusing figures from an earlier pull rather than pulling fresh, that is the same failure: stop and report it the same way.
 
+### 1h. Revenue maturity — $0.00 is usually "not yet", not "never"
+
+**Never cut, pause or throttle a keyword on a single week of $0.00 revenue.** Revenue lags the install that produced it, often by a lot:
+
+- a free trial has to run its length (commonly 3 to 7 days) before any charge exists,
+- the user has to not cancel,
+- and the charge has to land inside your reporting window.
+
+So a keyword that acquired its installs on day 5 of a 7-day window has had almost no chance to show revenue, whatever its real quality. **A $0.00 reading in a short or recently-started window is an absence of evidence, not evidence of absence.**
+
+Before treating $0.00 as a verdict, all three must hold:
+
+1. **Maturity.** Every install being judged is older than the trial length plus at least 7 days. If the attribution window opened recently, say so and do not grade on it.
+2. **Two graded weeks.** At least two complete revenue-graded weeks of $0.00, not one.
+3. **Volume.** Enough installs to expect a conversion at the account's observed install-to-paying rate. At a 9% rate, 5 installs have a roughly 60% chance of producing zero purchases **even if the keyword is perfectly healthy** — so 5 installs at $0.00 is noise, not signal.
+
+When those are not met, the correct action is **monitor**, or at most a bid reduction you have labelled as provisional. Say explicitly in the recommendation that it rests on immature revenue.
+
+**Cheap CPI plus immature revenue is the most dangerous combination in this report.** It is exactly where a premature cut destroys the account's best economics. Before recommending a cut, check the keyword's CPI against the account: if it is in the cheapest quartile, the burden of proof is higher, not lower.
+
+> Recorded failure, 2026-09-28 (Oli): `pregnancy skincare` was throttled $2.00 → $1.00 on a single week reading $0.00 proceeds. That week was the **first** week of revenue attribution, so barely any install had had time to transact. The next week it returned **11.41x net at $0.74 CPI — the cheapest non-Brand keyword in the account.** The throttle cut spend 74% on the account's best unit economics. All three tests above would have caught it.
+
+### 1i. Reconcile against the prior cycle before recommending
+
+Before you recommend changing a keyword, **check what the last cycle's analysis said about that same keyword** (previous `weekly-analysis-*.md`, and the change-tracker rows). If your figure disagrees with the previous cycle's figure for the same keyword and period, **stop and reconcile before recommending.** Report the discrepancy and which source you trust, with your reason.
+
+Do not quietly act on the newer number. Contradictory records usually mean one of them is measuring something different (a different timezone basis, a different attribution window, or merged match types sharing one keyword text), and resolving which is a prerequisite to the decision, not a footnote after it.
+
+> Recorded failure, same incident: the W39 analysis file listed `pregnancy skincare` at **$29.99 revenue, 1.76x**, while the change-tracker note written the same day justified throttling it with **"$0.00 proceeds."** Both were in the project's own records. Nothing cross-checked them, and the throttle went ahead against the project's own contradictory evidence.
+
 **After data pull, confirm to user:**
 ```
 Data pulled. Last 7 days: [date range]
@@ -305,6 +335,11 @@ For each keyword, apply the decision rules from `skills/apple-ads-analyzer/analy
 | Low impressions + good CPI | Bid increase candidate |
 | 🟢 CPI + 🟢 ROAS + low impressions | Scale candidate — raise bid |
 | 🔴 CPI after 10+ installs | Immediate pause |
+| **🟢 CPI + $0.00 revenue, immature window** | **MONITOR — never cut (see 1h)** |
+
+**Gate every downward recommendation on 1h before writing it.** Any cut, pause or throttle justified by low or zero revenue must state, in the recommendation itself, that the revenue window was mature enough to judge: installs older than trial length plus 7 days, at least two graded weeks at $0.00, and enough installs that a conversion was actually expected. If you cannot state that, the classification is **monitor**, not cut.
+
+The asymmetry is deliberate. A keyword wrongly left running costs a few dollars a week and is visible next cycle. A keyword wrongly cut disappears from the data, so the mistake becomes invisible and self-confirming — the keyword "has no revenue" forever because you stopped buying it. **Prefer the recoverable error.**
 
 ### Search term mining
 From the Discovery campaign search term report:
