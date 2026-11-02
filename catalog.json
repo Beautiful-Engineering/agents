@@ -160,6 +160,29 @@
       "file": "agents/pricing-expert.md",
       "skills": [],
       "integrations": []
+    },
+    {
+      "id": "ux-expert",
+      "name": "UX & Product Design Expert",
+      "description": "Product UX and interaction design through a PM lens, for web and mobile. Audit screens against Nielsen's heuristics and the Laws of UX, design measured flows, and tear down competitor patterns.",
+      "category": "Content & Design",
+      "emoji": "🧭",
+      "file": "agents/ux-expert.md",
+      "skills": [
+        "skills/ux-expert"
+      ],
+      "integrations": [
+        {
+          "key": "mobbin",
+          "optional": true,
+          "note": "Enhances Teardown mode with real shipped screens and flows; falls back to web search"
+        },
+        {
+          "key": "figma",
+          "optional": true,
+          "note": "Lets Audit mode read designs straight from Figma links"
+        }
+      ]
     }
   ]
 }

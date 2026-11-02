@@ -6,8 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Claude Code plugin that bundles AI agents, skills, and curriculum content. It includes:
 
-- **12 agents**: Growth Consultant, SEO Expert, Blog Writer, Landing Page Expert, Cold Email Outreach Expert, Google Ads Expert, Apple Ads Analyzer, ASO & Keyword Expert, TikTok Marketing Expert, Instagram Marketing Expert, Pricing Expert, Copywriting Expert — trained on the Demand Curve and Copy That curricula
-- **66 skill files**: Distilled frameworks, checklists, templates, and scoring rubrics
+- **13 agents**: Growth Consultant, SEO Expert, Blog Writer, Landing Page Expert, Cold Email Outreach Expert, Google Ads Expert, Apple Ads Analyzer, ASO & Keyword Expert, TikTok Marketing Expert, Instagram Marketing Expert, Pricing Expert, Copywriting Expert (trained on the Demand Curve and Copy That curricula), and UX & Product Design Expert (distilled from Nielsen's heuristics, the Laws of UX, and the GOV.UK Design System)
+- **14 skills, 126 skill files**: Distilled frameworks, checklists, templates, and scoring rubrics, including the standalone `hig` (Apple Human Interface Guidelines) skill
 - **Curriculum content**: 404 Demand Curve lessons across 53 courses with 982 locally-stored images, plus 11 Copy That lessons (the knowledge base the agents draw from)
 
 There are no build steps, tests, or runtime dependencies. Everything is static markdown.
@@ -30,7 +30,8 @@ agents/                         # (repo root)
 │   ├── tiktok-marketing-expert.md # TikTok carousel production (6 modes)
 │   ├── instagram-marketing-expert.md # Instagram warmup + posting pipeline (7 modes)
 │   ├── pricing-expert.md      # Pricing strategist (Build + Audit modes)
-│   └── copywriting-expert.md  # Copywriting expert (Write + Review modes)
+│   ├── copywriting-expert.md  # Copywriting expert (Write + Review modes)
+│   └── ux-expert.md           # UX & product design expert (Audit + Design + Teardown modes)
 ├── skills/
 │   ├── growth-fundamentals/    # 10 skill files (F5, catalysts, story system, etc.)
 │   ├── seo-expert/             # 6 skill files (technical, on-page, keywords, etc.)
@@ -43,7 +44,9 @@ agents/                         # (repo root)
 │   ├── tiktok-marketing-expert/ # 7 skill files (CLI, themes, batch, account setup, theme creation, posting)
 │   ├── instagram-marketing-expert/ # 5 skill files (index, warmup bot, content production, posting, analytics)
 │   ├── pricing-expert/         # 7 skill files (value metric, structures, research, tiers, economics, page copy, audit)
-│   └── copywriting-expert/    # 5 skill files (persuasion frameworks, writing mechanics, copy types, swipe file, scoring rubric)
+│   ├── copywriting-expert/    # 5 skill files (persuasion frameworks, writing mechanics, copy types, swipe file, scoring rubric)
+│   ├── hig/                   # Apple HIG auditor skill, no agent wrapper (workflows, rubric, reference)
+│   └── ux-expert/             # 6 skill files (index, jobs and metrics, interaction patterns, heuristics rubric, anti-patterns, resources)
 ├── content/
 │   ├── demand-curve/           # Demand Curve growth curriculum
 │   │   ├── INDEX.md            # Master curriculum index
@@ -68,7 +71,7 @@ agents/                         # (repo root)
 /plugin install agents@beautiful-engineering
 ```
 
-This makes all 12 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
+This makes all 13 agents and their skills available in any Claude Code session. Requires git access to the repo (private).
 
 ## Agents Overview
 
@@ -86,6 +89,7 @@ This makes all 12 agents and their skills available in any Claude Code session. 
 | **Instagram Marketing Expert** | Instagram account warmup (Claude Vision Reels/Explore engagement) + carousel posting pipeline via PostBridge | Warmup Bot, Account Setup, Single Post, Batch Production, Render & Export, Post & Schedule, Performance Review |
 | **Pricing Expert** | Design and audit monetization/pricing strategies with economic validation | Build (7 phases) or Audit existing pricing (5 phases) |
 | **Copywriting Expert** | Write and review persuasive copy — sales pages, email sequences, founder letters, ads, advertorials | Write (6 phases) or Review existing copy (4 phases) |
+| **UX & Product Design Expert** | Product UX and interaction design through a PM lens, for web and mobile: action hierarchy, heuristic scoring, measured flows, competitor pattern research. Teaches the named concept behind each fix | Audit (6 steps), Design (5 steps), or Teardown (3 steps, Mobbin MCP optional) |
 
 All agents integrate with each other's deliverables (e.g., the Blog Writer reads the SEO keyword data and Growth Story System for brand voice, the Landing Page Expert uses Story System value props for messaging).
 
